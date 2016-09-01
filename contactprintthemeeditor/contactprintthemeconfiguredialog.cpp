@@ -47,7 +47,7 @@ ContactPrintThemeConfigureDialog::ContactPrintThemeConfigureDialog(QWidget *pare
     QTabWidget *tab = new QTabWidget;
 
     QWidget *w = new QWidget;
-    QVBoxLayout *lay = new QVBoxLayout;
+    QVBoxLayout *lay = new QVBoxLayout();
     w->setLayout(lay);
 
     mConfigureWidget = new GrantleeThemeEditor::ConfigureWidget;
@@ -64,8 +64,7 @@ ContactPrintThemeConfigureDialog::ContactPrintThemeConfigureDialog(QWidget *pare
     mDefaultTemplate = new KPIMTextEdit::PlainTextEditorWidget;
     tab->addTab(mDefaultTemplate, i18n("Default Template"));
 
-    QVBoxLayout *mainLayout = new QVBoxLayout;
-    setLayout(mainLayout);
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(tab);
     QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults);
     QPushButton *okButton = buttonBox->button(QDialogButtonBox::Ok);

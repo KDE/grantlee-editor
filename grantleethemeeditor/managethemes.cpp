@@ -76,8 +76,7 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
 
     initialize();
 
-    QVBoxLayout *mainLayout = new QVBoxLayout;
-    setLayout(mainLayout);
+    QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(w);
     QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Close);
     connect(buttonBox, &QDialogButtonBox::rejected, this, &ManageThemes::reject);

@@ -32,7 +32,7 @@
 PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
 {
-    QVBoxLayout *lay = new QVBoxLayout;
+    QVBoxLayout *lay = new QVBoxLayout(this);
     lay->setMargin(0);
     mViewer = new MessageViewer::Viewer(this);
     mGrantleeHeaderStyle = new MessageViewer::GrantleeHeaderTestStyle;
@@ -48,7 +48,6 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     connect(update, &QPushButton::clicked, this, &PreviewWidget::needUpdateViewer);
     lay->addWidget(update);
     setLayout(lay);
-    loadConfig();
 }
 
 PreviewWidget::~PreviewWidget()
