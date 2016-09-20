@@ -2,6 +2,8 @@ project(grantleethemeeditor)
 
 add_definitions(-DTRANSLATION_DOMAIN=\"libgrantleethemeeditor\")
 
+configure_file(config-grantleethemeeditor.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-grantleethemeeditor.h)
+
 
 set(libgrantleethemeeditor_SRCS 
     newthemedialog.cpp
@@ -41,6 +43,9 @@ target_link_libraries(grantleethemeeditor
     KF5::ConfigWidgets
     KF5::I18n
     )
+if (KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT)
+    target_link_libraries(grantleethemeeditor PRIVATE KF5::SyntaxHighlighting)
+endif()
 
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 

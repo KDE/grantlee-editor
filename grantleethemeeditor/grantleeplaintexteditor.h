@@ -20,14 +20,14 @@
 #define GRANTLEEPLAINTEXTEDITOR_H
 
 #include "kpimtextedit/plaintexteditor.h"
+#include "config-grantleethemeeditor.h"
+#ifdef KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT
+#include <SyntaxHighlighting/Repository>
+#endif
 
 namespace KPIMTextEdit
 {
 class TextEditorCompleter;
-}
-namespace KPIMTextEdit
-{
-class HtmlHighlighter;
 }
 namespace GrantleeThemeEditor
 {
@@ -47,7 +47,9 @@ protected:
     KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter;
 private:
     void initCompleter();
-    KPIMTextEdit::HtmlHighlighter *mHtmlHighlighter;
+#ifdef KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT
+    SyntaxHighlighting::Repository mRepo;
+#endif
 };
 }
 

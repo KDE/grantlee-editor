@@ -17,7 +17,14 @@
    Boston, MA 02110-1301, USA.
 */
 #include "grantleeplaintexteditor.h"
+
+#ifdef KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT
+#include <SyntaxHighlighting/SyntaxHighlighter>
+#include <SyntaxHighlighting/Definition>
+#include <SyntaxHighlighting/Theme>
+#else
 #include <kpimtextedit/htmlhighlighter.h>
+#endif
 
 #include <QStringListModel>
 #include <QCompleter>
@@ -32,7 +39,19 @@ using namespace GrantleeThemeEditor;
 GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
     : KPIMTextEdit::PlainTextEditor(parent)
 {
-    mHtmlHighlighter = new KPIMTextEdit::HtmlHighlighter(document());
+#ifdef KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT
+    SyntaxHighlighting::Definition def;
+    def = mRepo.definitionForName(QStringLiteral("HTML"));
+
+    SyntaxHighlighting::SyntaxHighlighter *hl = new SyntaxHighlighting::SyntaxHighlighter(document());
+    hl->setTheme((palette().color(QPalette::Base).lightness() < 128)
+        ? mRepo.theme(QStringLiteral("Breeze Dark"))
+        : mRepo.theme(QStringLiteral("Default")));
+
+    hl->setDefinition(def);
+#else
+    new KPIMTextEdit::HtmlHighlighter(document());
+#endif
     setSpellCheckingSupport(false);
     initCompleter();
 }

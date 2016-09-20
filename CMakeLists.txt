@@ -68,6 +68,18 @@ find_package(KF5KaddressbookGrantlee ${KDEPIM_APPS_LIB_VERSION_LIB} CONFIG REQUI
 find_package(KF5PimTextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5Libkdepim ${LIBKDEPIM_LIB_VERSION_LIB} CONFIG REQUIRED)
 
+
+option(KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT "Enable this feature if you want to use new kf5 syntax highlighting module. No stable yet" FALSE)
+
+if (KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT)
+   find_package(KF5SyntaxHighlighting ${KF5_VERSION})
+   if (KF5SyntaxHighlighting_FOUND)
+       MESSAGE(STATUS "found KF5SyntaxHighlighting")
+       set(KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT true)
+   endif()
+endif()
+
+
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
