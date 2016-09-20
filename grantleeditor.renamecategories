@@ -1,0 +1,5 @@
+log_contactprintthemeeditor org.kde.pim.contactprintthemeeditor
+log_headerthemeeditor org.kde.pim.headerthemeeditor
+log_contactthemeeditor org.kde.pim.contactthemeeditor
+log_grantleethemeeditor org.kde.pim.grantleethemeeditor
+

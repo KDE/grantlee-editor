@@ -14,7 +14,7 @@ set(contactthemeeditor_SRCS
     contacteditorutil.cpp
     contactpreviewwidget.cpp
     )
-ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME log_contactthemeeditor)
+ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor)
 qt5_add_resources(contactthemeeditor_SRCS contactthemeeditor.qrc)
 
 add_executable(contactthemeeditor ${contactthemeeditor_SRCS} )

@@ -24,7 +24,7 @@ ki18n_wrap_ui(libgrantleethemeeditor_SRCS
     ui/configurewidget.ui
     )
 
-ecm_qt_declare_logging_category(libgrantleethemeeditor_SRCS HEADER grantleethemeeditor_debug.h IDENTIFIER GRANTLEETHEMEEDITOR_LOG CATEGORY_NAME log_grantleethemeeditor)
+ecm_qt_declare_logging_category(libgrantleethemeeditor_SRCS HEADER grantleethemeeditor_debug.h IDENTIFIER GRANTLEETHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.grantleethemeeditor)
 
 add_library(grantleethemeeditor ${libgrantleethemeeditor_SRCS})
 generate_export_header(grantleethemeeditor BASE_NAME grantleethemeeditor)

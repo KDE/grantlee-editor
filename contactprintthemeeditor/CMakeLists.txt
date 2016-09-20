@@ -15,7 +15,7 @@ set(contactprintthemeeditor_SRCS
     contactprintthemepreview.cpp
     )
 
-ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME log_contactprintthemeeditor)
+ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor)
 qt5_add_resources(contactprintthemeeditor_SRCS contactprintthemeeditor.qrc)
 
 add_executable(contactprintthemeeditor ${contactprintthemeeditor_SRCS} )

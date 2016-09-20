@@ -14,7 +14,7 @@ set(headerthemeeditor_SRCS
     themeeditorwidget.cpp
     )
 
-ecm_qt_declare_logging_category(headerthemeeditor_SRCS HEADER headerthemeeditor_debug.h IDENTIFIER HEADERTHEMEEDITOR_LOG CATEGORY_NAME log_headerthemeeditor)
+ecm_qt_declare_logging_category(headerthemeeditor_SRCS HEADER headerthemeeditor_debug.h IDENTIFIER HEADERTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.headerthemeeditor)
 qt5_add_resources(headerthemeeditor_SRCS headerthemeeditor.qrc)
 
 add_executable(headerthemeeditor ${headerthemeeditor_SRCS} )

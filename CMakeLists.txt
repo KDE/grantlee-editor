@@ -82,7 +82,7 @@ add_subdirectory(contactthemeeditor)
 add_subdirectory(grantleethemeeditor)
 add_subdirectory(contactprintthemeeditor)
 
-install( FILES grantleeditor.categories DESTINATION ${KDE_INSTALL_CONFDIR} )
+install( FILES grantleeditor.renamecategories grantleeditor.categories DESTINATION ${KDE_INSTALL_CONFDIR} )
 
 add_subdirectory(doc)
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
