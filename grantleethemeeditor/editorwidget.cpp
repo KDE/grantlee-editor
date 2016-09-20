@@ -19,8 +19,6 @@
 #include "editorwidget.h"
 #include "grantleeplaintexteditor.h"
 
-#include <kpimtextedit/htmlhighlighter.h>
-
 using namespace GrantleeThemeEditor;
 
 EditorWidget::EditorWidget(QWidget *parent)
