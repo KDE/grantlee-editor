@@ -21,9 +21,7 @@
 
 #include "kpimtextedit/plaintexteditor.h"
 #include "config-grantleethemeeditor.h"
-#ifdef KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT
 #include <KSyntaxHighlighting/Repository>
-#endif
 
 namespace KPIMTextEdit
 {
@@ -47,9 +45,7 @@ protected:
     KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter;
 private:
     void initCompleter();
-#ifdef KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT
     KSyntaxHighlighting::Repository mRepo;
-#endif
 };
 }
 

@@ -42,10 +42,8 @@ target_link_libraries(grantleethemeeditor
     KF5::PimCommon
     KF5::ConfigWidgets
     KF5::I18n
+    KF5::SyntaxHighlighting
     )
-if (KDEPIM_KF5SYNTAXHIGHLIGHTING_SUPPORT)
-    target_link_libraries(grantleethemeeditor PRIVATE KF5::SyntaxHighlighting)
-endif()
 
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 
