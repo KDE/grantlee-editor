@@ -1,5 +1,3 @@
-project( contactthemeeditor )
-
 set(contactthemeeditor_SRCS
     main.cpp
     defaultcompletion.cpp

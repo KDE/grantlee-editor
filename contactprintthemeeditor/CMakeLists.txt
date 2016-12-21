@@ -1,6 +1,3 @@
-project( contactprintthemeeditor )
-
-
 set(contactprintthemeeditor_SRCS
     main.cpp
     defaultcompletion.cpp

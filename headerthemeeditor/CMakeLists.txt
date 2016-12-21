@@ -1,5 +1,3 @@
-project( headerthemeeditor )
-
 set(headerthemeeditor_SRCS
     main.cpp
     themeeditormainwindow.cpp
