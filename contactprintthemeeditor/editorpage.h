@@ -35,7 +35,7 @@ class EditorPage : public GrantleeThemeEditor::EditorPage
 {
     Q_OBJECT
 public:
-    explicit EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent = Q_NULLPTR);
+    explicit EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent = nullptr);
     ~EditorPage();
 
     ContactPrintThemePreview *preview() const;

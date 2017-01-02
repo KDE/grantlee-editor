@@ -35,7 +35,7 @@ class ThemeEditorPage : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = Q_NULLPTR);
+    explicit ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = nullptr);
     ~ThemeEditorPage();
 
     void saveThemeAs(const QString &directory);

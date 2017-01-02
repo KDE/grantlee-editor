@@ -29,7 +29,7 @@ class GRANTLEETHEMEEDITOR_EXPORT NewThemeDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit NewThemeDialog(QWidget *parent = Q_NULLPTR);
+    explicit NewThemeDialog(QWidget *parent = nullptr);
     ~NewThemeDialog();
 
     QString themeName() const;

@@ -26,7 +26,7 @@ class ContactTemplateListWidget : public PimCommon::TemplateListWidget
 {
     Q_OBJECT
 public:
-    explicit ContactTemplateListWidget(const QString &configName, QWidget *parent = Q_NULLPTR);
+    explicit ContactTemplateListWidget(const QString &configName, QWidget *parent = nullptr);
     ~ContactTemplateListWidget();
 
     QVector<PimCommon::defaultTemplate> defaultTemplates() Q_DECL_OVERRIDE;
@@ -36,7 +36,7 @@ class ContactTemplateWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ContactTemplateWidget(const QString &title, QWidget *parent = Q_NULLPTR);
+    explicit ContactTemplateWidget(const QString &title, QWidget *parent = nullptr);
     ~ContactTemplateWidget();
 
 Q_SIGNALS:

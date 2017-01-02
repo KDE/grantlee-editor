@@ -33,9 +33,9 @@ class GrantleeThemeEditor::NewThemeDialogPrivate
 {
 public:
     NewThemeDialogPrivate()
-        : mThemeName(Q_NULLPTR),
-          mUrlRequester(Q_NULLPTR),
-          mOkButton(Q_NULLPTR)
+        : mThemeName(nullptr),
+          mUrlRequester(nullptr),
+          mOkButton(nullptr)
     {
 
     }

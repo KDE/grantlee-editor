@@ -26,7 +26,7 @@ class ThemeTemplateListWidget : public PimCommon::TemplateListWidget
 {
     Q_OBJECT
 public:
-    explicit ThemeTemplateListWidget(const QString &configName, QWidget *parent = Q_NULLPTR);
+    explicit ThemeTemplateListWidget(const QString &configName, QWidget *parent = nullptr);
     ~ThemeTemplateListWidget();
 
     QVector<PimCommon::defaultTemplate> defaultTemplates() Q_DECL_OVERRIDE;
@@ -36,7 +36,7 @@ class ThemeTemplateWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ThemeTemplateWidget(const QString &title, QWidget *parent = Q_NULLPTR);
+    explicit ThemeTemplateWidget(const QString &title, QWidget *parent = nullptr);
     ~ThemeTemplateWidget();
 
 Q_SIGNALS:

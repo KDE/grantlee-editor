@@ -37,8 +37,8 @@ class GrantleeThemeEditor::ManageThemesPrivate
 {
 public:
     ManageThemesPrivate()
-        : mListThemes(Q_NULLPTR),
-          mDeleteTheme(Q_NULLPTR)
+        : mListThemes(nullptr),
+          mDeleteTheme(nullptr)
     {
 
     }

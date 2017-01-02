@@ -27,7 +27,7 @@ class GRANTLEETHEMEEDITOR_EXPORT ThemeEditorTabWidget : public QTabWidget
 {
     Q_OBJECT
 public:
-    explicit ThemeEditorTabWidget(QWidget *parent = Q_NULLPTR);
+    explicit ThemeEditorTabWidget(QWidget *parent = nullptr);
     ~ThemeEditorTabWidget();
 
 public Q_SLOTS:

@@ -34,7 +34,7 @@ class GRANTLEETHEMEEDITOR_EXPORT ConfigureWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ConfigureWidget(QWidget *parent = Q_NULLPTR);
+    explicit ConfigureWidget(QWidget *parent = nullptr);
     ~ConfigureWidget();
 
     void readConfig();

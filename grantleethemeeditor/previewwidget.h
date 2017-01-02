@@ -27,7 +27,7 @@ class GRANTLEETHEMEEDITOR_EXPORT PreviewWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit PreviewWidget(QWidget *parent = Q_NULLPTR);
+    explicit PreviewWidget(QWidget *parent = nullptr);
     ~PreviewWidget();
 
     virtual void updateViewer();

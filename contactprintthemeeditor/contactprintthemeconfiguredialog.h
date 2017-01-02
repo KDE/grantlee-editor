@@ -40,7 +40,7 @@ class ContactPrintThemeConfigureDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit ContactPrintThemeConfigureDialog(QWidget *parent = Q_NULLPTR);
+    explicit ContactPrintThemeConfigureDialog(QWidget *parent = nullptr);
     ~ContactPrintThemeConfigureDialog();
 
     void readConfig();

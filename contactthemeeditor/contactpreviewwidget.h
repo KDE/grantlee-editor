@@ -41,7 +41,7 @@ class ContactPreviewWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ContactPreviewWidget(const QString &projectDirectory, QWidget *parent = Q_NULLPTR);
+    explicit ContactPreviewWidget(const QString &projectDirectory, QWidget *parent = nullptr);
     ~ContactPreviewWidget();
 
     void updateViewer();

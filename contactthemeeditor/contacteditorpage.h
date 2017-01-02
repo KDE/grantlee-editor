@@ -34,7 +34,7 @@ class ContactEditorPage : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = Q_NULLPTR);
+    explicit ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = nullptr);
     ~ContactEditorPage();
 
     bool saveTheme(bool withConfirmation = true);
