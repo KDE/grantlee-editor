@@ -41,7 +41,7 @@
 
 ContactEditorMainWindow::ContactEditorMainWindow()
     : KXmlGuiWindow(),
-      mContactEditor(0)
+      mContactEditor(nullptr)
 {
     setupActions();
     setupGUI();
@@ -74,7 +74,7 @@ void ContactEditorMainWindow::readConfig()
 
 void ContactEditorMainWindow::updateActions()
 {
-    const bool projectDirectoryIsEmpty = (mContactEditor != 0);
+    const bool projectDirectoryIsEmpty = (mContactEditor != nullptr);
     mAddExtraPage->setEnabled(projectDirectoryIsEmpty);
     mCloseAction->setEnabled(projectDirectoryIsEmpty);
     mUploadTheme->setEnabled(projectDirectoryIsEmpty);
@@ -235,8 +235,8 @@ void ContactEditorMainWindow::slotAddExtraPage()
 void ContactEditorMainWindow::closeThemeEditor()
 {
     delete mContactEditor;
-    mContactEditor = 0;
-    setCentralWidget(0);
+    mContactEditor = nullptr;
+    setCentralWidget(nullptr);
     updateActions();
 }
 
@@ -256,7 +256,7 @@ bool ContactEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     }
     case SaveAndCreateNewTheme: {
         delete mContactEditor;
-        mContactEditor = 0;
+        mContactEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);
         QString newTheme;
         QString projectDirectory;
@@ -271,7 +271,7 @@ bool ContactEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
             connect(mContactEditor, &ContactEditorPage::canInsertFile, this, &ContactEditorMainWindow::slotCanInsertFile);
             setCentralWidget(mContactEditor);
         } else {
-            setCentralWidget(0);
+            setCentralWidget(nullptr);
         }
         delete dialog;
         updateActions();

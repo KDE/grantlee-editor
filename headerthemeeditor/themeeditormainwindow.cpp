@@ -42,7 +42,7 @@
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
     : KXmlGuiWindow(),
-      mThemeEditor(0)
+      mThemeEditor(nullptr)
 {
     setupActions();
     setupGUI();
@@ -75,7 +75,7 @@ void ThemeEditorMainWindow::readConfig()
 
 void ThemeEditorMainWindow::updateActions()
 {
-    const bool projectDirectoryIsEmpty = (mThemeEditor != 0);
+    const bool projectDirectoryIsEmpty = (mThemeEditor != nullptr);
     mAddExtraPage->setEnabled(projectDirectoryIsEmpty);
     mCloseAction->setEnabled(projectDirectoryIsEmpty);
     mUploadTheme->setEnabled(projectDirectoryIsEmpty);
@@ -263,8 +263,8 @@ void ThemeEditorMainWindow::slotAddExtraPage()
 void ThemeEditorMainWindow::closeThemeEditor()
 {
     delete mThemeEditor;
-    mThemeEditor = 0;
-    setCentralWidget(0);
+    mThemeEditor = nullptr;
+    setCentralWidget(nullptr);
     updateActions();
 }
 
@@ -284,7 +284,7 @@ bool ThemeEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     }
     case SaveAndCreateNewTheme: {
         delete mThemeEditor;
-        mThemeEditor = 0;
+        mThemeEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);
         QString newTheme;
         QString projectDirectory;
@@ -299,7 +299,7 @@ bool ThemeEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
             connect(mThemeEditor, &ThemeEditorPage::canInsertFile, this, &ThemeEditorMainWindow::slotCanInsertFile);
             setCentralWidget(mThemeEditor);
         } else {
-            setCentralWidget(0);
+            setCentralWidget(nullptr);
         }
         delete dialog;
         updateActions();

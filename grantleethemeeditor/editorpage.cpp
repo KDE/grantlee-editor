@@ -33,8 +33,8 @@ using namespace GrantleeThemeEditor;
 EditorPage::EditorPage(PageType type, QWidget *parent)
     : QWidget(parent),
       mType(type),
-      mPreview(0),
-      mEditor(0)
+      mPreview(nullptr),
+      mEditor(nullptr)
 {
 }
 

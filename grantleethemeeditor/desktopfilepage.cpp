@@ -38,8 +38,8 @@ using namespace GrantleeThemeEditor;
 
 DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent)
     : QWidget(parent),
-      mFilename(0),
-      mExtraDisplayHeaders(0)
+      mFilename(nullptr),
+      mExtraDisplayHeaders(nullptr)
 {
     QGridLayout *lay = new QGridLayout;
     QLabel *lab = new QLabel(i18n("Name:"), this);
