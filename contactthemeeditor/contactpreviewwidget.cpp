@@ -40,7 +40,7 @@
 ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWidget *parent)
     : QWidget(parent)
 {
-    QHBoxLayout *lay = new QHBoxLayout;
+    QHBoxLayout *lay = new QHBoxLayout(this);
     lay->setMargin(0);
     mTabWidget = new QTabWidget;
 
@@ -51,7 +51,6 @@ ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWid
     mTabWidget->addTab(mGroupViewer, i18n("Group"));
 
     lay->addWidget(mTabWidget);
-    setLayout(lay);
 
     mFormatter = new KAddressBookGrantlee::GrantleeContactFormatter;
 

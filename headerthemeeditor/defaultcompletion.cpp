@@ -95,10 +95,6 @@ QStringList DefaultCompletion::defaultCompetion()
 
 QStringList DefaultCompletion::defaultOptions()
 {
-    QStringList lst;
-    lst << QStringLiteral("showlink")
-        << QStringLiteral("nameonly")
-        << QStringLiteral("safe")
-        << QStringLiteral("expandable");
+    const QStringList lst = {QStringLiteral("showlink"), QStringLiteral("nameonly"), QStringLiteral("safe"), QStringLiteral("expandable")};
     return lst;
 }

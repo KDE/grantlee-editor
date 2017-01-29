@@ -24,6 +24,7 @@
 #include "previewwidget.h"
 #include "themesession.h"
 #include "themeeditortabwidget.h"
+#include "helper_p.h"
 
 #include <kns3/uploaddialog.h>
 
@@ -151,7 +152,7 @@ void ContactEditorPage::installTheme(const QString &themePath)
     mEditorGroupEmbeddedPage->installTheme(newPath);
     mEditorEmbeddedPage->installTheme(newPath);
 
-    Q_FOREACH (EditorPage *page, mExtraPage) {
+    for (EditorPage *page : qAsConst(mExtraPage)) {
         page->installTheme(newPath);
     }
     mDesktopPage->installTheme(newPath);
@@ -213,7 +214,7 @@ void ContactEditorPage::createZip(const QString &themeName, KZip *zip)
     mEditorGroupEmbeddedPage->createZip(themeName, zip);
     mEditorEmbeddedPage->createZip(themeName, zip);
 
-    Q_FOREACH (EditorPage *page, mExtraPage) {
+    for (EditorPage *page : qAsConst(mExtraPage)) {
         page->createZip(themeName, zip);
     }
     mDesktopPage->createZip(themeName, zip);
@@ -261,7 +262,7 @@ void ContactEditorPage::storeTheme(const QString &directory)
     mEditorGroupEmbeddedPage->saveTheme(themeDirectory);
     mEditorEmbeddedPage->saveTheme(themeDirectory);
 
-    Q_FOREACH (EditorPage *page, mExtraPage) {
+    for (EditorPage *page : qAsConst(mExtraPage)) {
         page->saveTheme(themeDirectory);
     }
     mDesktopPage->saveTheme(themeDirectory);
@@ -303,7 +304,7 @@ void ContactEditorPage::loadTheme(const QString &filename)
         mEditorPage->preview()->setThemePath(projectDirectory, mThemeSession->mainPageFileName());
 
         const QStringList lstExtraPages = mThemeSession->extraPages();
-        Q_FOREACH (const QString &page, lstExtraPages) {
+        for (const QString &page : lstExtraPages) {
             EditorPage *extraPage = createExtraPage(page);
             extraPage->loadTheme(projectDirectory + QDir::separator() + page);
         }

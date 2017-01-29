@@ -31,10 +31,7 @@ ContactEditorWidget::~ContactEditorWidget()
 
 void ContactEditorWidget::createCompleterList(const QStringList &extraCompletion)
 {
-    QStringList listWord;
-    listWord << DefaultCompletion::defaultCompetion();
-    listWord << DefaultCompletion::defaultOptions();
-    listWord << extraCompletion;
+    const QStringList listWord = QStringList() << DefaultCompletion::defaultCompetion() << DefaultCompletion::defaultOptions() << extraCompletion;
     GrantleeThemeEditor::EditorWidget::createCompleterList(listWord);
 }
 
