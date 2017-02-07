@@ -101,7 +101,8 @@ void ThemeEditorPage::slotExtraHeaderDisplayChanged(const QStringList &extraHead
     mEditorPage->preview()->slotExtraHeaderDisplayChanged(extraHeaders);
 
     QStringList result;
-    Q_FOREACH (QString var, extraHeaders) {
+    result.reserve(extraHeaders.count());
+    for (QString var : extraHeaders) {
         var = QLatin1String("header.") + var.remove(QLatin1Char('-'));
         result << var;
     }
@@ -301,7 +302,7 @@ void ThemeEditorPage::loadTheme(const QString &filename)
         mEditorPage->preview()->setThemePath(mThemeSession->projectDirectory(), mThemeSession->mainPageFileName());
 
         const QStringList lstExtraPages = mThemeSession->extraPages();
-        Q_FOREACH (const QString &page, lstExtraPages) {
+        for (const QString &page : lstExtraPages) {
             EditorPage *extraPage = createExtraPage(page);
             extraPage->loadTheme(mThemeSession->projectDirectory() + QDir::separator() + page);
         }

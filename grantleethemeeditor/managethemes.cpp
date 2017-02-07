@@ -108,7 +108,7 @@ void ManageThemes::writeConfig()
 
 void ManageThemes::slotDeleteTheme()
 {
-    QList<QListWidgetItem *> selectItems = d->mListThemes->selectedItems();
+    const QList<QListWidgetItem *> selectItems = d->mListThemes->selectedItems();
     if (!selectItems.isEmpty()) {
         QString msg;
         const int selectedThemeCount(selectItems.count());
@@ -118,7 +118,7 @@ void ManageThemes::slotDeleteTheme()
             msg = i18n("Do you want to remove %1 selected themes?", selectedThemeCount);
         }
         if (KMessageBox::questionYesNo(this, msg, i18n("Remove theme")) == KMessageBox::Yes) {
-            Q_FOREACH (QListWidgetItem *item, selectItems) {
+            for (QListWidgetItem *item : selectItems) {
                 if (QDir((d->mLocalDirectory + QDir::separator() + item->text())).removeRecursively()) {
                     delete item;
                 } else {
