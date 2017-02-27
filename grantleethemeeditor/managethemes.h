@@ -22,8 +22,6 @@
 #include "grantleethemeeditor_export.h"
 #include <QDialog>
 
-class QListWidget;
-class QPushButton;
 namespace GrantleeThemeEditor
 {
 class ManageThemesPrivate;
