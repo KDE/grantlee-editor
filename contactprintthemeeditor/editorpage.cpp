@@ -77,8 +77,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 
     if (mType == MainPage) {
         KConfigGroup group(KSharedConfig::openConfig(), "EditorPage");
-        QList<int> size;
-        size << 400 << 100;
+        const QList<int> size{400, 100};
         mMainSplitter->setSizes(group.readEntry("mainSplitter", size));
         mWidgetSplitter->setSizes(group.readEntry("widgetSplitter", size));
     }
