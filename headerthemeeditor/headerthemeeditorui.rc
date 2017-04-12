@@ -1,5 +1,5 @@
-<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
-<kpartgui name="headerthemeeditor" version="4">
+<!DOCTYPE gui SYSTEM "kpartgui.dtd">
+<gui name="headerthemeeditor" version="4">
  <MenuBar>
   <Menu name="file" >
    <Action name="new_theme" />
@@ -30,5 +30,5 @@
    <Action name="update_view" />
  </ToolBar>
 
-</kpartgui>
+</gui>
 
