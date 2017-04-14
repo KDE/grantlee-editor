@@ -33,19 +33,19 @@ class GrantleeThemeEditor::NewThemeDialogPrivate
 {
 public:
     NewThemeDialogPrivate()
-        : mThemeName(nullptr),
-          mUrlRequester(nullptr),
-          mOkButton(nullptr)
+        : mThemeName(nullptr)
+        , mUrlRequester(nullptr)
+        , mOkButton(nullptr)
     {
-
     }
+
     KLineEdit *mThemeName;
     KUrlRequester *mUrlRequester;
     QPushButton *mOkButton;
 };
 NewThemeDialog::NewThemeDialog(QWidget *parent)
-    : QDialog(parent),
-      d(new GrantleeThemeEditor::NewThemeDialogPrivate)
+    : QDialog(parent)
+    , d(new GrantleeThemeEditor::NewThemeDialogPrivate)
 {
     setWindowTitle(i18n("New Theme"));
 
@@ -116,4 +116,3 @@ void NewThemeDialog::slotUpdateOkButton()
     d->mOkButton->setEnabled(!d->mUrlRequester->lineEdit()->text().trimmed().isEmpty()
                              && !d->mThemeName->text().trimmed().isEmpty());
 }
-

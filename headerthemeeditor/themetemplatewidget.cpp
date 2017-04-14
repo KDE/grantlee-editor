@@ -54,4 +54,3 @@ ThemeTemplateWidget::ThemeTemplateWidget(const QString &title, QWidget *parent)
 ThemeTemplateWidget::~ThemeTemplateWidget()
 {
 }
-

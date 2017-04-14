@@ -40,8 +40,8 @@
 #include <QStandardPaths>
 
 ContactEditorMainWindow::ContactEditorMainWindow()
-    : KXmlGuiWindow(),
-      mContactEditor(nullptr)
+    : KXmlGuiWindow()
+    , mContactEditor(nullptr)
 {
     setupActions();
     setupGUI();
@@ -249,11 +249,11 @@ bool ContactEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     switch (act) {
     case SaveOnly:
         break;
-    case SaveAndCloseTheme: {
+    case SaveAndCloseTheme:
         closeThemeEditor();
         break;
-    }
-    case SaveAndCreateNewTheme: {
+    case SaveAndCreateNewTheme:
+    {
         delete mContactEditor;
         mContactEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);
@@ -334,4 +334,3 @@ void ContactEditorMainWindow::slotSaveAsTheme()
         }
     }
 }
-

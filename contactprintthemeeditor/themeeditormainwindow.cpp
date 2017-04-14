@@ -42,8 +42,8 @@
 #include <QStandardPaths>
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
-    : KXmlGuiWindow(),
-      mThemeEditor(nullptr)
+    : KXmlGuiWindow()
+    , mThemeEditor(nullptr)
 {
     setupActions();
     setupGUI();
@@ -133,7 +133,6 @@ void ThemeEditorMainWindow::setupActions()
     actionCollection()->setDefaultShortcut(mUpdateView, QKeySequence(Qt::Key_F5));
     connect(mUpdateView, &QAction::triggered, this, &ThemeEditorMainWindow::slotUpdateView);
     actionCollection()->addAction(QStringLiteral("update_view"), mUpdateView);
-
 }
 
 void ThemeEditorMainWindow::slotManageTheme()
@@ -254,11 +253,11 @@ bool ThemeEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     switch (act) {
     case SaveOnly:
         break;
-    case SaveAndCloseTheme: {
+    case SaveAndCloseTheme:
         closeThemeEditor();
         break;
-    }
-    case SaveAndCreateNewTheme: {
+    case SaveAndCreateNewTheme:
+    {
         delete mThemeEditor;
         mThemeEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);
@@ -340,4 +339,3 @@ void ThemeEditorMainWindow::slotSaveAsTheme()
         }
     }
 }
-

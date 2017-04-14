@@ -44,7 +44,6 @@ ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirecto
 
 ContactPrintThemePreview::~ContactPrintThemePreview()
 {
-
 }
 
 void ContactPrintThemePreview::updateViewer()
@@ -91,4 +90,3 @@ void ContactPrintThemePreview::loadConfig()
         }
     }
 }
-

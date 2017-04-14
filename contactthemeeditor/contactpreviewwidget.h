@@ -25,14 +25,12 @@
 
 class QTabWidget;
 
-namespace Akonadi
-{
+namespace Akonadi {
 class ContactViewer;
 class ContactGroupViewer;
 }
 
-namespace KAddressBookGrantlee
-{
+namespace KAddressBookGrantlee {
 class GrantleeContactFormatter;
 class GrantleeContactGroupFormatter;
 }

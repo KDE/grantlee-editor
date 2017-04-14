@@ -157,4 +157,3 @@ void ContactPrintThemeConfigureDialog::writeConfig()
     group.writeEntry("defaultTemplate", mDefaultTemplate->toPlainText());
     mConfigureWidget->writeConfig();
 }
-

@@ -26,8 +26,8 @@
 
 using namespace GrantleeThemeEditor;
 ConfigureWidget::ConfigureWidget(QWidget *parent)
-    : QWidget(parent),
-      ui(new Ui::ConfigureWidget)
+    : QWidget(parent)
+    , ui(new Ui::ConfigureWidget)
 {
     ui->setupUi(this);
 }
@@ -67,4 +67,3 @@ void ConfigureWidget::setDefault()
     ui->authorEmail->clear();
     ui->author->clear();
 }
-

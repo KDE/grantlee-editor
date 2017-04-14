@@ -37,10 +37,9 @@ class GrantleeThemeEditor::ManageThemesPrivate
 {
 public:
     ManageThemesPrivate()
-        : mListThemes(nullptr),
-          mDeleteTheme(nullptr)
+        : mListThemes(nullptr)
+        , mDeleteTheme(nullptr)
     {
-
     }
 
     QString mLocalDirectory;
@@ -49,8 +48,8 @@ public:
 };
 
 ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
-    : QDialog(parent),
-      d(new GrantleeThemeEditor::ManageThemesPrivate)
+    : QDialog(parent)
+    , d(new GrantleeThemeEditor::ManageThemesPrivate)
 {
     d->mLocalDirectory = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1Char('/') + relativeThemePath;
     setWindowTitle(i18n("Manage Theme"));
@@ -146,4 +145,3 @@ void ManageThemes::slotItemSelectionChanged()
 {
     d->mDeleteTheme->setEnabled(!d->mListThemes->selectedItems().isEmpty());
 }
-

@@ -40,9 +40,9 @@
 #include <QFileDialog>
 
 ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
-    : QWidget(parent),
-      mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("headerthemeeditor"))),
-      mChanged(false)
+    : QWidget(parent)
+    , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("headerthemeeditor")))
+    , mChanged(false)
 {
     QHBoxLayout *lay = new QHBoxLayout;
     mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget;
@@ -199,7 +199,7 @@ void ThemeEditorPage::uploadTheme()
         lst << previewFileName;
         mEditorPage->preview()->createScreenShot(lst);
 
-        const bool fileAdded  = zip->addLocalFile(previewFileName, themename + QLatin1Char('/') + QLatin1String("theme_preview.png"));
+        const bool fileAdded = zip->addLocalFile(previewFileName, themename + QLatin1Char('/') + QLatin1String("theme_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
@@ -325,4 +325,3 @@ void ThemeEditorPage::saveThemeAs(const QString &directory)
 {
     storeTheme(directory);
 }
-

@@ -20,12 +20,10 @@
 
 ContactEditorUtil::ContactEditorUtil()
 {
-
 }
 
 QString ContactEditorUtil::defaultContact() const
 {
-
     const QString contact = QStringLiteral("BEGIN:VCARD\n"
                                            "ADR;TYPE=home:;;10 street Eiffel Tower\n;Paris;;75016;France\n"
                                            "EMAIL:test@kde.org\n"
@@ -39,4 +37,3 @@ QString ContactEditorUtil::defaultContact() const
                                            "END:VCARD");
     return contact;
 }
-

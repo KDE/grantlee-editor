@@ -75,6 +75,8 @@ QStringList DefaultCompletion::defaultCompetion()
 
 QStringList DefaultCompletion::defaultOptions()
 {
-    const QStringList lst{QStringLiteral("Safe")};
+    const QStringList lst {
+        QStringLiteral("Safe")
+    };
     return lst;
 }

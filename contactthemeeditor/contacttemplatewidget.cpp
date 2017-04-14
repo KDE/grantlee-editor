@@ -54,4 +54,3 @@ ContactTemplateWidget::ContactTemplateWidget(const QString &title, QWidget *pare
 ContactTemplateWidget::~ContactTemplateWidget()
 {
 }
-

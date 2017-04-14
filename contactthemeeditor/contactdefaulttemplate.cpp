@@ -27,4 +27,3 @@ QVector<PimCommon::defaultTemplate> ContactDefaultTemplate::contactTemplates()
     lst << tmp;
     */
 }
-

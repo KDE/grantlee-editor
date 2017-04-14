@@ -21,8 +21,7 @@
 
 #include <QStringList>
 
-namespace DefaultCompletion
-{
+namespace DefaultCompletion {
 QStringList defaultCompetion();
 QStringList defaultOptions();
 }

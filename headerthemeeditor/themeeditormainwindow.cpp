@@ -41,8 +41,8 @@
 #include <QStandardPaths>
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
-    : KXmlGuiWindow(),
-      mThemeEditor(nullptr)
+    : KXmlGuiWindow()
+    , mThemeEditor(nullptr)
 {
     setupActions();
     setupGUI();
@@ -128,12 +128,12 @@ void ThemeEditorMainWindow::setupActions()
 
     QActionGroup *group = new QActionGroup(this);
 
-    mPrintingMode  = new KToggleAction(i18n("Printing mode"), this);
+    mPrintingMode = new KToggleAction(i18n("Printing mode"), this);
     actionCollection()->addAction(QStringLiteral("printing_mode"), mPrintingMode);
     connect(mPrintingMode, &KToggleAction::triggered, this, &ThemeEditorMainWindow::slotPrintingMode);
     group->addAction(mPrintingMode);
 
-    mNormalMode  = new KToggleAction(i18n("Normal mode"), this);
+    mNormalMode = new KToggleAction(i18n("Normal mode"), this);
     mNormalMode->setChecked(true);
     actionCollection()->addAction(QStringLiteral("normal_mode"), mNormalMode);
     connect(mNormalMode, &KToggleAction::triggered, this, &ThemeEditorMainWindow::slotNormalMode);
@@ -147,7 +147,6 @@ void ThemeEditorMainWindow::setupActions()
     actionCollection()->setDefaultShortcut(mUpdateView, QKeySequence(Qt::Key_F5));
     connect(mUpdateView, &QAction::triggered, this, &ThemeEditorMainWindow::slotUpdateView);
     actionCollection()->addAction(QStringLiteral("update_view"), mUpdateView);
-
 }
 
 void ThemeEditorMainWindow::slotManageTheme()
@@ -277,11 +276,11 @@ bool ThemeEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     switch (act) {
     case SaveOnly:
         break;
-    case SaveAndCloseTheme: {
+    case SaveAndCloseTheme:
         closeThemeEditor();
         break;
-    }
-    case SaveAndCreateNewTheme: {
+    case SaveAndCreateNewTheme:
+    {
         delete mThemeEditor;
         mThemeEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);
@@ -363,4 +362,3 @@ void ThemeEditorMainWindow::slotSaveAsTheme()
         }
     }
 }
-

@@ -29,4 +29,3 @@ QVector<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
 
     return lst;
 }
-

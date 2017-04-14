@@ -100,4 +100,3 @@ void PreviewWidget::setThemePath(const QString &projectDirectory, const QString 
     mGrantleeHeaderStyle->setMainFilename(mainPageFileName);
     updateViewer();
 }
-

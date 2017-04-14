@@ -21,14 +21,13 @@
 using namespace GrantleeThemeEditor;
 
 PreviewWidget::PreviewWidget(QWidget *parent)
-    : QWidget(parent),
-      mPrinting(false)
+    : QWidget(parent)
+    , mPrinting(false)
 {
 }
 
 PreviewWidget::~PreviewWidget()
 {
-
 }
 
 void PreviewWidget::updateViewer()
@@ -50,7 +49,6 @@ bool PreviewWidget::printing() const
 
 void PreviewWidget::loadConfig()
 {
-
 }
 
 void PreviewWidget::createScreenShot(const QStringList &lstFileName)
@@ -63,11 +61,8 @@ void PreviewWidget::setThemePath(const QString &projectDirectory, const QString 
 
 void PreviewWidget::slotMainFileNameChanged(const QString &)
 {
-
 }
 
 void PreviewWidget::slotExtraHeaderDisplayChanged(const QStringList &headers)
 {
-
 }
-

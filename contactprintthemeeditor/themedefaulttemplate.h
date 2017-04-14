@@ -22,11 +22,8 @@
 
 #include <PimCommon/TemplateListWidget>
 
-namespace ThemeDefaultTemplate
-{
-
+namespace ThemeDefaultTemplate {
 QVector<PimCommon::defaultTemplate> defaultTemplates();
-
 }
 
 #endif // THEMEDEFAULTTEMPLATE_H

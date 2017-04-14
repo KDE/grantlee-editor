@@ -22,8 +22,7 @@
 #include <QString>
 #include <QStringList>
 
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class GRANTLEETHEMEEDITOR_EXPORT ThemeSession
 {
 public:

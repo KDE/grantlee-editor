@@ -21,11 +21,8 @@
 
 #include <PimCommon/TemplateListWidget>
 
-namespace ContactDefaultTemplate
-{
-
+namespace ContactDefaultTemplate {
 QVector<PimCommon::defaultTemplate> contactTemplates();
-
 }
 
 #endif // CONTACTDEFAULTTEMPLATE_H

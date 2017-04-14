@@ -36,9 +36,9 @@
 #include <KSharedConfig>
 
 EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent)
-    : GrantleeThemeEditor::EditorPage(type, parent),
-      mPreview(nullptr),
-      mWidgetSplitter(nullptr)
+    : GrantleeThemeEditor::EditorPage(type, parent)
+    , mPreview(nullptr)
+    , mWidgetSplitter(nullptr)
 {
     QVBoxLayout *lay = new QVBoxLayout(this);
     lay->setMargin(0);
@@ -77,7 +77,9 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 
     if (mType == MainPage) {
         KConfigGroup group(KSharedConfig::openConfig(), "EditorPage");
-        const QList<int> size{400, 100};
+        const QList<int> size {
+            400, 100
+        };
         mMainSplitter->setSizes(group.readEntry("mainSplitter", size));
         mWidgetSplitter->setSizes(group.readEntry("widgetSplitter", size));
     }
@@ -96,4 +98,3 @@ ContactPrintThemePreview *EditorPage::preview() const
 {
     return mPreview;
 }
-

@@ -75,4 +75,3 @@ void ThemeEditorTabWidget::slotTabContextMenuRequest(const QPoint &pos)
         }
     }
 }
-

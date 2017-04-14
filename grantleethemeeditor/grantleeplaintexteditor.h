@@ -23,12 +23,10 @@
 #include "config-grantleethemeeditor.h"
 #include <KSyntaxHighlighting/Repository>
 
-namespace KPIMTextEdit
-{
+namespace KPIMTextEdit {
 class TextEditorCompleter;
 }
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class GrantleePlainTextEditor : public KPIMTextEdit::PlainTextEditor
 {
     Q_OBJECT

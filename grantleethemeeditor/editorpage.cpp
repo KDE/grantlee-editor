@@ -31,16 +31,15 @@
 using namespace GrantleeThemeEditor;
 
 EditorPage::EditorPage(PageType type, QWidget *parent)
-    : QWidget(parent),
-      mType(type),
-      mPreview(nullptr),
-      mEditor(nullptr)
+    : QWidget(parent)
+    , mType(type)
+    , mPreview(nullptr)
+    , mEditor(nullptr)
 {
 }
 
 EditorPage::~EditorPage()
 {
-
 }
 
 EditorPage::PageType EditorPage::pageType() const
@@ -114,7 +113,7 @@ void EditorPage::createZip(const QString &themeName, KZip *zip)
     QTemporaryFile tmp;
     tmp.open();
     saveAsFilename(tmp.fileName());
-    const bool fileAdded  = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mPageFileName);
+    const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mPageFileName);
     if (!fileAdded) {
         KMessageBox::error(this, i18n("Failed to add file into ZIP archive."),
                            i18nc("@title:window", "Failed to add file"));
@@ -126,4 +125,3 @@ void EditorPage::installTheme(const QString &themePath)
     const QString filename = themePath + QDir::separator() + mPageFileName;
     saveAsFilename(filename);
 }
-

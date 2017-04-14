@@ -22,8 +22,7 @@
 #include "grantleethemeeditor_export.h"
 #include "kpimtextedit/plaintexteditorwidget.h"
 
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class GRANTLEETHEMEEDITOR_EXPORT EditorWidget : public KPIMTextEdit::PlainTextEditorWidget
 {
     Q_OBJECT

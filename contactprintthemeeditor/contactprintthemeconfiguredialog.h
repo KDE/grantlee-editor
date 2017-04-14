@@ -22,18 +22,15 @@
 
 #include <QDialog>
 
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class ConfigureWidget;
 }
 
-namespace Akonadi
-{
+namespace Akonadi {
 class ContactEditor;
 }
 
-namespace KPIMTextEdit
-{
+namespace KPIMTextEdit {
 class PlainTextEditorWidget;
 }
 class ContactPrintThemeConfigureDialog : public QDialog

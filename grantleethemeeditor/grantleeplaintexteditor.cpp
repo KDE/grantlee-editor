@@ -49,7 +49,6 @@ GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
 
 GrantleePlainTextEditor::~GrantleePlainTextEditor()
 {
-
 }
 
 void GrantleePlainTextEditor::initCompleter()
@@ -82,4 +81,3 @@ void GrantleePlainTextEditor::keyPressEvent(QKeyEvent *e)
     KPIMTextEdit::PlainTextEditor::keyPressEvent(e);
     mTextEditorCompleter->completeText();
 }
-

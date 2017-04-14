@@ -21,8 +21,7 @@
 
 #include <QWidget>
 
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class ThemeEditorTabWidget;
 class ThemeSession;
 class DesktopFilePage;

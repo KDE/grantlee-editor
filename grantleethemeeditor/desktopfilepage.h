@@ -24,12 +24,10 @@
 class QLineEdit;
 class KZip;
 class KEditListWidget;
-namespace KPIMTextEdit
-{
+namespace KPIMTextEdit {
 class PlainTextEditorWidget;
 }
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class GRANTLEETHEMEEDITOR_EXPORT DesktopFilePage : public QWidget
 {
     Q_OBJECT

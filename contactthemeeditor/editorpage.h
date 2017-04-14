@@ -24,8 +24,7 @@
 class ContactTemplateWidget;
 class EditorWidget;
 class QSplitter;
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class EditorWidget;
 class PreviewWidget;
 }

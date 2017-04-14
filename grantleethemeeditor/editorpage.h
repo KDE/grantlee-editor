@@ -24,8 +24,7 @@
 
 class KZip;
 
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class EditorWidget;
 class PreviewWidget;
 class GRANTLEETHEMEEDITOR_EXPORT EditorPage : public QWidget

@@ -62,4 +62,3 @@ void EditorWidget::clear()
 {
     editor()->clear();
 }
-

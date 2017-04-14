@@ -37,9 +37,9 @@
 using namespace GrantleeThemeEditor;
 
 DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent)
-    : QWidget(parent),
-      mFilename(nullptr),
-      mExtraDisplayHeaders(nullptr)
+    : QWidget(parent)
+    , mFilename(nullptr)
+    , mExtraDisplayHeaders(nullptr)
 {
     QGridLayout *lay = new QGridLayout;
     QLabel *lab = new QLabel(i18n("Name:"), this);
@@ -94,7 +94,10 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
         lay->addWidget(lab, row, 0);
 
         ++row;
-        lab = new QLabel(QStringLiteral("<qt><b>") + i18n("Be careful, Grantlee does not support '-' in variable name. So when you want to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in name).") + QStringLiteral("</b></qt>"), this);
+        lab
+            = new QLabel(QStringLiteral("<qt><b>") + i18n(
+                             "Be careful, Grantlee does not support '-' in variable name. So when you want to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in name).")
+                         + QStringLiteral("</b></qt>"), this);
         lab->setWordWrap(true);
         lay->addWidget(lab, row, 0, 1, 2);
 
@@ -137,7 +140,7 @@ void DesktopFilePage::createZip(const QString &themeName, KZip *zip)
     QTemporaryFile tmp;
     tmp.open();
     saveAsFilename(tmp.fileName());
-    const bool fileAdded  = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mDefaultDesktopName);
+    const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mDefaultDesktopName);
     if (!fileAdded) {
         KMessageBox::error(this, i18n("Failed to add file into ZIP archive."),
                            i18nc("@title:window", "Failed to add file"));
@@ -222,4 +225,3 @@ QString DesktopFilePage::description() const
 {
     return mDescription->toPlainText();
 }
-

@@ -42,9 +42,9 @@
 #include <QFileDialog>
 
 ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
-    : QWidget(parent),
-      mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("contactthemeeditor"))),
-      mChanged(false)
+    : QWidget(parent)
+    , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("contactthemeeditor")))
+    , mChanged(false)
 {
     QHBoxLayout *lay = new QHBoxLayout;
     mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget;
@@ -168,7 +168,6 @@ void ContactEditorPage::uploadTheme()
     const QString zipFileName = tmp.path() + QDir::separator() + themename + QLatin1String(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
-
         //TODO reactivate it when we will be able to create a preview
         const QString previewContactFileName = tmp.path() + QDir::separator() + themename + QLatin1String("contact_preview.png");
         const QString previewContactGroupFileName = tmp.path() + QDir::separator() + themename + QLatin1String("contactgroup_preview.png");
@@ -177,13 +176,13 @@ void ContactEditorPage::uploadTheme()
 
         mEditorPage->preview()->createScreenShot(lst);
 
-        bool fileAdded  = zip->addLocalFile(previewContactFileName, themename + QLatin1Char('/') + QLatin1String("contact_preview.png"));
+        bool fileAdded = zip->addLocalFile(previewContactFileName, themename + QLatin1Char('/') + QLatin1String("contact_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
             return;
         }
-        fileAdded  = zip->addLocalFile(previewContactGroupFileName, themename + QLatin1Char('/') + QLatin1String("contactgroup_preview.png"));
+        fileAdded = zip->addLocalFile(previewContactGroupFileName, themename + QLatin1Char('/') + QLatin1String("contactgroup_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
@@ -337,4 +336,3 @@ void ContactEditorPage::saveThemeAs(const QString &directory)
 {
     storeTheme(directory);
 }
-

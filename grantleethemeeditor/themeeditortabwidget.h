@@ -21,8 +21,7 @@
 
 #include "grantleethemeeditor_export.h"
 #include <QTabWidget>
-namespace GrantleeThemeEditor
-{
+namespace GrantleeThemeEditor {
 class GRANTLEETHEMEEDITOR_EXPORT ThemeEditorTabWidget : public QTabWidget
 {
     Q_OBJECT
