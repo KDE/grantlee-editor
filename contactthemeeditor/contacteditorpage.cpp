@@ -24,7 +24,6 @@
 #include "previewwidget.h"
 #include "themesession.h"
 #include "themeeditortabwidget.h"
-#include "helper_p.h"
 
 #include <kns3/uploaddialog.h>
 
