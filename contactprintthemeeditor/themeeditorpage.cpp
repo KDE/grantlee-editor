@@ -152,7 +152,7 @@ void ThemeEditorPage::installTheme(const QString &themePath)
     }
     const QString newPath = themePath + QDir::separator() + mDesktopPage->themeName();
     mEditorPage->installTheme(newPath);
-    Q_FOREACH (EditorPage *page, mExtraPage) {
+    for (EditorPage *page : qAsConst(mExtraPage)) {
         page->installTheme(newPath);
     }
     mDesktopPage->installTheme(newPath);
@@ -203,7 +203,7 @@ void ThemeEditorPage::createZip(const QString &themeName, KZip *zip)
 {
     mEditorPage->createZip(themeName, zip);
 
-    Q_FOREACH (EditorPage *page, mExtraPage) {
+    for (EditorPage *page : qAsConst(mExtraPage)) {
         page->createZip(themeName, zip);
     }
     mDesktopPage->createZip(themeName, zip);
@@ -238,7 +238,7 @@ void ThemeEditorPage::storeTheme(const QString &directory)
     const QString themeDirectory = directory.isEmpty() ? projectDirectory() : directory;
     mEditorPage->saveTheme(themeDirectory);
 
-    Q_FOREACH (EditorPage *page, mExtraPage) {
+    for (EditorPage *page : qAsConst(mExtraPage)) {
         page->saveTheme(themeDirectory);
     }
     mDesktopPage->saveTheme(themeDirectory);
@@ -275,7 +275,7 @@ void ThemeEditorPage::loadTheme(const QString &filename)
         mEditorPage->preview()->setThemePath(mThemeSession->projectDirectory(), mThemeSession->mainPageFileName());
 
         const QStringList lstExtraPages = mThemeSession->extraPages();
-        Q_FOREACH (const QString &page, lstExtraPages) {
+        for (const QString &page : lstExtraPages) {
             EditorPage *extraPage = createExtraPage(page);
             extraPage->loadTheme(mThemeSession->projectDirectory() + QDir::separator() + page);
         }
