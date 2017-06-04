@@ -36,10 +36,10 @@ public:
     explicit ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent = nullptr);
     ~ContactPrintThemePreview();
 
-    void updateViewer() Q_DECL_OVERRIDE;
-    void createScreenShot(const QStringList &fileName) Q_DECL_OVERRIDE;
-    void setThemePath(const QString &projectDirectory, const QString &mainPageFileName) Q_DECL_OVERRIDE;
-    void loadConfig() Q_DECL_OVERRIDE;
+    void updateViewer() override;
+    void createScreenShot(const QStringList &fileName) override;
+    void setThemePath(const QString &projectDirectory, const QString &mainPageFileName) override;
+    void loadConfig() override;
 
 Q_SIGNALS:
     void needUpdateViewer();

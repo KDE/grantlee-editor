@@ -29,7 +29,7 @@ public:
     explicit ThemeTemplateListWidget(const QString &configName, QWidget *parent = nullptr);
     ~ThemeTemplateListWidget();
 
-    QVector<PimCommon::defaultTemplate> defaultTemplates() Q_DECL_OVERRIDE;
+    QVector<PimCommon::defaultTemplate> defaultTemplates() override;
 };
 
 class ThemeTemplateWidget : public QWidget

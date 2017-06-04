@@ -37,7 +37,7 @@ public:
     void createCompleterList(const QStringList &extraCompletion);
 
 protected:
-    void keyPressEvent(QKeyEvent *e) Q_DECL_OVERRIDE;
+    void keyPressEvent(QKeyEvent *e) override;
 
 protected:
     KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter;

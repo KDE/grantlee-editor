@@ -29,7 +29,7 @@ public:
     explicit ContactTemplateListWidget(const QString &configName, QWidget *parent = nullptr);
     ~ContactTemplateListWidget();
 
-    QVector<PimCommon::defaultTemplate> defaultTemplates() Q_DECL_OVERRIDE;
+    QVector<PimCommon::defaultTemplate> defaultTemplates() override;
 };
 
 class ContactTemplateWidget : public QWidget

@@ -28,7 +28,7 @@ public:
     ~ContactEditorWidget();
 
 public Q_SLOTS:
-    void createCompleterList(const QStringList &extraCompletion = QStringList()) Q_DECL_OVERRIDE;
+    void createCompleterList(const QStringList &extraCompletion = QStringList()) override;
 };
 
 #endif // CONTACTEDITORWIDGET_H

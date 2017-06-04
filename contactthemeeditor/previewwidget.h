@@ -28,10 +28,10 @@ public:
     explicit PreviewWidget(const QString &projectDirectory, QWidget *parent = nullptr);
     ~PreviewWidget();
 
-    void createScreenShot(const QStringList &fileList) Q_DECL_OVERRIDE;
-    void loadConfig() Q_DECL_OVERRIDE;
-    void setThemePath(const QString &projectDirectory, const QString &mainPageFileName) Q_DECL_OVERRIDE;
-    void updateViewer() Q_DECL_OVERRIDE;
+    void createScreenShot(const QStringList &fileList) override;
+    void loadConfig() override;
+    void setThemePath(const QString &projectDirectory, const QString &mainPageFileName) override;
+    void updateViewer() override;
 
 private:
     ContactPreviewWidget *mPreview;
