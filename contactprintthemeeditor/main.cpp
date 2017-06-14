@@ -35,6 +35,7 @@ int main(int argc, char **argv)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
+    app.setDesktopFileName(QStringLiteral("org.kde.contactprintthemeeditor"));
     KLocalizedString::setApplicationDomain("contactprintthemeeditor");
     KAboutData aboutData(QStringLiteral("contactprintthemeeditor"),
                          i18n("Contact Print Theme Editor"),

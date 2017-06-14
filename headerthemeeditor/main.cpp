@@ -37,6 +37,7 @@ int main(int argc, char **argv)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
+    app.setDesktopFileName(QStringLiteral("org.kde.headerthemeeditor"));
     KCrash::initialize();
     Kdelibs4ConfigMigrator migrate(QStringLiteral("headerthemeeditor"));
     migrate.setConfigFiles(QStringList() << QStringLiteral("headerthemeeditorrc"));
@@ -53,6 +54,7 @@ int main(int argc, char **argv)
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kmail")));
     aboutData.setOrganizationDomain(QByteArray("kde.org"));
     aboutData.setProductName(QByteArray("headerthemeeditor"));
+
 
     KAboutData::setApplicationData(aboutData);
 
