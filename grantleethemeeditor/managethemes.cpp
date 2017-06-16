@@ -55,7 +55,7 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
     setWindowTitle(i18n("Manage Theme"));
     QWidget *w = new QWidget;
 
-    QVBoxLayout *lay = new QVBoxLayout;
+    QVBoxLayout *lay = new QVBoxLayout(w);
     lay->setMargin(0);
 
     QLabel *lab = new QLabel(i18n("Local themes:"));
@@ -70,8 +70,6 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
     connect(d->mDeleteTheme, &QPushButton::clicked, this, &ManageThemes::slotDeleteTheme);
     d->mDeleteTheme->setEnabled(false);
     lay->addWidget(d->mDeleteTheme);
-
-    w->setLayout(lay);
 
     initialize();
 

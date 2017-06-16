@@ -51,7 +51,7 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
 
     QWidget *w = new QWidget;
 
-    QVBoxLayout *lay = new QVBoxLayout;
+    QVBoxLayout *lay = new QVBoxLayout(w);
     lay->setMargin(0);
 
     QLabel *lab = new QLabel(i18n("Theme name:"));
@@ -71,12 +71,10 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
     connect(d->mUrlRequester->lineEdit(), &KLineEdit::textChanged, this, &NewThemeDialog::slotUpdateOkButton);
     lay->addWidget(d->mUrlRequester);
 
-    w->setLayout(lay);
-
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(w);
 
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
+    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, this);
     d->mOkButton = buttonBox->button(QDialogButtonBox::Ok);
     d->mOkButton->setShortcut(Qt::CTRL | Qt::Key_Return);
     connect(buttonBox, &QDialogButtonBox::accepted, this, &NewThemeDialog::accept);

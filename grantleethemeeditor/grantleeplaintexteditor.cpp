@@ -58,8 +58,6 @@ void GrantleePlainTextEditor::initCompleter()
 
 void GrantleePlainTextEditor::createCompleterList(const QStringList &extraCompletion)
 {
-    QStringList listWord;
-    listWord << extraCompletion;
     mTextEditorCompleter->setCompleterStringList(extraCompletion);
 }
 

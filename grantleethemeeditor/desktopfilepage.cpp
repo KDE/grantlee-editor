@@ -41,34 +41,34 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     , mFilename(nullptr)
     , mExtraDisplayHeaders(nullptr)
 {
-    QGridLayout *lay = new QGridLayout;
+    QGridLayout *gridLayout = new QGridLayout(this);
     QLabel *lab = new QLabel(i18n("Name:"), this);
     mName = new QLineEdit(this);
     mName->setReadOnly(true);
     int row = 0;
-    lay->addWidget(lab, row, 0);
-    lay->addWidget(mName, row, 1);
+    gridLayout->addWidget(lab, row, 0);
+    gridLayout->addWidget(mName, row, 1);
 
     ++row;
     lab = new QLabel(i18n("Author:"), this);
     mAuthor = new QLineEdit(this);
     mAuthor->setClearButtonEnabled(true);
-    lay->addWidget(lab, row, 0);
-    lay->addWidget(mAuthor, row, 1);
+    gridLayout->addWidget(lab, row, 0);
+    gridLayout->addWidget(mAuthor, row, 1);
 
     ++row;
     lab = new QLabel(i18n("Email:"), this);
     mEmail = new QLineEdit(this);
     mEmail->setClearButtonEnabled(true);
-    lay->addWidget(lab, row, 0);
-    lay->addWidget(mEmail, row, 1);
+    gridLayout->addWidget(lab, row, 0);
+    gridLayout->addWidget(mEmail, row, 1);
 
     ++row;
     lab = new QLabel(i18n("Description:"));
     mDescription = new KPIMTextEdit::PlainTextEditorWidget(this);
     mDescription->editor()->setSearchSupport(false);
-    lay->addWidget(lab, row, 0);
-    lay->addWidget(mDescription, row, 1);
+    gridLayout->addWidget(lab, row, 0);
+    gridLayout->addWidget(mDescription, row, 1);
 
     if (options & SpecifyFileName) {
         ++row;
@@ -76,8 +76,8 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
         mFilename = new QLineEdit(this);
         mFilename->setText(defaultFileName);
         connect(mFilename, &QLineEdit::textChanged, this, &DesktopFilePage::slotFileNameChanged);
-        lay->addWidget(lab, row, 0);
-        lay->addWidget(mFilename, row, 1);
+        gridLayout->addWidget(lab, row, 0);
+        gridLayout->addWidget(mFilename, row, 1);
     }
 
     ++row;
@@ -85,13 +85,13 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     mVersion = new QLineEdit(this);
     mVersion->setClearButtonEnabled(true);
     mVersion->setText(QStringLiteral("0.1"));
-    lay->addWidget(lab, row, 0);
-    lay->addWidget(mVersion, row, 1);
+    gridLayout->addWidget(lab, row, 0);
+    gridLayout->addWidget(mVersion, row, 1);
 
     ++row;
     if (options & ExtraDisplayVariables) {
         lab = new QLabel(i18n("Extract Headers:"), this);
-        lay->addWidget(lab, row, 0);
+        gridLayout->addWidget(lab, row, 0);
 
         ++row;
         lab
@@ -99,16 +99,15 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
                              "Be careful, Grantlee does not support '-' in variable name. So when you want to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in name).")
                          + QStringLiteral("</b></qt>"), this);
         lab->setWordWrap(true);
-        lay->addWidget(lab, row, 0, 1, 2);
+        gridLayout->addWidget(lab, row, 0, 1, 2);
 
         ++row;
         mExtraDisplayHeaders = new KEditListWidget(this);
-        lay->addWidget(mExtraDisplayHeaders, row, 0, 1, 2);
+        gridLayout->addWidget(mExtraDisplayHeaders, row, 0, 1, 2);
         connect(mExtraDisplayHeaders, &KEditListWidget::changed, this, &DesktopFilePage::slotExtraDisplayHeadersChanged);
     } else {
-        lay->setRowStretch(row, 1);
+        gridLayout->setRowStretch(row, 1);
     }
-    setLayout(lay);
 
     mEmail->setText(GrantleeThemeEditor::GrantleeThemeEditorSettings::authorEmail());
     mAuthor->setText(GrantleeThemeEditor::GrantleeThemeEditorSettings::author());
