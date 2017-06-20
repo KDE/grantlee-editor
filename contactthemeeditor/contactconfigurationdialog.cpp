@@ -55,7 +55,7 @@ ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     QLabel *lab = new QLabel(i18n("Default contact:"));
     lay->addWidget(lab);
 
-    mDefaultContact = new Akonadi::ContactEditor(Akonadi::ContactEditor::CreateMode, Akonadi::ContactEditor::VCardMode);
+    mDefaultContact = new Akonadi::AkonadiContactEditor(Akonadi::AkonadiContactEditor::CreateMode, Akonadi::AkonadiContactEditor::VCardMode);
     lay->addWidget(mDefaultContact);
 
     tab->addTab(w, i18n("General"));
