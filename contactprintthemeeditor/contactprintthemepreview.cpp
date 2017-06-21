@@ -33,6 +33,7 @@ ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirecto
     QHBoxLayout *hbox = new QHBoxLayout;
     hbox->setMargin(0);
     mViewer = new QWebEngineView;
+    mViewer->setContextMenuPolicy(Qt::NoContextMenu);
     hbox->addWidget(mViewer);
     setLayout(hbox);
     mGrantleePrint = new KAddressBookGrantlee::GrantleePrint(this);
