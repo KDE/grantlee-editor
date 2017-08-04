@@ -32,6 +32,7 @@
 #include <KRecentFilesAction>
 #include <kns3/knewstuffaction.h>
 #include <KConfigGroup>
+#include <KAuthorized>
 
 #include <QApplication>
 #include <QPointer>
@@ -43,6 +44,7 @@
 ThemeEditorMainWindow::ThemeEditorMainWindow()
     : KXmlGuiWindow()
     , mThemeEditor(nullptr)
+    , mUploadTheme(nullptr)
 {
     setupActions();
     setupGUI();
@@ -78,7 +80,9 @@ void ThemeEditorMainWindow::updateActions()
     const bool projectDirectoryIsEmpty = (mThemeEditor != nullptr);
     mAddExtraPage->setEnabled(projectDirectoryIsEmpty);
     mCloseAction->setEnabled(projectDirectoryIsEmpty);
-    mUploadTheme->setEnabled(projectDirectoryIsEmpty);
+    if (mUploadTheme) {
+        mUploadTheme->setEnabled(projectDirectoryIsEmpty);
+    }
     mSaveAction->setEnabled(projectDirectoryIsEmpty);
     mInstallTheme->setEnabled(projectDirectoryIsEmpty);
     mInsertFile->setEnabled(projectDirectoryIsEmpty);
@@ -101,7 +105,9 @@ void ThemeEditorMainWindow::setupActions()
     connect(mAddExtraPage, &QAction::triggered, this, &ThemeEditorMainWindow::slotAddExtraPage);
     actionCollection()->addAction(QStringLiteral("add_extra_page"), mAddExtraPage);
 
-    mUploadTheme = KNS3::standardAction(i18n("Upload theme..."), this, SLOT(slotUploadTheme()), actionCollection(), "upload_theme");
+    if (KAuthorized::authorize(QStringLiteral("ghns"))) {
+        mUploadTheme = KNS3::standardAction(i18n("Upload theme..."), this, SLOT(slotUploadTheme()), actionCollection(), "upload_theme");
+    }
 
     mNewThemeAction = KStandardAction::openNew(this, &ThemeEditorMainWindow::slotNewTheme, actionCollection());
     mNewThemeAction->setText(i18n("New theme..."));
