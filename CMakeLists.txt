@@ -1,6 +1,7 @@
-project(grantlee-editor)
-
 cmake_minimum_required(VERSION 3.1)
+set(KDEPIM_VERSION_NUMBER "5.6.40")
+project(grantlee-editor VERSION ${KDEPIM_VERSION_NUMBER})
+
 set(KF5_VERSION "5.37.0")
 option(RUN_UNINSTALL "test run uninstalled apps (experimental)" FALSE)
 
@@ -40,7 +41,6 @@ if(DEFINED KDEPIM_DEV_VERSION)
 endif()
 
 
-set(KDEPIM_VERSION_NUMBER "5.6.40")
 set(KDEPIM_VERSION "${KDEPIM_VERSION_NUMBER}${KDEPIM_DEV_VERSION}")
 
 set(MESSAGELIB_LIB_VERSION_LIB "5.6.40")
