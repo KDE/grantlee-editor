@@ -45,8 +45,8 @@ ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &t
     , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("contactthemeeditor")))
     , mChanged(false)
 {
-    QHBoxLayout *lay = new QHBoxLayout;
-    mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget;
+    QHBoxLayout *lay = new QHBoxLayout(this);
+    mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget(this);
     connect(mTabWidget, &GrantleeThemeEditor::ThemeEditorTabWidget::currentChanged, this, &ContactEditorPage::slotCurrentWidgetChanged);
     lay->addWidget(mTabWidget);
     mEditorPage = new EditorPage(EditorPage::MainPage, projectDir);
@@ -69,7 +69,6 @@ ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &t
 
     connect(mDesktopPage, &GrantleeThemeEditor::DesktopFilePage::changed, this, &ContactEditorPage::slotChanged);
     connect(mTabWidget, &GrantleeThemeEditor::ThemeEditorTabWidget::tabCloseRequested, this, &ContactEditorPage::slotCloseTab);
-    setLayout(lay);
 }
 
 ContactEditorPage::~ContactEditorPage()

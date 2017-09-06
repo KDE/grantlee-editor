@@ -47,7 +47,6 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     QPushButton *update = new QPushButton(i18n("Update view"));
     connect(update, &QPushButton::clicked, this, &PreviewWidget::needUpdateViewer);
     lay->addWidget(update);
-    setLayout(lay);
 }
 
 PreviewWidget::~PreviewWidget()

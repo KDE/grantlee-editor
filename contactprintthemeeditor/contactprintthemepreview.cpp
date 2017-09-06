@@ -30,12 +30,11 @@
 ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
 {
-    QHBoxLayout *hbox = new QHBoxLayout;
+    QHBoxLayout *hbox = new QHBoxLayout(this);
     hbox->setMargin(0);
-    mViewer = new QWebEngineView;
+    mViewer = new QWebEngineView(this);
     mViewer->setContextMenuPolicy(Qt::NoContextMenu);
     hbox->addWidget(mViewer);
-    setLayout(hbox);
     mGrantleePrint = new KAddressBookGrantlee::GrantleePrint(this);
     loadConfig();
     if (!projectDirectory.isEmpty()) {
