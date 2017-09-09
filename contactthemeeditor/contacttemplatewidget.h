@@ -43,7 +43,7 @@ Q_SIGNALS:
     void insertTemplate(const QString &);
 
 private:
-    ContactTemplateListWidget *mListTemplate;
+    ContactTemplateListWidget *mListTemplate = nullptr;
 };
 
 #endif // CONTACTTEMPLATEWIDGET_H

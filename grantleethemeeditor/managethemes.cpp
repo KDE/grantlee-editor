@@ -37,14 +37,12 @@ class GrantleeThemeEditor::ManageThemesPrivate
 {
 public:
     ManageThemesPrivate()
-        : mListThemes(nullptr)
-        , mDeleteTheme(nullptr)
     {
     }
 
     QString mLocalDirectory;
-    QListWidget *mListThemes;
-    QPushButton *mDeleteTheme;
+    QListWidget *mListThemes = nullptr;
+    QPushButton *mDeleteTheme = nullptr;
 };
 
 ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)

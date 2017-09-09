@@ -73,11 +73,11 @@ private:
     void createZip(const QString &themeName, KZip *zip);
     EditorPage *createExtraPage(const QString &filename);
     QList<EditorPage *> mExtraPage;
-    GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget;
-    EditorPage *mEditorPage;
-    GrantleeThemeEditor::DesktopFilePage *mDesktopPage;
-    GrantleeThemeEditor::ThemeSession *mThemeSession;
-    bool mChanged;
+    GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget = nullptr;
+    EditorPage *mEditorPage = nullptr;
+    GrantleeThemeEditor::DesktopFilePage *mDesktopPage = nullptr;
+    GrantleeThemeEditor::ThemeSession *mThemeSession = nullptr;
+    bool mChanged = false;
 };
 
 #endif // THEMEEDITORPAGE_H

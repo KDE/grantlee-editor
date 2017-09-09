@@ -40,7 +40,7 @@ protected:
     void keyPressEvent(QKeyEvent *e) override;
 
 protected:
-    KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter;
+    KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter = nullptr;
 private:
     void initCompleter();
     KSyntaxHighlighting::Repository mRepo;

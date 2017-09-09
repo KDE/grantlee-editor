@@ -61,8 +61,8 @@ Q_SIGNALS:
 protected:
     PageType mType;
     QString mPageFileName;
-    GrantleeThemeEditor::PreviewWidget *mPreview;
-    GrantleeThemeEditor::EditorWidget *mEditor;
+    GrantleeThemeEditor::PreviewWidget *mPreview = nullptr;
+    GrantleeThemeEditor::EditorWidget *mEditor = nullptr;
 };
 }
 

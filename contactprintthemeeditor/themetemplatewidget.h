@@ -44,7 +44,7 @@ Q_SIGNALS:
     void insertTemplate(const QString &);
 
 private:
-    ThemeTemplateListWidget *mListTemplate;
+    ThemeTemplateListWidget *mListTemplate = nullptr;
 };
 
 #endif // THEMETEMPLATEWIDGET_H

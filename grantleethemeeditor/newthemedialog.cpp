@@ -33,15 +33,12 @@ class GrantleeThemeEditor::NewThemeDialogPrivate
 {
 public:
     NewThemeDialogPrivate()
-        : mThemeName(nullptr)
-        , mUrlRequester(nullptr)
-        , mOkButton(nullptr)
     {
     }
 
-    KLineEdit *mThemeName;
-    KUrlRequester *mUrlRequester;
-    QPushButton *mOkButton;
+    KLineEdit *mThemeName = nullptr;
+    KUrlRequester *mUrlRequester = nullptr;
+    QPushButton *mOkButton = nullptr;
 };
 NewThemeDialog::NewThemeDialog(QWidget *parent)
     : QDialog(parent)

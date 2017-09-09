@@ -65,13 +65,13 @@ private:
     void slotExtraDisplayHeadersChanged();
     void saveAsFilename(const QString &filename);
     QString mDefaultDesktopName;
-    QLineEdit *mName;
-    KPIMTextEdit::PlainTextEditorWidget *mDescription;
-    QLineEdit *mFilename;
-    QLineEdit *mAuthor;
-    QLineEdit *mEmail;
-    QLineEdit *mVersion;
-    KEditListWidget *mExtraDisplayHeaders;
+    QLineEdit *mName = nullptr;
+    KPIMTextEdit::PlainTextEditorWidget *mDescription = nullptr;
+    QLineEdit *mFilename = nullptr;
+    QLineEdit *mAuthor = nullptr;
+    QLineEdit *mEmail = nullptr;
+    QLineEdit *mVersion = nullptr;
+    KEditListWidget *mExtraDisplayHeaders = nullptr;
 };
 }
 

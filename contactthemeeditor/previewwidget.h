@@ -34,7 +34,7 @@ public:
     void updateViewer() override;
 
 private:
-    ContactPreviewWidget *mPreview;
+    ContactPreviewWidget *mPreview = nullptr;
 };
 
 #endif // PREVIEWWIDGET_H

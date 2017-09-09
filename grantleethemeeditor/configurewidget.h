@@ -40,7 +40,7 @@ public:
     void setDefault();
 
 private:
-    Ui::ConfigureWidget *ui;
+    Ui::ConfigureWidget *ui = nullptr;
 };
 }
 

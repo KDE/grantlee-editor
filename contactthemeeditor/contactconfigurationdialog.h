@@ -45,9 +45,9 @@ public:
 private:
     void slotDefaultClicked();
     void slotOkClicked();
-    GrantleeThemeEditor::ConfigureWidget *mConfigureWidget;
-    KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate;
-    Akonadi::AkonadiContactEditor *mDefaultContact;
+    GrantleeThemeEditor::ConfigureWidget *mConfigureWidget = nullptr;
+    KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate = nullptr;
+    Akonadi::AkonadiContactEditor *mDefaultContact = nullptr;
 };
 
 #endif // CONTACTCONFIGUREDIALOG_H

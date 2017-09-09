@@ -43,8 +43,8 @@ public Q_SLOTS:
 
 private:
     QByteArray mDefaultEmail;
-    MessageViewer::Viewer *mViewer;
-    MessageViewer::GrantleeHeaderTestStyle *mGrantleeHeaderStyle;
+    MessageViewer::Viewer *mViewer = nullptr;
+    MessageViewer::GrantleeHeaderTestStyle *mGrantleeHeaderStyle = nullptr;
 };
 
 #endif // PREVIEWWIDGET_H

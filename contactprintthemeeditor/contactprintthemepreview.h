@@ -46,8 +46,8 @@ Q_SIGNALS:
 
 private:
     KContacts::Addressee mContact;
-    KAddressBookGrantlee::GrantleePrint *mGrantleePrint;
-    QWebEngineView *mViewer;
+    KAddressBookGrantlee::GrantleePrint *mGrantleePrint = nullptr;
+    QWebEngineView *mViewer = nullptr;
 };
 
 #endif // CONTACTPRINTTHEMEPREVIEW_H

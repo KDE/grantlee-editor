@@ -49,13 +49,13 @@ public:
 
 private:
     KContacts::Addressee mContact;
-    Akonadi::ContactViewer *mContactViewer;
-    Akonadi::ContactGroupViewer *mGroupViewer;
+    Akonadi::ContactViewer *mContactViewer = nullptr;
+    Akonadi::ContactGroupViewer *mGroupViewer = nullptr;
 
-    KAddressBookGrantlee::GrantleeContactFormatter *mFormatter;
-    KAddressBookGrantlee::GrantleeContactGroupFormatter *mGroupFormatter;
+    KAddressBookGrantlee::GrantleeContactFormatter *mFormatter = nullptr;
+    KAddressBookGrantlee::GrantleeContactGroupFormatter *mGroupFormatter = nullptr;
 
-    QTabWidget *mTabWidget;
+    QTabWidget *mTabWidget = nullptr;
 };
 
 #endif // CONTACTPREVIEWWIDGET_H

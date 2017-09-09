@@ -67,20 +67,20 @@ private:
     bool saveCurrentProject(ActionSaveTheme act);
     void setupActions();
     void closeThemeEditor();
-    ContactEditorPage *mContactEditor;
-    QAction *mNewThemeAction;
-    QAction *mCloseThemeAction;
-    QAction *mAddExtraPage;
-    QAction *mCloseAction;
-    QAction *mOpenAction;
-    QAction *mUploadTheme;
-    QAction *mSaveAction;
-    QAction *mInstallTheme;
-    QAction *mInsertFile;
-    QAction *mManageTheme;
-    QAction *mUpdateView;
-    QAction *mSaveAsAction;
-    KRecentFilesAction *mRecentFileAction;
+    ContactEditorPage *mContactEditor = nullptr;
+    QAction *mNewThemeAction = nullptr;
+    QAction *mCloseThemeAction = nullptr;
+    QAction *mAddExtraPage = nullptr;
+    QAction *mCloseAction = nullptr;
+    QAction *mOpenAction = nullptr;
+    QAction *mUploadTheme = nullptr;
+    QAction *mSaveAction = nullptr;
+    QAction *mInstallTheme = nullptr;
+    QAction *mInsertFile = nullptr;
+    QAction *mManageTheme = nullptr;
+    QAction *mUpdateView = nullptr;
+    QAction *mSaveAsAction = nullptr;
+    KRecentFilesAction *mRecentFileAction = nullptr;
 };
 
 #endif // CONTACTEDITORMAINWINDOW_H

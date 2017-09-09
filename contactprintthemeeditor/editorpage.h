@@ -40,10 +40,10 @@ public:
     ContactPrintThemePreview *preview() const;
 
 private:
-    ContactPrintThemePreview *mPreview;
-    ThemeTemplateWidget *mThemeTemplate;
-    QSplitter *mMainSplitter;
-    QSplitter *mWidgetSplitter;
+    ContactPrintThemePreview *mPreview = nullptr;
+    ThemeTemplateWidget *mThemeTemplate = nullptr;
+    QSplitter *mMainSplitter = nullptr;
+    QSplitter *mWidgetSplitter = nullptr;
 };
 
 #endif // EDITORPAGE_H

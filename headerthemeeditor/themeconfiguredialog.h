@@ -41,9 +41,9 @@ public:
 private:
     void slotOkClicked();
     void slotDefaultClicked();
-    GrantleeThemeEditor::ConfigureWidget *mConfigureWidget;
-    KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate;
-    KPIMTextEdit::PlainTextEditorWidget *mDefaultEmail;
+    GrantleeThemeEditor::ConfigureWidget *mConfigureWidget = nullptr;
+    KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate = nullptr;
+    KPIMTextEdit::PlainTextEditorWidget *mDefaultEmail = nullptr;
 };
 
 #endif // THEMECONFIGUREDIALOG_H

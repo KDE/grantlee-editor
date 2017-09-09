@@ -39,9 +39,9 @@ public:
     GrantleeThemeEditor::PreviewWidget *preview() const;
 
 private:
-    ThemeTemplateWidget *mThemeTemplate;
-    QSplitter *mMainSplitter;
-    QSplitter *mWidgetSplitter;
+    ThemeTemplateWidget *mThemeTemplate = nullptr;
+    QSplitter *mMainSplitter = nullptr;
+    QSplitter *mWidgetSplitter = nullptr;
 };
 
 #endif // EDITORPAGE_H

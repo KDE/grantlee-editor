@@ -73,14 +73,14 @@ private:
     EditorPage *createCustomPage(const QString &filename);
     QList<EditorPage *> mExtraPage;
 
-    GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget;
-    EditorPage *mEditorPage;
-    EditorPage *mEditorGroupPage;
-    EditorPage *mEditorGroupEmbeddedPage;
-    EditorPage *mEditorEmbeddedPage;
-    GrantleeThemeEditor::DesktopFilePage *mDesktopPage;
-    GrantleeThemeEditor::ThemeSession *mThemeSession;
-    bool mChanged;
+    GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget = nullptr;
+    EditorPage *mEditorPage = nullptr;
+    EditorPage *mEditorGroupPage = nullptr;
+    EditorPage *mEditorGroupEmbeddedPage = nullptr;
+    EditorPage *mEditorEmbeddedPage = nullptr;
+    GrantleeThemeEditor::DesktopFilePage *mDesktopPage = nullptr;
+    GrantleeThemeEditor::ThemeSession *mThemeSession = nullptr;
+    bool mChanged = false;
 };
 
 #endif // CONTACTEDITORPAGE_H

@@ -70,22 +70,22 @@ private:
     bool saveCurrentProject(ActionSaveTheme act);
     void setupActions();
     void closeThemeEditor();
-    ThemeEditorPage *mThemeEditor;
-    QAction *mNewThemeAction;
-    QAction *mCloseThemeAction;
-    QAction *mAddExtraPage;
-    QAction *mCloseAction;
-    QAction *mOpenAction;
-    QAction *mUploadTheme;
-    QAction *mSaveAction;
-    QAction *mInstallTheme;
-    QAction *mInsertFile;
-    QAction *mManageTheme;
-    QAction *mUpdateView;
-    QAction *mSaveAsAction;
-    KToggleAction *mPrintingMode;
-    KToggleAction *mNormalMode;
-    KRecentFilesAction *mRecentFileAction;
+    ThemeEditorPage *mThemeEditor = nullptr;
+    QAction *mNewThemeAction = nullptr;
+    QAction *mCloseThemeAction = nullptr;
+    QAction *mAddExtraPage = nullptr;
+    QAction *mCloseAction = nullptr;
+    QAction *mOpenAction = nullptr;
+    QAction *mUploadTheme = nullptr;
+    QAction *mSaveAction = nullptr;
+    QAction *mInstallTheme = nullptr;
+    QAction *mInsertFile = nullptr;
+    QAction *mManageTheme = nullptr;
+    QAction *mUpdateView = nullptr;
+    QAction *mSaveAsAction = nullptr;
+    KToggleAction *mPrintingMode = nullptr;
+    KToggleAction *mNormalMode = nullptr;
+    KRecentFilesAction *mRecentFileAction = nullptr;
 };
 
 #endif // THEMEEDITORMAINWINDOW_H

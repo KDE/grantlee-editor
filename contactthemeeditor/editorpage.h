@@ -39,9 +39,9 @@ public:
     GrantleeThemeEditor::PreviewWidget *preview() const;
 
 private:
-    ContactTemplateWidget *mContactTemplate;
-    QSplitter *mMainSplitter;
-    QSplitter *mWidgetSplitter;
+    ContactTemplateWidget *mContactTemplate = nullptr;
+    QSplitter *mMainSplitter = nullptr;
+    QSplitter *mWidgetSplitter = nullptr;
 };
 
 #endif // EDITORPAGE_H
