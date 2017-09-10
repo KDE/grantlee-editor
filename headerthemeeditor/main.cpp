@@ -55,7 +55,6 @@ int main(int argc, char **argv)
     aboutData.setOrganizationDomain(QByteArray("kde.org"));
     aboutData.setProductName(QByteArray("headerthemeeditor"));
 
-
     KAboutData::setApplicationData(aboutData);
 
     QCommandLineParser parser;
