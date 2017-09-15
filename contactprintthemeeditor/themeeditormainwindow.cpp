@@ -25,7 +25,6 @@
 
 #include <KStandardAction>
 #include <QAction>
-#include <KToggleAction>
 #include <KActionCollection>
 #include <KLocalizedString>
 #include <KMessageBox>
@@ -37,7 +36,6 @@
 #include <QApplication>
 #include <QPointer>
 #include <QCloseEvent>
-#include <QActionGroup>
 #include <KSharedConfig>
 #include <QStandardPaths>
 #include <KAuthorized>

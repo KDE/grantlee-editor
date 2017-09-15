@@ -19,7 +19,6 @@
 
 #include "themedefaulttemplate.h"
 
-#include <KLocalizedString>
 
 QVector<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
 {

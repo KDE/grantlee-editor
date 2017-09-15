@@ -22,12 +22,9 @@
 #include <KSyntaxHighlighting/Definition>
 #include <KSyntaxHighlighting/Theme>
 
-#include <QStringListModel>
-#include <QCompleter>
 #include <QKeyEvent>
-#include <QScrollBar>
 #include <QAbstractItemView>
-
+#include <QCompleter>
 #include <KPIMTextEdit/TextEditorCompleter>
 
 using namespace GrantleeThemeEditor;
