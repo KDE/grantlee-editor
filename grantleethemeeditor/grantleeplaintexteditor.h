@@ -20,7 +20,6 @@
 #define GRANTLEEPLAINTEXTEDITOR_H
 
 #include "kpimtextedit/plaintexteditor.h"
-#include "config-grantleethemeeditor.h"
 #include <KSyntaxHighlighting/Repository>
 
 namespace KPIMTextEdit {

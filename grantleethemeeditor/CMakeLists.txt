@@ -1,7 +1,5 @@
 add_definitions(-DTRANSLATION_DOMAIN=\"libgrantleethemeeditor\")
 
-configure_file(config-grantleethemeeditor.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-grantleethemeeditor.h)
-
 
 set(libgrantleethemeeditor_SRCS 
     newthemedialog.cpp
