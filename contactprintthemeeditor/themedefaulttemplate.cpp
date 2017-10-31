@@ -19,7 +19,6 @@
 
 #include "themedefaulttemplate.h"
 
-
 QVector<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
 {
     QVector<PimCommon::defaultTemplate> lst;
