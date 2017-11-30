@@ -46,8 +46,7 @@ ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     QTabWidget *tab = new QTabWidget;
 
     QWidget *w = new QWidget;
-    QVBoxLayout *lay = new QVBoxLayout;
-    w->setLayout(lay);
+    QVBoxLayout *lay = new QVBoxLayout(w);
 
     mConfigureWidget = new GrantleeThemeEditor::ConfigureWidget;
     lay->addWidget(mConfigureWidget);
