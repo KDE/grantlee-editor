@@ -59,7 +59,7 @@ Q_SIGNALS:
     void changed(bool);
     void canInsertFile(bool);
 
-private Q_SLOTS:
+private:
     void slotUpdateViewer();
     void slotCloseTab(int);
     void slotChanged();

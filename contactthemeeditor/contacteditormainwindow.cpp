@@ -42,8 +42,6 @@
 
 ContactEditorMainWindow::ContactEditorMainWindow()
     : KXmlGuiWindow()
-    , mContactEditor(nullptr)
-    , mUploadTheme(nullptr)
 {
     setupActions();
     setupGUI();

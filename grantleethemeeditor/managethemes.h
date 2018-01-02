@@ -31,7 +31,7 @@ public:
     explicit ManageThemes(const QString &relativeThemePath, QWidget *parent = nullptr);
     ~ManageThemes();
 
-private Q_SLOTS:
+private:
     void slotItemSelectionChanged();
     void slotDeleteTheme();
 

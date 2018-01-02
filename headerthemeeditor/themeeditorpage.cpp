@@ -42,7 +42,6 @@
 ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)
     , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("headerthemeeditor")))
-    , mChanged(false)
 {
     QHBoxLayout *lay = new QHBoxLayout(this);
     mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget;

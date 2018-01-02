@@ -37,7 +37,7 @@ public:
 protected:
     void closeEvent(QCloseEvent *) override;
 
-private Q_SLOTS:
+private:
     void slotNewTheme();
     void slotCloseTheme();
     void slotAddExtraPage();
