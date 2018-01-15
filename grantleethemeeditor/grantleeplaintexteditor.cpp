@@ -17,6 +17,7 @@
    Boston, MA 02110-1301, USA.
 */
 #include "grantleeplaintexteditor.h"
+#include "grantleethemeeditor_debug.h"
 
 #include <KSyntaxHighlighting/SyntaxHighlighter>
 #include <KSyntaxHighlighting/Definition>
@@ -34,6 +35,9 @@ GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
 {
     KSyntaxHighlighting::Definition def;
     def = mRepo.definitionForName(QStringLiteral("HTML"));
+    if (!def.isValid()) {
+        qCWarning(GRANTLEETHEMEEDITOR_LOG) << "Invalid definition name";
+    }
 
     KSyntaxHighlighting::SyntaxHighlighter *hl = new KSyntaxHighlighting::SyntaxHighlighter(document());
     hl->setTheme((palette().color(QPalette::Base).lightness() < 128)
