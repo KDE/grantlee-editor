@@ -33,8 +33,7 @@ using namespace GrantleeThemeEditor;
 GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
     : KPIMTextEdit::PlainTextEditor(parent)
 {
-    KSyntaxHighlighting::Definition def;
-    def = mRepo.definitionForName(QStringLiteral("HTML"));
+    const KSyntaxHighlighting::Definition def = mRepo.definitionForName(QStringLiteral("HTML"));
     if (!def.isValid()) {
         qCWarning(GRANTLEETHEMEEDITOR_LOG) << "Invalid definition name";
     }
