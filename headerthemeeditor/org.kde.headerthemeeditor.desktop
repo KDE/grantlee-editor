@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=KMail Header Theme Editor
+Name[ar]=محرّر سمات ترويسات «بريدك»
 Name[bs]=Uređivač KMail tema zaglavlja
 Name[ca]=Editor de temes de capçalera pel KMail
 Name[ca@valencia]=Editor de temes de capçalera pel KMail
@@ -43,6 +44,7 @@ Exec=headerthemeeditor
 Icon=kmail
 X-DocPath=headerthemeeditor/index.html
 GenericName=Mail Header Theme Editor
+GenericName[ar]=محرّر سمات ترويسات البريد
 GenericName[bs]=Uređivač tema zaglavlja pošte
 GenericName[ca]=Editor de temes de capçalera pel correu
 GenericName[ca@valencia]=Editor de temes de capçalera pel correu
