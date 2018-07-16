@@ -25,7 +25,7 @@ class ContactEditorWidget : public GrantleeThemeEditor::EditorWidget
     Q_OBJECT
 public:
     explicit ContactEditorWidget(QWidget *parent = nullptr);
-    ~ContactEditorWidget();
+    ~ContactEditorWidget() override;
 
 public Q_SLOTS:
     void createCompleterList(const QStringList &extraCompletion = QStringList()) override;

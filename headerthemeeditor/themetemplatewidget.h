@@ -27,7 +27,7 @@ class ThemeTemplateListWidget : public PimCommon::TemplateListWidget
     Q_OBJECT
 public:
     explicit ThemeTemplateListWidget(const QString &configName, QWidget *parent = nullptr);
-    ~ThemeTemplateListWidget();
+    ~ThemeTemplateListWidget() override;
 
     QVector<PimCommon::defaultTemplate> defaultTemplates() override;
 };

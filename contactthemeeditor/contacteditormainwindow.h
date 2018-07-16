@@ -31,7 +31,7 @@ class ContactEditorMainWindow : public KXmlGuiWindow
     Q_OBJECT
 public:
     explicit ContactEditorMainWindow();
-    ~ContactEditorMainWindow();
+    ~ContactEditorMainWindow() override;
 
 protected:
     void closeEvent(QCloseEvent *) override;

@@ -26,7 +26,7 @@ class ThemeEditorWidget : public GrantleeThemeEditor::EditorWidget
     Q_OBJECT
 public:
     explicit ThemeEditorWidget(QWidget *parent = nullptr);
-    ~ThemeEditorWidget();
+    ~ThemeEditorWidget() override;
 
 public Q_SLOTS:
     void createCompleterList(const QStringList &extraCompletion = QStringList()) override;

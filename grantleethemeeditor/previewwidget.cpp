@@ -53,10 +53,13 @@ void PreviewWidget::loadConfig()
 
 void PreviewWidget::createScreenShot(const QStringList &lstFileName)
 {
+    Q_UNUSED(lstFileName);
 }
 
 void PreviewWidget::setThemePath(const QString &projectDirectory, const QString &mainPageFileName)
 {
+    Q_UNUSED(projectDirectory);
+    Q_UNUSED(mainPageFileName);
 }
 
 void PreviewWidget::slotMainFileNameChanged(const QString &)
@@ -65,4 +68,5 @@ void PreviewWidget::slotMainFileNameChanged(const QString &)
 
 void PreviewWidget::slotExtraHeaderDisplayChanged(const QStringList &headers)
 {
+    Q_UNUSED(headers);
 }

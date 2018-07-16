@@ -34,7 +34,7 @@ class ContactPrintThemePreview : public GrantleeThemeEditor::PreviewWidget
     Q_OBJECT
 public:
     explicit ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent = nullptr);
-    ~ContactPrintThemePreview();
+    ~ContactPrintThemePreview() override;
 
     void updateViewer() override;
     void createScreenShot(const QStringList &fileName) override;

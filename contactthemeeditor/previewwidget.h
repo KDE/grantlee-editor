@@ -26,7 +26,7 @@ class PreviewWidget : public GrantleeThemeEditor::PreviewWidget
     Q_OBJECT
 public:
     explicit PreviewWidget(const QString &projectDirectory, QWidget *parent = nullptr);
-    ~PreviewWidget();
+    ~PreviewWidget() override;
 
     void createScreenShot(const QStringList &fileList) override;
     void loadConfig() override;

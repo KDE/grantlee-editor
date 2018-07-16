@@ -32,7 +32,7 @@ class ThemeEditorMainWindow : public KXmlGuiWindow
     Q_OBJECT
 public:
     explicit ThemeEditorMainWindow();
-    ~ThemeEditorMainWindow();
+    ~ThemeEditorMainWindow() override;
 
 protected:
     void closeEvent(QCloseEvent *) override;

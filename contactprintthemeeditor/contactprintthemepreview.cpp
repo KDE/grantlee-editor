@@ -57,7 +57,8 @@ void ContactPrintThemePreview::updateViewer()
 
 void ContactPrintThemePreview::createScreenShot(const QStringList &fileName)
 {
-    //TODO
+    Q_UNUSED(fileName);
+    qCWarning(CONTACTPRINTTHEMEEDITOR_LOG) << "Create screenshot not implemented yet";
 }
 
 void ContactPrintThemePreview::setThemePath(const QString &projectDirectory, const QString &mainPageFileName)

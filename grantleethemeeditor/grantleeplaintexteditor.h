@@ -31,7 +31,7 @@ class GrantleePlainTextEditor : public KPIMTextEdit::PlainTextEditor
     Q_OBJECT
 public:
     explicit GrantleePlainTextEditor(QWidget *parent = nullptr);
-    ~GrantleePlainTextEditor();
+    ~GrantleePlainTextEditor() override;
 
     void createCompleterList(const QStringList &extraCompletion);
 
