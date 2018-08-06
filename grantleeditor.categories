@@ -1,5 +1,5 @@
-org.kde.pim.contactprintthemeeditor grantleeeditor (contactprintthemeeditor)
-org.kde.pim.headerthemeeditor grantleeeditor (headerthemeeditor)
-org.kde.pim.contactthemeeditor grantleeeditor (contactthemeeditor)
-org.kde.pim.grantleethemeeditor grantleeeditor (grantleethemeeditor)
+org.kde.pim.contactprintthemeeditor grantleeeditor (contactprintthemeeditor) IDENTIFIER [CONTACTPRINTTHEMEEDITOR_LOG]
+org.kde.pim.headerthemeeditor grantleeeditor (headerthemeeditor) IDENTIFIER [GRANTLEETHEMEEDITOR_LOG]
+org.kde.pim.contactthemeeditor grantleeeditor (contactthemeeditor) IDENTIFIER [CONTACTTHEMEEDITOR_LOG]
+org.kde.pim.grantleethemeeditor grantleeeditor (grantleethemeeditor) IDENTIFIER [HEADERTHEMEEDITOR_LOG]
 
