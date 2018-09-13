@@ -16,8 +16,8 @@
    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
    Boston, MA 02110-1301, USA.
 */
-#ifndef CONTACTCONFIGUREDIALOG_H
-#define CONTACTCONFIGUREDIALOG_H
+#ifndef CONTACTCONFIGURATIONDIALOG_H
+#define CONTACTCONFIGURATIONDIALOG_H
 
 #include <QDialog>
 
@@ -50,4 +50,4 @@ private:
     Akonadi::AkonadiContactEditor *mDefaultContact = nullptr;
 };
 
-#endif // CONTACTCONFIGUREDIALOG_H
+#endif // CONTACTCONFIGURATIONDIALOG_H
