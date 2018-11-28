@@ -56,7 +56,7 @@ ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &theme
     opt |= GrantleeThemeEditor::DesktopFilePage::ExtraDisplayVariables;
     opt |= GrantleeThemeEditor::DesktopFilePage::SpecifyFileName;
 
-    mDesktopPage = new GrantleeThemeEditor::DesktopFilePage(QStringLiteral("header.html"), opt);
+    mDesktopPage = new GrantleeThemeEditor::DesktopFilePage(QStringLiteral("header.html"), opt, this);
     mDesktopPage->setDefaultDesktopName(QStringLiteral("header.desktop"));
     mDesktopPage->setThemeName(themeName);
     mTabWidget->addTab(mDesktopPage, i18n("Desktop File"));

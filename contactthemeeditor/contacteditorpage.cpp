@@ -62,7 +62,7 @@ ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &t
     mEditorGroupEmbeddedPage = createCustomPage(QStringLiteral("contactgroup_embedded.html"));
 
     GrantleeThemeEditor::DesktopFilePage::DesktopFileOptions opt;
-    mDesktopPage = new GrantleeThemeEditor::DesktopFilePage(QStringLiteral("contact.html"), opt);
+    mDesktopPage = new GrantleeThemeEditor::DesktopFilePage(QStringLiteral("contact.html"), opt, this);
     mDesktopPage->setDefaultDesktopName(QStringLiteral("theme.desktop"));
     mDesktopPage->setThemeName(themeName);
     mTabWidget->addTab(mDesktopPage, i18n("Desktop File"));
