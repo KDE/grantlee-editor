@@ -49,7 +49,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 
         mWidgetSplitter->addWidget(mMainSplitter);
 
-        mPreview = new PreviewWidget(projectDirectory);
+        mPreview = new PreviewWidget(projectDirectory, this);
         mWidgetSplitter->addWidget(mPreview);
         connect(mPreview, &PreviewWidget::needUpdateViewer, this, &EditorPage::needUpdateViewer);
     } else {
