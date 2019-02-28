@@ -33,7 +33,7 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
 {
     QVBoxLayout *lay = new QVBoxLayout(this);
-    lay->setMargin(0);
+    lay->setContentsMargins(0, 0, 0, 0);
     mViewer = new MessageViewer::Viewer(this);
     mGrantleeHeaderStyle = new MessageViewer::GrantleeHeaderTestStyle;
     mGrantleeHeaderStyle->setAbsolutePath(projectDirectory);

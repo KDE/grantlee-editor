@@ -41,7 +41,7 @@ ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWid
     : QWidget(parent)
 {
     QHBoxLayout *lay = new QHBoxLayout(this);
-    lay->setMargin(0);
+    lay->setContentsMargins(0, 0, 0, 0);
     mTabWidget = new QTabWidget;
 
     mContactViewer = new Akonadi::ContactViewer;

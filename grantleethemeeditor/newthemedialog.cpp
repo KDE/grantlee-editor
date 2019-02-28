@@ -49,7 +49,7 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
     QWidget *w = new QWidget;
 
     QVBoxLayout *lay = new QVBoxLayout(w);
-    lay->setMargin(0);
+    lay->setContentsMargins(0, 0, 0, 0);
 
     QLabel *lab = new QLabel(i18n("Theme name:"));
     lay->addWidget(lab);
