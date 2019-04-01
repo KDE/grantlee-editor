@@ -18,7 +18,7 @@
 */
 #include "grantleeeditor-version.h"
 #include "contacteditormainwindow.h"
-#include <qapplication.h>
+#include <QApplication>
 #include <kaboutdata.h>
 #include <KDBusService>
 #include <KLocalizedString>

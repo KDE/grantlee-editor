@@ -20,7 +20,7 @@
 
 #include "grantleeeditor-version.h"
 
-#include <qapplication.h>
+#include <QApplication>
 #include <QCommandLineParser>
 #include <kaboutdata.h>
 #include <KLocalizedString>
