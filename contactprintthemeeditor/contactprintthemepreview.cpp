@@ -29,17 +29,14 @@
 
 ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
+    , mThemePath(projectDirectory)
 {
     QHBoxLayout *hbox = new QHBoxLayout(this);
     hbox->setContentsMargins(0, 0, 0, 0);
     mViewer = new QWebEngineView(this);
     mViewer->setContextMenuPolicy(Qt::NoContextMenu);
     hbox->addWidget(mViewer);
-    mGrantleePrint = new KAddressBookGrantlee::GrantleePrint(this);
     loadConfig();
-    if (!projectDirectory.isEmpty()) {
-        mGrantleePrint->changeGrantleePath(projectDirectory);
-    }
 }
 
 ContactPrintThemePreview::~ContactPrintThemePreview()
@@ -50,8 +47,9 @@ void ContactPrintThemePreview::updateViewer()
 {
     KContacts::AddresseeList lst;
     lst << mContact;
-    mGrantleePrint->refreshTemplate();
-    const QString html = mGrantleePrint->contactsToHtml(lst);
+    KAddressBookGrantlee::GrantleePrint grantleePrint(mThemePath);
+    grantleePrint.setApplicationDomain("kaddressbook");
+    const QString html = grantleePrint.contactsToHtml(lst);
     mViewer->setHtml(html);
 }
 
@@ -64,7 +62,7 @@ void ContactPrintThemePreview::createScreenShot(const QStringList &fileName)
 void ContactPrintThemePreview::setThemePath(const QString &projectDirectory, const QString &mainPageFileName)
 {
     Q_UNUSED(mainPageFileName);
-    mGrantleePrint->changeGrantleePath(projectDirectory);
+    mThemePath = projectDirectory;
 }
 
 void ContactPrintThemePreview::loadConfig()
