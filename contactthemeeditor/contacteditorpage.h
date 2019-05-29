@@ -71,7 +71,7 @@ private:
     void createZip(const QString &themeName, KZip *zip);
     EditorPage *createExtraPage(const QString &filename);
     EditorPage *createCustomPage(const QString &filename);
-    QList<EditorPage *> mExtraPage;
+    QVector<EditorPage *> mExtraPage;
 
     GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget = nullptr;
     EditorPage *mEditorPage = nullptr;
