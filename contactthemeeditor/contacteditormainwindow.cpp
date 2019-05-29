@@ -110,7 +110,7 @@ void ContactEditorMainWindow::setupActions()
     mOpenAction = KStandardAction::open(this, &ContactEditorMainWindow::slotOpenTheme, actionCollection());
     mOpenAction->setText(i18n("Open theme..."));
     mSaveAction = KStandardAction::save(this, &ContactEditorMainWindow::slotSaveTheme, actionCollection());
-    mSaveAction->setText(i18n("Save theme..."));
+    mSaveAction->setText(i18n("Save theme"));
     mSaveAsAction = KStandardAction::saveAs(this, &ContactEditorMainWindow::slotSaveAsTheme, actionCollection());
     mSaveAsAction->setText(i18n("Save theme as..."));
 

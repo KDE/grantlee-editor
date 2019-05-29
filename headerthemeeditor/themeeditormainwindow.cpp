@@ -115,7 +115,7 @@ void ThemeEditorMainWindow::setupActions()
     mOpenAction = KStandardAction::open(this, &ThemeEditorMainWindow::slotOpenTheme, actionCollection());
     mOpenAction->setText(i18n("Open theme..."));
     mSaveAction = KStandardAction::save(this, &ThemeEditorMainWindow::slotSaveTheme, actionCollection());
-    mSaveAction->setText(i18n("Save theme..."));
+    mSaveAction->setText(i18n("Save theme"));
 
     mSaveAsAction = KStandardAction::saveAs(this, &ThemeEditorMainWindow::slotSaveAsTheme, actionCollection());
     mSaveAsAction->setText(i18n("Save theme as..."));
