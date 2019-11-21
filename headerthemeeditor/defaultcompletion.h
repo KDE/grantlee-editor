@@ -22,8 +22,8 @@
 #include <QStringList>
 
 namespace DefaultCompletion {
-QStringList defaultCompetion();
-QStringList defaultOptions();
+Q_REQUIRED_RESULT QStringList defaultCompetion();
+Q_REQUIRED_RESULT QStringList defaultOptions();
 }
 
 #endif // DEFAULTCOMPLETION_H

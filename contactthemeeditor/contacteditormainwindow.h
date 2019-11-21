@@ -45,7 +45,7 @@ private:
     void slotAddExtraPage();
     void slotOpenTheme();
     void slotQuitApp();
-    bool slotSaveTheme();
+    Q_REQUIRED_RESULT bool slotSaveTheme();
     void slotInstallTheme();
     void slotInsertFile();
     void slotManageTheme();
@@ -66,7 +66,7 @@ private:
     bool loadTheme(const QString &directory);
     void readConfig();
     void updateActions();
-    bool saveCurrentProject(ActionSaveTheme act);
+    Q_REQUIRED_RESULT bool saveCurrentProject(ActionSaveTheme act);
     void setupActions();
     void closeThemeEditor();
     ContactEditorPage *mContactEditor = nullptr;

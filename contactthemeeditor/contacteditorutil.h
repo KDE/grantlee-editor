@@ -25,7 +25,7 @@ class ContactEditorUtil
 {
 public:
     ContactEditorUtil();
-    QString defaultContact() const;
+    Q_REQUIRED_RESULT QString defaultContact() const;
 };
 
 #endif

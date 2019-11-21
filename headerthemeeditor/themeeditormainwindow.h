@@ -46,7 +46,7 @@ private:
     void slotAddExtraPage();
     void slotOpenTheme();
     void slotQuitApp();
-    bool slotSaveTheme();
+    Q_REQUIRED_RESULT bool slotSaveTheme();
     void slotConfigure();
     void slotInstallTheme();
     void slotInsertFile();

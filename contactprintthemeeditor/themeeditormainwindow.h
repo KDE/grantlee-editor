@@ -63,11 +63,11 @@ private:
         SaveAndCreateNewTheme
     };
 
-    bool loadTheme(const QString &directory);
+    Q_REQUIRED_RESULT bool loadTheme(const QString &directory);
     void writeConfig();
     void readConfig();
     void updateActions();
-    bool saveCurrentProject(ActionSaveTheme act);
+    Q_REQUIRED_RESULT bool saveCurrentProject(ActionSaveTheme act);
     void setupActions();
     void closeThemeEditor();
     ThemeEditorPage *mThemeEditor = nullptr;

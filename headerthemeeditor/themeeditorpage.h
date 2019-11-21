@@ -45,7 +45,7 @@ public:
     void uploadTheme();
     void installTheme(const QString &themePath);
 
-    bool themeWasChanged() const;
+    Q_REQUIRED_RESULT bool themeWasChanged() const;
 
     void reloadConfig();
 
