@@ -99,7 +99,7 @@ void ContactEditorPage::setChanged(bool b)
 void ContactEditorPage::slotUpdateViewer()
 {
     if (themeWasChanged()) {
-        saveTheme(false);
+        (void)saveTheme(false);
     }
     mEditorPage->preview()->updateViewer();
 }

@@ -22,7 +22,7 @@
 #include <PimCommon/TemplateListWidget>
 
 namespace ContactDefaultTemplate {
-QVector<PimCommon::defaultTemplate> contactTemplates();
+Q_REQUIRED_RESULT QVector<PimCommon::defaultTemplate> contactTemplates();
 }
 
 #endif // CONTACTDEFAULTTEMPLATE_H

@@ -31,8 +31,8 @@ public:
     explicit NewThemeDialog(QWidget *parent = nullptr);
     ~NewThemeDialog();
 
-    QString themeName() const;
-    QString directory() const;
+    Q_REQUIRED_RESULT QString themeName() const;
+    Q_REQUIRED_RESULT QString directory() const;
 
 private:
     void slotUpdateOkButton();

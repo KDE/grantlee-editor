@@ -36,7 +36,7 @@ public:
     virtual void setThemePath(const QString &projectDirectory, const QString &mainPageFileName);
 
     void setPrinting(bool printMode);
-    bool printing() const;
+    Q_REQUIRED_RESULT bool printing() const;
 
 public Q_SLOTS:
     virtual void slotMainFileNameChanged(const QString &);

@@ -25,7 +25,7 @@ class ThemeEditorUtil
 {
 public:
     ThemeEditorUtil();
-    QString defaultMail() const;
+    Q_REQUIRED_RESULT QString defaultMail() const;
 };
 
 #endif // THEMEEDITORUTIL_H

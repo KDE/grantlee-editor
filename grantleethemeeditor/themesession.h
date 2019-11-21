@@ -28,16 +28,16 @@ class GRANTLEETHEMEEDITOR_EXPORT ThemeSession
 public:
     ThemeSession(const QString &projectDirectory, const QString &themeTypeName);
     ~ThemeSession();
-    bool loadSession(const QString &session);
+    Q_REQUIRED_RESULT bool loadSession(const QString &session);
     void writeSession(const QString &directory = QString());
 
-    QString projectDirectory() const;
+    Q_REQUIRED_RESULT QString projectDirectory() const;
 
     void addExtraPage(const QString &filename);
-    QStringList extraPages() const;
+    Q_REQUIRED_RESULT QStringList extraPages() const;
 
     void setMainPageFileName(const QString &filename);
-    QString mainPageFileName() const;
+    Q_REQUIRED_RESULT QString mainPageFileName() const;
 
 private:
     QString mProjectDirectory;

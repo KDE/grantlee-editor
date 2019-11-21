@@ -36,7 +36,7 @@ public:
     explicit ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = nullptr);
     ~ContactEditorPage();
 
-    bool saveTheme(bool withConfirmation = true);
+    Q_REQUIRED_RESULT bool saveTheme(bool withConfirmation = true);
     void loadTheme(const QString &filename);
 
     void addExtraPage();
@@ -44,7 +44,7 @@ public:
     void uploadTheme();
     void installTheme(const QString &themePath);
 
-    bool themeWasChanged() const;
+    Q_REQUIRED_RESULT bool themeWasChanged() const;
 
     void reloadConfig();
 
@@ -67,7 +67,7 @@ private:
 private:
     void setChanged(bool b);
     void storeTheme(const QString &directory = QString());
-    QString projectDirectory() const;
+    Q_REQUIRED_RESULT QString projectDirectory() const;
     void createZip(const QString &themeName, KZip *zip);
     EditorPage *createExtraPage(const QString &filename);
     EditorPage *createCustomPage(const QString &filename);

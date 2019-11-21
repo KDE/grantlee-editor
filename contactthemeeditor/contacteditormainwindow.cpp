@@ -189,7 +189,7 @@ bool ContactEditorMainWindow::slotSaveTheme()
 
 void ContactEditorMainWindow::slotCloseTheme()
 {
-    saveCurrentProject(SaveAndCloseTheme);
+    (void)saveCurrentProject(SaveAndCloseTheme);
 }
 
 void ContactEditorMainWindow::slotOpenTheme()
@@ -286,7 +286,7 @@ bool ContactEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
 
 void ContactEditorMainWindow::slotNewTheme()
 {
-    saveCurrentProject(SaveAndCreateNewTheme);
+    (void)saveCurrentProject(SaveAndCreateNewTheme);
 }
 
 void ContactEditorMainWindow::closeEvent(QCloseEvent *e)
@@ -310,7 +310,7 @@ void ContactEditorMainWindow::slotQuitApp()
 void ContactEditorMainWindow::slotUpdateView()
 {
     if (mContactEditor) {
-        mContactEditor->saveTheme(false);
+        (void)mContactEditor->saveTheme(false);
         mContactEditor->updatePreview();
     }
 }
@@ -325,7 +325,7 @@ void ContactEditorMainWindow::slotThemeSelected(const QUrl &url)
     if (!saveCurrentProject(SaveAndCloseTheme)) {
         return;
     }
-    loadTheme(url.path());
+    (void)loadTheme(url.path());
     mSaveAction->setEnabled(false);
 }
 

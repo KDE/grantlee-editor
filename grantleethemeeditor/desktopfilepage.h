@@ -46,11 +46,11 @@ public:
     void loadTheme(const QString &path);
 
     void setThemeName(const QString &themeName);
-    QString filename() const;
+    Q_REQUIRED_RESULT QString filename() const;
 
-    QString description() const;
+    Q_REQUIRED_RESULT QString description() const;
 
-    QString themeName() const;
+    Q_REQUIRED_RESULT QString themeName() const;
     void createZip(const QString &themeName, KZip *zip);
     void installTheme(const QString &themePath);
     void setDefaultDesktopName(const QString &name);
