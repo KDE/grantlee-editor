@@ -19,7 +19,7 @@
 #include "grantleeeditor-version.h"
 #include "contacteditormainwindow.h"
 #include <QApplication>
-#include <kaboutdata.h>
+#include <KAboutData>
 #include <KDBusService>
 #include <KLocalizedString>
 #include <Kdelibs4ConfigMigrator>

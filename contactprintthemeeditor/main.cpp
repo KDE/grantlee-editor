@@ -20,7 +20,7 @@
 #include "grantleeeditor-version.h"
 #include "themeeditormainwindow.h"
 #include <QApplication>
-#include <kaboutdata.h>
+#include <KAboutData>
 #include <KDBusService>
 #include <KLocalizedString>
 #include <QCommandLineParser>

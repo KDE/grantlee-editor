@@ -22,7 +22,7 @@
 
 #include <QApplication>
 #include <QCommandLineParser>
-#include <kaboutdata.h>
+#include <KAboutData>
 #include <KLocalizedString>
 #include <Kdelibs4ConfigMigrator>
 #include <KCrash>
