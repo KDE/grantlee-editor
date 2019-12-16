@@ -50,7 +50,7 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
     , d(new GrantleeThemeEditor::ManageThemesPrivate)
 {
     d->mLocalDirectory = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1Char('/') + relativeThemePath;
-    setWindowTitle(i18n("Manage Theme"));
+    setWindowTitle(i18nc("@title:window", "Manage Theme"));
     QWidget *w = new QWidget;
 
     QVBoxLayout *lay = new QVBoxLayout(w);

@@ -41,7 +41,7 @@
 ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     : QDialog(parent)
 {
-    setWindowTitle(i18n("Configure"));
+    setWindowTitle(i18nc("@title:window", "Configure"));
 
     QTabWidget *tab = new QTabWidget;
 

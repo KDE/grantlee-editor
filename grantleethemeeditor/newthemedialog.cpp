@@ -44,7 +44,7 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
     : QDialog(parent)
     , d(new GrantleeThemeEditor::NewThemeDialogPrivate)
 {
-    setWindowTitle(i18n("New Theme"));
+    setWindowTitle(i18nc("@title:window", "New Theme"));
 
     QWidget *w = new QWidget;
 
