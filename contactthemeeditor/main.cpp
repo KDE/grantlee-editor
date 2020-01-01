@@ -46,7 +46,7 @@ int main(int argc, char **argv)
                          QStringLiteral(GRANTLEEEDITOR_VERSION),
                          i18n("Contact Theme Editor"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2013-2019 contactthemeeditor authors"));
+                         i18n("Copyright © 2013-2020 contactthemeeditor authors"));
     aboutData.addAuthor(i18n("Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kaddressbook")));
     aboutData.setOrganizationDomain(QByteArray("kde.org"));
