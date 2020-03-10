@@ -12,7 +12,15 @@ set(contactprintthemeeditor_SRCS
     contactprintthemepreview.cpp
     )
 
-ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor)
+if (ECM_VERSION VERSION_LESS "5.68.0")
+    ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor)
+else()
+    ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor
+        DESCRIPTION "grantleeeditor (contactprintthemeeditor)"
+        OLD_CATEGORY_NAMES log_contactprintthemeeditor
+        EXPORT GRANTLEEEDITOR
+    )
+endif()
 qt5_add_resources(contactprintthemeeditor_SRCS contactprintthemeeditor.qrc)
 
 add_executable(contactprintthemeeditor ${contactprintthemeeditor_SRCS} )
