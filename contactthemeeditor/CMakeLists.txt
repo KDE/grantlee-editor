@@ -12,15 +12,11 @@ set(contactthemeeditor_SRCS
     contacteditorutil.cpp
     contactpreviewwidget.cpp
     )
-if (ECM_VERSION VERSION_LESS "5.68.0")
-    ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor)
-else()
-    ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor
+ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor
         DESCRIPTION "grantleeeditor (contactthemeeditor)"
         OLD_CATEGORY_NAMES log_contactthemeeditor
         EXPORT GRANTLEEEDITOR
     )
-endif()
 
 qt5_add_resources(contactthemeeditor_SRCS contactthemeeditor.qrc)
 

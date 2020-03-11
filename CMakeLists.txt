@@ -88,15 +88,11 @@ add_subdirectory(contactthemeeditor)
 add_subdirectory(grantleethemeeditor)
 add_subdirectory(contactprintthemeeditor)
 
-if (ECM_VERSION VERSION_LESS "5.68.0")
-    install(FILES grantleeditor.renamecategories grantleeditor.categories  DESTINATION  ${KDE_INSTALL_LOGGINGCATEGORIESDIR})
-else ()
-    ecm_qt_install_logging_categories(
+ecm_qt_install_logging_categories(
         EXPORT GRANTLEEEDITOR
         FILE grantleeditor.categories
         DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
         )
-endif()
 
 add_subdirectory(doc)
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
