@@ -17,9 +17,9 @@ We have some variable which can use to define theme:
         header.fromi18n
         header.spamstatusi18n
         header.datei18n
-        header.resentfromi18n
+        header.resentFromi18n
         header.vcardi18n
-        header.resenttoi18n
+        header.resentToi18n
 
 - theme variables:
         header.absoluteThemePath
@@ -39,7 +39,7 @@ We have some variable which can use to define theme:
         header.date
         header.useragent
         header.xmailer
-        header.resentfrom
+        header.resentFrom
         header.organization
         header.vcardname
         header.activecolordark
@@ -51,4 +51,4 @@ We have some variable which can use to define theme:
         header.subjectDir
         header.photourl
         header.isprinting
-        header.resentto
+        header.resentTo
