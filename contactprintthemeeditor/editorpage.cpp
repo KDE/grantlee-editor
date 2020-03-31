@@ -24,7 +24,7 @@
 #include "themetemplatewidget.h"
 #include "contactprintthemepreview.h"
 #include "contactprintthemeeditorutil.h"
-#include "kpimtextedit/plaintexteditor.h"
+#include <KPIMTextEdit/PlainTextEditor>
 #include "KSplitterCollapserButton"
 
 #include <KLocalizedString>

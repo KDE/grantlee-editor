@@ -22,7 +22,7 @@
 #include "previewwidget.h"
 #include "themeeditorwidget.h"
 #include "themetemplatewidget.h"
-#include "kpimtextedit/plaintexteditor.h"
+#include <KPIMTextEdit/PlainTextEditor>
 #include "KSplitterCollapserButton"
 
 #include <KLocalizedString>

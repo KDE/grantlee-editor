@@ -20,7 +20,7 @@
 #define EDITORWIDGET_H
 
 #include "grantleethemeeditor_export.h"
-#include "kpimtextedit/plaintexteditorwidget.h"
+#include <KPIMTextEdit/PlainTextEditorWidget>
 
 namespace GrantleeThemeEditor {
 class GRANTLEETHEMEEDITOR_EXPORT EditorWidget : public KPIMTextEdit::PlainTextEditorWidget

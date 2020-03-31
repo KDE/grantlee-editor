@@ -19,7 +19,7 @@
 #ifndef GRANTLEEPLAINTEXTEDITOR_H
 #define GRANTLEEPLAINTEXTEDITOR_H
 
-#include "kpimtextedit/plaintexteditor.h"
+#include <KPIMTextEdit/PlainTextEditor>
 #include <KSyntaxHighlighting/Repository>
 
 namespace KPIMTextEdit {

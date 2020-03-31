@@ -18,7 +18,7 @@
 */
 #include "themeconfiguredialog.h"
 #include "themeeditorutil.h"
-#include "kpimtextedit/plaintexteditorwidget.h"
+#include <KPIMTextEdit/PlainTextEditorWidget>
 
 #include "configurewidget.h"
 

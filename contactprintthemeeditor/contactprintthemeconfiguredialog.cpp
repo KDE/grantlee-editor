@@ -19,7 +19,7 @@
 
 #include "contactprintthemeconfiguredialog.h"
 #include "contactprintthemeeditorutil.h"
-#include "kpimtextedit/plaintexteditorwidget.h"
+#include <KPIMTextEdit/PlainTextEditorWidget>
 
 #include "configurewidget.h"
 

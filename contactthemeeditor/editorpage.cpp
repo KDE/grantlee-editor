@@ -21,7 +21,7 @@
 #include "previewwidget.h"
 #include "contacteditorwidget.h"
 #include "contacttemplatewidget.h"
-#include "kpimtextedit/plaintexteditor.h"
+#include <KPIMTextEdit/PlainTextEditor>
 
 #include <KSplitterCollapserButton>
 

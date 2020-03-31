@@ -20,7 +20,7 @@
 #define THEMETEMPLATEWIDGET_H
 
 #include <QWidget>
-#include "PimCommon/TemplateListWidget"
+#include <PimCommon/TemplateListWidget>
 
 class ThemeTemplateListWidget : public PimCommon::TemplateListWidget
 {

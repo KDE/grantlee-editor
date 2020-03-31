@@ -31,8 +31,8 @@
 #include <QLabel>
 #include <QDir>
 
-#include <kpimtextedit/plaintexteditorwidget.h>
-#include <kpimtextedit/plaintexteditor.h>
+#include <KPIMTextEdit/PlainTextEditorWidget>
+#include <KPIMTextEdit/PlainTextEditor>
 
 using namespace GrantleeThemeEditor;
 

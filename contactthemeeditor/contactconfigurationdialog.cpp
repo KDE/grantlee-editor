@@ -18,7 +18,7 @@
 */
 #include "contactconfigurationdialog.h"
 #include "contacteditorutil.h"
-#include "kpimtextedit/plaintexteditorwidget.h"
+#include <KPIMTextEdit/PlainTextEditorWidget>
 
 #include "configurewidget.h"
 
