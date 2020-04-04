@@ -24,7 +24,7 @@
 #include <QHBoxLayout>
 #include <QWebEngineView>
 #include <KContacts/VCardConverter>
-#include <kaddressbookgrantlee/grantleeprint.h>
+#include <KaddressbookGrantlee/GrantleePrint>
 #include "contactprintthemeeditor_debug.h"
 
 ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent)
