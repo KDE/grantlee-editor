@@ -91,7 +91,7 @@ void EditorPage::saveTheme(const QString &path)
         return;
     }
 
-    const QString filename = path + QDir::separator() + mPageFileName;
+    const QString filename = path + QLatin1Char('/') + mPageFileName;
     saveAsFilename(filename);
 }
 
@@ -122,6 +122,6 @@ void EditorPage::createZip(const QString &themeName, KZip *zip)
 
 void EditorPage::installTheme(const QString &themePath)
 {
-    const QString filename = themePath + QDir::separator() + mPageFileName;
+    const QString filename = themePath + QLatin1Char('/') + mPageFileName;
     saveAsFilename(filename);
 }

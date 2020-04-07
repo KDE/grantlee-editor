@@ -133,7 +133,7 @@ bool ContactEditorPage::themeWasChanged() const
 void ContactEditorPage::installTheme(const QString &themePath)
 {
     QDir dir(themePath);
-    QDir themeDir(themePath + QDir::separator() + mDesktopPage->themeName());
+    QDir themeDir(themePath + QLatin1Char('/') + mDesktopPage->themeName());
     if (themeDir.exists()) {
         if (KMessageBox::questionYesNo(this, i18n("Theme already exists. Do you want to overwrite it?"), i18n("Theme already exists")) == KMessageBox::No) {
             return;
@@ -144,7 +144,7 @@ void ContactEditorPage::installTheme(const QString &themePath)
             return;
         }
     }
-    const QString newPath = themePath + QDir::separator() + mDesktopPage->themeName();
+    const QString newPath = themePath + QLatin1Char('/') + mDesktopPage->themeName();
     mEditorPage->installTheme(newPath);
     mEditorGroupPage->installTheme(newPath);
     mEditorGroupEmbeddedPage->installTheme(newPath);
@@ -163,12 +163,12 @@ void ContactEditorPage::uploadTheme()
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
-    const QString zipFileName = tmp.path() + QDir::separator() + themename + QLatin1String(".zip");
+    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
         //TODO reactivate it when we will be able to create a preview
-        const QString previewContactFileName = tmp.path() + QDir::separator() + themename + QLatin1String("contact_preview.png");
-        const QString previewContactGroupFileName = tmp.path() + QDir::separator() + themename + QLatin1String("contactgroup_preview.png");
+        const QString previewContactFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("contact_preview.png");
+        const QString previewContactGroupFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("contactgroup_preview.png");
         QStringList lst;
         lst << previewContactFileName << previewContactGroupFileName;
 
@@ -293,17 +293,17 @@ void ContactEditorPage::loadTheme(const QString &filename)
     if (mThemeSession->loadSession(filename)) {
         const QString projectDirectory = mThemeSession->projectDirectory();
         mDesktopPage->loadTheme(projectDirectory);
-        mEditorGroupPage->loadTheme(projectDirectory + QDir::separator() + QLatin1String("contactgroup.html"));
-        mEditorGroupEmbeddedPage->loadTheme(projectDirectory + QDir::separator() + QLatin1String("contactgroup_embedded.html"));
-        mEditorEmbeddedPage->loadTheme(projectDirectory + QDir::separator() + QLatin1String("contact_embedded.html"));
+        mEditorGroupPage->loadTheme(projectDirectory + QLatin1String("/contactgroup.html"));
+        mEditorGroupEmbeddedPage->loadTheme(projectDirectory + QLatin1String("/contactgroup_embedded.html"));
+        mEditorEmbeddedPage->loadTheme(projectDirectory + QLatin1String("/contact_embedded.html"));
 
-        mEditorPage->loadTheme(projectDirectory + QDir::separator() + mThemeSession->mainPageFileName());
+        mEditorPage->loadTheme(projectDirectory + QLatin1Char('/') + mThemeSession->mainPageFileName());
         mEditorPage->preview()->setThemePath(projectDirectory, mThemeSession->mainPageFileName());
 
         const QStringList lstExtraPages = mThemeSession->extraPages();
         for (const QString &page : lstExtraPages) {
             EditorPage *extraPage = createExtraPage(page);
-            extraPage->loadTheme(projectDirectory + QDir::separator() + page);
+            extraPage->loadTheme(projectDirectory + QLatin1Char('/') + page);
         }
         mTabWidget->setCurrentIndex(0);
         setChanged(false);

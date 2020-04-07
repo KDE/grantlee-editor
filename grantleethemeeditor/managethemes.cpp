@@ -114,7 +114,7 @@ void ManageThemes::slotDeleteTheme()
         }
         if (KMessageBox::questionYesNo(this, msg, i18n("Remove theme")) == KMessageBox::Yes) {
             for (QListWidgetItem *item : selectItems) {
-                if (QDir((d->mLocalDirectory + QDir::separator() + item->text())).removeRecursively()) {
+                if (QDir((d->mLocalDirectory + QLatin1Char('/') + item->text())).removeRecursively()) {
                     delete item;
                 } else {
                     KMessageBox::error(this, i18n("Theme \"%1\" cannot be deleted. Please contact your administrator.", item->text()), i18n("Delete theme failed"));

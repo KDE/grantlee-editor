@@ -161,7 +161,7 @@ bool ThemeEditorPage::themeWasChanged() const
 void ThemeEditorPage::installTheme(const QString &themePath)
 {
     QDir dir(themePath);
-    QDir themeDir(themePath + QDir::separator() + mDesktopPage->themeName());
+    QDir themeDir(themePath + QLatin1Char('/') + mDesktopPage->themeName());
     if (themeDir.exists()) {
         if (KMessageBox::questionYesNo(this, i18n("Theme already exists. Do you want to overwrite it?"), i18n("Theme already exists")) == KMessageBox::No) {
             return;
@@ -172,7 +172,7 @@ void ThemeEditorPage::installTheme(const QString &themePath)
             return;
         }
     }
-    const QString newPath = themePath + QDir::separator() + mDesktopPage->themeName();
+    const QString newPath = themePath + QLatin1Char('/') + mDesktopPage->themeName();
     mEditorPage->setPageFileName(mDesktopPage->filename());
     mEditorPage->installTheme(newPath);
     for (EditorPage *page : qAsConst(mExtraPage)) {
@@ -188,10 +188,10 @@ void ThemeEditorPage::uploadTheme()
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
-    const QString zipFileName = tmp.path() + QDir::separator() + themename + QLatin1String(".zip");
+    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
-        const QString previewFileName = tmp.path() + QDir::separator() + themename + QLatin1String("_preview.png");
+        const QString previewFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("_preview.png");
         //qCDebug(HEADERTHEMEEDITOR_LOG)<<" previewFileName"<<previewFileName;
         QStringList lst;
         lst << previewFileName;
@@ -296,13 +296,13 @@ void ThemeEditorPage::loadTheme(const QString &filename)
 {
     if (mThemeSession->loadSession(filename)) {
         mDesktopPage->loadTheme(mThemeSession->projectDirectory());
-        mEditorPage->loadTheme(mThemeSession->projectDirectory() + QDir::separator() + mThemeSession->mainPageFileName());
+        mEditorPage->loadTheme(mThemeSession->projectDirectory() + QLatin1Char('/') + mThemeSession->mainPageFileName());
         mEditorPage->preview()->setThemePath(mThemeSession->projectDirectory(), mThemeSession->mainPageFileName());
 
         const QStringList lstExtraPages = mThemeSession->extraPages();
         for (const QString &page : lstExtraPages) {
             EditorPage *extraPage = createExtraPage(page);
-            extraPage->loadTheme(mThemeSession->projectDirectory() + QDir::separator() + page);
+            extraPage->loadTheme(mThemeSession->projectDirectory() + QLatin1Char('/') + page);
         }
         mTabWidget->setCurrentIndex(0);
         setChanged(false);

@@ -166,7 +166,7 @@ QString DesktopFilePage::themeName() const
 
 void DesktopFilePage::loadTheme(const QString &path)
 {
-    const QString filename = path + QDir::separator() + mDefaultDesktopName;
+    const QString filename = path + QLatin1Char('/') + mDefaultDesktopName;
     KDesktopFile desktopFile(filename);
     mName->setText(desktopFile.desktopGroup().readEntry(QStringLiteral("Name")));
     mDescription->setPlainText(desktopFile.desktopGroup().readEntry(QStringLiteral("Description")));
@@ -184,7 +184,7 @@ void DesktopFilePage::loadTheme(const QString &path)
 
 void DesktopFilePage::saveTheme(const QString &path)
 {
-    const QString filename = path + QDir::separator() + mDefaultDesktopName;
+    const QString filename = path + QLatin1Char('/') + mDefaultDesktopName;
     saveAsFilename(filename);
 }
 
@@ -211,7 +211,7 @@ void DesktopFilePage::saveAsFilename(const QString &filename)
 
 void DesktopFilePage::installTheme(const QString &themePath)
 {
-    const QString filename = themePath + QDir::separator() + mDefaultDesktopName;
+    const QString filename = themePath + QLatin1Char('/') + mDefaultDesktopName;
     saveAsFilename(filename);
 }
 
