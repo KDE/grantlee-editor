@@ -80,6 +80,7 @@ if (EXISTS "${CMAKE_SOURCE_DIR}/.git")
 endif()
 
 add_definitions(-DQT_NO_FOREACH)
+add_definitions(-DQT_NO_KEYWORDS)
 
 configure_file(grantleeeditor-version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/grantleeeditor-version.h @ONLY)
 
