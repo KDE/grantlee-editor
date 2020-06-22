@@ -25,7 +25,6 @@
 #include "grantleethemeeditor/previewwidget.h"
 
 namespace KAddressBookGrantlee {
-class GrantleePrint;
 }
 class QWebEngineView;
 
