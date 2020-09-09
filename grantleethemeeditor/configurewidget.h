@@ -27,7 +27,7 @@ public:
     void setDefault();
 
 private:
-    Ui::ConfigureWidget *ui = nullptr;
+    Ui::ConfigureWidget *const ui;
 };
 }
 

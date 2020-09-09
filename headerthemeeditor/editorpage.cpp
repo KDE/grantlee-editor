@@ -22,7 +22,6 @@
 
 EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::EditorPage(type, parent)
-    , mWidgetSplitter(nullptr)
 {
     QVBoxLayout *lay = new QVBoxLayout(this);
     lay->setContentsMargins(0, 0, 0, 0);

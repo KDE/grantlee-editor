@@ -17,7 +17,6 @@ using namespace GrantleeThemeEditor;
 ThemeSession::ThemeSession(const QString &projectDirectory, const QString &themeTypeName)
     : mProjectDirectory(projectDirectory)
     , mThemeTypeName(themeTypeName)
-    , mVersion(1)
 {
 }
 

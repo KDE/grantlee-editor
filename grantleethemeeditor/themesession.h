@@ -30,8 +30,8 @@ private:
     QString mProjectDirectory;
     QString mMainPageFileName;
     QStringList mExtraPage;
-    QString mThemeTypeName;
-    int mVersion;
+    const QString mThemeTypeName;
+    const int mVersion = 1;
 };
 }
 

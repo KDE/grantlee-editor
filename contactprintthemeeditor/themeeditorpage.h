@@ -61,7 +61,7 @@ private:
     GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget = nullptr;
     EditorPage *mEditorPage = nullptr;
     GrantleeThemeEditor::DesktopFilePage *mDesktopPage = nullptr;
-    GrantleeThemeEditor::ThemeSession *mThemeSession = nullptr;
+    GrantleeThemeEditor::ThemeSession *const mThemeSession;
     bool mChanged = false;
 };
 

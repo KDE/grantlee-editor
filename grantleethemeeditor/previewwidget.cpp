@@ -9,7 +9,6 @@ using namespace GrantleeThemeEditor;
 
 PreviewWidget::PreviewWidget(QWidget *parent)
     : QWidget(parent)
-    , mPrinting(false)
 {
 }
 

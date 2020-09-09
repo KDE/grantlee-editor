@@ -46,7 +46,7 @@ Q_SIGNALS:
     void changed();
 
 protected:
-    PageType mType;
+    const PageType mType;
     QString mPageFileName;
     GrantleeThemeEditor::PreviewWidget *mPreview = nullptr;
     GrantleeThemeEditor::EditorWidget *mEditor = nullptr;

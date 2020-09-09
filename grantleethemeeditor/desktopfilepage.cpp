@@ -25,8 +25,6 @@ using namespace GrantleeThemeEditor;
 
 DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent)
     : QWidget(parent)
-    , mFilename(nullptr)
-    , mExtraDisplayHeaders(nullptr)
 {
     QGridLayout *gridLayout = new QGridLayout(this);
     QLabel *lab = new QLabel(i18n("Name:"), this);

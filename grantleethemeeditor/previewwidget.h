@@ -33,7 +33,7 @@ Q_SIGNALS:
     void needUpdateViewer();
 
 protected:
-    bool mPrinting;
+    bool mPrinting = false;
 };
 }
 

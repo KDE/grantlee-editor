@@ -29,8 +29,6 @@
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
     : KXmlGuiWindow()
-    , mThemeEditor(nullptr)
-    , mUploadTheme(nullptr)
 {
     setupActions();
     setupGUI();
