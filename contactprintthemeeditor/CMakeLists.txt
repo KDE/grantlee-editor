@@ -27,7 +27,6 @@ target_link_libraries(contactprintthemeeditor
     KF5::AkonadiContact
     KF5::PimCommon
     grantleethemeeditor
-    KF5::KaddressbookGrantlee
     KF5::PimTextEdit
     KF5::I18n
     Qt5::WebEngineWidgets
