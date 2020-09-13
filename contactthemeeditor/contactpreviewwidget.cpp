@@ -9,9 +9,8 @@
 
 #include <KContacts/VCardConverter>
 
-#include <KaddressbookGrantlee/GrantleeContactFormatter>
-#include <KaddressbookGrantlee/GrantleeContactGroupFormatter>
-
+#include <Akonadi/Contact/GrantleeContactFormatter>
+#include <Akonadi/Contact/GrantleeContactGroupFormatter>
 #include <Akonadi/Contact/ContactGroupViewer>
 #include <Akonadi/Contact/ContactViewer>
 #include <AkonadiCore/Item>
