@@ -17,7 +17,6 @@
 #include <KMessageBox>
 #include <QFileDialog>
 #include <KRecentFilesAction>
-#include <kns3/knewstuffaction.h>
 #include <KConfigGroup>
 
 #include <QApplication>

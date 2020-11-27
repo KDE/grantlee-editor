@@ -20,8 +20,6 @@
 #include <KConfigGroup>
 #include <KAuthorized>
 
-#include <kns3/knewstuffaction.h>
-
 #include <QPointer>
 #include <QCloseEvent>
 #include <KSharedConfig>
