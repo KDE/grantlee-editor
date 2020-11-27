@@ -88,7 +88,9 @@ void ContactEditorMainWindow::setupActions()
     actionCollection()->addAction(QStringLiteral("add_extra_page"), mAddExtraPage);
 
     if (KAuthorized::authorize(QStringLiteral("ghns"))) {
-        mUploadTheme = KNS3::standardAction(i18n("Upload theme..."), this, SLOT(slotUploadTheme()), actionCollection(), "upload_theme");
+        mUploadTheme = new QAction(QIcon::fromTheme(QStringLiteral("get-hot-new-stuff")), i18n("Upload theme..."), this);
+        connect(mUploadTheme, &QAction::triggered, this, &ContactEditorMainWindow::slotUploadTheme);
+        actionCollection()->addAction(QStringLiteral("upload_theme"), mUploadTheme);
     }
 
     mNewThemeAction = KStandardAction::openNew(this, &ContactEditorMainWindow::slotNewTheme, actionCollection());
