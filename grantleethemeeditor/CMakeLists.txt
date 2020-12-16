@@ -30,6 +30,10 @@ ecm_qt_declare_logging_category(libgrantleethemeeditor_SRCS HEADER grantleetheme
 
 
 add_library(grantleethemeeditor ${libgrantleethemeeditor_SRCS})
+if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+    set_target_properties(grantleethemeeditor PROPERTIES UNITY_BUILD ON)
+endif()
+
 generate_export_header(grantleethemeeditor BASE_NAME grantleethemeeditor)
 
 target_include_directories(grantleethemeeditor PUBLIC "$<BUILD_INTERFACE:${grantleeditor_SOURCE_DIR};${grantleethemeeditor_SOURCE_DIR};${grantleethemeeditor_BINAY_DIR}>")

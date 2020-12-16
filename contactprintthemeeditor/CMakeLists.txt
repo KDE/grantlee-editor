@@ -20,6 +20,10 @@ ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprint
 qt5_add_resources(contactprintthemeeditor_SRCS contactprintthemeeditor.qrc)
 
 add_executable(contactprintthemeeditor ${contactprintthemeeditor_SRCS} )
+if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+    set_target_properties(contactprintthemeeditor PROPERTIES UNITY_BUILD ON)
+endif()
+
 target_link_libraries(contactprintthemeeditor
     Qt5::WebEngineWidgets
     KF5::DBusAddons

@@ -21,6 +21,10 @@ ecm_qt_declare_logging_category(headerthemeeditor_SRCS HEADER headerthemeeditor_
 qt5_add_resources(headerthemeeditor_SRCS headerthemeeditor.qrc)
 
 add_executable(headerthemeeditor ${headerthemeeditor_SRCS} )
+if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+    set_target_properties(headerthemeeditor PROPERTIES UNITY_BUILD ON)
+endif()
+
 target_link_libraries(headerthemeeditor
     KF5::Mime
     KF5::NewStuff

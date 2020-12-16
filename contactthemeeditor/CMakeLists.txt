@@ -32,6 +32,9 @@ target_link_libraries(contactthemeeditor
     KF5::I18n
     KF5::Crash
     )
+if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+    set_target_properties(contactthemeeditor PROPERTIES UNITY_BUILD ON)
+endif()
 
 install(TARGETS contactthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 
