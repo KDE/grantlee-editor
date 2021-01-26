@@ -7,8 +7,8 @@
 #include "editorpage.h"
 
 #include <KLocalizedString>
-#include <QMenu>
 #include <QIcon>
+#include <QMenu>
 
 #include <QTabBar>
 using namespace GrantleeThemeEditor;

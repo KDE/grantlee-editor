@@ -9,7 +9,8 @@
 #include "grantleethemeeditor_export.h"
 #include <QDialog>
 
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class ManageThemesPrivate;
 class GRANTLEETHEMEEDITOR_EXPORT ManageThemes : public QDialog
 {

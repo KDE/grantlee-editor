@@ -6,20 +6,20 @@
 #include "desktopfilepage.h"
 #include "globalsettings_base.h"
 
-#include <KEditListWidget>
-#include <QLineEdit>
-#include <KLocalizedString>
 #include <KDesktopFile>
-#include <KZip>
-#include <QTemporaryFile>
+#include <KEditListWidget>
+#include <KLocalizedString>
 #include <KMessageBox>
+#include <KZip>
+#include <QLineEdit>
+#include <QTemporaryFile>
 
+#include <QDir>
 #include <QGridLayout>
 #include <QLabel>
-#include <QDir>
 
-#include <KPIMTextEdit/PlainTextEditorWidget>
 #include <KPIMTextEdit/PlainTextEditor>
+#include <KPIMTextEdit/PlainTextEditorWidget>
 
 using namespace GrantleeThemeEditor;
 
@@ -79,10 +79,11 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
         gridLayout->addWidget(lab, row, 0);
 
         ++row;
-        lab
-            = new QLabel(QStringLiteral("<qt><b>") + i18n(
-                             "Be careful, Grantlee does not support '-' in variable name. So when you want to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in name).")
-                         + QStringLiteral("</b></qt>"), this);
+        lab = new QLabel(QStringLiteral("<qt><b>")
+                             + i18n("Be careful, Grantlee does not support '-' in variable name. So when you want to add extra header as \"X-Original-To\" add "
+                                    "\"X-Original-To\" in list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in name).")
+                             + QStringLiteral("</b></qt>"),
+                         this);
         lab->setWordWrap(true);
         gridLayout->addWidget(lab, row, 0, 1, 2);
 
@@ -126,8 +127,7 @@ void DesktopFilePage::createZip(const QString &themeName, KZip *zip)
     saveAsFilename(tmp.fileName());
     const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mDefaultDesktopName);
     if (!fileAdded) {
-        KMessageBox::error(this, i18n("Failed to add file into ZIP archive."),
-                           i18nc("@title:window", "Failed to add file"));
+        KMessageBox::error(this, i18n("Failed to add file into ZIP archive."), i18nc("@title:window", "Failed to add file"));
     }
 }
 

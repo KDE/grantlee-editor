@@ -4,11 +4,11 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themesession.h"
+#include "grantleethemeeditor_debug.h"
 #include <KConfig>
 #include <KConfigGroup>
-#include "grantleethemeeditor_debug.h"
-#include <KMessageBox>
 #include <KLocalizedString>
+#include <KMessageBox>
 
 #include <QDir>
 
@@ -57,7 +57,9 @@ bool ThemeSession::loadSession(const QString &session)
         const int version = global.readEntry(QStringLiteral("version"), 0);
         if (version >= mVersion) {
             if (global.readEntry(QStringLiteral("themeTypeName")) != mThemeTypeName) {
-                KMessageBox::error(nullptr, i18n("Error during theme loading"), i18n("You are trying to load a theme which cannot be read by this application"));
+                KMessageBox::error(nullptr,
+                                   i18n("Error during theme loading"),
+                                   i18n("You are trying to load a theme which cannot be read by this application"));
                 return false;
             }
         }

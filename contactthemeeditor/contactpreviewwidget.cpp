@@ -9,19 +9,19 @@
 
 #include <KContacts/VCardConverter>
 
-#include <Akonadi/Contact/GrantleeContactFormatter>
-#include <Akonadi/Contact/GrantleeContactGroupFormatter>
 #include <Akonadi/Contact/ContactGroupViewer>
 #include <Akonadi/Contact/ContactViewer>
+#include <Akonadi/Contact/GrantleeContactFormatter>
+#include <Akonadi/Contact/GrantleeContactGroupFormatter>
 #include <AkonadiCore/Item>
 #include <KLocalizedString>
 
 #include <KConfigGroup>
 #include <KSharedConfig>
 
-#include <QTabWidget>
 #include <QHBoxLayout>
 #include <QPainter>
+#include <QTabWidget>
 
 ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWidget *parent)
     : QWidget(parent)
@@ -62,8 +62,8 @@ ContactPreviewWidget::~ContactPreviewWidget()
 void ContactPreviewWidget::updateViewer()
 {
     mContactViewer->setRawContact(mContact);
-    //mGroupViewer->setContactGroup();
-    //TODO
+    // mGroupViewer->setContactGroup();
+    // TODO
 }
 
 void ContactPreviewWidget::createScreenShot(const QStringList &fileName)

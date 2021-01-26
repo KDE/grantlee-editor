@@ -13,17 +13,17 @@
 
 #include <KContacts/VCardConverter>
 
-#include <KLocalizedString>
 #include <KConfig>
+#include <KLocalizedString>
 
 #include <KConfigGroup>
 
-#include <QVBoxLayout>
-#include <QLabel>
-#include <QTabWidget>
 #include <KSharedConfig>
 #include <QDialogButtonBox>
+#include <QLabel>
 #include <QPushButton>
+#include <QTabWidget>
+#include <QVBoxLayout>
 
 ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     : QDialog(parent)

@@ -6,8 +6,8 @@
 #ifndef THEMETEMPLATEWIDGET_H
 #define THEMETEMPLATEWIDGET_H
 
-#include <QWidget>
 #include <PimCommon/TemplateListWidget>
+#include <QWidget>
 
 class ThemeTemplateListWidget : public PimCommon::TemplateListWidget
 {

@@ -5,22 +5,22 @@
 */
 
 #include "editorpage.h"
+#include "KSplitterCollapserButton"
+#include "contactprintthemeeditorutil.h"
+#include "contactprintthemepreview.h"
 #include "editorwidget.h"
 #include "previewwidget.h"
 #include "themeeditorwidget.h"
 #include "themetemplatewidget.h"
-#include "contactprintthemepreview.h"
-#include "contactprintthemeeditorutil.h"
 #include <KPIMTextEdit/PlainTextEditor>
-#include "KSplitterCollapserButton"
 
 #include <KLocalizedString>
 
 #include <KConfigGroup>
 
+#include <KSharedConfig>
 #include <QSplitter>
 #include <QVBoxLayout>
-#include <KSharedConfig>
 
 EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::EditorPage(type, parent)
@@ -62,9 +62,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 
     if (mType == MainPage) {
         KConfigGroup group(KSharedConfig::openConfig(), "EditorPage");
-        const QList<int> size {
-            400, 100
-        };
+        const QList<int> size{400, 100};
         mMainSplitter->setSizes(group.readEntry("mainSplitter", size));
         mWidgetSplitter->setSizes(group.readEntry("widgetSplitter", size));
     }

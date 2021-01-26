@@ -13,7 +13,8 @@ class ThemeTemplateWidget;
 class EditorWidget;
 class QSplitter;
 class ContactPrintThemePreview;
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class EditorWidget;
 }
 

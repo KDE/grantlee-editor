@@ -9,10 +9,12 @@
 #include <KPIMTextEdit/PlainTextEditor>
 #include <KSyntaxHighlighting/Repository>
 
-namespace KPIMTextEdit {
+namespace KPIMTextEdit
+{
 class TextEditorCompleter;
 }
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class GrantleePlainTextEditor : public KPIMTextEdit::PlainTextEditor
 {
     Q_OBJECT
@@ -27,6 +29,7 @@ protected:
 
 protected:
     KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter = nullptr;
+
 private:
     void initCompleter();
     KSyntaxHighlighting::Repository mRepo;

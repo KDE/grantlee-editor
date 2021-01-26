@@ -10,11 +10,13 @@
 #include "grantleethemeeditor_export.h"
 #include <QWidget>
 
-namespace Ui {
+namespace Ui
+{
 class ConfigureWidget;
 }
 
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class GRANTLEETHEMEEDITOR_EXPORT ConfigureWidget : public QWidget
 {
     Q_OBJECT

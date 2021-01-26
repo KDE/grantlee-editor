@@ -6,18 +6,18 @@
 #include "managethemes.h"
 
 #include <KLocalizedString>
-#include <QPushButton>
 #include <KMessageBox>
 #include <KSharedConfig>
+#include <QPushButton>
 
-#include <QLabel>
-#include <QListWidget>
-#include <QVBoxLayout>
+#include <KConfigGroup>
+#include <QDialogButtonBox>
 #include <QDir>
 #include <QDirIterator>
+#include <QLabel>
+#include <QListWidget>
 #include <QStandardPaths>
-#include <QDialogButtonBox>
-#include <KConfigGroup>
+#include <QVBoxLayout>
 
 using namespace GrantleeThemeEditor;
 class GrantleeThemeEditor::ManageThemesPrivate
@@ -104,7 +104,9 @@ void ManageThemes::slotDeleteTheme()
                 if (QDir((d->mLocalDirectory + QLatin1Char('/') + item->text())).removeRecursively()) {
                     delete item;
                 } else {
-                    KMessageBox::error(this, i18n("Theme \"%1\" cannot be deleted. Please contact your administrator.", item->text()), i18n("Delete theme failed"));
+                    KMessageBox::error(this,
+                                       i18n("Theme \"%1\" cannot be deleted. Please contact your administrator.", item->text()),
+                                       i18n("Delete theme failed"));
                 }
             }
         }

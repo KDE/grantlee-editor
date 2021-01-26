@@ -6,13 +6,13 @@
 
 #include "grantleeeditor-version.h"
 #include "themeeditormainwindow.h"
-#include <QApplication>
 #include <KAboutData>
+#include <KCrash>
 #include <KDBusService>
 #include <KLocalizedString>
+#include <QApplication>
 #include <QCommandLineParser>
 #include <QIcon>
-#include <KCrash>
 int main(int argc, char **argv)
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);

@@ -7,7 +7,8 @@
 #define PREVIEWWIDGET_H
 
 #include "grantleethemeeditor/previewwidget.h"
-namespace MessageViewer {
+namespace MessageViewer
+{
 class Viewer;
 class GrantleeHeaderTestStyle;
 }

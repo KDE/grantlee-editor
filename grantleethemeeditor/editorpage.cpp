@@ -6,14 +6,14 @@
 #include "editorpage.h"
 #include "editorwidget.h"
 
-#include <KZip>
 #include <KLocalizedString>
 #include <KMessageBox>
+#include <KZip>
 #include <QTemporaryFile>
 
+#include <QDir>
 #include <QFile>
 #include <QTextStream>
-#include <QDir>
 
 using namespace GrantleeThemeEditor;
 
@@ -100,8 +100,7 @@ void EditorPage::createZip(const QString &themeName, KZip *zip)
     saveAsFilename(tmp.fileName());
     const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mPageFileName);
     if (!fileAdded) {
-        KMessageBox::error(this, i18n("Failed to add file into ZIP archive."),
-                           i18nc("@title:window", "Failed to add file"));
+        KMessageBox::error(this, i18n("Failed to add file into ZIP archive."), i18nc("@title:window", "Failed to add file"));
     }
 }
 

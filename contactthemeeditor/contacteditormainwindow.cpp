@@ -4,25 +4,25 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "contacteditormainwindow.h"
-#include "contacteditorpage.h"
-#include "newthemedialog.h"
-#include "managethemes.h"
 #include "contactconfigurationdialog.h"
+#include "contacteditorpage.h"
+#include "managethemes.h"
+#include "newthemedialog.h"
 
-#include <KStandardAction>
-#include <QApplication>
-#include <QAction>
 #include <KActionCollection>
+#include <KAuthorized>
+#include <KConfigGroup>
 #include <KLocalizedString>
 #include <KMessageBox>
-#include <QFileDialog>
 #include <KRecentFilesAction>
-#include <KConfigGroup>
-#include <KAuthorized>
+#include <KStandardAction>
+#include <QAction>
+#include <QApplication>
+#include <QFileDialog>
 
-#include <QPointer>
-#include <QCloseEvent>
 #include <KSharedConfig>
+#include <QCloseEvent>
+#include <QPointer>
 #include <QStandardPaths>
 
 ContactEditorMainWindow::ContactEditorMainWindow()
@@ -148,7 +148,7 @@ void ContactEditorMainWindow::slotInsertFile()
 
 void ContactEditorMainWindow::slotInstallTheme()
 {
-    //Save before installing :)
+    // Save before installing :)
     if (slotSaveTheme()) {
         const QString localThemePath = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1String("/kaddressbook/viewertemplates/");
         QDir().mkpath(localThemePath);
@@ -158,7 +158,7 @@ void ContactEditorMainWindow::slotInstallTheme()
 
 void ContactEditorMainWindow::slotUploadTheme()
 {
-    //Save before upload :)
+    // Save before upload :)
     if (slotSaveTheme()) {
         mContactEditor->uploadTheme();
     }
@@ -243,8 +243,7 @@ bool ContactEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     case SaveAndCloseTheme:
         closeThemeEditor();
         break;
-    case SaveAndCreateNewTheme:
-    {
+    case SaveAndCreateNewTheme: {
         delete mContactEditor;
         mContactEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);

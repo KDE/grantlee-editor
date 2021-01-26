@@ -6,14 +6,14 @@
 #include "grantleeplaintexteditor.h"
 #include "grantleethemeeditor_debug.h"
 
-#include <KSyntaxHighlighting/SyntaxHighlighter>
 #include <KSyntaxHighlighting/Definition>
+#include <KSyntaxHighlighting/SyntaxHighlighter>
 #include <KSyntaxHighlighting/Theme>
 
-#include <QKeyEvent>
+#include <KPIMTextEdit/TextEditorCompleter>
 #include <QAbstractItemView>
 #include <QCompleter>
-#include <KPIMTextEdit/TextEditorCompleter>
+#include <QKeyEvent>
 
 using namespace GrantleeThemeEditor;
 
@@ -26,9 +26,8 @@ GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
     }
 
     KSyntaxHighlighting::SyntaxHighlighter *hl = new KSyntaxHighlighting::SyntaxHighlighter(document());
-    hl->setTheme((palette().color(QPalette::Base).lightness() < 128)
-                 ? mRepo.defaultTheme(KSyntaxHighlighting::Repository::DarkTheme)
-                 : mRepo.defaultTheme(KSyntaxHighlighting::Repository::LightTheme));
+    hl->setTheme((palette().color(QPalette::Base).lightness() < 128) ? mRepo.defaultTheme(KSyntaxHighlighting::Repository::DarkTheme)
+                                                                     : mRepo.defaultTheme(KSyntaxHighlighting::Repository::LightTheme));
     hl->setDefinition(def);
     setSpellCheckingSupport(false);
     initCompleter();

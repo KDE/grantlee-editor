@@ -5,10 +5,11 @@
 */
 #ifndef GRANTLEEPREVIEWWIDGET_H
 #define GRANTLEEPREVIEWWIDGET_H
-#include <QWidget>
 #include "grantleethemeeditor_export.h"
+#include <QWidget>
 
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class GRANTLEETHEMEEDITOR_EXPORT PreviewWidget : public QWidget
 {
     Q_OBJECT

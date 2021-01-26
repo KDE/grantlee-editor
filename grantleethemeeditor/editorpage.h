@@ -6,23 +6,20 @@
 #ifndef GRANTLEEEDITOREDITORPAGE_H
 #define GRANTLEEEDITOREDITORPAGE_H
 
-#include <QWidget>
 #include "grantleethemeeditor_export.h"
+#include <QWidget>
 
 class KZip;
 
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class EditorWidget;
 class PreviewWidget;
 class GRANTLEETHEMEEDITOR_EXPORT EditorPage : public QWidget
 {
     Q_OBJECT
 public:
-    enum PageType {
-        MainPage = 0,
-        SecondPage,
-        ExtraPage
-    };
+    enum PageType { MainPage = 0, SecondPage, ExtraPage };
     explicit EditorPage(GrantleeThemeEditor::EditorPage::PageType type, QWidget *parent = nullptr);
     ~EditorPage();
 

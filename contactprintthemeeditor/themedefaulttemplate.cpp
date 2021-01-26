@@ -10,7 +10,7 @@ QVector<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
 {
     QVector<PimCommon::defaultTemplate> lst;
     PimCommon::defaultTemplate tmp;
-    //TODO
+    // TODO
 
     return lst;
 }

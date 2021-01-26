@@ -5,14 +5,14 @@
 */
 
 #include "contactprintthemepreview.h"
+#include "contactprintthemeeditor_debug.h"
 #include "contactprintthemeeditorutil.h"
-#include <KSharedConfig>
+#include <Akonadi/Contact/GrantleePrint>
 #include <KConfigGroup>
+#include <KContacts/VCardConverter>
+#include <KSharedConfig>
 #include <QHBoxLayout>
 #include <QWebEngineView>
-#include <KContacts/VCardConverter>
-#include <Akonadi/Contact/GrantleePrint>
-#include "contactprintthemeeditor_debug.h"
 
 ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)

@@ -10,10 +10,10 @@
 #include <KLocalizedString>
 #include <KUrlRequester>
 
-#include <QVBoxLayout>
-#include <QLabel>
 #include <QDialogButtonBox>
+#include <QLabel>
 #include <QPushButton>
+#include <QVBoxLayout>
 
 using namespace GrantleeThemeEditor;
 class GrantleeThemeEditor::NewThemeDialogPrivate
@@ -95,6 +95,5 @@ QString NewThemeDialog::directory() const
 
 void NewThemeDialog::slotUpdateOkButton()
 {
-    d->mOkButton->setEnabled(!d->mUrlRequester->lineEdit()->text().trimmed().isEmpty()
-                             && !d->mThemeName->text().trimmed().isEmpty());
+    d->mOkButton->setEnabled(!d->mUrlRequester->lineEdit()->text().trimmed().isEmpty() && !d->mThemeName->text().trimmed().isEmpty());
 }

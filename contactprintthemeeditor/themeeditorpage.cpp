@@ -5,27 +5,27 @@
 */
 
 #include "themeeditorpage.h"
+#include "contactprintthemepreview.h"
 #include "desktopfilepage.h"
 #include "editorpage.h"
+#include "themeeditortabwidget.h"
 #include "themeeditorwidget.h"
 #include "themesession.h"
-#include "themeeditortabwidget.h"
-#include "contactprintthemepreview.h"
 
 #include <kns3/uploaddialog.h>
 
-#include <KLocalizedString>
-#include <QInputDialog>
-#include <KZip>
-#include <QTemporaryDir>
 #include "contactprintthemeeditor_debug.h"
+#include <KLocalizedString>
 #include <KMessageBox>
+#include <KZip>
+#include <QInputDialog>
+#include <QTemporaryDir>
 #include <QUrl>
 
-#include <QHBoxLayout>
 #include <QDir>
-#include <QPointer>
 #include <QFileDialog>
+#include <QHBoxLayout>
+#include <QPointer>
 
 ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)
@@ -47,8 +47,14 @@ ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &theme
     mDesktopPage->setThemeName(themeName);
     mTabWidget->addTab(mDesktopPage, i18n("Desktop File"));
 
-    connect(mDesktopPage, &GrantleeThemeEditor::DesktopFilePage::mainFileNameChanged, mEditorPage->preview(), &GrantleeThemeEditor::PreviewWidget::slotMainFileNameChanged);
-    connect(mDesktopPage, &GrantleeThemeEditor::DesktopFilePage::mainFileNameChanged, mTabWidget, &GrantleeThemeEditor::ThemeEditorTabWidget::slotMainFileNameChanged);
+    connect(mDesktopPage,
+            &GrantleeThemeEditor::DesktopFilePage::mainFileNameChanged,
+            mEditorPage->preview(),
+            &GrantleeThemeEditor::PreviewWidget::slotMainFileNameChanged);
+    connect(mDesktopPage,
+            &GrantleeThemeEditor::DesktopFilePage::mainFileNameChanged,
+            mTabWidget,
+            &GrantleeThemeEditor::ThemeEditorTabWidget::slotMainFileNameChanged);
     connect(mDesktopPage, &GrantleeThemeEditor::DesktopFilePage::changed, this, &ThemeEditorPage::slotChanged);
     connect(mTabWidget, &GrantleeThemeEditor::ThemeEditorTabWidget::tabCloseRequested, this, &ThemeEditorPage::slotCloseTab);
 }
@@ -146,7 +152,7 @@ void ThemeEditorPage::installTheme(const QString &themePath)
 
 void ThemeEditorPage::uploadTheme()
 {
-    //force update for screenshot
+    // force update for screenshot
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
@@ -154,7 +160,7 @@ void ThemeEditorPage::uploadTheme()
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
         const QString previewFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("_preview.png");
-        //qCDebug(CONTACTPRINTTHEMEEDITOR_LOG)<<" previewFileName"<<previewFileName;
+        // qCDebug(CONTACTPRINTTHEMEEDITOR_LOG)<<" previewFileName"<<previewFileName;
         QStringList lst;
         lst << previewFileName;
         mEditorPage->preview()->createScreenShot(lst);
@@ -168,7 +174,7 @@ void ThemeEditorPage::uploadTheme()
 
         createZip(themename, zip);
         zip->close();
-        //qCDebug(CONTACTPRINTTHEMEEDITOR_LOG)<< "zipFilename"<<zipFileName;
+        // qCDebug(CONTACTPRINTTHEMEEDITOR_LOG)<< "zipFilename"<<zipFileName;
 
         QPointer<KNS3::UploadDialog> dialog = new KNS3::UploadDialog(QStringLiteral("messageviewer_header_themes.knsrc"), this);
         dialog->setUploadFile(QUrl::fromLocalFile(zipFileName));

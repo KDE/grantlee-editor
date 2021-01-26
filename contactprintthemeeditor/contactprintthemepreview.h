@@ -8,10 +8,11 @@
 
 #include <QWidget>
 
-#include <KContacts/Addressee>
 #include "grantleethemeeditor/previewwidget.h"
+#include <KContacts/Addressee>
 
-namespace KAddressBookGrantlee {
+namespace KAddressBookGrantlee
+{
 }
 class QWebEngineView;
 

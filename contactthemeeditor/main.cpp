@@ -3,15 +3,15 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#include "grantleeeditor-version.h"
 #include "contacteditormainwindow.h"
-#include <QApplication>
+#include "grantleeeditor-version.h"
 #include <KAboutData>
+#include <KCrash>
 #include <KDBusService>
 #include <KLocalizedString>
 #include <Kdelibs4ConfigMigrator>
+#include <QApplication>
 #include <QCommandLineParser>
-#include <KCrash>
 
 int main(int argc, char **argv)
 {

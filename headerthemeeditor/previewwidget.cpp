@@ -5,16 +5,16 @@
 */
 #include "previewwidget.h"
 #include "themeeditorutil.h"
-#include <MessageViewer/Viewer>
-#include <MessageViewer/HeaderStrategy>
 #include <MessageViewer/GrantleeHeaderTestStyle>
+#include <MessageViewer/HeaderStrategy>
+#include <MessageViewer/Viewer>
 
-#include <QPushButton>
-#include <KLocalizedString>
 #include <KConfigGroup>
+#include <KLocalizedString>
+#include <QPushButton>
 
-#include <QVBoxLayout>
 #include <KSharedConfig>
+#include <QVBoxLayout>
 
 PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
@@ -24,9 +24,9 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     mViewer = new MessageViewer::Viewer(this);
     mGrantleeHeaderStyle = new MessageViewer::GrantleeHeaderTestStyle;
     mGrantleeHeaderStyle->setAbsolutePath(projectDirectory);
-    //Default
+    // Default
     mGrantleeHeaderStyle->setMainFilename(QStringLiteral("header.html"));
-#if 0 //TODO_PORT_PLUGIN
+#if 0 // TODO_PORT_PLUGIN
     mViewer->setHeaderStyleAndStrategy(mGrantleeHeaderStyle,
                                        MessageViewer::HeaderStrategy::create(QString()));
 #endif

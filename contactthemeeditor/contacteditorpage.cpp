@@ -5,27 +5,27 @@
 */
 
 #include "contacteditorpage.h"
+#include "contacteditorwidget.h"
 #include "desktopfilepage.h"
 #include "editorpage.h"
-#include "contacteditorwidget.h"
 #include "previewwidget.h"
-#include "themesession.h"
 #include "themeeditortabwidget.h"
+#include "themesession.h"
 
 #include <kns3/uploaddialog.h>
 
-#include <KLocalizedString>
-#include <QInputDialog>
-#include <KZip>
-#include <QTemporaryDir>
 #include "contactthemeeditor_debug.h"
+#include <KLocalizedString>
 #include <KMessageBox>
+#include <KZip>
+#include <QInputDialog>
+#include <QTemporaryDir>
 #include <QUrl>
 
-#include <QHBoxLayout>
 #include <QDir>
-#include <QPointer>
 #include <QFileDialog>
+#include <QHBoxLayout>
+#include <QPointer>
 
 ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)
@@ -145,14 +145,14 @@ void ContactEditorPage::installTheme(const QString &themePath)
 
 void ContactEditorPage::uploadTheme()
 {
-    //force update for screenshot
+    // force update for screenshot
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
     const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
-        //TODO reactivate it when we will be able to create a preview
+        // TODO reactivate it when we will be able to create a preview
         const QString previewContactFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("contact_preview.png");
         const QString previewContactGroupFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("contactgroup_preview.png");
         QStringList lst;
@@ -174,7 +174,7 @@ void ContactEditorPage::uploadTheme()
         }
         createZip(themename, zip);
         zip->close();
-        //qCDebug(CONTACTTHEMEEDITOR_LOG)<< "zipFilename"<<zipFileName;
+        // qCDebug(CONTACTTHEMEEDITOR_LOG)<< "zipFilename"<<zipFileName;
 
         QPointer<KNS3::UploadDialog> dialog = new KNS3::UploadDialog(QStringLiteral("kaddressbook_themes.knsrc"), this);
         dialog->setUploadFile(QUrl::fromLocalFile(zipFileName));

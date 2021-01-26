@@ -5,26 +5,26 @@
 */
 
 #include "themeeditormainwindow.h"
-#include "themeeditorpage.h"
-#include "newthemedialog.h"
 #include "contactprintthemeconfiguredialog.h"
 #include "managethemes.h"
+#include "newthemedialog.h"
+#include "themeeditorpage.h"
 
-#include <KStandardAction>
-#include <QAction>
 #include <KActionCollection>
+#include <KConfigGroup>
 #include <KLocalizedString>
 #include <KMessageBox>
-#include <QFileDialog>
 #include <KRecentFilesAction>
-#include <KConfigGroup>
+#include <KStandardAction>
+#include <QAction>
+#include <QFileDialog>
 
-#include <QApplication>
-#include <QPointer>
-#include <QCloseEvent>
-#include <KSharedConfig>
-#include <QStandardPaths>
 #include <KAuthorized>
+#include <KSharedConfig>
+#include <QApplication>
+#include <QCloseEvent>
+#include <QPointer>
+#include <QStandardPaths>
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
     : KXmlGuiWindow()
@@ -149,7 +149,7 @@ void ThemeEditorMainWindow::slotConfigure()
 
 void ThemeEditorMainWindow::slotInstallTheme()
 {
-    //Save before installing :)
+    // Save before installing :)
     if (slotSaveTheme()) {
         const QString localThemePath = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1String("/kaddressbook/printing/themes");
         if (QDir().mkpath(localThemePath)) {
@@ -160,7 +160,7 @@ void ThemeEditorMainWindow::slotInstallTheme()
 
 void ThemeEditorMainWindow::slotUploadTheme()
 {
-    //Save before upload :)
+    // Save before upload :)
     if (slotSaveTheme()) {
         mThemeEditor->uploadTheme();
     }
@@ -245,8 +245,7 @@ bool ThemeEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     case SaveAndCloseTheme:
         closeThemeEditor();
         break;
-    case SaveAndCreateNewTheme:
-    {
+    case SaveAndCreateNewTheme: {
         delete mThemeEditor;
         mThemeEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);

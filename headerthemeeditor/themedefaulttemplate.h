@@ -8,7 +8,8 @@
 
 #include <PimCommon/TemplateListWidget>
 
-namespace ThemeDefaultTemplate {
+namespace ThemeDefaultTemplate
+{
 Q_REQUIRED_RESULT QVector<PimCommon::defaultTemplate> defaultTemplates();
 }
 

@@ -4,18 +4,18 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "editorpage.h"
-#include "editorwidget.h"
-#include "previewwidget.h"
 #include "contacteditorwidget.h"
 #include "contacttemplatewidget.h"
+#include "editorwidget.h"
+#include "previewwidget.h"
 #include <KPIMTextEdit/PlainTextEditor>
 
 #include <KSplitterCollapserButton>
 
 #include <KLocalizedString>
 
-#include <KSharedConfig>
 #include <KConfigGroup>
+#include <KSharedConfig>
 
 #include <QSplitter>
 #include <QVBoxLayout>
@@ -59,9 +59,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 
     if (mType == MainPage) {
         KConfigGroup group(KSharedConfig::openConfig(), "EditorPage");
-        const QList<int> size {
-            400, 100
-        };
+        const QList<int> size{400, 100};
         mMainSplitter->setSizes(group.readEntry("mainSplitter", size));
         mWidgetSplitter->setSizes(group.readEntry("widgetSplitter", size));
     }

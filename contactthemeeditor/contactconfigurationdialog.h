@@ -8,15 +8,18 @@
 
 #include <QDialog>
 
-namespace GrantleeThemeEditor {
+namespace GrantleeThemeEditor
+{
 class ConfigureWidget;
 }
 
-namespace Akonadi {
+namespace Akonadi
+{
 class AkonadiContactEditor;
 }
 
-namespace KPIMTextEdit {
+namespace KPIMTextEdit
+{
 class PlainTextEditorWidget;
 }
 class ContactConfigureDialog : public QDialog

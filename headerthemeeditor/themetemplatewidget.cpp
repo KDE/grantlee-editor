@@ -8,8 +8,8 @@
 
 #include <KLocalizedString>
 
-#include <QVBoxLayout>
 #include <QLabel>
+#include <QVBoxLayout>
 
 ThemeTemplateListWidget::ThemeTemplateListWidget(const QString &configName, QWidget *parent)
     : PimCommon::TemplateListWidget(configName, parent)

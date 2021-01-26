@@ -6,8 +6,8 @@
 #ifndef CONTACTTEMPLATEWIDGET_H
 #define CONTACTTEMPLATEWIDGET_H
 
-#include <QWidget>
 #include <PimCommon/TemplateListWidget>
+#include <QWidget>
 
 class ContactTemplateListWidget : public PimCommon::TemplateListWidget
 {

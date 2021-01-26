@@ -43,11 +43,7 @@ private:
     void slotSaveAsTheme();
 
 private:
-    enum ActionSaveTheme {
-        SaveOnly = 0,
-        SaveAndCloseTheme,
-        SaveAndCreateNewTheme
-    };
+    enum ActionSaveTheme { SaveOnly = 0, SaveAndCloseTheme, SaveAndCreateNewTheme };
 
     void writeConfig();
     bool loadTheme(const QString &directory);

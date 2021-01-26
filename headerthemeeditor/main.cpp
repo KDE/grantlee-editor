@@ -7,13 +7,13 @@
 
 #include "grantleeeditor-version.h"
 
-#include <QApplication>
-#include <QCommandLineParser>
 #include <KAboutData>
-#include <KLocalizedString>
-#include <Kdelibs4ConfigMigrator>
 #include <KCrash>
 #include <KDBusService>
+#include <KLocalizedString>
+#include <Kdelibs4ConfigMigrator>
+#include <QApplication>
+#include <QCommandLineParser>
 
 int main(int argc, char **argv)
 {

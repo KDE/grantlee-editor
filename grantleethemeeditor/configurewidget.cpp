@@ -5,8 +5,8 @@
 */
 
 #include "configurewidget.h"
-#include "ui_configurewidget.h"
 #include "globalsettings_base.h"
+#include "ui_configurewidget.h"
 
 #include <KSharedConfig>
 #include <QUrl>

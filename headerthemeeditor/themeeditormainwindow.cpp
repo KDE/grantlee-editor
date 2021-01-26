@@ -4,27 +4,27 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeeditormainwindow.h"
-#include "themeeditorpage.h"
+#include "managethemes.h"
 #include "newthemedialog.h"
 #include "themeconfiguredialog.h"
-#include "managethemes.h"
+#include "themeeditorpage.h"
 
-#include <KStandardAction>
-#include <QAction>
-#include <KToggleAction>
 #include <KActionCollection>
+#include <KAuthorized>
+#include <KConfigGroup>
 #include <KLocalizedString>
 #include <KMessageBox>
-#include <QFileDialog>
 #include <KRecentFilesAction>
-#include <KConfigGroup>
-#include <KAuthorized>
+#include <KStandardAction>
+#include <KToggleAction>
+#include <QAction>
+#include <QFileDialog>
 
-#include <QApplication>
-#include <QPointer>
-#include <QCloseEvent>
-#include <QActionGroup>
 #include <KSharedConfig>
+#include <QActionGroup>
+#include <QApplication>
+#include <QCloseEvent>
+#include <QPointer>
 #include <QStandardPaths>
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
@@ -176,7 +176,7 @@ void ThemeEditorMainWindow::slotConfigure()
 
 void ThemeEditorMainWindow::slotInstallTheme()
 {
-    //Save before installing :)
+    // Save before installing :)
     if (slotSaveTheme()) {
         const QString localThemePath = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1String("/messageviewer/themes/");
         QDir().mkpath(localThemePath);
@@ -186,7 +186,7 @@ void ThemeEditorMainWindow::slotInstallTheme()
 
 void ThemeEditorMainWindow::slotUploadTheme()
 {
-    //Save before upload :)
+    // Save before upload :)
     if (slotSaveTheme()) {
         mThemeEditor->uploadTheme();
     }
@@ -271,8 +271,7 @@ bool ThemeEditorMainWindow::saveCurrentProject(ActionSaveTheme act)
     case SaveAndCloseTheme:
         closeThemeEditor();
         break;
-    case SaveAndCreateNewTheme:
-    {
+    case SaveAndCreateNewTheme: {
         delete mThemeEditor;
         mThemeEditor = nullptr;
         QPointer<GrantleeThemeEditor::NewThemeDialog> dialog = new GrantleeThemeEditor::NewThemeDialog(this);
