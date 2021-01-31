@@ -25,7 +25,7 @@ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 
 target_link_libraries(contactprintthemeeditor
-    Qt5::WebEngineWidgets
+    Qt::WebEngineWidgets
     KF5::DBusAddons
     KF5::NewStuff
     KF5::AkonadiContact
@@ -33,7 +33,7 @@ target_link_libraries(contactprintthemeeditor
     grantleethemeeditor
     KF5::PimTextEdit
     KF5::I18n
-    Qt5::WebEngineWidgets
+    Qt::WebEngineWidgets
     KF5::Crash
     )
 
