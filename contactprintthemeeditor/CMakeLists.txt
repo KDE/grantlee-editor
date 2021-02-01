@@ -10,6 +10,7 @@ set(contactprintthemeeditor_SRCS
     themeeditorwidget.cpp
     themetemplatewidget.cpp
     contactprintthemepreview.cpp
+    contactprintthemeeditor.qrc
     )
 
 ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor
@@ -17,8 +18,6 @@ ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprint
         OLD_CATEGORY_NAMES log_contactprintthemeeditor
         EXPORT GRANTLEEEDITOR
     )
-qt5_add_resources(contactprintthemeeditor_SRCS contactprintthemeeditor.qrc)
-
 add_executable(contactprintthemeeditor ${contactprintthemeeditor_SRCS} )
 if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(contactprintthemeeditor PROPERTIES UNITY_BUILD ON)

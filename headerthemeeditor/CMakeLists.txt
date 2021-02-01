@@ -10,6 +10,7 @@ set(headerthemeeditor_SRCS
     themeconfiguredialog.cpp
     themeeditorutil.cpp
     themeeditorwidget.cpp
+    headerthemeeditor.qrc
     )
 
 ecm_qt_declare_logging_category(headerthemeeditor_SRCS HEADER headerthemeeditor_debug.h IDENTIFIER HEADERTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.headerthemeeditor
@@ -17,8 +18,6 @@ ecm_qt_declare_logging_category(headerthemeeditor_SRCS HEADER headerthemeeditor_
         OLD_CATEGORY_NAMES log_headerthemeeditor
         EXPORT GRANTLEEEDITOR
     )
-
-qt5_add_resources(headerthemeeditor_SRCS headerthemeeditor.qrc)
 
 add_executable(headerthemeeditor ${headerthemeeditor_SRCS} )
 if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
