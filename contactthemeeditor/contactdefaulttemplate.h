@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTDEFAULTTEMPLATE_H
-#define CONTACTDEFAULTTEMPLATE_H
+#pragma once
 
 #include <PimCommon/TemplateListWidget>
 
@@ -13,4 +12,3 @@ namespace ContactDefaultTemplate
 Q_REQUIRED_RESULT QVector<PimCommon::defaultTemplate> contactTemplates();
 }
 
-#endif // CONTACTDEFAULTTEMPLATE_H

@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef CONFIGUREWIDGET_H
-#define CONFIGUREWIDGET_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <QWidget>
@@ -33,4 +32,3 @@ private:
 };
 }
 
-#endif // CONFIGUREWIDGET_H

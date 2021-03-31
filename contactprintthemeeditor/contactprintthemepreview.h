@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTPRINTTHEMEPREVIEW_H
-#define CONTACTPRINTTHEMEPREVIEW_H
+#pragma once
 
 #include <QWidget>
 
@@ -37,4 +36,3 @@ private:
     QWebEngineView *mViewer = nullptr;
 };
 
-#endif // CONTACTPRINTTHEMEPREVIEW_H

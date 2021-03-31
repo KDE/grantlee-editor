@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTTEMPLATEWIDGET_H
-#define CONTACTTEMPLATEWIDGET_H
+#pragma once
 
 #include <PimCommon/TemplateListWidget>
 #include <QWidget>
@@ -33,4 +32,3 @@ private:
     ContactTemplateListWidget *mListTemplate = nullptr;
 };
 
-#endif // CONTACTTEMPLATEWIDGET_H

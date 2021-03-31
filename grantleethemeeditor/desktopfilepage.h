@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef DESKTOPFILEPAGE_H
-#define DESKTOPFILEPAGE_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <QWidget>
@@ -60,4 +59,3 @@ private:
 };
 }
 
-#endif // DESKTOPFILEPAGE_H

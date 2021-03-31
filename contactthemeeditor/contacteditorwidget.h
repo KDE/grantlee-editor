@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTEDITORWIDGET_H
-#define CONTACTEDITORWIDGET_H
+#pragma once
 #include "grantleethemeeditor/editorwidget.h"
 
 class ContactEditorWidget : public GrantleeThemeEditor::EditorWidget
@@ -18,4 +17,3 @@ public Q_SLOTS:
     void createCompleterList(const QStringList &extraCompletion = QStringList()) override;
 };
 
-#endif // CONTACTEDITORWIDGET_H

@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef THEMEEDITORTABWIDGET_H
-#define THEMEEDITORTABWIDGET_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <QTabWidget>
@@ -24,4 +23,3 @@ private:
     void slotTabContextMenuRequest(const QPoint &pos);
 };
 }
-#endif // THEMEEDITORTABWIDGET_H

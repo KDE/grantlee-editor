@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef PREVIEWWIDGET_H
-#define PREVIEWWIDGET_H
+#pragma once
 
 #include "grantleethemeeditor/previewwidget.h"
 class ContactPreviewWidget;
@@ -24,4 +23,3 @@ private:
     ContactPreviewWidget *mPreview = nullptr;
 };
 
-#endif // PREVIEWWIDGET_H

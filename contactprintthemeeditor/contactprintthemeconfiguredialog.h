@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef CONTACTPRINTTHEMECONFIGUREDIALOG_H
-#define CONTACTPRINTTHEMECONFIGUREDIALOG_H
+#pragma once
 
 #include <QDialog>
 
@@ -41,4 +40,3 @@ private:
     Akonadi::AkonadiContactEditor *mDefaultContact = nullptr;
 };
 
-#endif

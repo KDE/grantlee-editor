@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef THEMESESSION_H
-#define THEMESESSION_H
+#pragma once
 #include "grantleethemeeditor_export.h"
 #include <QString>
 #include <QStringList>
@@ -36,4 +35,3 @@ private:
 };
 }
 
-#endif // THEMESESSION_H

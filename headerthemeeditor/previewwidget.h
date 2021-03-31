@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef PREVIEWWIDGET_H
-#define PREVIEWWIDGET_H
+#pragma once
 
 #include "grantleethemeeditor/previewwidget.h"
 namespace MessageViewer
@@ -35,4 +34,3 @@ private:
     MessageViewer::GrantleeHeaderTestStyle *mGrantleeHeaderStyle = nullptr;
 };
 
-#endif // PREVIEWWIDGET_H

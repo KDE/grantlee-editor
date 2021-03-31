@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef THEMEEDITORMAINWINDOW_H
-#define THEMEEDITORMAINWINDOW_H
+#pragma once
 
 #include <KXmlGuiWindow>
 
@@ -73,4 +72,3 @@ private:
     KRecentFilesAction *mRecentFileAction = nullptr;
 };
 
-#endif // THEMEEDITORMAINWINDOW_H

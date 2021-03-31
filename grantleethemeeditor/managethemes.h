@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef MANAGETHEMES_H
-#define MANAGETHEMES_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <QDialog>
@@ -30,4 +29,3 @@ private:
     ManageThemesPrivate *const d;
 };
 }
-#endif // MANAGETHEMES_H

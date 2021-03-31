@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef EDITORPAGE_H
-#define EDITORPAGE_H
+#pragma once
 
 #include "grantleethemeeditor/editorpage.h"
 
@@ -34,4 +33,3 @@ private:
     QSplitter *mWidgetSplitter = nullptr;
 };
 
-#endif // EDITORPAGE_H

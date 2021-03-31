@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef DEFAULTCOMPLETION_H
-#define DEFAULTCOMPLETION_H
+#pragma once
 
 #include <QStringList>
 
@@ -15,4 +14,3 @@ Q_REQUIRED_RESULT QStringList defaultCompetion();
 Q_REQUIRED_RESULT QStringList defaultOptions();
 }
 
-#endif // DEFAULTCOMPLETION_H

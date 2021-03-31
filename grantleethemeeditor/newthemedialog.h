@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef NEWTHEMEDIALOG_H
-#define NEWTHEMEDIALOG_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <QDialog>
@@ -28,4 +27,3 @@ private:
     NewThemeDialogPrivate *const d;
 };
 }
-#endif // NEWTHEMEDIALOG_H

@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef GRANTLEEPLAINTEXTEDITOR_H
-#define GRANTLEEPLAINTEXTEDITOR_H
+#pragma once
 
 #include <KPIMTextEdit/PlainTextEditor>
 #include <KSyntaxHighlighting/Repository>
@@ -36,4 +35,3 @@ private:
 };
 }
 
-#endif // GRANTLEEPLAINTEXTEDITOR_H

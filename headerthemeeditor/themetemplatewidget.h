@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef THEMETEMPLATEWIDGET_H
-#define THEMETEMPLATEWIDGET_H
+#pragma once
 
 #include <PimCommon/TemplateListWidget>
 #include <QWidget>
@@ -33,4 +32,3 @@ private:
     ThemeTemplateListWidget *mListTemplate = nullptr;
 };
 
-#endif // THEMETEMPLATEWIDGET_H

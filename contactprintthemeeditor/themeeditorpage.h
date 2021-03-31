@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef THEMEEDITORPAGE_H
-#define THEMEEDITORPAGE_H
+#pragma once
 
 #include <QWidget>
 
@@ -66,4 +65,3 @@ private:
     bool mChanged = false;
 };
 
-#endif // THEMEEDITORPAGE_H

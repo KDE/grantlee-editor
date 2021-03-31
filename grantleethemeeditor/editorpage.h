@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef GRANTLEEEDITOREDITORPAGE_H
-#define GRANTLEEEDITOREDITORPAGE_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <QWidget>
@@ -50,4 +49,3 @@ protected:
 };
 }
 
-#endif // GRANTLEEEDITOREDITOREDITORPAGE_H

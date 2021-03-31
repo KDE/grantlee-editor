@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTEDITORMAINWINDOW_H
-#define CONTACTEDITORMAINWINDOW_H
+#pragma once
 
 #include <KXmlGuiWindow>
 
@@ -68,4 +67,3 @@ private:
     KRecentFilesAction *mRecentFileAction = nullptr;
 };
 
-#endif // CONTACTEDITORMAINWINDOW_H

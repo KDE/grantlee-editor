@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef THEMECONFIGUREDIALOG_H
-#define THEMECONFIGUREDIALOG_H
+#pragma once
 
 #include <QDialog>
 
@@ -35,4 +34,3 @@ private:
     KPIMTextEdit::PlainTextEditorWidget *mDefaultEmail = nullptr;
 };
 
-#endif // THEMECONFIGUREDIALOG_H

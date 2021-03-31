@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef THEMEEDITORUTIL_H
-#define THEMEEDITORUTIL_H
+#pragma once
 
 #include <QString>
 
@@ -15,4 +14,3 @@ public:
     Q_REQUIRED_RESULT QString defaultMail() const;
 };
 
-#endif // THEMEEDITORUTIL_H

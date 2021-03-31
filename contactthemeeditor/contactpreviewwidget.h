@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTPREVIEWWIDGET_H
-#define CONTACTPREVIEWWIDGET_H
+#pragma once
 
 #include <QWidget>
 
@@ -47,4 +46,3 @@ private:
     QTabWidget *mTabWidget = nullptr;
 };
 
-#endif // CONTACTPREVIEWWIDGET_H

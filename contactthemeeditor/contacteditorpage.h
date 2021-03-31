@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef CONTACTEDITORPAGE_H
-#define CONTACTEDITORPAGE_H
+#pragma once
 
 #include <QWidget>
 
@@ -71,4 +70,3 @@ private:
     bool mChanged = false;
 };
 
-#endif // CONTACTEDITORPAGE_H

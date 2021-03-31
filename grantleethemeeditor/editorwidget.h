@@ -3,8 +3,7 @@
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
-#ifndef EDITORWIDGET_H
-#define EDITORWIDGET_H
+#pragma once
 
 #include "grantleethemeeditor_export.h"
 #include <KPIMTextEdit/PlainTextEditorWidget>
@@ -28,4 +27,3 @@ public:
 };
 }
 
-#endif // EDITORWIDGET_H

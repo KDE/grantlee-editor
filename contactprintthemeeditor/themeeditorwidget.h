@@ -4,8 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#ifndef THEMEEDITORWIDGET_H
-#define THEMEEDITORWIDGET_H
+#pragma once
 #include "grantleethemeeditor/editorwidget.h"
 
 class ThemeEditorWidget : public GrantleeThemeEditor::EditorWidget
@@ -19,4 +18,3 @@ public Q_SLOTS:
     void createCompleterList(const QStringList &extraCompletion = QStringList()) override;
 };
 
-#endif // THEMEEDITORWIDGET_H
