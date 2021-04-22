@@ -11,7 +11,10 @@
 #include <KCrash>
 #include <KDBusService>
 #include <KLocalizedString>
+#include <kcoreaddons_version.h>
+#if KCOREADDONS_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <Kdelibs4ConfigMigrator>
+#endif
 #include <QApplication>
 #include <QCommandLineParser>
 
@@ -22,10 +25,12 @@ int main(int argc, char **argv)
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
     app.setDesktopFileName(QStringLiteral("org.kde.headerthemeeditor"));
     KCrash::initialize();
+#if KCOREADDONS_VERSION < QT_VERSION_CHECK(6, 0, 0)
     Kdelibs4ConfigMigrator migrate(QStringLiteral("headerthemeeditor"));
     migrate.setConfigFiles(QStringList() << QStringLiteral("headerthemeeditorrc"));
     migrate.setUiFiles(QStringList() << QStringLiteral("headerthemeeditorui.rc"));
     migrate.migrate();
+#endif
     KLocalizedString::setApplicationDomain("headerthemeeditor");
     KAboutData aboutData(QStringLiteral("headerthemeeditor"),
                          i18n("Header Theme Editor"),

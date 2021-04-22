@@ -9,7 +9,10 @@
 #include <KCrash>
 #include <KDBusService>
 #include <KLocalizedString>
+#include <kcoreaddons_version.h>
+#if KCOREADDONS_VERSION < QT_VERSION_CHECK(6, 0, 0)
 #include <Kdelibs4ConfigMigrator>
+#endif
 #include <QApplication>
 #include <QCommandLineParser>
 
@@ -21,12 +24,12 @@ int main(int argc, char **argv)
     app.setDesktopFileName(QStringLiteral("org.kde.contactthemeeditor"));
 
     KCrash::initialize();
-
+#if KCOREADDONS_VERSION < QT_VERSION_CHECK(6, 0, 0)
     Kdelibs4ConfigMigrator migrate(QStringLiteral("contactthemeeditor"));
     migrate.setConfigFiles(QStringList() << QStringLiteral("contactthemeeditorrc"));
     migrate.setUiFiles(QStringList() << QStringLiteral("contactthemeeditorui.rc"));
     migrate.migrate();
-
+#endif
     KLocalizedString::setApplicationDomain("contactthemeeditor");
     KAboutData aboutData(QStringLiteral("contactthemeeditor"),
                          i18n("Contact Theme Editor"),
