@@ -76,7 +76,7 @@ find_package(KF5SyntaxHighlighting ${KF5_MIN_VERSION} CONFIG REQUIRED)
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
 
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f00)
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055300)
+add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055400)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
