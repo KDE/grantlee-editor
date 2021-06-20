@@ -53,4 +53,4 @@ target_link_libraries(grantleethemeeditor
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 
 set_target_properties(grantleethemeeditor PROPERTIES VERSION ${KDEPIM_LIB_VERSION} SOVERSION ${KDEPIM_LIB_SOVERSION})
-install(TARGETS grantleethemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS grantleethemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}  LIBRARY NAMELINK_SKIP)
