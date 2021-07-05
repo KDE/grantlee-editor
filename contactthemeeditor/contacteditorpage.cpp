@@ -136,7 +136,7 @@ void ContactEditorPage::installTheme(const QString &themePath)
     mEditorGroupEmbeddedPage->installTheme(newPath);
     mEditorEmbeddedPage->installTheme(newPath);
 
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->installTheme(newPath);
     }
     mDesktopPage->installTheme(newPath);
@@ -197,7 +197,7 @@ void ContactEditorPage::createZip(const QString &themeName, KZip *zip)
     mEditorGroupEmbeddedPage->createZip(themeName, zip);
     mEditorEmbeddedPage->createZip(themeName, zip);
 
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->createZip(themeName, zip);
     }
     mDesktopPage->createZip(themeName, zip);
@@ -245,7 +245,7 @@ void ContactEditorPage::storeTheme(const QString &directory)
     mEditorGroupEmbeddedPage->saveTheme(themeDirectory);
     mEditorEmbeddedPage->saveTheme(themeDirectory);
 
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->saveTheme(themeDirectory);
     }
     mDesktopPage->saveTheme(themeDirectory);

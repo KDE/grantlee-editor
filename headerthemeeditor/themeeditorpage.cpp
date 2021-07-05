@@ -99,7 +99,7 @@ void ThemeEditorPage::slotExtraHeaderDisplayChanged(const QStringList &extraHead
     }
 
     mEditorPage->editor()->createCompleterList(result);
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->editor()->createCompleterList(result);
     }
 }
@@ -168,7 +168,7 @@ void ThemeEditorPage::installTheme(const QString &themePath)
     const QString newPath = themePath + QLatin1Char('/') + mDesktopPage->themeName();
     mEditorPage->setPageFileName(mDesktopPage->filename());
     mEditorPage->installTheme(newPath);
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->installTheme(newPath);
     }
     mDesktopPage->installTheme(newPath);
@@ -219,7 +219,7 @@ void ThemeEditorPage::createZip(const QString &themeName, KZip *zip)
 {
     mEditorPage->createZip(themeName, zip);
 
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->createZip(themeName, zip);
     }
     mDesktopPage->createZip(themeName, zip);
@@ -256,7 +256,7 @@ void ThemeEditorPage::storeTheme(const QString &directory)
     mEditorPage->setPageFileName(mDesktopPage->filename());
     mEditorPage->saveTheme(themeDirectory);
 
-    for (EditorPage *page : qAsConst(mExtraPage)) {
+    for (EditorPage *page : std::as_const(mExtraPage)) {
         page->saveTheme(themeDirectory);
     }
     mDesktopPage->saveTheme(themeDirectory);
