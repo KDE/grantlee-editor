@@ -205,14 +205,17 @@ void ContactEditorPage::createZip(const QString &themeName, KZip *zip)
 
 void ContactEditorPage::addExtraPage()
 {
-    QString filename = QInputDialog::getText(this, i18n("Filename of extra page"), i18n("Filename:"));
-    if (!filename.trimmed().isEmpty()) {
-        if (!filename.endsWith(QLatin1String(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
-            filename += QLatin1String(".html");
+    bool ok = false;
+    QString filename = QInputDialog::getText(this, i18n("Filename of extra page"), i18n("Filename:"), {}, {}, &ok);
+    if (ok) {
+        if (!filename.trimmed().isEmpty()) {
+            if (!filename.endsWith(QLatin1String(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
+                filename += QLatin1String(".html");
+            }
+            createExtraPage(filename);
+            mThemeSession->addExtraPage(filename);
+            setChanged(true);
         }
-        createExtraPage(filename);
-        mThemeSession->addExtraPage(filename);
-        setChanged(true);
     }
 }
 
