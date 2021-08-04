@@ -152,6 +152,7 @@ void ThemeEditorPage::installTheme(const QString &themePath)
 
 void ThemeEditorPage::uploadTheme()
 {
+#if 0
     // force update for screenshot
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
@@ -188,6 +189,7 @@ void ThemeEditorPage::uploadTheme()
         qCDebug(CONTACTPRINTTHEMEEDITOR_LOG) << " We can't open in zip write mode";
     }
     delete zip;
+#endif
 }
 
 void ThemeEditorPage::createZip(const QString &themeName, KZip *zip)
