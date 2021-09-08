@@ -13,7 +13,7 @@
 #include <Akonadi/Contact/ContactViewer>
 #include <Akonadi/Contact/GrantleeContactFormatter>
 #include <Akonadi/Contact/GrantleeContactGroupFormatter>
-#include <AkonadiCore/Item>
+#include <Akonadi/Item>
 #include <KLocalizedString>
 
 #include <KConfigGroup>
