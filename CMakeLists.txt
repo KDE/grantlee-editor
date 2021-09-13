@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 set(PIM_VERSION "5.18.40")
 project(grantlee-editor VERSION ${PIM_VERSION})
 set(RELEASE_SERVICE_VERSION "21.11.40")
-set(KF5_MIN_VERSION "5.85.0")
+set(KF5_MIN_VERSION "5.86.0")
 
 find_package(ECM ${KF5_MIN_VERSION} CONFIG REQUIRED)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
@@ -75,7 +75,7 @@ find_package(KF5SyntaxHighlighting ${KF5_MIN_VERSION} CONFIG REQUIRED)
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
 
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055600)
+add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055700)
 
 
 configure_file(grantleeeditor-version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/grantleeeditor-version.h @ONLY)
