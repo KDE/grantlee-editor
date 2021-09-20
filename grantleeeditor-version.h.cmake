@@ -15,10 +15,5 @@
   build against older kdelibs releases.
 */
 
-#ifndef GRANTLEEEDITOR_VERSION_H
-#define GRANTLEEEDITOR_VERSION_H
-
-
+#pragma once
 #define GRANTLEEEDITOR_VERSION "@KDEPIM_VERSION@"
-
-#endif
