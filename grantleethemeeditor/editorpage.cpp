@@ -11,7 +11,6 @@
 #include <KZip>
 #include <QTemporaryFile>
 
-#include <QDir>
 #include <QFile>
 #include <QTextStream>
 

@@ -14,7 +14,6 @@
 #include <QLineEdit>
 #include <QTemporaryFile>
 
-#include <QDir>
 #include <QGridLayout>
 #include <QLabel>
 

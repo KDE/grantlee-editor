@@ -10,7 +10,6 @@
 #include <KLocalizedString>
 #include <KMessageBox>
 
-#include <QDir>
 
 using namespace GrantleeThemeEditor;
 
