@@ -24,7 +24,7 @@ public:
     Q_DECLARE_FLAGS(DesktopFileOptions, DesktopFileOption)
 
     explicit DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent = nullptr);
-    ~DesktopFilePage();
+    ~DesktopFilePage() override;
 
     void saveTheme(const QString &path);
     void loadTheme(const QString &path);

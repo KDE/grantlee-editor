@@ -21,7 +21,7 @@ class ContactEditorPage : public QWidget
     Q_OBJECT
 public:
     explicit ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = nullptr);
-    ~ContactEditorPage();
+    ~ContactEditorPage() override;
 
     Q_REQUIRED_RESULT bool saveTheme(bool withConfirmation = true);
     void loadTheme(const QString &filename);

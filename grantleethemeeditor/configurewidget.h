@@ -21,7 +21,7 @@ class GRANTLEETHEMEEDITOR_EXPORT ConfigureWidget : public QWidget
     Q_OBJECT
 public:
     explicit ConfigureWidget(QWidget *parent = nullptr);
-    ~ConfigureWidget();
+    ~ConfigureWidget() override;
 
     void readConfig();
     void writeConfig();

@@ -23,7 +23,7 @@ class ContactTemplateWidget : public QWidget
     Q_OBJECT
 public:
     explicit ContactTemplateWidget(const QString &title, QWidget *parent = nullptr);
-    ~ContactTemplateWidget();
+    ~ContactTemplateWidget() override;
 
 Q_SIGNALS:
     void insertTemplate(const QString &);

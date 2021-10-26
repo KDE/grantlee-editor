@@ -26,7 +26,7 @@ class ContactConfigureDialog : public QDialog
     Q_OBJECT
 public:
     explicit ContactConfigureDialog(QWidget *parent = nullptr);
-    ~ContactConfigureDialog();
+    ~ContactConfigureDialog() override;
 
     void readConfig();
     void writeConfig();

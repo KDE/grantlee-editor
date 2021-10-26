@@ -21,7 +21,7 @@ class ThemeConfigureDialog : public QDialog
     Q_OBJECT
 public:
     explicit ThemeConfigureDialog(QWidget *parent = nullptr);
-    ~ThemeConfigureDialog();
+    ~ThemeConfigureDialog() override;
 
     void readConfig();
     void writeConfig();

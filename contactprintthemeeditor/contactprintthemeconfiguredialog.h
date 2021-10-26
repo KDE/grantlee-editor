@@ -27,7 +27,7 @@ class ContactPrintThemeConfigureDialog : public QDialog
     Q_OBJECT
 public:
     explicit ContactPrintThemeConfigureDialog(QWidget *parent = nullptr);
-    ~ContactPrintThemeConfigureDialog();
+    ~ContactPrintThemeConfigureDialog() override;
 
     void readConfig();
     void writeConfig();

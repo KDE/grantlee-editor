@@ -16,7 +16,7 @@ class GRANTLEETHEMEEDITOR_EXPORT ManageThemes : public QDialog
     Q_OBJECT
 public:
     explicit ManageThemes(const QString &relativeThemePath, QWidget *parent = nullptr);
-    ~ManageThemes();
+    ~ManageThemes() override;
 
 private:
     void slotItemSelectionChanged();

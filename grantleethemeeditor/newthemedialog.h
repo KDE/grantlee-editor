@@ -16,7 +16,7 @@ class GRANTLEETHEMEEDITOR_EXPORT NewThemeDialog : public QDialog
     Q_OBJECT
 public:
     explicit NewThemeDialog(QWidget *parent = nullptr);
-    ~NewThemeDialog();
+    ~NewThemeDialog() override;
 
     Q_REQUIRED_RESULT QString themeName() const;
     Q_REQUIRED_RESULT QString directory() const;

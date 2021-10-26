@@ -28,7 +28,7 @@ class ContactPreviewWidget : public QWidget
     Q_OBJECT
 public:
     explicit ContactPreviewWidget(const QString &projectDirectory, QWidget *parent = nullptr);
-    ~ContactPreviewWidget();
+    ~ContactPreviewWidget() override;
 
     void updateViewer();
     void createScreenShot(const QStringList &fileName);

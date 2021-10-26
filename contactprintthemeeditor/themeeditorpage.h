@@ -22,7 +22,7 @@ class ThemeEditorPage : public QWidget
     Q_OBJECT
 public:
     explicit ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent = nullptr);
-    ~ThemeEditorPage();
+    ~ThemeEditorPage() override;
 
     void saveThemeAs(const QString &directory);
     Q_REQUIRED_RESULT bool saveTheme(bool withConfirmation = true);

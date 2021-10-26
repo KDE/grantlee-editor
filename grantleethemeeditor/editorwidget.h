@@ -15,7 +15,7 @@ class GRANTLEETHEMEEDITOR_EXPORT EditorWidget : public KPIMTextEdit::PlainTextEd
     Q_OBJECT
 public:
     explicit EditorWidget(QWidget *parent = nullptr);
-    ~EditorWidget();
+    ~EditorWidget() override;
 
     void insertFile(const QString &filename);
 

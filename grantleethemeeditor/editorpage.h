@@ -20,7 +20,7 @@ class GRANTLEETHEMEEDITOR_EXPORT EditorPage : public QWidget
 public:
     enum PageType { MainPage = 0, SecondPage, ExtraPage };
     explicit EditorPage(GrantleeThemeEditor::EditorPage::PageType type, QWidget *parent = nullptr);
-    ~EditorPage();
+    ~EditorPage() override;
 
     EditorPage::PageType pageType() const;
 

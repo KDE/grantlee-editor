@@ -14,7 +14,7 @@ class GRANTLEETHEMEEDITOR_EXPORT ThemeEditorTabWidget : public QTabWidget
     Q_OBJECT
 public:
     explicit ThemeEditorTabWidget(QWidget *parent = nullptr);
-    ~ThemeEditorTabWidget();
+    ~ThemeEditorTabWidget() override;
 
 public Q_SLOTS:
     void slotMainFileNameChanged(const QString &fileName);

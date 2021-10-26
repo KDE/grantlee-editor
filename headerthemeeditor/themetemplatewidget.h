@@ -23,7 +23,7 @@ class ThemeTemplateWidget : public QWidget
     Q_OBJECT
 public:
     explicit ThemeTemplateWidget(const QString &title, QWidget *parent = nullptr);
-    ~ThemeTemplateWidget();
+    ~ThemeTemplateWidget() override;
 
 Q_SIGNALS:
     void insertTemplate(const QString &);
