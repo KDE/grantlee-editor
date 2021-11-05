@@ -132,7 +132,12 @@ void ThemeEditorPage::installTheme(const QString &themePath)
     QDir dir(themePath);
     QDir themeDir(themePath + QLatin1Char('/') + mDesktopPage->themeName());
     if (themeDir.exists()) {
-        if (KMessageBox::questionYesNo(this, i18n("Theme already exists. Do you want to overwrite it?"), i18n("Theme already exists")) == KMessageBox::No) {
+        const int answer = KMessageBox::questionYesNo(this,
+                                                      i18n("Theme already exists. Do you want to overwrite it?"),
+                                                      i18n("Theme already exists"),
+                                                      KStandardGuiItem::overwrite(),
+                                                      KStandardGuiItem::cancel());
+        if (answer == KMessageBox::No) {
             return;
         }
     } else {
@@ -249,7 +254,11 @@ bool ThemeEditorPage::saveTheme(bool withConfirmation)
 {
     if (themeWasChanged()) {
         if (withConfirmation) {
-            const int result = KMessageBox::questionYesNoCancel(this, i18n("Do you want to save current project?"), i18n("Save current project"));
+            const int result = KMessageBox::questionYesNoCancel(this,
+                                                                i18n("Do you want to save current project?"),
+                                                                i18n("Save current project"),
+                                                                KStandardGuiItem::save(),
+                                                                KStandardGuiItem::discard());
             if (result == KMessageBox::Yes) {
                 storeTheme();
             } else if (result == KMessageBox::Cancel) {

@@ -99,7 +99,8 @@ void ManageThemes::slotDeleteTheme()
         } else {
             msg = i18n("Do you want to remove %1 selected themes?", selectedThemeCount);
         }
-        if (KMessageBox::questionYesNo(this, msg, i18n("Remove theme")) == KMessageBox::Yes) {
+        const int answer = KMessageBox::questionYesNo(this, msg, i18n("Remove theme"), KStandardGuiItem::remove(), KStandardGuiItem::cancel());
+        if (answer == KMessageBox::Yes) {
             for (QListWidgetItem *item : selectItems) {
                 if (QDir((d->mLocalDirectory + QLatin1Char('/') + item->text())).removeRecursively()) {
                     delete item;
