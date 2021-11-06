@@ -12,6 +12,16 @@ set(libgrantleethemeeditor_SRCS
     previewwidget.cpp
     configurewidget.cpp
     grantleeplaintexteditor.cpp
+    newthemedialog.h
+    themeeditortabwidget.h
+    managethemes.h
+    themesession.h
+    editorwidget.h
+    desktopfilepage.h
+    editorpage.h
+    previewwidget.h
+    configurewidget.h
+    grantleeplaintexteditor.h
     )
 
 kconfig_add_kcfg_files(libgrantleethemeeditor_SRCS

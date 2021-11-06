@@ -10,6 +10,16 @@ set(contactprintthemeeditor_SRCS
     themeeditorwidget.cpp
     themetemplatewidget.cpp
     contactprintthemepreview.cpp
+    defaultcompletion.h
+    editorpage.h
+    contactprintthemeconfiguredialog.h
+    themedefaulttemplate.h
+    themeeditormainwindow.h
+    themeeditorpage.h
+    contactprintthemeeditorutil.h
+    themeeditorwidget.h
+    themetemplatewidget.h
+    contactprintthemepreview.h
     contactprintthemeeditor.qrc
     )
 

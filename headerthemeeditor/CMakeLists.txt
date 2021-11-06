@@ -11,6 +11,16 @@ set(headerthemeeditor_SRCS
     themeeditorutil.cpp
     themeeditorwidget.cpp
     headerthemeeditor.qrc
+    themeeditormainwindow.h
+    themeeditorpage.h
+    previewwidget.h
+    editorpage.h
+    themetemplatewidget.h
+    themedefaulttemplate.h
+    defaultcompletion.h
+    themeconfiguredialog.h
+    themeeditorutil.h
+    themeeditorwidget.h
     )
 
 ecm_qt_declare_logging_category(headerthemeeditor_SRCS HEADER headerthemeeditor_debug.h IDENTIFIER HEADERTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.headerthemeeditor

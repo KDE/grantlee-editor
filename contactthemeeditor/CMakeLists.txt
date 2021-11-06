@@ -11,6 +11,17 @@ set(contactthemeeditor_SRCS
     contactconfigurationdialog.cpp
     contacteditorutil.cpp
     contactpreviewwidget.cpp
+    defaultcompletion.h
+    contactdefaulttemplate.h
+    contacteditorwidget.h
+    contacttemplatewidget.h
+    contacteditormainwindow.h
+    previewwidget.h
+    editorpage.h
+    contacteditorpage.h
+    contactconfigurationdialog.h
+    contacteditorutil.h
+    contactpreviewwidget.h
     contactthemeeditor.qrc
     )
 ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor
