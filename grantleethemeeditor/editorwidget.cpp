@@ -13,9 +13,7 @@ EditorWidget::EditorWidget(QWidget *parent)
 {
 }
 
-EditorWidget::~EditorWidget()
-{
-}
+EditorWidget::~EditorWidget() = default;
 
 void EditorWidget::insertFile(const QString &filename)
 {

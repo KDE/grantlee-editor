@@ -35,9 +35,7 @@ ThemeEditorMainWindow::ThemeEditorMainWindow()
     readConfig();
 }
 
-ThemeEditorMainWindow::~ThemeEditorMainWindow()
-{
-}
+ThemeEditorMainWindow::~ThemeEditorMainWindow() = default;
 
 void ThemeEditorMainWindow::writeConfig()
 {

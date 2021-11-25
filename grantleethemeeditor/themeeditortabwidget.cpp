@@ -23,9 +23,7 @@ ThemeEditorTabWidget::ThemeEditorTabWidget(QWidget *parent)
     connect(this, &ThemeEditorTabWidget::customContextMenuRequested, this, &ThemeEditorTabWidget::slotTabContextMenuRequest);
 }
 
-ThemeEditorTabWidget::~ThemeEditorTabWidget()
-{
-}
+ThemeEditorTabWidget::~ThemeEditorTabWidget() = default;
 
 void ThemeEditorTabWidget::slotMainFileNameChanged(const QString &fileName)
 {
@@ -45,7 +43,7 @@ void ThemeEditorTabWidget::slotTabContextMenuRequest(const QPoint &pos)
     QTabBar *bar = tabBar();
     const int indexBar = bar->tabAt(bar->mapFrom(this, pos));
     QWidget *w = widget(indexBar);
-    EditorPage *page = qobject_cast<EditorPage *>(w);
+    auto page = qobject_cast<EditorPage *>(w);
     if (!page) {
         return;
     }

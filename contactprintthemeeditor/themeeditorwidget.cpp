@@ -13,9 +13,7 @@ ThemeEditorWidget::ThemeEditorWidget(QWidget *parent)
     createCompleterList();
 }
 
-ThemeEditorWidget::~ThemeEditorWidget()
-{
-}
+ThemeEditorWidget::~ThemeEditorWidget() = default;
 
 void ThemeEditorWidget::createCompleterList(const QStringList &extraCompletion)
 {

@@ -5,9 +5,7 @@
 */
 #include "contacteditorutil.h"
 
-ContactEditorUtil::ContactEditorUtil()
-{
-}
+ContactEditorUtil::ContactEditorUtil() = default;
 
 QString ContactEditorUtil::defaultContact() const
 {

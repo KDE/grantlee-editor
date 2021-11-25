@@ -5,9 +5,7 @@
 */
 #include "themeeditorutil.h"
 
-ThemeEditorUtil::ThemeEditorUtil()
-{
-}
+ThemeEditorUtil::ThemeEditorUtil() = default;
 
 QString ThemeEditorUtil::defaultMail() const
 {

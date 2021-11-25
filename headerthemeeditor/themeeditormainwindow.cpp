@@ -36,9 +36,7 @@ ThemeEditorMainWindow::ThemeEditorMainWindow()
     readConfig();
 }
 
-ThemeEditorMainWindow::~ThemeEditorMainWindow()
-{
-}
+ThemeEditorMainWindow::~ThemeEditorMainWindow() = default;
 
 void ThemeEditorMainWindow::writeConfig()
 {
@@ -118,7 +116,7 @@ void ThemeEditorMainWindow::setupActions()
     actionCollection()->addAction(QStringLiteral("insert_file"), mInsertFile);
     connect(mInsertFile, &QAction::triggered, this, &ThemeEditorMainWindow::slotInsertFile);
 
-    QActionGroup *group = new QActionGroup(this);
+    auto group = new QActionGroup(this);
 
     mPrintingMode = new KToggleAction(i18n("Printing mode"), this);
     actionCollection()->addAction(QStringLiteral("printing_mode"), mPrintingMode);

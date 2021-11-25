@@ -30,15 +30,15 @@ ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
 {
     setWindowTitle(i18nc("@title:window", "Configure"));
 
-    QTabWidget *tab = new QTabWidget;
+    auto tab = new QTabWidget;
 
-    QWidget *w = new QWidget;
-    QVBoxLayout *lay = new QVBoxLayout(w);
+    auto w = new QWidget;
+    auto lay = new QVBoxLayout(w);
 
     mConfigureWidget = new GrantleeThemeEditor::ConfigureWidget;
     lay->addWidget(mConfigureWidget);
 
-    QLabel *lab = new QLabel(i18n("Default contact:"));
+    auto lab = new QLabel(i18n("Default contact:"));
     lay->addWidget(lab);
 
     mDefaultContact = new Akonadi::AkonadiContactEditor(Akonadi::AkonadiContactEditor::CreateMode, Akonadi::AkonadiContactEditor::VCardMode);
@@ -49,9 +49,9 @@ ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     mDefaultTemplate = new KPIMTextEdit::PlainTextEditorWidget;
     tab->addTab(mDefaultTemplate, i18n("Default Template"));
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    auto mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(tab);
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults, this);
+    auto buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults, this);
     QPushButton *okButton = buttonBox->button(QDialogButtonBox::Ok);
     okButton->setDefault(true);
     okButton->setShortcut(Qt::CTRL | Qt::Key_Return);

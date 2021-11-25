@@ -12,9 +12,7 @@ PreviewWidget::PreviewWidget(QWidget *parent)
 {
 }
 
-PreviewWidget::~PreviewWidget()
-{
-}
+PreviewWidget::~PreviewWidget() = default;
 
 void PreviewWidget::updateViewer()
 {

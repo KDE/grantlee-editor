@@ -22,9 +22,7 @@ EditorPage::EditorPage(PageType type, QWidget *parent)
 {
 }
 
-EditorPage::~EditorPage()
-{
-}
+EditorPage::~EditorPage() = default;
 
 EditorPage::PageType EditorPage::pageType() const
 {

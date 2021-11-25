@@ -26,7 +26,7 @@
 ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWidget *parent)
     : QWidget(parent)
 {
-    QHBoxLayout *lay = new QHBoxLayout(this);
+    auto lay = new QHBoxLayout(this);
     lay->setContentsMargins(0, 0, 0, 0);
     mTabWidget = new QTabWidget;
 

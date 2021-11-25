@@ -52,7 +52,7 @@ int main(int argc, char **argv)
 
     KDBusService service;
 
-    ContactEditorMainWindow *mw = new ContactEditorMainWindow();
+    auto mw = new ContactEditorMainWindow();
     mw->show();
     const int ret = app.exec();
     return ret;

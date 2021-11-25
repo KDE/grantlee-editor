@@ -25,16 +25,16 @@ ThemeConfigureDialog::ThemeConfigureDialog(QWidget *parent)
     : QDialog(parent)
 {
     setWindowTitle(i18nc("@title:window", "Configure"));
-    QTabWidget *tab = new QTabWidget;
+    auto tab = new QTabWidget;
 
-    QWidget *w = new QWidget;
+    auto w = new QWidget;
 
-    QVBoxLayout *lay = new QVBoxLayout(w);
+    auto lay = new QVBoxLayout(w);
 
     mConfigureWidget = new GrantleeThemeEditor::ConfigureWidget;
     lay->addWidget(mConfigureWidget);
 
-    QLabel *lab = new QLabel(i18n("Default email:"));
+    auto lab = new QLabel(i18n("Default email:"));
     lay->addWidget(lab);
 
     mDefaultEmail = new KPIMTextEdit::PlainTextEditorWidget;
@@ -44,10 +44,10 @@ ThemeConfigureDialog::ThemeConfigureDialog(QWidget *parent)
     mDefaultTemplate = new KPIMTextEdit::PlainTextEditorWidget;
     tab->addTab(mDefaultTemplate, i18n("Default Template"));
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    auto mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(tab);
 
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults, this);
+    auto buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults, this);
     QPushButton *okButton = buttonBox->button(QDialogButtonBox::Ok);
     okButton->setDefault(true);
     okButton->setShortcut(Qt::CTRL | Qt::Key_Return);

@@ -7,7 +7,7 @@
 
 QVector<PimCommon::defaultTemplate> ContactDefaultTemplate::contactTemplates()
 {
-    return QVector<PimCommon::defaultTemplate>();
+    return {};
     /*
     PimCommon::defaultTemplate tmp;
     //TODO

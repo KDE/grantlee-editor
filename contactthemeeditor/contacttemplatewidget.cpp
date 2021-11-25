@@ -17,9 +17,7 @@ ContactTemplateListWidget::ContactTemplateListWidget(const QString &configName, 
     loadTemplates();
 }
 
-ContactTemplateListWidget::~ContactTemplateListWidget()
-{
-}
+ContactTemplateListWidget::~ContactTemplateListWidget() = default;
 
 QVector<PimCommon::defaultTemplate> ContactTemplateListWidget::defaultTemplates()
 {
@@ -29,8 +27,8 @@ QVector<PimCommon::defaultTemplate> ContactTemplateListWidget::defaultTemplates(
 ContactTemplateWidget::ContactTemplateWidget(const QString &title, QWidget *parent)
     : QWidget(parent)
 {
-    QVBoxLayout *lay = new QVBoxLayout(this);
-    QLabel *lab = new QLabel(title);
+    auto lay = new QVBoxLayout(this);
+    auto lab = new QLabel(title);
     lay->addWidget(lab);
     mListTemplate = new ContactTemplateListWidget(QStringLiteral("contactthemeeditorrc"));
     mListTemplate->setWhatsThis(i18n("You can drag and drop element on editor to import template"));
@@ -38,6 +36,4 @@ ContactTemplateWidget::ContactTemplateWidget(const QString &title, QWidget *pare
     lay->addWidget(mListTemplate);
 }
 
-ContactTemplateWidget::~ContactTemplateWidget()
-{
-}
+ContactTemplateWidget::~ContactTemplateWidget() = default;

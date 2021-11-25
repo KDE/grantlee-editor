@@ -23,9 +23,7 @@ using namespace GrantleeThemeEditor;
 class GrantleeThemeEditor::ManageThemesPrivate
 {
 public:
-    ManageThemesPrivate()
-    {
-    }
+    ManageThemesPrivate() = default;
 
     QString mLocalDirectory;
     QListWidget *mListThemes = nullptr;
@@ -38,12 +36,12 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
 {
     d->mLocalDirectory = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1Char('/') + relativeThemePath;
     setWindowTitle(i18nc("@title:window", "Manage Theme"));
-    QWidget *w = new QWidget;
+    auto w = new QWidget;
 
-    QVBoxLayout *lay = new QVBoxLayout(w);
+    auto lay = new QVBoxLayout(w);
     lay->setContentsMargins(0, 0, 0, 0);
 
-    QLabel *lab = new QLabel(i18n("Local themes:"));
+    auto lab = new QLabel(i18n("Local themes:"));
     lay->addWidget(lab);
 
     d->mListThemes = new QListWidget;
@@ -58,9 +56,9 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
 
     initialize();
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    auto mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(w);
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Close, this);
+    auto buttonBox = new QDialogButtonBox(QDialogButtonBox::Close, this);
     connect(buttonBox, &QDialogButtonBox::rejected, this, &ManageThemes::reject);
     mainLayout->addWidget(buttonBox);
 

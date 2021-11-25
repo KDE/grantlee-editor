@@ -25,8 +25,8 @@ using namespace GrantleeThemeEditor;
 DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent)
     : QWidget(parent)
 {
-    QGridLayout *gridLayout = new QGridLayout(this);
-    QLabel *lab = new QLabel(i18n("Name:"), this);
+    auto gridLayout = new QGridLayout(this);
+    auto lab = new QLabel(i18n("Name:"), this);
     mName = new QLineEdit(this);
     mName->setReadOnly(true);
     int row = 0;
@@ -103,9 +103,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     connect(mVersion, &QLineEdit::textChanged, this, &DesktopFilePage::changed);
 }
 
-DesktopFilePage::~DesktopFilePage()
-{
-}
+DesktopFilePage::~DesktopFilePage() = default;
 
 void DesktopFilePage::slotExtraDisplayHeadersChanged()
 {
@@ -140,7 +138,7 @@ QString DesktopFilePage::filename() const
     if (mFilename) {
         return mFilename->text();
     }
-    return QString();
+    return {};
 }
 
 QString DesktopFilePage::themeName() const

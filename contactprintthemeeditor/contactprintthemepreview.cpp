@@ -18,7 +18,7 @@ ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirecto
     : GrantleeThemeEditor::PreviewWidget(parent)
     , mThemePath(projectDirectory)
 {
-    QHBoxLayout *hbox = new QHBoxLayout(this);
+    auto hbox = new QHBoxLayout(this);
     hbox->setContentsMargins(0, 0, 0, 0);
     mViewer = new QWebEngineView(this);
     mViewer->setContextMenuPolicy(Qt::NoContextMenu);
@@ -26,9 +26,7 @@ ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirecto
     loadConfig();
 }
 
-ContactPrintThemePreview::~ContactPrintThemePreview()
-{
-}
+ContactPrintThemePreview::~ContactPrintThemePreview() = default;
 
 void ContactPrintThemePreview::updateViewer()
 {

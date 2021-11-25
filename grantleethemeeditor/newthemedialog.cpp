@@ -19,9 +19,7 @@ using namespace GrantleeThemeEditor;
 class GrantleeThemeEditor::NewThemeDialogPrivate
 {
 public:
-    NewThemeDialogPrivate()
-    {
-    }
+    NewThemeDialogPrivate() = default;
 
     KLineEdit *mThemeName = nullptr;
     KUrlRequester *mUrlRequester = nullptr;
@@ -33,12 +31,12 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
 {
     setWindowTitle(i18nc("@title:window", "New Theme"));
 
-    QWidget *w = new QWidget;
+    auto w = new QWidget;
 
-    QVBoxLayout *lay = new QVBoxLayout(w);
+    auto lay = new QVBoxLayout(w);
     lay->setContentsMargins(0, 0, 0, 0);
 
-    QLabel *lab = new QLabel(i18n("Theme name:"));
+    auto lab = new QLabel(i18n("Theme name:"));
     lay->addWidget(lab);
 
     d->mThemeName = new KLineEdit;
@@ -55,10 +53,10 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
     connect(d->mUrlRequester->lineEdit(), &KLineEdit::textChanged, this, &NewThemeDialog::slotUpdateOkButton);
     lay->addWidget(d->mUrlRequester);
 
-    QVBoxLayout *mainLayout = new QVBoxLayout(this);
+    auto mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(w);
 
-    QDialogButtonBox *buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, this);
+    auto buttonBox = new QDialogButtonBox(QDialogButtonBox::Ok | QDialogButtonBox::Cancel, this);
     d->mOkButton = buttonBox->button(QDialogButtonBox::Ok);
     d->mOkButton->setShortcut(Qt::CTRL | Qt::Key_Return);
     connect(buttonBox, &QDialogButtonBox::accepted, this, &NewThemeDialog::accept);

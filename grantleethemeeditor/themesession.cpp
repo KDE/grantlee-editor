@@ -19,9 +19,7 @@ ThemeSession::ThemeSession(const QString &projectDirectory, const QString &theme
 {
 }
 
-ThemeSession::~ThemeSession()
-{
-}
+ThemeSession::~ThemeSession() = default;
 
 QString ThemeSession::projectDirectory() const
 {

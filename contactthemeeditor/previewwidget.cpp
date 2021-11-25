@@ -11,15 +11,13 @@
 PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
 {
-    QHBoxLayout *lay = new QHBoxLayout(this);
+    auto lay = new QHBoxLayout(this);
     lay->setContentsMargins(0, 0, 0, 0);
     mPreview = new ContactPreviewWidget(projectDirectory);
     lay->addWidget(mPreview);
 }
 
-PreviewWidget::~PreviewWidget()
-{
-}
+PreviewWidget::~PreviewWidget() = default;
 
 void PreviewWidget::loadConfig()
 {

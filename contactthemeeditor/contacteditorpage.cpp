@@ -31,7 +31,7 @@ ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &t
     : QWidget(parent)
     , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("contactthemeeditor")))
 {
-    QHBoxLayout *lay = new QHBoxLayout(this);
+    auto lay = new QHBoxLayout(this);
     mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget(this);
     connect(mTabWidget, &GrantleeThemeEditor::ThemeEditorTabWidget::currentChanged, this, &ContactEditorPage::slotCurrentWidgetChanged);
     lay->addWidget(mTabWidget);
@@ -102,7 +102,7 @@ void ContactEditorPage::insertFile()
     if (!w) {
         return;
     }
-    GrantleeThemeEditor::EditorPage *page = qobject_cast<GrantleeThemeEditor::EditorPage *>(w);
+    auto page = qobject_cast<GrantleeThemeEditor::EditorPage *>(w);
     if (page) {
         const QString fileName = QFileDialog::getOpenFileName(this);
         if (!fileName.isEmpty()) {
@@ -228,7 +228,7 @@ void ContactEditorPage::addExtraPage()
 
 EditorPage *ContactEditorPage::createCustomPage(const QString &filename)
 {
-    EditorPage *customPage = new EditorPage(EditorPage::SecondPage, QString());
+    auto customPage = new EditorPage(EditorPage::SecondPage, QString());
     connect(customPage, &EditorPage::changed, this, &ContactEditorPage::slotChanged);
     customPage->setPageFileName(filename);
     mTabWidget->addTab(customPage, filename);
@@ -237,7 +237,7 @@ EditorPage *ContactEditorPage::createCustomPage(const QString &filename)
 
 EditorPage *ContactEditorPage::createExtraPage(const QString &filename)
 {
-    EditorPage *extraPage = new EditorPage(EditorPage::ExtraPage, QString());
+    auto extraPage = new EditorPage(EditorPage::ExtraPage, QString());
     connect(extraPage, &EditorPage::changed, this, &ContactEditorPage::slotChanged);
     extraPage->setPageFileName(filename);
     mTabWidget->addTab(extraPage, filename);
@@ -326,7 +326,7 @@ void ContactEditorPage::slotCurrentWidgetChanged(int index)
         return;
     }
 
-    GrantleeThemeEditor::EditorPage *page = qobject_cast<GrantleeThemeEditor::EditorPage *>(mTabWidget->widget(index));
+    auto page = qobject_cast<GrantleeThemeEditor::EditorPage *>(mTabWidget->widget(index));
     Q_EMIT canInsertFile(page);
 }
 

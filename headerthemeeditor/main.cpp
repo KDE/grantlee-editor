@@ -53,7 +53,7 @@ int main(int argc, char **argv)
 
     KDBusService service;
 
-    ThemeEditorMainWindow *mw = new ThemeEditorMainWindow();
+    auto mw = new ThemeEditorMainWindow();
     mw->show();
     const int ret = app.exec();
     return ret;

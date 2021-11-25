@@ -19,7 +19,7 @@
 PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)
 {
-    QVBoxLayout *lay = new QVBoxLayout(this);
+    auto lay = new QVBoxLayout(this);
     lay->setContentsMargins(0, 0, 0, 0);
     mViewer = new MessageViewer::Viewer(this);
     mGrantleeHeaderStyle = new MessageViewer::GrantleeHeaderTestStyle;
@@ -31,7 +31,7 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
                                        MessageViewer::HeaderStrategy::create(QString()));
 #endif
     lay->addWidget(mViewer);
-    QPushButton *update = new QPushButton(i18n("Update view"));
+    auto update = new QPushButton(i18n("Update view"));
     connect(update, &QPushButton::clicked, this, &PreviewWidget::needUpdateViewer);
     lay->addWidget(update);
 }
@@ -68,7 +68,7 @@ void PreviewWidget::loadConfig()
 
 void PreviewWidget::updateViewer()
 {
-    KMime::Message *msg = new KMime::Message;
+    auto msg = new KMime::Message;
     msg->setContent(mDefaultEmail);
     msg->parse();
     mViewer->setPrinting(mPrinting);

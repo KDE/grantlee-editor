@@ -30,7 +30,7 @@ ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &theme
     : QWidget(parent)
     , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("headerthemeeditor")))
 {
-    QHBoxLayout *lay = new QHBoxLayout(this);
+    auto lay = new QHBoxLayout(this);
     mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget;
     connect(mTabWidget, &GrantleeThemeEditor::ThemeEditorTabWidget::currentChanged, this, &ThemeEditorPage::slotCurrentWidgetChanged);
     lay->addWidget(mTabWidget);
@@ -73,7 +73,7 @@ void ThemeEditorPage::slotCurrentWidgetChanged(int index)
     if (index < 0) {
         return;
     }
-    GrantleeThemeEditor::EditorPage *page = qobject_cast<GrantleeThemeEditor::EditorPage *>(mTabWidget->widget(index));
+    auto page = qobject_cast<GrantleeThemeEditor::EditorPage *>(mTabWidget->widget(index));
     Q_EMIT canInsertFile(page);
 }
 
@@ -137,7 +137,7 @@ void ThemeEditorPage::insertFile()
     if (!w) {
         return;
     }
-    GrantleeThemeEditor::EditorPage *page = qobject_cast<GrantleeThemeEditor::EditorPage *>(w);
+    auto page = qobject_cast<GrantleeThemeEditor::EditorPage *>(w);
     if (page) {
         const QString fileName = QFileDialog::getOpenFileName(this);
         if (!fileName.isEmpty()) {
@@ -250,7 +250,7 @@ void ThemeEditorPage::addExtraPage()
 
 EditorPage *ThemeEditorPage::createExtraPage(const QString &filename)
 {
-    EditorPage *extraPage = new EditorPage(EditorPage::ExtraPage, QString());
+    auto extraPage = new EditorPage(EditorPage::ExtraPage, QString());
     connect(extraPage, &EditorPage::changed, this, &ThemeEditorPage::slotChanged);
     extraPage->setPageFileName(filename);
     mTabWidget->addTab(extraPage, filename);

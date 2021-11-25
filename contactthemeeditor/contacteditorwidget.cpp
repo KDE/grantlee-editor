@@ -12,9 +12,7 @@ ContactEditorWidget::ContactEditorWidget(QWidget *parent)
     createCompleterList();
 }
 
-ContactEditorWidget::~ContactEditorWidget()
-{
-}
+ContactEditorWidget::~ContactEditorWidget() = default;
 
 void ContactEditorWidget::createCompleterList(const QStringList &extraCompletion)
 {

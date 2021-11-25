@@ -34,9 +34,7 @@ ContactEditorMainWindow::ContactEditorMainWindow()
     readConfig();
 }
 
-ContactEditorMainWindow::~ContactEditorMainWindow()
-{
-}
+ContactEditorMainWindow::~ContactEditorMainWindow() = default;
 
 void ContactEditorMainWindow::writeConfig()
 {

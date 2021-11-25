@@ -6,9 +6,7 @@
 
 #include "contactprintthemeeditorutil.h"
 
-ContactPrintThemeEditorutil::ContactPrintThemeEditorutil()
-{
-}
+ContactPrintThemeEditorutil::ContactPrintThemeEditorutil() = default;
 
 QString ContactPrintThemeEditorutil::defaultContact() const
 {

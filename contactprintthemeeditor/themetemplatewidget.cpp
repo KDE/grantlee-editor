@@ -18,9 +18,7 @@ ThemeTemplateListWidget::ThemeTemplateListWidget(const QString &configName, QWid
     loadTemplates();
 }
 
-ThemeTemplateListWidget::~ThemeTemplateListWidget()
-{
-}
+ThemeTemplateListWidget::~ThemeTemplateListWidget() = default;
 
 QVector<PimCommon::defaultTemplate> ThemeTemplateListWidget::defaultTemplates()
 {
@@ -30,8 +28,8 @@ QVector<PimCommon::defaultTemplate> ThemeTemplateListWidget::defaultTemplates()
 ThemeTemplateWidget::ThemeTemplateWidget(const QString &title, QWidget *parent)
     : QWidget(parent)
 {
-    QVBoxLayout *lay = new QVBoxLayout(this);
-    QLabel *lab = new QLabel(title);
+    auto lay = new QVBoxLayout(this);
+    auto lab = new QLabel(title);
     lay->addWidget(lab);
     mListTemplate = new ThemeTemplateListWidget(QStringLiteral("contactprintthemeeditorrc"));
     mListTemplate->setWhatsThis(i18n("You can drag and drop element on editor to import template"));
@@ -39,6 +37,4 @@ ThemeTemplateWidget::ThemeTemplateWidget(const QString &title, QWidget *parent)
     lay->addWidget(mListTemplate);
 }
 
-ThemeTemplateWidget::~ThemeTemplateWidget()
-{
-}
+ThemeTemplateWidget::~ThemeTemplateWidget() = default;
