@@ -22,9 +22,9 @@ int main(int argc, char **argv)
 {
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
+    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 #endif
     QApplication app(argc, argv);
-    app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
     app.setDesktopFileName(QStringLiteral("org.kde.headerthemeeditor"));
     KCrash::initialize();
 #if KCOREADDONS_VERSION < QT_VERSION_CHECK(6, 0, 0)
