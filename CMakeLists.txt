@@ -50,7 +50,7 @@ set(LIBKLEO_LIB_VERSION "5.19.40")
 set(QT_REQUIRED_VERSION "5.15.2")
 set(KIMAP_LIB_VERSION "5.19.40")
 set(PIMCOMMON_LIB_VERSION "5.19.40")
-find_package(Qt5 ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets WebEngine WebEngineWidgets)
+find_package(Qt${QT_MAJOR_VERSION} ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets WebEngine WebEngineWidgets)
 
 # Find KF5 package
 find_package(KF5Crash ${KF5_MIN_VERSION} REQUIRED)
