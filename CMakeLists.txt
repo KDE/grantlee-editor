@@ -78,7 +78,7 @@ find_package(KF5SyntaxHighlighting ${KF5_MIN_VERSION} CONFIG REQUIRED)
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
 
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055A00)
+add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055B00)
 
 
 configure_file(grantleeeditor-version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/grantleeeditor-version.h @ONLY)
