@@ -9,10 +9,10 @@
 
 #include <KContacts/VCardConverter>
 
-#include <Akonadi/Contact/ContactGroupViewer>
-#include <Akonadi/Contact/ContactViewer>
-#include <Akonadi/Contact/GrantleeContactFormatter>
-#include <Akonadi/Contact/GrantleeContactGroupFormatter>
+#include <Akonadi/ContactGroupViewer>
+#include <Akonadi/ContactViewer>
+#include <Akonadi/GrantleeContactFormatter>
+#include <Akonadi/GrantleeContactGroupFormatter>
 #include <Akonadi/Item>
 #include <KLocalizedString>
 

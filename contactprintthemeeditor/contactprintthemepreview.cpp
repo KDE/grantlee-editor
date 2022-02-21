@@ -7,7 +7,7 @@
 #include "contactprintthemepreview.h"
 #include "contactprintthemeeditor_debug.h"
 #include "contactprintthemeeditorutil.h"
-#include <Akonadi/Contact/GrantleePrint>
+#include <Akonadi/GrantleePrint>
 #include <KConfigGroup>
 #include <KContacts/VCardConverter>
 #include <KSharedConfig>

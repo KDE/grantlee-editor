@@ -9,7 +9,7 @@
 
 #include "configurewidget.h"
 
-#include <Akonadi/Contact/ContactEditor>
+#include <Akonadi/ContactEditor>
 
 #include <KContacts/VCardConverter>
 
