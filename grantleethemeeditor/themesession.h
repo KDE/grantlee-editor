@@ -34,4 +34,3 @@ private:
     const int mVersion = 1;
 };
 }
-

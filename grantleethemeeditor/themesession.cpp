@@ -10,7 +10,6 @@
 #include <KLocalizedString>
 #include <KMessageBox>
 
-
 using namespace GrantleeThemeEditor;
 
 ThemeSession::ThemeSession(const QString &projectDirectory, const QString &themeTypeName)

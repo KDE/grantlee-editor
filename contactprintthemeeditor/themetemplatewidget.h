@@ -32,4 +32,3 @@ Q_SIGNALS:
 private:
     ThemeTemplateListWidget *mListTemplate = nullptr;
 };
-

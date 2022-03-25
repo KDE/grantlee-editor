@@ -67,4 +67,3 @@ private:
     QAction *mSaveAsAction = nullptr;
     KRecentFilesAction *mRecentFileAction = nullptr;
 };
-

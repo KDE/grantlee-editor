@@ -38,4 +38,3 @@ private:
     KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate = nullptr;
     Akonadi::AkonadiContactEditor *mDefaultContact = nullptr;
 };
-

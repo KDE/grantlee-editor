@@ -71,4 +71,3 @@ private:
     KToggleAction *mNormalMode = nullptr;
     KRecentFilesAction *mRecentFileAction = nullptr;
 };
-

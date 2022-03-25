@@ -36,4 +36,3 @@ protected:
     bool mPrinting = false;
 };
 }
-

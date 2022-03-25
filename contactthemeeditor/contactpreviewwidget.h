@@ -45,4 +45,3 @@ private:
 
     QTabWidget *mTabWidget = nullptr;
 };
-

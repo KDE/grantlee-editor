@@ -16,4 +16,3 @@ public:
 public Q_SLOTS:
     void createCompleterList(const QStringList &extraCompletion = QStringList()) override;
 };
-

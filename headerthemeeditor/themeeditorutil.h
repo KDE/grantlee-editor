@@ -13,4 +13,3 @@ public:
     ThemeEditorUtil();
     Q_REQUIRED_RESULT QString defaultMail() const;
 };
-

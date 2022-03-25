@@ -32,4 +32,3 @@ private:
     QSplitter *mMainSplitter = nullptr;
     QSplitter *mWidgetSplitter = nullptr;
 };
-

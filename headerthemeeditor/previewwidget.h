@@ -33,4 +33,3 @@ private:
     MessageViewer::Viewer *mViewer = nullptr;
     MessageViewer::GrantleeHeaderTestStyle *mGrantleeHeaderStyle = nullptr;
 };
-

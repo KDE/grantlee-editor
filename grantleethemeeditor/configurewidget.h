@@ -31,4 +31,3 @@ private:
     Ui::ConfigureWidget *const ui;
 };
 }
-

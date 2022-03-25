@@ -58,4 +58,3 @@ private:
     KEditListWidget *mExtraDisplayHeaders = nullptr;
 };
 }
-

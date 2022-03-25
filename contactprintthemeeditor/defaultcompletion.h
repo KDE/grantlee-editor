@@ -13,4 +13,3 @@ namespace DefaultCompletion
 Q_REQUIRED_RESULT QStringList defaultCompetion();
 Q_REQUIRED_RESULT QStringList defaultOptions();
 }
-

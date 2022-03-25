@@ -35,4 +35,3 @@ private:
     QString mThemePath;
     QWebEngineView *mViewer = nullptr;
 };
-

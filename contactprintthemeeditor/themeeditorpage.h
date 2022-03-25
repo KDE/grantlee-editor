@@ -64,4 +64,3 @@ private:
     GrantleeThemeEditor::ThemeSession *const mThemeSession;
     bool mChanged = false;
 };
-

@@ -13,4 +13,3 @@ public:
     ContactEditorUtil();
     Q_REQUIRED_RESULT QString defaultContact() const;
 };
-

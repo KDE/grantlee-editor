@@ -33,4 +33,3 @@ private:
     KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate = nullptr;
     KPIMTextEdit::PlainTextEditorWidget *mDefaultEmail = nullptr;
 };
-

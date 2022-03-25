@@ -22,4 +22,3 @@ public:
 private:
     ContactPreviewWidget *mPreview = nullptr;
 };
-

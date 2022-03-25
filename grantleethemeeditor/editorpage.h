@@ -48,4 +48,3 @@ protected:
     GrantleeThemeEditor::EditorWidget *mEditor = nullptr;
 };
 }
-
