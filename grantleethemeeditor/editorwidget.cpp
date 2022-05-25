@@ -5,6 +5,7 @@
 */
 #include "editorwidget.h"
 #include "grantleeplaintexteditor.h"
+#include <QFile>
 
 using namespace GrantleeThemeEditor;
 
