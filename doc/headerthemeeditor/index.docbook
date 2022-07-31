@@ -55,8 +55,8 @@
 
 <sect2 id="using-kapp">
 <title>Using &i18n-kapplication;</title>
-<para>A brief introduction to this application you find in this <ulink url="http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
->Blog</ulink>.</para>
+<para>You can find a brief introduction to this application in <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>this Blog post</ulink>.</para>
 <para>More Information you find in the <ulink url="http://www.grantlee.org/apidox/">Grantlee</ulink> documentation.</para>
 <para>For examples of headers designs look at repository <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/">Grantlee-designs</ulink>.</para>
 </sect2>
