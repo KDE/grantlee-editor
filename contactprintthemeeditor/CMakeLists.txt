@@ -41,7 +41,7 @@ target_link_libraries(contactprintthemeeditor
     grantleethemeeditor
     KF5::PimTextEdit
     KF5::I18n
-    Qt${QT_MAJOR_VERSION}::WebEngineWidgets
+    Qt::WebEngineWidgets
     KF5::Crash
     )
 
