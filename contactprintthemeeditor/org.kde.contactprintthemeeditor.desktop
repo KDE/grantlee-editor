@@ -73,7 +73,6 @@ GenericName[uk]=Редактор тем для друку записів кон�
 GenericName[x-test]=xxContact Print Theme Editorxx
 GenericName[zh_CN]=联系人打印主题编辑器
 GenericName[zh_TW]=聯絡人列印主題編輯器
-Terminal=false
 Categories=Qt;KDE;Office;Network;ContactManagement;
 InitialPreference=10
 X-DBUS-ServiceName=org.kde.contactprintthemeeditor
