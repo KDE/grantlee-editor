@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
-set(PIM_VERSION "5.21.1")
+set(PIM_VERSION "5.21.2")
 project(grantlee-editor VERSION ${PIM_VERSION})
-set(RELEASE_SERVICE_VERSION "22.08.1")
+set(RELEASE_SERVICE_VERSION "22.08.2")
 set(KF5_MIN_VERSION "5.95.0")
 
 find_package(ECM ${KF5_MIN_VERSION} CONFIG REQUIRED)
