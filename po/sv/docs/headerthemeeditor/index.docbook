@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>Temaeditor för brevhuvuden</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Swedish "INCLUDE"
+> 
+]>
+
+<article id="headerthemeeditor" lang="&language;">
+
+<articleinfo id="headerthemeeditorinfo">
+
+<title
+>Handbok &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> &Laurent.Montel.mail; </author>
+<othercredit role="translator"
+> <firstname
+>Stefan</firstname
+> <surname
+>Asserhäll</surname
+> <affiliation
+><address
+><email
+>stefan.asserhall@bredband.net</email
+></address
+></affiliation
+> <contrib
+>Översättare</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2013</year>
+<holder
+>&Laurent.Montel;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2016-04-06</date>
+<releaseinfo
+>Program 16.04</releaseinfo>
+
+<abstract>
+<para
+>&i18n-kapplication; är en editor av brevhuvuden för &kmail;. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>Kmail</keyword>
+<keyword
+>Brevhuvud</keyword>
+<keyword
+>Design</keyword>
+</keywordset>
+
+</articleinfo>
+<sect1 id="introduction">
+<title
+>Inledning</title>
+<para
+>&i18n-kapplication; är en editor av brevhuvuden för &kmail; baserad på <ulink url="https://github.com/steveire/grantlee"
+>Grantlee</ulink
+>.</para>
+
+<sect2 id="using-kapp">
+<title
+>Använda &i18n-kapplication;</title>
+<para
+>En kortfattad introduktion av programmet hittar du i följande <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>blogginlägg</ulink
+>.</para>
+<para
+>Mer information finns i dokumentationen av <ulink url="http://www.grantlee.org/apidox/"
+>Grantlee</ulink
+>.</para>
+<para
+>För exempel på design av brevhuvuden titta i arkivet <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/"
+>Grantlee-designs</ulink
+>.</para>
+</sect2>
+
+<sect2 id="credits">
+
+<title
+>Tack till och licens</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Program copyright 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+<para
+>Dokumentation Copyright &copy; 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+
+<para
+>Översättning Stefan Asserhäll <email
+>stefan.asserhall@bredband.net</email
+></para
+> &underFDL; &underGPL; </sect2>
+
+</sect1>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

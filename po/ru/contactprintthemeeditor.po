@@ -1,0 +1,239 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Alexander Potashev <aspotashev@gmail.com>, 2014, 2015, 2016, 2017.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2019, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-02 00:47+0000\n"
+"PO-Revision-Date: 2021-01-08 11:57+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.1\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Александр Поташев"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "aspotashev@gmail.com"
+
+# BUGME: make this window title more specific, e.g. "Configure Contact Theme" --aspotashev
+#: contactprintthemeconfiguredialog.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Настройка редактора оформлений контактов для печати"
+
+#: contactprintthemeconfiguredialog.cpp:43
+#, kde-format
+msgid "Default contact:"
+msgstr "Контакт по умолчанию:"
+
+#: contactprintthemeconfiguredialog.cpp:49
+#, kde-format
+msgid "General"
+msgstr "Основное"
+
+#: contactprintthemeconfiguredialog.cpp:52
+#, kde-format
+msgid "Default Template"
+msgstr "Шаблон по умолчанию"
+
+#. i18n: ectx: Menu (edit)
+#: contactprintthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Правка"
+
+# BUGME: s/Display/View (this is a standard name for the main menubar) --aspotashev
+#. i18n: ectx: Menu (Display)
+#: contactprintthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Вид"
+
+#: editorpage.cpp:55
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Шаблоны оформлений:"
+
+#: main.cpp:26 main.cpp:28
+#, kde-format
+msgid "Contact Print Theme Editor"
+msgstr "Редактор оформлений контактов для печати"
+
+#: main.cpp:30
+#, fuzzy, kde-format
+#| msgid "Copyright © 2015-2021 contactprintthemeeditor authors"
+msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
+msgstr "© Авторы редактора оформлений контактов для печати, 2015–2021"
+
+#: main.cpp:31
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:31
+#, kde-format
+msgid "Maintainer"
+msgstr "Сопровождающий"
+
+#: themeeditormainwindow.cpp:76
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Загрузить новые оформления..."
+
+#: themeeditormainwindow.cpp:83
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Добавить страницу..."
+
+#: themeeditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Поделиться оформлением..."
+
+#: themeeditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "Создать оформление..."
+
+#: themeeditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Открыть оформление..."
+
+#: themeeditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "Сохранить оформление"
+
+#: themeeditormainwindow.cpp:101
+#, kde-format
+msgid "Save theme as..."
+msgstr "Сохранить оформление как..."
+
+#: themeeditormainwindow.cpp:107
+#, kde-format
+msgid "Install theme"
+msgstr "Установить оформление"
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Insert File..."
+msgstr "Вставить файл..."
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Manage themes..."
+msgstr "Настроить оформления..."
+
+#: themeeditormainwindow.cpp:119
+#, kde-format
+msgid "Update view"
+msgstr "Обновить"
+
+#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#, kde-format
+msgid "Select theme directory"
+msgstr "Выбор каталога с оформлением"
+
+#: themeeditormainwindow.cpp:204
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr ""
+"Выбранный каталог не содержит файла оформления. Не удалось загрузить "
+"оформление."
+
+#: themeeditorpage.cpp:42
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Редактор (%1)"
+
+#: themeeditorpage.cpp:48
+#, kde-format
+msgid "Desktop File"
+msgstr "Файл описания оформления"
+
+#: themeeditorpage.cpp:136
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Это оформление уже существует. Заменить его?"
+
+#: themeeditorpage.cpp:137
+#, kde-format
+msgid "Theme already exists"
+msgstr "Оформление уже существует"
+
+#: themeeditorpage.cpp:145
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Не удалось создать папку для оформления."
+
+#: themeeditorpage.cpp:155
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Оформление установлено в «%1»"
+
+# BUGME: remove redundant "we" --aspotashev
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "не удалось добавить файл предварительного просмотра в архив ZIP."
+
+# BUGME: remove fullstop --aspotashev
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "Failed to add file."
+msgstr "Не удалось добавить файл"
+
+#: themeeditorpage.cpp:190
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Мой любимый вид заголовков писем в KMail"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Имя файла дополнительной страницы"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename:"
+msgstr "Имя файла:"
+
+#: themeeditorpage.cpp:258
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Сохранить текущий проект?"
+
+#: themeeditorpage.cpp:259
+#, kde-format
+msgid "Save current project"
+msgstr "Сохранение текущего проекта"
+
+#: themetemplatewidget.cpp:35
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Вы можете импортировать шаблон, перетащив его в редактор"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#~ msgid "Group"
+#~ msgstr "Группа"

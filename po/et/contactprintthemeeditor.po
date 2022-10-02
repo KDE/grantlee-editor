@@ -1,0 +1,222 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Marek Laane <qiilaq69@gmail.com>, 2016, 2019, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-02 00:47+0000\n"
+"PO-Revision-Date: 2020-01-02 11:48+0200\n"
+"Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
+"Language-Team: Estonian <kde-et@lists.linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marek Laane"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "qiilaq69@gmail.com"
+
+#: contactprintthemeconfiguredialog.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Seadistamine"
+
+#: contactprintthemeconfiguredialog.cpp:43
+#, kde-format
+msgid "Default contact:"
+msgstr "Vaikimisi kontakt:"
+
+#: contactprintthemeconfiguredialog.cpp:49
+#, kde-format
+msgid "General"
+msgstr "Üldine"
+
+#: contactprintthemeconfiguredialog.cpp:52
+#, kde-format
+msgid "Default Template"
+msgstr "Vaikimisi mall"
+
+#. i18n: ectx: Menu (edit)
+#: contactprintthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Redigeerimine"
+
+#. i18n: ectx: Menu (Display)
+#: contactprintthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Vaade"
+
+#: editorpage.cpp:55
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Teemamallid:"
+
+#: main.cpp:26 main.cpp:28
+#, kde-format
+msgid "Contact Print Theme Editor"
+msgstr "Kontaktiteema esituse redaktor"
+
+#: main.cpp:30
+#, fuzzy, kde-format
+#| msgid "Copyright © 2015-2020 contactprintthemeeditor authors"
+msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
+msgstr "Autoriõigus © 2015-2020: contactprintthemeeditori autorid"
+
+#: main.cpp:31
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:31
+#, kde-format
+msgid "Maintainer"
+msgstr "Hooldaja"
+
+#: themeeditormainwindow.cpp:76
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Laadi viimati kasutatud teema..."
+
+#: themeeditormainwindow.cpp:83
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Lisa lisaleht..."
+
+#: themeeditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Laadi teema üles..."
+
+#: themeeditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "Uus teema..."
+
+#: themeeditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Ava teema..."
+
+#: themeeditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "Salvesta teema"
+
+#: themeeditormainwindow.cpp:101
+#, kde-format
+msgid "Save theme as..."
+msgstr "Salvesta teema kui..."
+
+#: themeeditormainwindow.cpp:107
+#, kde-format
+msgid "Install theme"
+msgstr "Paigalda teema"
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Insert File..."
+msgstr "Lisa fail..."
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Manage themes..."
+msgstr "Halda teemasid..."
+
+#: themeeditormainwindow.cpp:119
+#, kde-format
+msgid "Update view"
+msgstr "Uuenda vaadet"
+
+#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#, kde-format
+msgid "Select theme directory"
+msgstr "Teemakataloogi valimine"
+
+#: themeeditormainwindow.cpp:204
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Kataloog ei sisalda teemafaili. Teemat ei saa laadida."
+
+#: themeeditorpage.cpp:42
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Redaktor (%1)"
+
+#: themeeditorpage.cpp:48
+#, kde-format
+msgid "Desktop File"
+msgstr "Töölauafail"
+
+#: themeeditorpage.cpp:136
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Teema on juba olemas. Kas kirjutada see üle?"
+
+#: themeeditorpage.cpp:137
+#, kde-format
+msgid "Theme already exists"
+msgstr "Teema on juba olemas"
+
+#: themeeditorpage.cpp:145
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Teemakataloogi loomine nurjus."
+
+#: themeeditorpage.cpp:155
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Teema on paigaldatud asukohta \"%1\""
+
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Eelvaatluse faili ei saa lisada zip-faili"
+
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "Failed to add file."
+msgstr "Faili lisamine nurjus."
+
+#: themeeditorpage.cpp:190
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Minu KMaili lemmikpäis"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Lisalehe failinimi"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename:"
+msgstr "Failinimi:"
+
+#: themeeditorpage.cpp:258
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Kas salvestada aktiivne projekt?"
+
+#: themeeditorpage.cpp:259
+#, kde-format
+msgid "Save current project"
+msgstr "Aktiivse projekti salvestamine"
+
+#: themetemplatewidget.cpp:35
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Malli importimiseks võib elemendi redaktorisse lohistada"

@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>Editor pels temes dels contactes</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Catalan  "INCLUDE"
+> 
+]>
+
+<article id="contactthemeeditor" lang="&language;">
+
+<articleinfo id="contactthemeeditorinfo">
+
+<title
+>El manual de l'&i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> &Laurent.Montel.mail; </author>
+&traductor.Antoni.Bella; 
+</authorgroup>
+
+<copyright>
+<year
+>2013</year>
+<holder
+>Laurent Montel</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>6 d'abril de 2016</date>
+<releaseinfo
+>Aplicacions 16.04</releaseinfo>
+
+<abstract>
+<para
+>L'&i18n-kapplication; és un editor per a temes de contactes del &kaddressbook;. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>KMail</keyword>
+<keyword
+>Tema</keyword>
+<keyword
+>llibreta d'adreces</keyword>
+</keywordset>
+
+</articleinfo>
+<sect1 id="introduction">
+<title
+>Introducció</title>
+
+<para
+>&i18n-kapplication; és un editor per a temes del &kaddressbook; basat en <ulink url="https://github.com/steveire/grantlee"
+>Grantlee</ulink
+>.</para>
+
+<sect2 id="using-kapp">
+<title
+>Usar l'&i18n-kapplication;</title>
+<para
+>Aquest editor s'utilitza per a crear temes pels vostres contactes al &kaddressbook;. Trobareu més informació a la documentació del <ulink url="http://www.grantlee.org/apidox/"
+>Grantlee</ulink
+>.</para>
+</sect2>
+
+<sect2 id="credits">
+
+<title
+>Crèdits i llicència</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Copyright del programa 2013 &Laurent.Montel; &Laurent.Montel.mail; </para>
+<para
+>Copyright de la documentació &copy; 2013 &Laurent.Montel; &Laurent.Montel.mail; </para>
+
+<para
+>Traductor de la documentació: &credits.Antoni.Bella;</para
+> &underFDL; &underGPL; </sect2>
+
+</sect1>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

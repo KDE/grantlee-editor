@@ -1,0 +1,226 @@
+# Bosnian translations for PACKAGE package
+# engleski prevodi za paket PACKAGE.
+# Copyright (C) 2015 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Samir ribic <megaribi@localhost>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kde5\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-02 00:47+0000\n"
+"PO-Revision-Date: 2015-02-24 19:24+0100\n"
+"Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
+"Language-Team: Bosnian\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Samir Ribić"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "samir.ribic@etf.unsa.ba"
+
+#: contactprintthemeconfiguredialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Konfiguriši"
+
+#: contactprintthemeconfiguredialog.cpp:43
+#, kde-format
+msgid "Default contact:"
+msgstr "Podrazumijevani kontakt:"
+
+#: contactprintthemeconfiguredialog.cpp:49
+#, kde-format
+msgid "General"
+msgstr "Općenito"
+
+#: contactprintthemeconfiguredialog.cpp:52
+#, kde-format
+msgid "Default Template"
+msgstr "Osnovni predložak."
+
+#. i18n: ectx: Menu (edit)
+#: contactprintthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Izmijeni"
+
+#. i18n: ectx: Menu (Display)
+#: contactprintthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Prikaži"
+
+#: editorpage.cpp:55
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Predlošci tema"
+
+#: main.cpp:26 main.cpp:28
+#, kde-format
+msgid "Contact Print Theme Editor"
+msgstr ""
+
+#: main.cpp:30
+#, kde-format
+msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
+msgstr ""
+
+#: main.cpp:31
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:31
+#, kde-format
+msgid "Maintainer"
+msgstr "Održava"
+
+#: themeeditormainwindow.cpp:76
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Učitaj prijašnju temu..."
+
+#: themeeditormainwindow.cpp:83
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Dodaj dodatnu stranicu..."
+
+#: themeeditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Pošalji temu..."
+
+#: themeeditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "Nova tema..."
+
+#: themeeditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Otvori temu..."
+
+#: themeeditormainwindow.cpp:98
+#, fuzzy, kde-format
+#| msgid "Save theme..."
+msgid "Save theme"
+msgstr "Snimi temu..."
+
+#: themeeditormainwindow.cpp:101
+#, kde-format
+msgid "Save theme as..."
+msgstr "Snimi temu kao ..."
+
+#: themeeditormainwindow.cpp:107
+#, kde-format
+msgid "Install theme"
+msgstr "Instaliraj temu"
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Insert File..."
+msgstr "Ubaci datoteku"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Manage themes..."
+msgstr "Upravljaj temama..."
+
+#: themeeditormainwindow.cpp:119
+#, kde-format
+msgid "Update view"
+msgstr "Ažuriraj pogled"
+
+#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#, kde-format
+msgid "Select theme directory"
+msgstr "Odaberi direktorij tema"
+
+#: themeeditormainwindow.cpp:204
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"
+
+#: themeeditorpage.cpp:42
+#, fuzzy, kde-format
+#| msgid "Editor"
+msgid "Editor (%1)"
+msgstr "Uređivač"
+
+#: themeeditorpage.cpp:48
+#, kde-format
+msgid "Desktop File"
+msgstr "Stona datoteka"
+
+#: themeeditorpage.cpp:136
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Tema već postoji. Želite li preći preko nje?"
+
+#: themeeditorpage.cpp:137
+#, kde-format
+msgid "Theme already exists"
+msgstr "Tema već postoji."
+
+#: themeeditorpage.cpp:145
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Nije moguće kreirati tematski direktorij"
+
+#: themeeditorpage.cpp:155
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Tema instalirana u \"%1\""
+
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Ne možemo dodati pregled datoteka u zip datoteci"
+
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "Failed to add file."
+msgstr "Neuspjelo dodavanje datoteke"
+
+#: themeeditorpage.cpp:190
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Moje omiljeno KMail zaglavlje"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Ime dodatne stranice"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename:"
+msgstr "Datoteka:"
+
+#: themeeditorpage.cpp:258
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Želite li snimiti trenutni projekat?"
+
+#: themeeditorpage.cpp:259
+#, kde-format
+msgid "Save current project"
+msgstr "Snimi trenutni projekat"
+
+#: themetemplatewidget.cpp:35
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Možete prevući i ispustiti element u uređivač za uvoz perdložaka."

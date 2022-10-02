@@ -1,0 +1,245 @@
+# Translation of contactthemeeditor.po to Ukrainian
+# Copyright (C) 2013-2021 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: contactthemeeditor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-01-02 08:54+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: contactconfigurationdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Налаштовування"
+
+#: contactconfigurationdialog.cpp:41
+#, kde-format
+msgid "Default contact:"
+msgstr "Типовий контакт:"
+
+#: contactconfigurationdialog.cpp:47
+#, kde-format
+msgid "General"
+msgstr "Загальне"
+
+#: contactconfigurationdialog.cpp:50
+#, kde-format
+msgid "Default Template"
+msgstr "Типовий шаблон"
+
+#: contacteditormainwindow.cpp:75
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Завантажити нещодавню тему…"
+
+#: contacteditormainwindow.cpp:82
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Додати ще сторінку…"
+
+#: contacteditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Вивантажити тему…"
+
+#: contacteditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "Створити тему…"
+
+#: contacteditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Відкрити тему…"
+
+#: contacteditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "Зберегти тему"
+
+#: contacteditormainwindow.cpp:100
+#, kde-format
+msgid "Save theme as..."
+msgstr "Зберегти тему як…"
+
+#: contacteditormainwindow.cpp:106
+#, kde-format
+msgid "Install theme"
+msgstr "Встановити тему"
+
+#: contacteditormainwindow.cpp:110
+#, kde-format
+msgid "Insert File..."
+msgstr "Вставити файл…"
+
+#: contacteditormainwindow.cpp:114
+#, kde-format
+msgid "Manage themes..."
+msgstr "Керування темами…"
+
+#: contacteditormainwindow.cpp:118
+#, kde-format
+msgid "Update view"
+msgstr "Оновлювати перегляд"
+
+#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#, kde-format
+msgid "Select theme directory"
+msgstr "Виберіть каталог теми"
+
+#: contacteditormainwindow.cpp:202
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "У каталозі не зберігається файла теми. Завантаження теми неможливе."
+
+#: contacteditorpage.cpp:42
+#, kde-format
+msgid "Editor"
+msgstr "Редактор"
+
+#: contacteditorpage.cpp:54
+#, kde-format
+msgid "Desktop File"
+msgstr "Стільничний файл"
+
+#: contacteditorpage.cpp:125
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Тема з такою назвою вже існує. Хочете перезаписати її?"
+
+#: contacteditorpage.cpp:126
+#, kde-format
+msgid "Theme already exists"
+msgstr "Тема вже існує"
+
+#: contacteditorpage.cpp:134
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Не вдалося створити каталог тем."
+
+#: contacteditorpage.cpp:148
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Тему встановлено до «%1»"
+
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Додавання файла попереднього перегляду у архіві zip не передбачено"
+
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
+#, kde-format
+msgid "Failed to add file."
+msgstr "Не вдалося додати файл."
+
+#: contacteditorpage.cpp:190
+#, kde-format
+msgid "My favorite Kaddressbook theme"
+msgstr "Улюблена тема KAddressBook"
+
+#: contacteditorpage.cpp:216
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Назва файла додаткової сторінки"
+
+#: contacteditorpage.cpp:216
+#, kde-format
+msgid "Filename:"
+msgstr "Назва файла:"
+
+#: contacteditorpage.cpp:274
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Хочете зберегти поточний проєкт?"
+
+#: contacteditorpage.cpp:275
+#, kde-format
+msgid "Save current project"
+msgstr "Зберегти попередній проєкт"
+
+#: contactpreviewwidget.cpp:34
+#, kde-format
+msgid "Contact"
+msgstr "Контакт"
+
+#: contactpreviewwidget.cpp:37
+#, kde-format
+msgid "Group"
+msgstr "Група"
+
+#: contacttemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"Ви можете перетягнути і скинути елемент на панель редактора, щоб імпортувати "
+"шаблон"
+
+#. i18n: ectx: Menu (edit)
+#: contactthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "З&міни"
+
+#. i18n: ectx: Menu (Display)
+#: contactthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "По&каз"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Шаблони тем:"
+
+#: main.cpp:36 main.cpp:38
+#, kde-format
+msgid "Contact Theme Editor"
+msgstr "Редактор тем контактів"
+
+#: main.cpp:40
+#, kde-format
+msgid "Copyright © 2013-%1 contactthemeeditor authors"
+msgstr "© Автори contactthemeeditor, 2013–%1"
+
+#: main.cpp:41
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:41
+#, kde-format
+msgid "Maintainer"
+msgstr "Супровідник"
+
+#~ msgid "We can not add file in zip file"
+#~ msgstr "Додавання файла у архіві zip не передбачено"
+
+#~ msgid "Printing mode"
+#~ msgstr "Режим друку"
+
+#~ msgid "Normal mode"
+#~ msgstr "Звичайний режим"

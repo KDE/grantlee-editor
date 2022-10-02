@@ -1,0 +1,263 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Martin Schlander <mschlander@opensuse.org>, 2013, 2014, 2015, 2016, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-08-08 17:36+0200\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Schlander"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mschlander@opensuse.org"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Temaskabeloner:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Redigér"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Vis"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Temaeditor til headers"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Temaeditor til headers i brevlæseren"
+
+#: main.cpp:41
+#, kde-format
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "Ophavsret © 2013-%1 headerthemeeditor-udviklerne"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Vedligeholder"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Opdatér visning"
+
+#: themeconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Indstil"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "Standard-e-mail:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "Generelt"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Standardskabelon"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Emne"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "Fra"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "Til"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "Cc"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Indlæs nyligt tema..."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Tilføj ekstra side..."
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Upload tema..."
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Nyt tema..."
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Åbn tema..."
+
+#: themeeditormainwindow.cpp:102
+#, kde-format
+msgid "Save theme"
+msgstr "Gem tema"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Gem tema som..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Installér tema"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Indsæt fil..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Udskriftstilstand"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Normal tilstand"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Håndtér temaer..."
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Vælg temamappe"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Mappen indeholder ikke en temafil. Vi kan ikke indlæse temaet."
+
+#: themeeditorpage.cpp:40
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor (%1)"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "Desktop-fil"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Temaet findes allerede. Vil du overskrive det?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "Temaet findes allerede"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Kan ikke oprette temamappe."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Tema installeret i \"%1\""
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Vi kan ikke tilføje forhåndsvisningsfil til en zip-fil"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "Kunne ikke tilføje filen."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Min yndlings KMail-header"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Filnavn på ekstra side"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "Filnavn:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Vil du gemme det aktuelle projekt?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Gem aktuelt projekt"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"Du kan trække og slippe elementet på editoren for at importere en skabelon"
+
+#~ msgid "Default theme path:"
+#~ msgstr "Standardsti til temaer:"
+
+#~ msgid "We can not add file in zip file"
+#~ msgstr "Vi kan ikke tilføje filer i en zip-fil"

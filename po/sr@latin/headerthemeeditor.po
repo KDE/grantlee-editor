@@ -1,0 +1,266 @@
+# Translation of headerthemeeditor.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2013, 2014, 2015, 2016, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: headerthemeeditor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-01-02 03:12+0100\n"
+"PO-Revision-Date: 2018-01-06 09:21+0100\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Časlav Ilić"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "caslav.ilic@gmx.net"
+
+#: editorpage.cpp:66
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Šabloni tema:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Uređivanje"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Prikaz"
+
+#: main.cpp:44
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Uređivač tema zaglavlja"
+
+# rewrite-msgid: /Messageviewer//
+#: main.cpp:46
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Uređivač tema zaglavlja"
+
+#: main.cpp:48
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013-2018 headerthemeeditor authors"
+msgid "Copyright © 2013-2020 headerthemeeditor authors"
+msgstr "© 2013–2018, autori uređivača teme zaglavlja"
+
+#: main.cpp:49
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Loren Montel"
+
+#: main.cpp:49
+#, kde-format
+msgid "Maintainer"
+msgstr "Održavalac"
+
+#: previewwidget.cpp:47 themeeditormainwindow.cpp:152
+#, kde-format
+msgid "Update view"
+msgstr "Ažuriraj prikaz"
+
+# >> @title:window
+#: themeconfiguredialog.cpp:40
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Podešavanje"
+
+#: themeconfiguredialog.cpp:50
+#, kde-format
+msgid "Default email:"
+msgstr "Podrazumevana e‑pošta:"
+
+#: themeconfiguredialog.cpp:55
+#, kde-format
+msgid "General"
+msgstr "Opšte"
+
+#: themeconfiguredialog.cpp:58
+#, kde-format
+msgid "Default Template"
+msgstr "Podrazumevani šablon"
+
+#: themedefaulttemplate.cpp:27
+#, kde-format
+msgid "Subject"
+msgstr "Tema"
+
+#: themedefaulttemplate.cpp:33
+#, kde-format
+msgid "From"
+msgstr "Od"
+
+#: themedefaulttemplate.cpp:39
+#, kde-format
+msgid "To"
+msgstr "Za"
+
+#: themedefaulttemplate.cpp:45
+#, kde-format
+msgid "Cc"
+msgstr "CC"
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Učitaj nedavnu temu..."
+
+#: themeeditormainwindow.cpp:104
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Dodaj stranicu..."
+
+#: themeeditormainwindow.cpp:109
+#, kde-format
+msgid "Upload theme..."
+msgstr "Otpremi temu..."
+
+#: themeeditormainwindow.cpp:113
+#, kde-format
+msgid "New theme..."
+msgstr "Nova tema..."
+
+#: themeeditormainwindow.cpp:116
+#, kde-format
+msgid "Open theme..."
+msgstr "Otvori temu..."
+
+#: themeeditormainwindow.cpp:118
+#, fuzzy, kde-format
+#| msgid "Save theme..."
+msgid "Save theme"
+msgstr "Sačuvaj temu..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Save theme as..."
+msgstr "Sačuvaj temu kao..."
+
+#: themeeditormainwindow.cpp:127
+#, kde-format
+msgid "Install theme"
+msgstr "Instaliraj temu"
+
+#: themeeditormainwindow.cpp:131
+#, kde-format
+msgid "Insert File..."
+msgstr "Umetni fajl..."
+
+#: themeeditormainwindow.cpp:137
+#, kde-format
+msgid "Printing mode"
+msgstr "Režim štampanja"
+
+#: themeeditormainwindow.cpp:142
+#, kde-format
+msgid "Normal mode"
+msgstr "Normalan režim"
+
+#: themeeditormainwindow.cpp:148
+#, kde-format
+msgid "Manage themes..."
+msgstr "Upravljaj temama..."
+
+# >> @title:window
+#: themeeditormainwindow.cpp:230 themeeditormainwindow.cpp:364
+#, kde-format
+msgid "Select theme directory"
+msgstr "Izbor fascikle teme"
+
+#: themeeditormainwindow.cpp:246
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Fascikla ne sadrži fajl teme. Ne mogu da učitam temu."
+
+# >> @title:tab
+#: themeeditorpage.cpp:53
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Uređivač (%1)"
+
+# >> @title:tab
+#: themeeditorpage.cpp:62
+#, kde-format
+msgid "Desktop File"
+msgstr "Fajl površi"
+
+#: themeeditorpage.cpp:166
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Tema već postoji. Želite li da je prebrišete?"
+
+#: themeeditorpage.cpp:166
+#, kde-format
+msgid "Theme already exists"
+msgstr "Tema već postoji"
+
+#: themeeditorpage.cpp:171
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Ne mogu da napravim fasciklu teme."
+
+#: themeeditorpage.cpp:182
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Tema instalirana u „%1“."
+
+#: themeeditorpage.cpp:202
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Ne može da se doda fajl pregleda u ZIP fajl"
+
+#: themeeditorpage.cpp:202
+#, kde-format
+msgid "Failed to add file."
+msgstr "Ne mogu da dodam fajl."
+
+#: themeeditorpage.cpp:216
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Moje omiljeno zaglavlje K‑pošte"
+
+#: themeeditorpage.cpp:237
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Ime fajla dodatne stranice"
+
+#: themeeditorpage.cpp:237
+#, kde-format
+msgid "Filename:"
+msgstr "Ime fajla:"
+
+#: themeeditorpage.cpp:281
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Želite li da sačuvate tekući projekat?"
+
+# >> @title:window
+#: themeeditorpage.cpp:281
+#, kde-format
+msgid "Save current project"
+msgstr "Upisivanje tekućeg projekta"
+
+#: themetemplatewidget.cpp:49
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Šablon možete uvesti tako što prevučete element na uređivač."

@@ -1,0 +1,224 @@
+# Translation of contactprintthemeeditor.po to Brazilian Portuguese
+# Copyright (C) 2015-2020 This file is copyright:
+# This file is distributed under the same license as the PACKAGE package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2015, 2016, 2018, 2019, 2020.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2019, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: contactprintthemeeditor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-02 00:47+0000\n"
+"PO-Revision-Date: 2022-01-04 11:52-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "André Marcelo Alvarenga"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alvarenga@kde.org"
+
+#: contactprintthemeconfiguredialog.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configurar"
+
+#: contactprintthemeconfiguredialog.cpp:43
+#, kde-format
+msgid "Default contact:"
+msgstr "Contato padrão:"
+
+#: contactprintthemeconfiguredialog.cpp:49
+#, kde-format
+msgid "General"
+msgstr "Geral"
+
+#: contactprintthemeconfiguredialog.cpp:52
+#, kde-format
+msgid "Default Template"
+msgstr "Modelo padrão"
+
+#. i18n: ectx: Menu (edit)
+#: contactprintthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Editar"
+
+#. i18n: ectx: Menu (Display)
+#: contactprintthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Exibir"
+
+#: editorpage.cpp:55
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Modelos de temas:"
+
+#: main.cpp:26 main.cpp:28
+#, kde-format
+msgid "Contact Print Theme Editor"
+msgstr "Editor de temas de impressão de contatos"
+
+#: main.cpp:30
+#, kde-format
+msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
+msgstr "Copyright © 2015-%1, Os autores do contactprintthemeeditor"
+
+#: main.cpp:31
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:31
+#, kde-format
+msgid "Maintainer"
+msgstr "Mantenedor"
+
+#: themeeditormainwindow.cpp:76
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Carregar um tema recente..."
+
+#: themeeditormainwindow.cpp:83
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Adicionar página adicional..."
+
+#: themeeditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Enviar tema..."
+
+#: themeeditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "Novo tema..."
+
+#: themeeditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Abrir tema..."
+
+#: themeeditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "Salvar tema"
+
+#: themeeditormainwindow.cpp:101
+#, kde-format
+msgid "Save theme as..."
+msgstr "Salvar tema como..."
+
+#: themeeditormainwindow.cpp:107
+#, kde-format
+msgid "Install theme"
+msgstr "Instalar tema"
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Insert File..."
+msgstr "Inserir arquivo..."
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Manage themes..."
+msgstr "Gerenciar temas..."
+
+#: themeeditormainwindow.cpp:119
+#, kde-format
+msgid "Update view"
+msgstr "Atualizar visualização"
+
+#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#, kde-format
+msgid "Select theme directory"
+msgstr "Selecione a pasta do tema"
+
+#: themeeditormainwindow.cpp:204
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "A pasta não contém um arquivo de tema. Não é possível carregar o tema."
+
+#: themeeditorpage.cpp:42
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor (%1)"
+
+#: themeeditorpage.cpp:48
+#, kde-format
+msgid "Desktop File"
+msgstr "Arquivo 'desktop'"
+
+#: themeeditorpage.cpp:136
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "O tema já existe. Deseja sobrescrevê-lo?"
+
+#: themeeditorpage.cpp:137
+#, kde-format
+msgid "Theme already exists"
+msgstr "O tema já existe"
+
+#: themeeditorpage.cpp:145
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Não é possível criar a pasta de temas."
+
+#: themeeditorpage.cpp:155
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Tema instalado em \"%1\""
+
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Não é possível adicionar o arquivo de visualização ao arquivo ZIP"
+
+#: themeeditorpage.cpp:176
+#, kde-format
+msgid "Failed to add file."
+msgstr "Ocorreu uma falha ao adicionar o arquivo."
+
+#: themeeditorpage.cpp:190
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "O meu cabeçalho favorito do KMail"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Nome do arquivo da página adicional"
+
+#: themeeditorpage.cpp:213
+#, kde-format
+msgid "Filename:"
+msgstr "Nome do arquivo:"
+
+#: themeeditorpage.cpp:258
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Deseja salvar o projeto atual?"
+
+#: themeeditorpage.cpp:259
+#, kde-format
+msgid "Save current project"
+msgstr "Salvar o projeto atual"
+
+#: themetemplatewidget.cpp:35
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"Você pode arrastar e soltar o elemento no editor para importar um modelo"

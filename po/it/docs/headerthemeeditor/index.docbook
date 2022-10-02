@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>Editore dei temi delle intestazioni
+></application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Italian "INCLUDE"
+> 
+]>
+
+<article id="headerthemeeditor" lang="&language;">
+
+<articleinfo id="headerthemeeditorinfo">
+
+<title
+>Manuale di &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> &Laurent.Montel.mail; </author>
+<othercredit role="translator"
+><firstname
+>Luigi</firstname
+><surname
+>Toscano</surname
+><affiliation
+><address
+><email
+>luigi.toscano@tiscali.it</email
+></address
+></affiliation
+><contrib
+>Traduzione italiana</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2013</year>
+<holder
+>&Laurent.Montel;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2016-04-06</date>
+<releaseinfo
+>Applications 16.04</releaseinfo>
+
+<abstract>
+<para
+>&i18n-kapplication; è un editor per le intestazioni di &kmail;. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>KMail</keyword>
+<keyword
+>Intestazione</keyword>
+<keyword
+>Progettazione</keyword>
+</keywordset>
+
+</articleinfo>
+<sect1 id="introduction">
+<title
+>Introduzione</title>
+<para
+>&i18n-kapplication; è un editor per le intestazioni di &kmail; basato su <ulink url="https://github.com/steveire/grantlee"
+>Grantlee</ulink
+>.</para>
+
+<sect2 id="using-kapp">
+<title
+>Usare &i18n-kapplication;</title>
+<para
+>Una breve introduzione a questo programma può essere consultata presso questo <ulink url="http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>blog</ulink
+>.</para>
+<para
+>Si possono trovare ulteriori informazioni nella documentazione di <ulink url="http://www.grantlee.org/apidox/"
+>Grantlee</ulink
+>.</para>
+<para
+>Esempi di intestazioni si possono trovare nel repository <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/"
+>dei progetti di Grantlee</ulink
+>.</para>
+</sect2>
+
+<sect2 id="credits">
+
+<title
+>Riconoscimenti e licenza</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Copyright del programma 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+<para
+>Copyright della documentazione &copy; 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+
+<para
+>Traduzione italiana di Luigi Toscano <email
+>luigi.toscano@tiscali.it</email
+></para
+> &underFDL; &underGPL; </sect2>
+
+</sect1>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

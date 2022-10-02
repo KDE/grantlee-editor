@@ -1,0 +1,231 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-02-20 21:52+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.08.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "박신조"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: contactconfigurationdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "설정"
+
+#: contactconfigurationdialog.cpp:41
+#, kde-format
+msgid "Default contact:"
+msgstr "기본 연락처:"
+
+#: contactconfigurationdialog.cpp:47
+#, kde-format
+msgid "General"
+msgstr "일반"
+
+#: contactconfigurationdialog.cpp:50
+#, kde-format
+msgid "Default Template"
+msgstr "기본 템플릿"
+
+#: contacteditormainwindow.cpp:75
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "외부 테마 불러오기..."
+
+#: contacteditormainwindow.cpp:82
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "쪽 추가..."
+
+#: contacteditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "테마 업로드..."
+
+#: contacteditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "새 테마..."
+
+#: contacteditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "테마 열기..."
+
+#: contacteditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "테마 저장"
+
+#: contacteditormainwindow.cpp:100
+#, kde-format
+msgid "Save theme as..."
+msgstr "다른 이름으로 테마 저장..."
+
+#: contacteditormainwindow.cpp:106
+#, kde-format
+msgid "Install theme"
+msgstr "테마 설치"
+
+#: contacteditormainwindow.cpp:110
+#, kde-format
+msgid "Insert File..."
+msgstr "파일 삽입..."
+
+#: contacteditormainwindow.cpp:114
+#, kde-format
+msgid "Manage themes..."
+msgstr "테마 관리..."
+
+#: contacteditormainwindow.cpp:118
+#, kde-format
+msgid "Update view"
+msgstr "보기 업데이트"
+
+#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#, kde-format
+msgid "Select theme directory"
+msgstr "테마 디렉터리 선택"
+
+#: contacteditormainwindow.cpp:202
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "디렉터리에 테마가 없습니다. 불러올 수 없습니다."
+
+#: contacteditorpage.cpp:42
+#, kde-format
+msgid "Editor"
+msgstr "편집기"
+
+#: contacteditorpage.cpp:54
+#, kde-format
+msgid "Desktop File"
+msgstr "데스크톱 파일"
+
+#: contacteditorpage.cpp:125
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "테마가 이미 존재합니다. 덮어쓰시겠습니까?"
+
+#: contacteditorpage.cpp:126
+#, kde-format
+msgid "Theme already exists"
+msgstr "테마가 이미 존재함"
+
+#: contacteditorpage.cpp:134
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "테마 폴더를 만들 수 없습니다."
+
+#: contacteditorpage.cpp:148
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "테마가 \"%1\"에 설치됨"
+
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "zip 파일에 미리 보기를 추가할 수 없음"
+
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
+#, kde-format
+msgid "Failed to add file."
+msgstr "파일을 추가할 수 없습니다."
+
+#: contacteditorpage.cpp:190
+#, kde-format
+msgid "My favorite Kaddressbook theme"
+msgstr "내가 즐겨쓰는 KAddressbook 테마"
+
+#: contacteditorpage.cpp:216
+#, kde-format
+msgid "Filename of extra page"
+msgstr "추가 쪽 파일 이름"
+
+#: contacteditorpage.cpp:216
+#, kde-format
+msgid "Filename:"
+msgstr "파일 이름:"
+
+#: contacteditorpage.cpp:274
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "현재 프로젝트를 저장하시겠습니까?"
+
+#: contacteditorpage.cpp:275
+#, kde-format
+msgid "Save current project"
+msgstr "현재 프로젝트 저장"
+
+#: contactpreviewwidget.cpp:34
+#, kde-format
+msgid "Contact"
+msgstr "연락처"
+
+#: contactpreviewwidget.cpp:37
+#, kde-format
+msgid "Group"
+msgstr "그룹"
+
+#: contacttemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "편집기에 구성 요소를 끌어다 놓아서 템플릿을 가져올 수 있습니다"
+
+#. i18n: ectx: Menu (edit)
+#: contactthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "편집(&E)"
+
+#. i18n: ectx: Menu (Display)
+#: contactthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "표시(&D)"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "테마 템플릿:"
+
+#: main.cpp:36 main.cpp:38
+#, kde-format
+msgid "Contact Theme Editor"
+msgstr "연락처 테마 편집기"
+
+#: main.cpp:40
+#, kde-format
+msgid "Copyright © 2013-%1 contactthemeeditor authors"
+msgstr "Copyright © 2013-%1 contactthemeeditor authors"
+
+#: main.cpp:41
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:41
+#, kde-format
+msgid "Maintainer"
+msgstr "관리자"

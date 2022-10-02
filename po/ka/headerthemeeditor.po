@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grantlee-editor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-08-14 10:45+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Temuri Doghonadze"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Temuri.doghonadze@gmail.com"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "თემის შაბლონები:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&ჩასწორება"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&ჩვენება"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "სათაურის თემის რედაქტორი"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Messageviewer Header თემის რედაქტორი"
+
+#: main.cpp:41
+#, kde-format
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "© 2013-%1 headerthemeeditor -ის ავტორები, ყველა უფლება დაცულია"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "წამყვანი პროგრამისტი"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "ხედის განახლება"
+
+#: themeconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "მორგება"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "ნაგულისხმები ელფოსტა:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "ზოგადი"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "ნაგულისხმევი შაბლონი"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "შინაარსი"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "დაწყებული"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "ვის"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "ასლი"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "ჩატვირთეთ ბოლო თემა..."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "დამატებითი გვერდის დამატება..."
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "თემის ატვირთვა..."
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "ახალი თემა..."
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "თემის გახსნა..."
+
+#: themeeditormainwindow.cpp:102
+#, kde-format
+msgid "Save theme"
+msgstr "თემის შენახვა"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "შეინახეთ თემა, როგორც..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "თემის დაყენება"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "ფაილის ჩასმა..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "ბეჭდვის რეჟიმი"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "ნორმალური რეჟიმი"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "თემების მართვა..."
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "აირჩიეთ თემის საქაღალდე"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "საქაღალდე თემისი ფაილს არ შეიცავს . ჩვენ არ შეგვიძლია დატვირთოთ თემა."
+
+#: themeeditorpage.cpp:40
+#, kde-format
+msgid "Editor (%1)"
+msgstr "რედაქტორი (%1)"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "სამუშაო მაგიდის ფაილი"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "თემა უკვე არსებობს. გნებავთ გადააწეროთ?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "თემა უკვე არსებობს"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "თემის საქაღალდის შექმნის შეცდომა."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "თემა დადგა საქაღალდეში \"%1\""
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "ჩვენ არ შეგვიძლია ფაილის გადახედვა zip ფაილში"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "ფაილის დამატების შეცდომა."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "ჩემი საყვარელი KMail სათაური"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "დამატებითი გვერდის ფაილის სახელი"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "ფაილის სახელი:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "გნებავთ მიმდინარე პროექტის შენახვა?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "მიმდინარე პროექტის შენახვა"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "შაბლონის შემოსატანად უბრალოდ დააგდეთ ელემენტი რედაქტორზე"

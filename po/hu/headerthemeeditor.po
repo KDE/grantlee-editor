@@ -1,0 +1,332 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Balázs Úr <urbalazs@gmail.com>, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2014-01-20 21:52+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Úr Balázs"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "urbalazs@gmail.com"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Téma sablonok:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "S&zerkesztés"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Megjelenítés"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Fejléctéma szerkesztő"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Üzenetmegjelenítő fejléctéma szerkesztő"
+
+#: main.cpp:41
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013, 2014 headerthemeeditor authors"
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "Copyright © A headerthemeeditor szerzői, 2013, 2014."
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Karbantartó"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Nézet frissítése"
+
+#: themeconfiguredialog.cpp:27
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Beállítás"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "Alapértelmezett e-mail:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "Általános"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Alapértelmezett sablon"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Tárgy"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "Feladó"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "Címzett"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "Másolat"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Legutóbbi téma betöltése…"
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Extra oldal hozzáadása…"
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Téma feltöltése…"
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Új téma…"
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Téma megnyitása…"
+
+#: themeeditormainwindow.cpp:102
+#, fuzzy, kde-format
+#| msgid "Save theme..."
+msgid "Save theme"
+msgstr "Téma mentése…"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Téma mentése másként…"
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Téma telepítése"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Fájl beszúrása…"
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Nyomtatási mód"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Normál mód"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Témák kezelése…"
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Témakönyvtár kiválasztása"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "A könyvtár nem tartalmaz témafájlt. Nem tudunk témát betölteni."
+
+#: themeeditorpage.cpp:40
+#, fuzzy, kde-format
+#| msgid "Editor"
+msgid "Editor (%1)"
+msgstr "Szerkesztő"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "Asztali fájl"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "A téma már létezik. Szeretné azt felülírni?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "A téma már létezik"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Nem sikerült létrehozni a témamappát."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "A téma telepítve ide: „%1”"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Nem tudunk előnézet fájlt hozzáadni a zip fájlhoz"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "Nem sikerült hozzáadni a fájlt."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "A kedvenc KMail fejlécem"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Az extra oldal fájlneve"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "Fájlnév:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "El szeretné menteni a jelenlegi projektet?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Jelenlegi projekt mentése"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"Sablon importálásához a szerkesztőben használhatja az elemeken a fogd és "
+"vidd módszert"
+
+#~ msgid "Default theme path:"
+#~ msgstr "Alapértelmezett témaútvonal:"
+
+#~ msgid "We can not add file in zip file"
+#~ msgstr "Nem tudunk fájlt hozzáadni a zip fájlba"
+
+#~ msgid "Name:"
+#~ msgstr "Név:"
+
+#~ msgid "Author:"
+#~ msgstr "Szerző:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Description:"
+#~ msgstr "Leírás:"
+
+#~ msgid "Version:"
+#~ msgstr "Verzió:"
+
+#~ msgid "Extract Headers:"
+#~ msgstr "Fejlécek kibontása:"
+
+#~ msgid ""
+#~ "Be careful, Grantlee does not support '-' in variable name. So when you "
+#~ "want to add extra header as \"X-Original-To\" add \"X-Original-To\" in "
+#~ "list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in "
+#~ "name)."
+#~ msgstr ""
+#~ "Legyen óvatos, a Grantlee nem támogatja a „-” karaktert a változónévben. "
+#~ "Ha extra fejlécet szeretne hozzáadni mint például „X-Original-To”, adja "
+#~ "hozzá a listához „X-Original-To” formában, de változóként „XOriginalTo” "
+#~ "néven használja a Grantlee programban (távolítsa el a „-” karaktert a "
+#~ "névből)."
+
+#~ msgid "Manage Theme"
+#~ msgstr "Téma kezelése"
+
+#~ msgid "Local themes:"
+#~ msgstr "Helyi témák:"
+
+#~ msgid "Delete theme"
+#~ msgstr "Téma törlése"
+
+#~ msgid "Do you want to remove selected theme?"
+#~ msgstr "Szeretné eltávolítani a kijelölt témát?"
+
+#~ msgid "Remove theme"
+#~ msgstr "Téma eltávolítása"
+
+#~ msgid "Can not delete theme. Please contact your administrator."
+#~ msgstr "Nem törölhető a téma. Forduljon a rendszergazdához."
+
+#~ msgid "Delete theme failed"
+#~ msgstr "A téma törlése nem sikerült"
+
+#~ msgid "New Theme"
+#~ msgstr "Új téma"
+
+#~ msgid "Theme name:"
+#~ msgstr "Témanév:"
+
+#~ msgid "Theme directory:"
+#~ msgstr "Téma könyvtár:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Close Tab"
+#~ msgstr "Lap bezárása"

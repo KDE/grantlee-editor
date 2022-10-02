@@ -1,0 +1,232 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Steve Allewell <steve.allewell@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+# Jonathan Marten <jjm@keelhaul.me.uk>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-02-19 11:59+0000\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Steve Allewell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "steve.allewell@gmail.com"
+
+#: contactconfigurationdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configure"
+
+#: contactconfigurationdialog.cpp:41
+#, kde-format
+msgid "Default contact:"
+msgstr "Default contact:"
+
+#: contactconfigurationdialog.cpp:47
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: contactconfigurationdialog.cpp:50
+#, kde-format
+msgid "Default Template"
+msgstr "Default Template"
+
+#: contacteditormainwindow.cpp:75
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Load Recent Theme..."
+
+#: contacteditormainwindow.cpp:82
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Add Extra Page..."
+
+#: contacteditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Upload theme..."
+
+#: contacteditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "New theme..."
+
+#: contacteditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Open theme..."
+
+#: contacteditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "Save theme"
+
+#: contacteditormainwindow.cpp:100
+#, kde-format
+msgid "Save theme as..."
+msgstr "Save theme as..."
+
+#: contacteditormainwindow.cpp:106
+#, kde-format
+msgid "Install theme"
+msgstr "Install theme"
+
+#: contacteditormainwindow.cpp:110
+#, kde-format
+msgid "Insert File..."
+msgstr "Insert File..."
+
+#: contacteditormainwindow.cpp:114
+#, kde-format
+msgid "Manage themes..."
+msgstr "Manage themes..."
+
+#: contacteditormainwindow.cpp:118
+#, kde-format
+msgid "Update view"
+msgstr "Update view"
+
+#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#, kde-format
+msgid "Select theme directory"
+msgstr "Select theme directory"
+
+#: contacteditormainwindow.cpp:202
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Directory does not contain a theme file. We cannot load theme."
+
+#: contacteditorpage.cpp:42
+#, kde-format
+msgid "Editor"
+msgstr "Editor"
+
+#: contacteditorpage.cpp:54
+#, kde-format
+msgid "Desktop File"
+msgstr "Desktop File"
+
+#: contacteditorpage.cpp:125
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Theme already exists. Do you want to overwrite it?"
+
+#: contacteditorpage.cpp:126
+#, kde-format
+msgid "Theme already exists"
+msgstr "Theme already exists"
+
+#: contacteditorpage.cpp:134
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Cannot create theme folder."
+
+#: contacteditorpage.cpp:148
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Theme installed in \"%1\""
+
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "We cannot add preview file in zip file"
+
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
+#, kde-format
+msgid "Failed to add file."
+msgstr "Failed to add file."
+
+#: contacteditorpage.cpp:190
+#, kde-format
+msgid "My favorite Kaddressbook theme"
+msgstr "My favourite KAddressBook theme"
+
+#: contacteditorpage.cpp:216
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Filename of extra page"
+
+#: contacteditorpage.cpp:216
+#, kde-format
+msgid "Filename:"
+msgstr "Filename:"
+
+#: contacteditorpage.cpp:274
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Do you want to save current project?"
+
+#: contacteditorpage.cpp:275
+#, kde-format
+msgid "Save current project"
+msgstr "Save current project"
+
+#: contactpreviewwidget.cpp:34
+#, kde-format
+msgid "Contact"
+msgstr "Contact"
+
+#: contactpreviewwidget.cpp:37
+#, kde-format
+msgid "Group"
+msgstr "Group"
+
+#: contacttemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "You can drag and drop element on editor to import template"
+
+#. i18n: ectx: Menu (edit)
+#: contactthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Edit"
+
+#. i18n: ectx: Menu (Display)
+#: contactthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Display"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Theme Templates:"
+
+#: main.cpp:36 main.cpp:38
+#, kde-format
+msgid "Contact Theme Editor"
+msgstr "Contact Theme Editor"
+
+#: main.cpp:40
+#, kde-format
+msgid "Copyright © 2013-%1 contactthemeeditor authors"
+msgstr "Copyright © 2013-%1 contactthemeeditor authors"
+
+#: main.cpp:41
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:41
+#, kde-format
+msgid "Maintainer"
+msgstr "Maintainer"

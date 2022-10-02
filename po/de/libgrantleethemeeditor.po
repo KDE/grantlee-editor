@@ -1,0 +1,184 @@
+# Burkhard Lück <lueck@hube-lueck.de>, 2013, 2015, 2020.
+# Frederik Schwarzer <schwarzer@kde.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"PO-Revision-Date: 2020-01-08 08:51+0100\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: desktopfilepage.cpp:29
+#, kde-format
+msgid "Name:"
+msgstr "Name:"
+
+#: desktopfilepage.cpp:37
+#, kde-format
+msgid "Author:"
+msgstr "Autor:"
+
+#: desktopfilepage.cpp:44
+#, kde-format
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: desktopfilepage.cpp:51
+#, kde-format
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: desktopfilepage.cpp:59
+#, kde-format
+msgid "Filename:"
+msgstr "Dateiname:"
+
+#: desktopfilepage.cpp:68
+#, kde-format
+msgid "Version:"
+msgstr "Version:"
+
+#: desktopfilepage.cpp:77
+#, kde-format
+msgid "Extract Headers:"
+msgstr "Vorspann extrahieren:"
+
+#: desktopfilepage.cpp:82
+#, kde-format
+msgid ""
+"Be careful, Grantlee does not support '-' in variable name. So when you want "
+"to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
+"use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
+msgstr ""
+"Beachten Sie, dass in Grantlee kein Minuszeichen („-“) in Variablennamen "
+"benutzt werden kann. Möchten Sie zum Beispiel zusätzliche Vorspanneinträge "
+"wie „X-Original-To“ verwenden, fügen Sie „X-Original-To“ zur Liste hinzu, "
+"verwenden aber „X-Original-To“ (ohne Minuszeichen) als Variable in Grantlee."
+
+#: desktopfilepage.cpp:127 editorpage.cpp:102
+#, kde-format
+msgid "Failed to add file into ZIP archive."
+msgstr "Das Hinzufügen der Datei in das ZIP-Archiv ist fehlgeschlagen."
+
+#: desktopfilepage.cpp:127 editorpage.cpp:102
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to add file"
+msgstr "Das Hinzufügen der Datei ist fehlgeschlagen"
+
+#: editorpage.cpp:91
+#, kde-format
+msgid "Failed to open file \"%1\"."
+msgstr "Das Öffnen der Datei „%1“ ist fehlgeschlagen."
+
+#: managethemes.cpp:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Theme"
+msgstr "Design verwalten"
+
+#: managethemes.cpp:44
+#, kde-format
+msgid "Local themes:"
+msgstr "Lokale Designs:"
+
+#: managethemes.cpp:52
+#, kde-format
+msgid "Delete theme"
+msgstr "Design löschen"
+
+#: managethemes.cpp:96
+#, kde-format
+msgid "Do you want to remove the selected theme \"%1\" ?"
+msgstr "Möchten Sie das ausgewählte Design „%1“ löschen?"
+
+#: managethemes.cpp:98
+#, kde-format
+msgid "Do you want to remove %1 selected themes?"
+msgstr "Möchten Sie die %1 ausgewählten Designs löschen?"
+
+#: managethemes.cpp:100
+#, kde-format
+msgid "Remove theme"
+msgstr "Design entfernen"
+
+#: managethemes.cpp:107
+#, kde-format
+msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
+msgstr ""
+"Das Design „%1“ kann nicht gelöscht werden. Bitte nehmen Sie Kontakt zu "
+"Ihrer Systemverwaltung auf."
+
+#: managethemes.cpp:108
+#, kde-format
+msgid "Delete theme failed"
+msgstr "Das Löschen des Designs ist fehlgeschlagen"
+
+#: newthemedialog.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "New Theme"
+msgstr "Neues Design"
+
+#: newthemedialog.cpp:39
+#, kde-format
+msgid "Theme name:"
+msgstr "Design-Name:"
+
+#: newthemedialog.cpp:48
+#, kde-format
+msgid "Theme directory:"
+msgstr "Designordner:"
+
+#: themeeditortabwidget.cpp:34
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor (%1)"
+
+#: themeeditortabwidget.cpp:53
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Unterfenster schließen"
+
+#: themesession.cpp:57
+#, kde-format
+msgid "Error during theme loading"
+msgstr "Fehler beim Laden des Designs"
+
+#: themesession.cpp:58
+#, kde-format
+msgid "You are trying to load a theme which cannot be read by this application"
+msgstr ""
+"Sie versuchen ein Design zu laden, das von diesem Programm nicht gelesen "
+"werden kann."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/configurewidget.ui:20
+#, kde-format
+msgid "Default theme path:"
+msgstr "Standard-Designpfad:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/configurewidget.ui:44
+#, kde-format
+msgid "Author email:"
+msgstr "E-Mail-Adresse des Autors:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/configurewidget.ui:61
+#, kde-format
+msgid "Author name:"
+msgstr "Name des Autors:"
+
+#~ msgid "We cannot add file in zip file"
+#~ msgstr "Die Datei kann nicht zum „zip“-Archiv hinzugefügt werden"
+
+#~ msgid "Form"
+#~ msgstr "Formular"

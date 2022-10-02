@@ -1,0 +1,305 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Marce Villarino <mvillarino@kde-espana.es>, 2013, 2014.
+# Xosé <xosecalvo@gmail.com>, 2013.
+# Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016, 2017.
+# Adrian Chaves <adrian@chaves.io>, 2018, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2019-08-11 16:51+0200\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.04.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Marce Villarino, Xosé"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mvillarino@users.sourceforge.net, xosecalvo@gmail.com"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Modelos de temas visuais:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Editar"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Visualización"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Editor de temas visuais das cabeceiras"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Editor de temas visuais de cabeceiras Messageviewer"
+
+#: main.cpp:41
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013-2019 headerthemeeditor authors"
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "© 2013-2019 Autores de headerthemeeditor"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Mantedor"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Actualizar a vista"
+
+#: themeconfiguredialog.cpp:27
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configurar"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "Correo predeterminado:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "Xeral"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Modelo predeterminado"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Asunto"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "De"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "Para"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "Copia"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Cargar un tema recente…"
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Engadir unha páxina adicional…"
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Enviar un tema…"
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Novo tema…"
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Abrir un tema…"
+
+#: themeeditormainwindow.cpp:102
+#, kde-format
+msgid "Save theme"
+msgstr "Gardar o tema"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Gardar o tema como…"
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Instalar un tema"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Inserir un ficheiro…"
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Método de impresión"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Modo normal"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Administrar os temas…"
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Escoller o directorio do tema"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr ""
+"O directorio non contén un ficheiro de tema. Non se pode cargar un tema."
+
+#: themeeditorpage.cpp:40
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor (%1)"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "Ficheiro de escritorio"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Xa existe ese tema. Quere substituílo?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "O tema xa existe"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Non se pode crear o cartafol de temas."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Instalouse o tema en «%1»"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Non se pode engadir un ficheiro de vista previa nun ficheiro zip"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "Non se puido engadir o ficheiro."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "A miña cabeceira favorita de KMail"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Nome de ficheiro da páxina adicional"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "Nome do ficheiro:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Quere gardar este proxecto?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Gardar este proxecto"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Pode arrastrar e soltar elementos sobre o editor para importar modelos"
+
+#~ msgid "Default theme path:"
+#~ msgstr "Ruta predeterminada aos temas:"
+
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#, fuzzy
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#, fuzzy
+#~ msgid "Email:"
+#~ msgstr "Correo electrónico"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "Descrición:"
+
+#, fuzzy
+#~ msgid "Version:"
+#~ msgstr "Versión:"
+
+#, fuzzy
+#~ msgid "Delete theme"
+#~ msgstr "Eliminar este tema"
+
+#, fuzzy
+#~ msgid "Remove theme"
+#~ msgstr "Eliminar o tema"
+
+#, fuzzy
+#~ msgid "New Theme"
+#~ msgstr "Tema novo"
+
+#, fuzzy
+#~ msgid "Theme name:"
+#~ msgstr "Nome do tema"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu"
+#~ msgid "Close Tab"
+#~ msgstr "Pechar a lapela"

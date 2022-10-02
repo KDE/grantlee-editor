@@ -1,0 +1,329 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2013-10-31 04:19+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Сайран Киккарин"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sairan@computer.org"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Нақыш үлгілері:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "Өңд&еу"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Көрсету"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Айдар нақышының редакторы"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Хат айдары нақыш редакторы"
+
+#: main.cpp:41
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013 headerthemeeditor authors"
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "Copyright © 2013 headerthemeeditor авторлары"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Жетілдірушісі"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Көріністі жаңарту"
+
+#: themeconfiguredialog.cpp:27
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Баптау"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "Әдетті эл.пошта:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "Жалпы"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Әдетті үлгі"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Тақырыбы"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "Кімден"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "Кімге"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "Көшірмесі кімге"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Жуырдағы нақышты жүктеу..."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Қосымша бетті қосу..."
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Нақышты жүктеп беру..."
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Жаңа нақышы..."
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Нақышын ашу..."
+
+#: themeeditormainwindow.cpp:102
+#, fuzzy, kde-format
+#| msgid "Save theme..."
+msgid "Save theme"
+msgstr "Нақышын сақтау..."
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Нақышын былай сақтау..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Нақышын орнату"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Файлды енгізу..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Басып шығару режімі"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Қәдімгі режім"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Нақыштарды басқару..."
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Нақыштың каталогын таңдау"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Каталогта нақыш файлы жоқ. Нақыш жүктелмеді."
+
+#: themeeditorpage.cpp:40
+#, fuzzy, kde-format
+#| msgid "Editor"
+msgid "Editor (%1)"
+msgstr "Редактор"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "Үстел файлы"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Былай аталған нақыш бар екен, оның үстінен жазбақсыз ба?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "Былай аталған нақышы бар екен"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Нақыш қапшығы құрылмады."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Нақыш \"%1\" дегенде орнатылған"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Файл нобайы zip-файлға қосылмайды"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "Файлды қосу жаңылысы."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Таңдамалы KMail айдарым"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Қосымша бет файл атауы"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "Файл атауы:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Назардағы жобаны сақтамақсыз ба?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Назардағы жобаны сақтау"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Үлгіні импорттау үшін элементті редақторға сүйреп әкелу керек"
+
+#~ msgid "Default theme path:"
+#~ msgstr "Әдетті нақыштың жолы:"
+
+#~ msgid "We can not add file in zip file"
+#~ msgstr "Zip файлға файлды қосуға болмайды"
+
+#~ msgid "Name:"
+#~ msgstr "Атауы:"
+
+#~ msgid "Author:"
+#~ msgstr "Авторы: "
+
+#~ msgid "Email:"
+#~ msgstr "Эл.поштасы:"
+
+#~ msgid "Description:"
+#~ msgstr "Сипаттамасы:"
+
+#~ msgid "Version:"
+#~ msgstr "Нұсқасы:"
+
+#~ msgid "Extract Headers:"
+#~ msgstr "Айдарларын тарқату:"
+
+#~ msgid ""
+#~ "Be careful, Grantlee does not support '-' in variable name. So when you "
+#~ "want to add extra header as \"X-Original-To\" add \"X-Original-To\" in "
+#~ "list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in "
+#~ "name)."
+#~ msgstr ""
+#~ "Байқаңыз, Grantlee айнымалы атында '-' дегенді танымайды. Сондықтан, "
+#~ "тізімге \"X-Original-To\" сияқты қосымша айдар қосам десеңіз, \"X-"
+#~ "Original-To\" дегенді қосыңыз, бірақ Grantlee айнымалы ретінде "
+#~ "\"XOriginlTo\" дегенді қолданыңыз (атауында '-' дегенді алып тастап)."
+
+#~ msgid "Manage Theme"
+#~ msgstr "Нақышты басқару"
+
+#~ msgid "Local themes:"
+#~ msgstr "Жергілікті нақыштар:"
+
+#~ msgid "Delete theme"
+#~ msgstr "Нақышын өшіру"
+
+#~ msgid "Do you want to remove selected theme?"
+#~ msgstr "Таңдалған нақышын шын өшірмексіз бе?"
+
+#~ msgid "Remove theme"
+#~ msgstr "Нақышты өшіру"
+
+#~ msgid "Can not delete theme. Please contact your administrator."
+#~ msgstr "Нақыш өшірілмеді. Әкімшіңізбен қатынаңыз."
+
+#~ msgid "Delete theme failed"
+#~ msgstr "Нақышын өшіру жаңылысы"
+
+#~ msgid "New Theme"
+#~ msgstr "Жаңа нақышы"
+
+#~ msgid "Theme name:"
+#~ msgstr "Нақыштың атауы:"
+
+#~ msgid "Theme directory:"
+#~ msgstr "Нақыш каталогы:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Close Tab"
+#~ msgstr "Қойндыны жабу"

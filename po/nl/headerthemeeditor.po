@@ -1,0 +1,331 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-01-02 14:49+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.12.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Freek de Kruijf - t/m 2022"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "freekdekruijf@kde.nl"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Thema-sjablonen:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "Be&werken"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Weergave"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Editor van header-thema"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Editor van berichtviewer van header-thema"
+
+#: main.cpp:41
+#, kde-format
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "Copyright © 2013-%1 auteurs van headerthemeeditor"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Onderhouder"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Beeld bijwerken"
+
+#: themeconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configureren"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "Standaard e-mail:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "Algemeen"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Standaard sjabloon"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "Van"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "Aan"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "Cc"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Recent thema laden..."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Extra pagina toevoegen..."
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Thema uploaden..."
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Nieuw thema..."
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Thema openen..."
+
+#: themeeditormainwindow.cpp:102
+#, kde-format
+msgid "Save theme"
+msgstr "Thema opslaan"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Thema opslaan als..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Thema installeren"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Bestand invoegen..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Afdrukmodus"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Normale modus"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Thema's beheren..."
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Thema-map selecteren"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Map bevat geen themabestand. Het thema kan niet geladen worden."
+
+#: themeeditorpage.cpp:40
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor (%1)"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "Desktop-bestand"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Thema bestaat reeds. Wilt u het overschrijven?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "Thema bestaat al"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Kan de thema-map niet aanmaken."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Thema geïnstalleerd in \"%1\""
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Voorbeeldbestand in zip-bestand toevoegen lukt niet"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "Toevoegen van bestand is mislukt."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Mijn favoriete header van KMail"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Bestandsnaam van de extra pagina"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "Bestandsnaam:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Wilt u het huidige project opslaan?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Huidige project opslaan"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"U kunt het element slepen en neerzetten op de bewerker om het sjabloon te "
+"importeren"
+
+#~ msgid "Default theme path:"
+#~ msgstr "Pad van standaardthema:"
+
+#~ msgid "We can not add file in zip file"
+#~ msgstr "Bestand in zip-bestand toevoegen lukt niet"
+
+#~ msgid "Name:"
+#~ msgstr "Naam:"
+
+#~ msgid "Author:"
+#~ msgstr "Auteur:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mailadres:"
+
+#~ msgid "Description:"
+#~ msgstr "Beschrijving:"
+
+#~ msgid "Version:"
+#~ msgstr "Versie:"
+
+#~ msgid "Extract Headers:"
+#~ msgstr "Berichtkoppen uitpakken:"
+
+#~ msgid ""
+#~ "Be careful, Grantlee does not support '-' in variable name. So when you "
+#~ "want to add extra header as \"X-Original-To\" add \"X-Original-To\" in "
+#~ "list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in "
+#~ "name)."
+#~ msgstr ""
+#~ "Wees voorzichtig, Grantlee ondersteunt geen '-' in de naam van een "
+#~ "variabele. Wanneer u dus extra berichtkoppen zoals \"X-Original-To\" voeg "
+#~ "\"X-Original-To\" in in de lijst, maar gebruik \"XOriginalTo\" als "
+#~ "variabele in Grantlee (verwijder '-' uit de naam)."
+
+#~ msgid "Manage Theme"
+#~ msgstr "Thema beheren"
+
+#~ msgid "Local themes:"
+#~ msgstr "Lokale thema's:"
+
+#~ msgid "Delete theme"
+#~ msgstr "Thema verwijderen"
+
+#~ msgid "Do you want to remove selected theme?"
+#~ msgstr "Wilt u het geselecteerde thema verwijderen?"
+
+#~ msgid "Remove theme"
+#~ msgstr "Thema verwijderen"
+
+#~ msgid "Can not delete theme. Please contact your administrator."
+#~ msgstr ""
+#~ "Kan het thema niet verwijderen. Neem contact op met uw systeembeheerder."
+
+#~ msgid "Delete theme failed"
+#~ msgstr "Verwijderen van thema is mislukt"
+
+#~ msgid "New Theme"
+#~ msgstr "Nieuw thema"
+
+#~ msgid "Theme name:"
+#~ msgstr "Themanaam:"
+
+#~ msgid "Theme directory:"
+#~ msgstr "Thema-map:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Close Tab"
+#~ msgstr "Tabblad sluiten"
+
+#~ msgid "Preview"
+#~ msgstr "Voorbeeld"

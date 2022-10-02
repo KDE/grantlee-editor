@@ -1,0 +1,179 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Javier Viñal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"PO-Revision-Date: 2019-12-26 22:28+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 19.12.0\n"
+
+#: desktopfilepage.cpp:29
+#, kde-format
+msgid "Name:"
+msgstr "Nombre:"
+
+#: desktopfilepage.cpp:37
+#, kde-format
+msgid "Author:"
+msgstr "Autor:"
+
+#: desktopfilepage.cpp:44
+#, kde-format
+msgid "Email:"
+msgstr "Correo:"
+
+#: desktopfilepage.cpp:51
+#, kde-format
+msgid "Description:"
+msgstr "Descripción:"
+
+#: desktopfilepage.cpp:59
+#, kde-format
+msgid "Filename:"
+msgstr "Nombre de archivo:"
+
+#: desktopfilepage.cpp:68
+#, kde-format
+msgid "Version:"
+msgstr "Versión:"
+
+#: desktopfilepage.cpp:77
+#, kde-format
+msgid "Extract Headers:"
+msgstr "Extraer encabezados:"
+
+#: desktopfilepage.cpp:82
+#, kde-format
+msgid ""
+"Be careful, Grantlee does not support '-' in variable name. So when you want "
+"to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
+"use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
+msgstr ""
+"Tenga cuidado, Grantlee no admite «-» en nombres de variables. Por lo que, "
+"cuando usted quiera añadir un encabezado extra como «X-Original-To», añada "
+"«X-Original-To» en la lista, pero use «XOriginalTo» como variable en "
+"Grantlee (elimine «-» del nombre)."
+
+#: desktopfilepage.cpp:127 editorpage.cpp:102
+#, kde-format
+msgid "Failed to add file into ZIP archive."
+msgstr "Ha fallado al añadir el archivo en un archivo ZIP."
+
+#: desktopfilepage.cpp:127 editorpage.cpp:102
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to add file"
+msgstr "Ha fallado al añadir el archivo"
+
+#: editorpage.cpp:91
+#, kde-format
+msgid "Failed to open file \"%1\"."
+msgstr "Ha fallado al abrir el archivo «%1»."
+
+#: managethemes.cpp:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Theme"
+msgstr "Gestionar tema"
+
+#: managethemes.cpp:44
+#, kde-format
+msgid "Local themes:"
+msgstr "Temas locales:"
+
+#: managethemes.cpp:52
+#, kde-format
+msgid "Delete theme"
+msgstr "Borrar tema"
+
+#: managethemes.cpp:96
+#, kde-format
+msgid "Do you want to remove the selected theme \"%1\" ?"
+msgstr "¿Quiere usted eliminar el tema seleccionado «%1»?"
+
+#: managethemes.cpp:98
+#, kde-format
+msgid "Do you want to remove %1 selected themes?"
+msgstr "¿Quiere usted eliminar %1 temas seleccionados?"
+
+#: managethemes.cpp:100
+#, kde-format
+msgid "Remove theme"
+msgstr "Eliminar tema"
+
+#: managethemes.cpp:107
+#, kde-format
+msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
+msgstr ""
+"El tema «%1» no se puede borrar. Por favor, contacte con su administrador."
+
+#: managethemes.cpp:108
+#, kde-format
+msgid "Delete theme failed"
+msgstr "El borrado del tema ha fallado"
+
+#: newthemedialog.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "New Theme"
+msgstr "Nuevo tema"
+
+#: newthemedialog.cpp:39
+#, kde-format
+msgid "Theme name:"
+msgstr "Nombre del tema:"
+
+#: newthemedialog.cpp:48
+#, kde-format
+msgid "Theme directory:"
+msgstr "Directorio del tema:"
+
+#: themeeditortabwidget.cpp:34
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor (%1)"
+
+#: themeeditortabwidget.cpp:53
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "Cerrar pestaña"
+
+#: themesession.cpp:57
+#, kde-format
+msgid "Error during theme loading"
+msgstr "Error durante la carga del tema"
+
+#: themesession.cpp:58
+#, kde-format
+msgid "You are trying to load a theme which cannot be read by this application"
+msgstr "Usted intenta cargar un tema que no se puede leer por esta aplicación"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/configurewidget.ui:20
+#, kde-format
+msgid "Default theme path:"
+msgstr "Ruta al tema predeterminado:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/configurewidget.ui:44
+#, kde-format
+msgid "Author email:"
+msgstr "Correo del autor:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/configurewidget.ui:61
+#, kde-format
+msgid "Author name:"
+msgstr "Nombre del autor:"

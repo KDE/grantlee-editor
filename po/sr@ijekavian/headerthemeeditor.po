@@ -1,0 +1,266 @@
+# Translation of headerthemeeditor.po into Serbian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2013, 2014, 2015, 2016, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: headerthemeeditor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2020-01-02 03:12+0100\n"
+"PO-Revision-Date: 2018-01-06 09:21+0100\n"
+"Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
+"Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
+"Language: sr@ijekavian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Часлав Илић"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "caslav.ilic@gmx.net"
+
+#: editorpage.cpp:66
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Шаблони тема:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Уређивање"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Приказ"
+
+#: main.cpp:44
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Уређивач тема заглавља"
+
+# rewrite-msgid: /Messageviewer//
+#: main.cpp:46
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Уређивач тема заглавља"
+
+#: main.cpp:48
+#, fuzzy, kde-format
+#| msgid "Copyright © 2013-2018 headerthemeeditor authors"
+msgid "Copyright © 2013-2020 headerthemeeditor authors"
+msgstr "© 2013–2018, аутори уређивача теме заглавља"
+
+#: main.cpp:49
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Лорен Монтел"
+
+#: main.cpp:49
+#, kde-format
+msgid "Maintainer"
+msgstr "Одржавалац"
+
+#: previewwidget.cpp:47 themeeditormainwindow.cpp:152
+#, kde-format
+msgid "Update view"
+msgstr "Ажурирај приказ"
+
+# >> @title:window
+#: themeconfiguredialog.cpp:40
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Подешавање"
+
+#: themeconfiguredialog.cpp:50
+#, kde-format
+msgid "Default email:"
+msgstr "Подразумевана е‑пошта:"
+
+#: themeconfiguredialog.cpp:55
+#, kde-format
+msgid "General"
+msgstr "Опште"
+
+#: themeconfiguredialog.cpp:58
+#, kde-format
+msgid "Default Template"
+msgstr "Подразумевани шаблон"
+
+#: themedefaulttemplate.cpp:27
+#, kde-format
+msgid "Subject"
+msgstr "Тема"
+
+#: themedefaulttemplate.cpp:33
+#, kde-format
+msgid "From"
+msgstr "Од"
+
+#: themedefaulttemplate.cpp:39
+#, kde-format
+msgid "To"
+msgstr "За"
+
+#: themedefaulttemplate.cpp:45
+#, kde-format
+msgid "Cc"
+msgstr "ЦЦ"
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Учитај недавну тему..."
+
+#: themeeditormainwindow.cpp:104
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Додај страницу..."
+
+#: themeeditormainwindow.cpp:109
+#, kde-format
+msgid "Upload theme..."
+msgstr "Отпреми тему..."
+
+#: themeeditormainwindow.cpp:113
+#, kde-format
+msgid "New theme..."
+msgstr "Нова тема..."
+
+#: themeeditormainwindow.cpp:116
+#, kde-format
+msgid "Open theme..."
+msgstr "Отвори тему..."
+
+#: themeeditormainwindow.cpp:118
+#, fuzzy, kde-format
+#| msgid "Save theme..."
+msgid "Save theme"
+msgstr "Сачувај тему..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Save theme as..."
+msgstr "Сачувај тему као..."
+
+#: themeeditormainwindow.cpp:127
+#, kde-format
+msgid "Install theme"
+msgstr "Инсталирај тему"
+
+#: themeeditormainwindow.cpp:131
+#, kde-format
+msgid "Insert File..."
+msgstr "Уметни фајл..."
+
+#: themeeditormainwindow.cpp:137
+#, kde-format
+msgid "Printing mode"
+msgstr "Режим штампања"
+
+#: themeeditormainwindow.cpp:142
+#, kde-format
+msgid "Normal mode"
+msgstr "Нормалан режим"
+
+#: themeeditormainwindow.cpp:148
+#, kde-format
+msgid "Manage themes..."
+msgstr "Управљај темама..."
+
+# >> @title:window
+#: themeeditormainwindow.cpp:230 themeeditormainwindow.cpp:364
+#, kde-format
+msgid "Select theme directory"
+msgstr "Избор фасцикле теме"
+
+#: themeeditormainwindow.cpp:246
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Фасцикла не садржи фајл теме. Не могу да учитам тему."
+
+# >> @title:tab
+#: themeeditorpage.cpp:53
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Уређивач (%1)"
+
+# >> @title:tab
+#: themeeditorpage.cpp:62
+#, kde-format
+msgid "Desktop File"
+msgstr "Фајл површи"
+
+#: themeeditorpage.cpp:166
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Тема већ постоји. Желите ли да је пребришете?"
+
+#: themeeditorpage.cpp:166
+#, kde-format
+msgid "Theme already exists"
+msgstr "Тема већ постоји"
+
+#: themeeditorpage.cpp:171
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Не могу да направим фасциклу теме."
+
+#: themeeditorpage.cpp:182
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Тема инсталирана у „%1“."
+
+#: themeeditorpage.cpp:202
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Не може да се дода фајл прегледа у ЗИП фајл"
+
+#: themeeditorpage.cpp:202
+#, kde-format
+msgid "Failed to add file."
+msgstr "Не могу да додам фајл."
+
+#: themeeditorpage.cpp:216
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Моје омиљено заглавље К‑поште"
+
+#: themeeditorpage.cpp:237
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Име фајла додатне странице"
+
+#: themeeditorpage.cpp:237
+#, kde-format
+msgid "Filename:"
+msgstr "Име фајла:"
+
+#: themeeditorpage.cpp:281
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Желите ли да сачувате текући пројекат?"
+
+# >> @title:window
+#: themeeditorpage.cpp:281
+#, kde-format
+msgid "Save current project"
+msgstr "Уписивање текућег пројекта"
+
+#: themetemplatewidget.cpp:49
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Шаблон можете увести тако што превучете елемент на уређивач."

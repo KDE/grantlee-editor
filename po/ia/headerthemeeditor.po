@@ -1,0 +1,328 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Giovanni Sora <g.sora@tiscali.it>, 2013, 2014, 2020, 2021, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-01-14 00:44+0000\n"
+"PO-Revision-Date: 2022-01-05 12:54+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Giovanni Sora"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "g.sora@tiscali.it"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Patronos de thema:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Edita"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "&Monstra"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Editor de thema de capite de KMail"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Editor de themas de capite de Messageviewer"
+
+#: main.cpp:41
+#, kde-format
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "Copyright © 2013-%1 le autores de headerthemeseditor"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Mantenitor"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Actualisa vista"
+
+#: themeconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Configura"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "E-posta predefinite:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "General"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Patrono predefinite"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Subjecto"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "Ex"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "A"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "pc (CC)"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Carga thema recente..."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Adde paginna extra..."
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Incarga thema..."
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Nove thema..."
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Aperi thema..."
+
+#: themeeditormainwindow.cpp:102
+#, kde-format
+msgid "Save theme"
+msgstr "Salveguarda thema"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Salveguarda thema como..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Installa  thema"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Inserta file ..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Modo de imprimer"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Modo normal"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Gere themas..."
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Selige directorio de thema"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Directorio non contine un file de thema. On non pote cargar thema."
+
+#: themeeditorpage.cpp:40
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editor: (%1)"
+
+#: themeeditorpage.cpp:49
+#, kde-format
+msgid "Desktop File"
+msgstr "File de scriptorio"
+
+#: themeeditorpage.cpp:160
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Thema ja existe. Tu vole super scriber lo?"
+
+#: themeeditorpage.cpp:161
+#, kde-format
+msgid "Theme already exists"
+msgstr "Thema  ja existe"
+
+#: themeeditorpage.cpp:169
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Il non pote crear dossier de thema."
+
+#: themeeditorpage.cpp:180
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Thema installate in \"%1\""
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Il non pote monstrar vista preliminari de file"
+
+#: themeeditorpage.cpp:201
+#, kde-format
+msgid "Failed to add file."
+msgstr "Falleva adder file."
+
+#: themeeditorpage.cpp:215
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Mi favorite capite de KMail"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Nomine de file de pagina extra"
+
+#: themeeditorpage.cpp:238
+#, kde-format
+msgid "Filename:"
+msgstr "Nomine de file:"
+
+#: themeeditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Tu vole salveguardar projecto currente?"
+
+#: themeeditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Salveguarda projecto"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr "Tu pote trahee e deponer le elemento sur editor pro importar patrono"
+
+#~ msgid "Default theme path:"
+#~ msgstr "Percurso de thema predefinite:"
+
+#~ msgid "We can not add file in zip file"
+#~ msgstr "Nos non pote adder file in file zip"
+
+#~ msgid "Name:"
+#~ msgstr "Nomine:"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Email:"
+#~ msgstr "E-posta:"
+
+#~ msgid "Description:"
+#~ msgstr "Description:"
+
+#~ msgid "Version:"
+#~ msgstr "Version:"
+
+#~ msgid "Extract Headers:"
+#~ msgstr "Extrahe capites:"
+
+#~ msgid ""
+#~ "Be careful, Grantlee does not support '-' in variable name. So when you "
+#~ "want to add extra header as \"X-Original-To\" add \"X-Original-To\" in "
+#~ "list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in "
+#~ "name)."
+#~ msgstr ""
+#~ "Sia attente, Grantlee non supporta '-' in nomine de variabile. Assi "
+#~ "quando tu vole adder capite extra como \"X-Original-To\" adde \"X-"
+#~ "Original-To\" al lista, ma usa \"XORIGINALTO\" como variabile in Grantlee "
+#~ "(remove '-' in nomine)."
+
+#~ msgid "Manage Theme"
+#~ msgstr "Gere Thema"
+
+#~ msgid "Local themes:"
+#~ msgstr "Themas local:"
+
+#~ msgid "Delete theme"
+#~ msgstr "Dele Thema"
+
+#~ msgid "Do you want to remove selected theme?"
+#~ msgstr "Tu vermente vole remover le thema seligite ?"
+
+#~ msgid "Remove theme"
+#~ msgstr "Remove thema"
+
+#~ msgid "Can not delete theme. Please contact your administrator."
+#~ msgstr "Non pote deler thema. Pro favor contionge tu administrator."
+
+#~ msgid "Delete theme failed"
+#~ msgstr "Il falleva deler thema"
+
+#~ msgid "New Theme"
+#~ msgstr "Nove Thema"
+
+#~ msgid "Theme name:"
+#~ msgstr "Nomine de thema:"
+
+#~ msgid "Theme directory:"
+#~ msgstr "Directorio de thema:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Close Tab"
+#~ msgstr "Claude scheda"
+
+#~ msgid "Preview"
+#~ msgstr "Vista preliminari"

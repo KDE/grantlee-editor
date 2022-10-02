@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>Редактор тем заголовків повідомлень</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Ukrainian "INCLUDE"
+> 
+]>
+
+<article id="headerthemeeditor" lang="&language;">
+
+<articleinfo id="headerthemeeditorinfo">
+
+<title
+>Підручник з редактора тем заголовків повідомлень</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> &Laurent.Montel.mail; </author>
+<othercredit role="translator"
+><firstname
+>Юрій</firstname
+><surname
+>Чорноіван</surname
+><affiliation
+><address
+><email
+>yurchor@ukr.net</email
+></address
+></affiliation
+><contrib
+>Переклад українською</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2013</year>
+<holder
+>&Laurent.Montel;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>6 квітня 2016 року</date>
+<releaseinfo
+>Програми 16.04</releaseinfo>
+
+<abstract>
+<para
+>&i18n-kapplication; — редактор заголовків повідомлень &kmail;. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>KMail</keyword>
+<keyword
+>Заголовок</keyword>
+<keyword
+>Дизайн</keyword>
+</keywordset>
+
+</articleinfo>
+<sect1 id="introduction">
+<title
+>Вступ</title>
+<para
+>&i18n-kapplication; — редактор заголовків повідомлень &kmail;, заснований на <ulink url="https://github.com/steveire/grantlee"
+>Grantlee</ulink
+>.</para>
+
+<sect2 id="using-kapp">
+<title
+>Користування програмою «&i18n-kapplication;»</title>
+<para
+>Короткий вступ до цієї програми можна знайти у <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>цьому дописі у блозі</ulink
+>.</para>
+<para
+>Докладнішу інформацію щодо цих тем можна знайти у документації з <ulink url="http://www.grantlee.org/apidox/"
+>Grantlee</ulink
+>.</para>
+<para
+>Приклади компонувань заголовків наведено у сховищі <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/"
+>Grantlee-designs</ulink
+>.</para>
+</sect2>
+
+<sect2 id="credits">
+
+<title
+>Подяки і ліцензування</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Авторські права на програму належать &Laurent.Montel; &Laurent.Montel.mail;, 2013</para>
+<para
+>Авторські права на документацію належать &Laurent.Montel; &Laurent.Montel.mail;, 2013</para>
+
+<para
+>Переклад українською: Юрій Чорноіван<email
+>yurchor@ukr.net</email
+></para
+> &underFDL; &underGPL; </sect2>
+
+</sect1>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->
