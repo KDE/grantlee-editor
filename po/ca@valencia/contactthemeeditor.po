@@ -209,7 +209,7 @@ msgstr "&Edita"
 #: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr "&Visualitza"
+msgstr "Vi&sualitza"
 
 #: editorpage.cpp:52
 #, kde-format
