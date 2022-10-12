@@ -11,8 +11,6 @@
 #include "themeeditorwidget.h"
 #include "themesession.h"
 
-#include <kns3/uploaddialog.h>
-
 #include "headerthemeeditor_debug.h"
 #include <KLocalizedString>
 #include <KMessageBox>
