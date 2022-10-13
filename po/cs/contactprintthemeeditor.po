@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-02 00:47+0000\n"
+"POT-Creation-Date: 2022-10-13 00:47+0000\n"
 "PO-Revision-Date: 2022-01-05 12:24+0100\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -151,67 +151,67 @@ msgstr "Vyberte adresář motivu"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
 
-#: themeeditorpage.cpp:42
+#: themeeditorpage.cpp:40
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditorpage.cpp:48
+#: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
 msgstr "Soubor plochy"
 
-#: themeeditorpage.cpp:136
+#: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Motiv již existuje. Přejete si jej přepsat?"
 
-#: themeeditorpage.cpp:137
+#: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
 msgstr "Motiv již existuje"
 
-#: themeeditorpage.cpp:145
+#: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr ""
 
-#: themeeditorpage.cpp:155
+#: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr ""
 
-#: themeeditorpage.cpp:176
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr ""
 
-#: themeeditorpage.cpp:176
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
 msgstr "Selhalo přidání souboru."
 
-#: themeeditorpage.cpp:190
+#: themeeditorpage.cpp:188
 #, kde-format
 msgid "My favorite KMail header"
 msgstr ""
 
-#: themeeditorpage.cpp:213
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
 msgstr ""
 
-#: themeeditorpage.cpp:213
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename:"
 msgstr "Název souboru:"
 
-#: themeeditorpage.cpp:258
+#: themeeditorpage.cpp:256
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr ""
 
-#: themeeditorpage.cpp:259
+#: themeeditorpage.cpp:257
 #, kde-format
 msgid "Save current project"
 msgstr "Uložit současný projekt"

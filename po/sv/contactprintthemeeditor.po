@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-02 00:47+0000\n"
+"POT-Creation-Date: 2022-10-13 00:47+0000\n"
 "PO-Revision-Date: 2022-01-02 14:22+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -151,67 +151,67 @@ msgstr "Välj temakatalog"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Katalogen innehåller inte en temafil. Temat kan inte läsas in."
 
-#: themeeditorpage.cpp:42
+#: themeeditorpage.cpp:40
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditorpage.cpp:48
+#: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
 msgstr "Skrivbordsfil"
 
-#: themeeditorpage.cpp:136
+#: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Temat finns redan. Vill du skriva över det?"
 
-#: themeeditorpage.cpp:137
+#: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
 msgstr "Temat finns redan"
 
-#: themeeditorpage.cpp:145
+#: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Kan inte skapa temakatalog."
 
-#: themeeditorpage.cpp:155
+#: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema installeras i \"%1\""
 
-#: themeeditorpage.cpp:176
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Det går inte att lägga till förhandsgranskningsfil i en zip-fil"
 
-#: themeeditorpage.cpp:176
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
 msgstr "Misslyckades lägga till fil."
 
-#: themeeditorpage.cpp:190
+#: themeeditorpage.cpp:188
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "Mitt Kmail-favorithuvud"
 
-#: themeeditorpage.cpp:213
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Filnamn på extra sida"
 
-#: themeeditorpage.cpp:213
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename:"
 msgstr "Filnamn:"
 
-#: themeeditorpage.cpp:258
+#: themeeditorpage.cpp:256
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Vill du spara aktuellt projekt?"
 
-#: themeeditorpage.cpp:259
+#: themeeditorpage.cpp:257
 #, kde-format
 msgid "Save current project"
 msgstr "Spara aktuellt projekt"
