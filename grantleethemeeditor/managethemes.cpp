@@ -18,6 +18,7 @@
 #include <QListWidget>
 #include <QStandardPaths>
 #include <QVBoxLayout>
+#include <kwidgetsaddons_version.h>
 
 using namespace GrantleeThemeEditor;
 class GrantleeThemeEditor::ManageThemesPrivate
@@ -97,8 +98,16 @@ void ManageThemes::slotDeleteTheme()
         } else {
             msg = i18n("Do you want to remove %1 selected themes?", selectedThemeCount);
         }
+#if KWIDGETSADDONS_VERSION >= QT_VERSION_CHECK(5, 100, 0)
+        const int answer = KMessageBox::questionTwoActions(this, msg, i18n("Remove theme"), KStandardGuiItem::remove(), KStandardGuiItem::cancel());
+#else
         const int answer = KMessageBox::questionYesNo(this, msg, i18n("Remove theme"), KStandardGuiItem::remove(), KStandardGuiItem::cancel());
+#endif
+#if KWIDGETSADDONS_VERSION >= QT_VERSION_CHECK(5, 100, 0)
+        if (answer == KMessageBox::ButtonCode::PrimaryAction) {
+#else
         if (answer == KMessageBox::Yes) {
+#endif
             for (QListWidgetItem *item : selectItems) {
                 if (QDir((d->mLocalDirectory + QLatin1Char('/') + item->text())).removeRecursively()) {
                     delete item;
