@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:47+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2015-12-29 21:41+0200\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
@@ -119,67 +119,67 @@ msgstr "Pasirinkite temos katalogą"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Kataloge nėra temos failo. Negalime įkelti temos."
 
-#: contacteditorpage.cpp:40
+#: contacteditorpage.cpp:41
 #, kde-format
 msgid "Editor"
 msgstr "Redaktorius"
 
-#: contacteditorpage.cpp:52
+#: contacteditorpage.cpp:53
 #, kde-format
 msgid "Desktop File"
 msgstr "*.desktop failas"
 
-#: contacteditorpage.cpp:123
+#: contacteditorpage.cpp:128
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Apipavidalinimas jau egzistuoja. Ar norite jį perrašyti?"
 
-#: contacteditorpage.cpp:124
+#: contacteditorpage.cpp:129
 #, kde-format
 msgid "Theme already exists"
 msgstr "Apipavidalinimas jau egzistuoja"
 
-#: contacteditorpage.cpp:132
+#: contacteditorpage.cpp:141
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nepavyksta sukurti temos aplanko."
 
-#: contacteditorpage.cpp:146
+#: contacteditorpage.cpp:155
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Apipavidalinimas įdiegtas čia: „%1“"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Negalime pridėti peržiūros failo zip faile"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
 #, kde-format
 msgid "Failed to add file."
 msgstr "Nepavyko pridėti failo."
 
-#: contacteditorpage.cpp:188
+#: contacteditorpage.cpp:197
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "Mano mėgstama KAddressBook tema"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:223
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Papildomo puslapio failo pavadinimas"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:223
 #, kde-format
 msgid "Filename:"
 msgstr "Failo pavadinimas:"
 
-#: contacteditorpage.cpp:272
+#: contacteditorpage.cpp:285
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Ar norite išsaugoti dabartinį projektą?"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:286
 #, kde-format
 msgid "Save current project"
 msgstr "Išsaugoti dabartinį projektą"

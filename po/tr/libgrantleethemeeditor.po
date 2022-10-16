@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2022-07-11 10:58+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -81,43 +81,43 @@ msgstr "Dosya ekleme başarısız oldu"
 msgid "Failed to open file \"%1\"."
 msgstr "\"%1\" dosyası açılamadı."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Temayı Yönet"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgid "Local themes:"
 msgstr "Yerel temalar:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgid "Delete theme"
 msgstr "Temayı sil"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "\"%1\" temasını gerçekten kaldırmak istiyor musunuz?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Seçili %1 temalarını gerçekten kaldırmak istiyor musunuz?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:102 managethemes.cpp:104
 #, kde-format
 msgid "Remove theme"
 msgstr "Temayı Kaldır"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:116
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr "\"%1\" teması silinemiyor. Lütfen sistem yöneticinizle görüşün."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:117
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Tema silinmesi başarısız"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2022-04-09 15:16+0200\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -78,43 +78,43 @@ msgstr "Zlyhalo pridanie súboru"
 msgid "Failed to open file \"%1\"."
 msgstr "Zlyhalo otvorenie súboru \"%1\"."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Spravovať tému"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgid "Local themes:"
 msgstr "Miestne témy:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgid "Delete theme"
 msgstr "Vymazať tému"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Chcete odstrániť vybranú tému \"%1\"?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Chcete odstrániť vybrané %1 témy?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:102 managethemes.cpp:104
 #, kde-format
 msgid "Remove theme"
 msgstr "Odstrániť tému"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:116
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr "Tému \"%1\" nie je možné vymazať. Prosím kontaktujte vášho správcu."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:117
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Vymazanie témy zlyhalo"

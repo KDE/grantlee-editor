@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:47+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2022-01-03 01:02+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -115,67 +115,67 @@ msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
 "El directorio no contiene un archivo de tema. No podemos cargar el tema."
 
-#: contacteditorpage.cpp:40
+#: contacteditorpage.cpp:41
 #, kde-format
 msgid "Editor"
 msgstr "Editor"
 
-#: contacteditorpage.cpp:52
+#: contacteditorpage.cpp:53
 #, kde-format
 msgid "Desktop File"
 msgstr "Archivo de escritorio"
 
-#: contacteditorpage.cpp:123
+#: contacteditorpage.cpp:128
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "El tema ya existe. ¿Quiere sobrescribirlo?"
 
-#: contacteditorpage.cpp:124
+#: contacteditorpage.cpp:129
 #, kde-format
 msgid "Theme already exists"
 msgstr "El tema ya existe"
 
-#: contacteditorpage.cpp:132
+#: contacteditorpage.cpp:141
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "No se puede crear la carpeta de temas."
 
-#: contacteditorpage.cpp:146
+#: contacteditorpage.cpp:155
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema instalado en «%1»"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "No podemos añadir archivo de vista previa en archivo zip"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
 #, kde-format
 msgid "Failed to add file."
 msgstr "Ha fallado al añadir el archivo."
 
-#: contacteditorpage.cpp:188
+#: contacteditorpage.cpp:197
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "Mi tema favorito de Kaddressbook"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:223
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Nombre de archivo de página extra"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:223
 #, kde-format
 msgid "Filename:"
 msgstr "Nombre de archivo:"
 
-#: contacteditorpage.cpp:272
+#: contacteditorpage.cpp:285
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "¿Quiere usted guardar el proyecto actual?"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:286
 #, kde-format
 msgid "Save current project"
 msgstr "Guardar proyecto actual"

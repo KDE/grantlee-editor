@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2019-12-18 19:40+0200\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -80,44 +80,44 @@ msgstr "Faili lisamine nurjus"
 msgid "Failed to open file \"%1\"."
 msgstr "Faili \"%1\" avamine nurjus."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Teema haldamine"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgid "Local themes:"
 msgstr "Kohalikud teemad:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgid "Delete theme"
 msgstr "Kustuta teema"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Kas eemaldada valitud teema \"%1\"?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Kas eemaldada %1 valitud teemat?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:102 managethemes.cpp:104
 #, kde-format
 msgid "Remove theme"
 msgstr "Teema eemaldamine"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:116
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "Teemat \"%1\" ei saa kustutada. Palun võta ühendust oma administraatoriga."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:117
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Teema kustutamine nurjus"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:47+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2022-01-02 14:49+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -185,67 +185,67 @@ msgstr "Thema-map selecteren"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Map bevat geen themabestand. Het thema kan niet geladen worden."
 
-#: themeeditorpage.cpp:38
+#: themeeditorpage.cpp:39
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditorpage.cpp:47
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr "Desktop-bestand"
 
-#: themeeditorpage.cpp:158
+#: themeeditorpage.cpp:163
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Thema bestaat reeds. Wilt u het overschrijven?"
 
-#: themeeditorpage.cpp:159
+#: themeeditorpage.cpp:164
 #, kde-format
 msgid "Theme already exists"
 msgstr "Thema bestaat al"
 
-#: themeeditorpage.cpp:167
+#: themeeditorpage.cpp:176
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Kan de thema-map niet aanmaken."
 
-#: themeeditorpage.cpp:178
+#: themeeditorpage.cpp:187
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Thema geïnstalleerd in \"%1\""
 
-#: themeeditorpage.cpp:199
+#: themeeditorpage.cpp:208
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Voorbeeldbestand in zip-bestand toevoegen lukt niet"
 
-#: themeeditorpage.cpp:199
+#: themeeditorpage.cpp:208
 #, kde-format
 msgid "Failed to add file."
 msgstr "Toevoegen van bestand is mislukt."
 
-#: themeeditorpage.cpp:213
+#: themeeditorpage.cpp:222
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "Mijn favoriete header van KMail"
 
-#: themeeditorpage.cpp:236
+#: themeeditorpage.cpp:245
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Bestandsnaam van de extra pagina"
 
-#: themeeditorpage.cpp:236
+#: themeeditorpage.cpp:245
 #, kde-format
 msgid "Filename:"
 msgstr "Bestandsnaam:"
 
-#: themeeditorpage.cpp:283
+#: themeeditorpage.cpp:296
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Wilt u het huidige project opslaan?"
 
-#: themeeditorpage.cpp:284
+#: themeeditorpage.cpp:297
 #, kde-format
 msgid "Save current project"
 msgstr "Huidige project opslaan"

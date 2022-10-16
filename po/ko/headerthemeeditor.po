@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:47+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2022-02-20 21:52+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -185,67 +185,67 @@ msgstr "테마 디렉터리 선택"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "디렉터리에 테마 파일이 없습니다. 테마를 불러올 수 없습니다."
 
-#: themeeditorpage.cpp:38
+#: themeeditorpage.cpp:39
 #, kde-format
 msgid "Editor (%1)"
 msgstr "편집기(%1)"
 
-#: themeeditorpage.cpp:47
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr "데스크톱 파일"
 
-#: themeeditorpage.cpp:158
+#: themeeditorpage.cpp:163
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "테마가 이미 존재합니다. 덮어쓰시겠습니까?"
 
-#: themeeditorpage.cpp:159
+#: themeeditorpage.cpp:164
 #, kde-format
 msgid "Theme already exists"
 msgstr "테마가 이미 존재함"
 
-#: themeeditorpage.cpp:167
+#: themeeditorpage.cpp:176
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "테마 폴더를 만들 수 없습니다."
 
-#: themeeditorpage.cpp:178
+#: themeeditorpage.cpp:187
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "테마가 \"%1\"에 설치됨"
 
-#: themeeditorpage.cpp:199
+#: themeeditorpage.cpp:208
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "zip 파일에 미리 보기 파일을 추가할 수 없음"
 
-#: themeeditorpage.cpp:199
+#: themeeditorpage.cpp:208
 #, kde-format
 msgid "Failed to add file."
 msgstr "파일을 추가할 수 없습니다."
 
-#: themeeditorpage.cpp:213
+#: themeeditorpage.cpp:222
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "내 즐겨쓰는 KMail 머리글"
 
-#: themeeditorpage.cpp:236
+#: themeeditorpage.cpp:245
 #, kde-format
 msgid "Filename of extra page"
 msgstr "추가 쪽 파일 이름"
 
-#: themeeditorpage.cpp:236
+#: themeeditorpage.cpp:245
 #, kde-format
 msgid "Filename:"
 msgstr "파일 이름:"
 
-#: themeeditorpage.cpp:283
+#: themeeditorpage.cpp:296
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "현재 프로젝트를 저장하시겠습니까?"
 
-#: themeeditorpage.cpp:284
+#: themeeditorpage.cpp:297
 #, kde-format
 msgid "Save current project"
 msgstr "현재 프로젝트 저장"

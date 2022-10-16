@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2019-12-17 09:03+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -83,45 +83,45 @@ msgstr "Не вдалося додати файл"
 msgid "Failed to open file \"%1\"."
 msgstr "Не вдалося відкрити файл «%1»."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Керування темами"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgid "Local themes:"
 msgstr "Локальні теми:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgid "Delete theme"
 msgstr "Вилучити тему"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Хочете вилучити позначену тему «%1»?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Хочете вилучити %1 позначених тем?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:102 managethemes.cpp:104
 #, kde-format
 msgid "Remove theme"
 msgstr "Вилучити тему"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:116
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "Не вдалося вилучити тему «%1». Будь ласка, зверніться до адміністратора "
 "вашої системи."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:117
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Спроба вилучення теми зазнала невдачі"

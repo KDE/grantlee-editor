@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:47+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2022-08-14 10:41+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian<kde-i18n-doc@kde.org>\n"
@@ -151,67 +151,67 @@ msgstr "აირჩიეთ თემის საქაღალდე"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "საქაღალდე თემისი ფაილს არ შეიცავს . ჩვენ არ შეგვიძლია დატვირთოთ თემა."
 
-#: themeeditorpage.cpp:40
+#: themeeditorpage.cpp:41
 #, kde-format
 msgid "Editor (%1)"
 msgstr "რედაქტორი (%1)"
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:47
 #, kde-format
 msgid "Desktop File"
 msgstr "სამუშაო მაგიდის ფაილი"
 
-#: themeeditorpage.cpp:134
+#: themeeditorpage.cpp:139
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "თემა უკვე არსებობს. გნებავთ გადააწეროთ?"
 
-#: themeeditorpage.cpp:135
+#: themeeditorpage.cpp:140
 #, kde-format
 msgid "Theme already exists"
 msgstr "თემა უკვე არსებობს"
 
-#: themeeditorpage.cpp:143
+#: themeeditorpage.cpp:152
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "თემის საქაღალდის შექმნის შეცდომა."
 
-#: themeeditorpage.cpp:153
+#: themeeditorpage.cpp:162
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "თემა დადგა საქაღალდეში \"%1\""
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:183
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "ჩვენ არ შეგვიძლია ფაილის გადახედვა zip ფაილში"
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:183
 #, kde-format
 msgid "Failed to add file."
 msgstr "ფაილის დამატების შეცდომა."
 
-#: themeeditorpage.cpp:188
+#: themeeditorpage.cpp:197
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "ჩემი საყვარელი KMail სათაური"
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:220
 #, kde-format
 msgid "Filename of extra page"
 msgstr "დამატებითი გვერდის ფაილის სახელი"
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:220
 #, kde-format
 msgid "Filename:"
 msgstr "ფაილის სახელი:"
 
-#: themeeditorpage.cpp:256
+#: themeeditorpage.cpp:269
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "გნებავთ მიმდინარე პროექტის შენახვა?"
 
-#: themeeditorpage.cpp:257
+#: themeeditorpage.cpp:270
 #, kde-format
 msgid "Save current project"
 msgstr "მიმდინარე პროექტის შენახვა"

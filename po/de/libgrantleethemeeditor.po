@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-26 00:44+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2020-01-08 08:51+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -77,45 +77,45 @@ msgstr "Das Hinzufügen der Datei ist fehlgeschlagen"
 msgid "Failed to open file \"%1\"."
 msgstr "Das Öffnen der Datei „%1“ ist fehlgeschlagen."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Design verwalten"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgid "Local themes:"
 msgstr "Lokale Designs:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgid "Delete theme"
 msgstr "Design löschen"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Möchten Sie das ausgewählte Design „%1“ löschen?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Möchten Sie die %1 ausgewählten Designs löschen?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:102 managethemes.cpp:104
 #, kde-format
 msgid "Remove theme"
 msgstr "Design entfernen"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:116
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "Das Design „%1“ kann nicht gelöscht werden. Bitte nehmen Sie Kontakt zu "
 "Ihrer Systemverwaltung auf."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:117
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Das Löschen des Designs ist fehlgeschlagen"

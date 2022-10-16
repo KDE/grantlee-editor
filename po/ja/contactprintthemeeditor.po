@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactprintthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-13 00:47+0000\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
 "PO-Revision-Date: 2015-01-23 22:11-0800\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -147,67 +147,67 @@ msgstr ""
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
 
-#: themeeditorpage.cpp:40
+#: themeeditorpage.cpp:41
 #, kde-format
 msgid "Editor (%1)"
 msgstr ""
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:47
 #, kde-format
 msgid "Desktop File"
 msgstr ""
 
-#: themeeditorpage.cpp:134
+#: themeeditorpage.cpp:139
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr ""
 
-#: themeeditorpage.cpp:135
+#: themeeditorpage.cpp:140
 #, kde-format
 msgid "Theme already exists"
 msgstr ""
 
-#: themeeditorpage.cpp:143
+#: themeeditorpage.cpp:152
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr ""
 
-#: themeeditorpage.cpp:153
+#: themeeditorpage.cpp:162
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr ""
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:183
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr ""
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:183
 #, kde-format
 msgid "Failed to add file."
 msgstr ""
 
-#: themeeditorpage.cpp:188
+#: themeeditorpage.cpp:197
 #, kde-format
 msgid "My favorite KMail header"
 msgstr ""
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:220
 #, kde-format
 msgid "Filename of extra page"
 msgstr ""
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:220
 #, kde-format
 msgid "Filename:"
 msgstr ""
 
-#: themeeditorpage.cpp:256
+#: themeeditorpage.cpp:269
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr ""
 
-#: themeeditorpage.cpp:257
+#: themeeditorpage.cpp:270
 #, kde-format
 msgid "Save current project"
 msgstr ""
