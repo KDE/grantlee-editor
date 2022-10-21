@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-16 00:47+0000\n"
-"PO-Revision-Date: 2022-07-11 11:01+0300\n"
+"PO-Revision-Date: 2022-10-20 12:57+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 22.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -48,12 +48,12 @@ msgstr "&Görünüm"
 #: main.cpp:37
 #, kde-format
 msgid "Header Theme Editor"
-msgstr "Üstbilgi Tema Düzenleyici"
+msgstr "Üstbilgi Teması Düzenleyici"
 
 #: main.cpp:39
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
-msgstr "Messageviewer Üstbilgi Teması Düzenleyicisi"
+msgstr "Messageviewer Üstbilgi Teması Düzenleyici"
 
 #: main.cpp:41
 #, kde-format
@@ -73,7 +73,7 @@ msgstr "Projeyi Yürüten"
 #: previewwidget.cpp:34 themeeditormainwindow.cpp:136
 #, kde-format
 msgid "Update view"
-msgstr "Görünümü güncelle"
+msgstr "Görünümü Güncelle"
 
 #: themeconfiguredialog.cpp:27
 #, kde-format
@@ -124,27 +124,27 @@ msgstr "Son Temayı Yükle..."
 #: themeeditormainwindow.cpp:86
 #, kde-format
 msgid "Add Extra Page..."
-msgstr "Fazladan Sayfa Ekle..."
+msgstr "Ek Sayfa Ekle..."
 
 #: themeeditormainwindow.cpp:91
 #, kde-format
 msgid "Upload theme..."
-msgstr "Tema yükle..."
+msgstr "Tema Karşıya Yükle..."
 
 #: themeeditormainwindow.cpp:97
 #, kde-format
 msgid "New theme..."
-msgstr "Yeni tema..."
+msgstr "Yeni Tema..."
 
 #: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "Open theme..."
-msgstr "Tema aç..."
+msgstr "Tema Aç..."
 
 #: themeeditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme"
-msgstr "Temayı kaydet"
+msgstr "Temayı Kaydet"
 
 #: themeeditormainwindow.cpp:105
 #, kde-format
@@ -154,7 +154,7 @@ msgstr "Temayı farklı kaydet..."
 #: themeeditormainwindow.cpp:111
 #, kde-format
 msgid "Install theme"
-msgstr "Temayı kur"
+msgstr "Tema Kur"
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
@@ -164,17 +164,17 @@ msgstr "Dosya Ekle..."
 #: themeeditormainwindow.cpp:121
 #, kde-format
 msgid "Printing mode"
-msgstr "Yazdırma kipi"
+msgstr "Yazdırma Kipi"
 
 #: themeeditormainwindow.cpp:126
 #, kde-format
 msgid "Normal mode"
-msgstr "Normal kip"
+msgstr "Normal Kip"
 
 #: themeeditormainwindow.cpp:132
 #, kde-format
 msgid "Manage themes..."
-msgstr "Temaları yönet..."
+msgstr "Temaları Yönet..."
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format

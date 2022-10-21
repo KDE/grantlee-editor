@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-10-16 00:47+0000\n"
-"PO-Revision-Date: 2022-07-11 11:03+0300\n"
+"PO-Revision-Date: 2022-10-20 12:58+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 22.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -62,32 +62,32 @@ msgstr "Ek Sayfa Ekle..."
 #: contacteditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "Tema yükle..."
+msgstr "Tema Karşıya Yükle..."
 
 #: contacteditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "Yeni tema..."
+msgstr "Yeni Tema..."
 
 #: contacteditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "Tema aç..."
+msgstr "Tema Aç..."
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Save theme"
-msgstr "Temayı kaydet"
+msgstr "Temayı Kaydet"
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme as..."
-msgstr "Temayı farklı kaydet..."
+msgstr "Temayı Farklı Kaydet..."
 
 #: contacteditormainwindow.cpp:106
 #, kde-format
 msgid "Install theme"
-msgstr "Tema kur"
+msgstr "Tema Kur"
 
 #: contacteditormainwindow.cpp:110
 #, kde-format
@@ -97,12 +97,12 @@ msgstr "Dosya Ekle..."
 #: contacteditormainwindow.cpp:114
 #, kde-format
 msgid "Manage themes..."
-msgstr "Temaları yönet..."
+msgstr "Temaları Yönet..."
 
 #: contacteditormainwindow.cpp:118
 #, kde-format
 msgid "Update view"
-msgstr "Görünümü güncelle"
+msgstr "Görünümü Güncelle"
 
 #: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
 #, kde-format
@@ -199,13 +199,13 @@ msgstr ""
 #: contactthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "&Düzenle"
+msgstr "Dü&zen"
 
 #. i18n: ectx: Menu (Display)
 #: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr "&Görüntüle"
+msgstr "&Görünüm"
 
 #: editorpage.cpp:52
 #, kde-format
@@ -215,7 +215,7 @@ msgstr "Tema Şablonları:"
 #: main.cpp:36 main.cpp:38
 #, kde-format
 msgid "Contact Theme Editor"
-msgstr "Bağlantı Tema Düzenleyici"
+msgstr "Kişi Teması Düzenleyici"
 
 #: main.cpp:40
 #, kde-format
