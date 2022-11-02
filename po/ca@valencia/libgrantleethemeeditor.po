@@ -71,7 +71,7 @@ msgstr ""
 #: desktopfilepage.cpp:127 editorpage.cpp:102
 #, kde-format
 msgid "Failed to add file into ZIP archive."
-msgstr "No s'ha pogut afegir el fitxer a l'arxiu ZIP."
+msgstr "No s'ha pogut afegir el fitxer a dins de l'arxiu ZIP."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:102
 #, kde-format
