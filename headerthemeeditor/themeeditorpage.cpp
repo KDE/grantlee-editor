@@ -11,7 +11,6 @@
 #include "themeeditorwidget.h"
 #include "themesession.h"
 
-#include "headerthemeeditor_debug.h"
 #include <KLocalizedString>
 #include <KMessageBox>
 #include <KZip>
@@ -23,7 +22,6 @@
 #include <QFileDialog>
 #include <QHBoxLayout>
 #include <QPointer>
-#include <kwidgetsaddons_version.h>
 
 ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)
@@ -155,20 +153,12 @@ void ThemeEditorPage::installTheme(const QString &themePath)
     QDir dir(themePath);
     QDir themeDir(themePath + QLatin1Char('/') + mDesktopPage->themeName());
     if (themeDir.exists()) {
-#if KWIDGETSADDONS_VERSION >= QT_VERSION_CHECK(5, 100, 0)
         const int answer = KMessageBox::questionTwoActions(this,
-#else
-        const int answer = KMessageBox::questionYesNo(this,
-#endif
                                                            i18n("Theme already exists. Do you want to overwrite it?"),
                                                            i18n("Theme already exists"),
                                                            KStandardGuiItem::overwrite(),
                                                            KStandardGuiItem::cancel());
-#if KWIDGETSADDONS_VERSION >= QT_VERSION_CHECK(5, 100, 0)
         if (answer == KMessageBox::ButtonCode::SecondaryAction) {
-#else
-        if (answer == KMessageBox::No) {
-#endif
             return;
         }
     } else {
@@ -288,20 +278,12 @@ bool ThemeEditorPage::saveTheme(bool withConfirmation)
 {
     if (themeWasChanged()) {
         if (withConfirmation) {
-#if KWIDGETSADDONS_VERSION >= QT_VERSION_CHECK(5, 100, 0)
             const int result = KMessageBox::questionTwoActionsCancel(this,
-#else
-            const int result = KMessageBox::questionYesNoCancel(this,
-#endif
                                                                      i18n("Do you want to save current project?"),
                                                                      i18n("Save current project"),
                                                                      KStandardGuiItem::save(),
                                                                      KStandardGuiItem::discard());
-#if KWIDGETSADDONS_VERSION >= QT_VERSION_CHECK(5, 100, 0)
             if (result == KMessageBox::ButtonCode::PrimaryAction) {
-#else
-            if (result == KMessageBox::Yes) {
-#endif
                 storeTheme();
             } else if (result == KMessageBox::Cancel) {
                 return false;
