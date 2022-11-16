@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2013-09-18 05:15+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -83,48 +83,48 @@ msgstr "Файлды қосу жаңылысы."
 msgid "Failed to open file \"%1\"."
 msgstr "\"%1\" файлын ашу мүмкін емес"
 
-#: managethemes.cpp:39
+#: managethemes.cpp:38
 #, fuzzy, kde-format
 #| msgid "Manage Theme"
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Нақышты басқару"
 
-#: managethemes.cpp:45
+#: managethemes.cpp:44
 #, kde-format
 msgid "Local themes:"
 msgstr "Жергілікті нақыштар:"
 
-#: managethemes.cpp:53
+#: managethemes.cpp:52
 #, kde-format
 msgid "Delete theme"
 msgstr "Нақышын өшіру"
 
-#: managethemes.cpp:97
+#: managethemes.cpp:96
 #, fuzzy, kde-format
 #| msgid "Do you want to remove selected theme?"
 #| msgid_plural "Do you want to remove %1 selected themes?"
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "%1 таңдалған нақышын шын өшірмексіз бе?"
 
-#: managethemes.cpp:99
+#: managethemes.cpp:98
 #, fuzzy, kde-format
 #| msgid "Do you want to remove selected theme?"
 #| msgid_plural "Do you want to remove %1 selected themes?"
 msgid "Do you want to remove %1 selected themes?"
 msgstr "%1 таңдалған нақышын шын өшірмексіз бе?"
 
-#: managethemes.cpp:102 managethemes.cpp:104
+#: managethemes.cpp:100
 #, kde-format
 msgid "Remove theme"
 msgstr "Нақышты өшіру"
 
-#: managethemes.cpp:116
+#: managethemes.cpp:107
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr "\"%1\" нақышы өшірілмеді. Әкімшіңізбен қатынаңыз."
 
-#: managethemes.cpp:117
+#: managethemes.cpp:108
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Нақышын өшіру жаңылысы"

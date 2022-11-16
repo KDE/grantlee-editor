@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2019-12-20 11:12-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -82,45 +82,45 @@ msgstr "Ocorreu uma falha ao adicionar o arquivo"
 msgid "Failed to open file \"%1\"."
 msgstr "Não é possível abrir o arquivo \"%1\"."
 
-#: managethemes.cpp:39
+#: managethemes.cpp:38
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Gerenciar tema"
 
-#: managethemes.cpp:45
+#: managethemes.cpp:44
 #, kde-format
 msgid "Local themes:"
 msgstr "Temas locais:"
 
-#: managethemes.cpp:53
+#: managethemes.cpp:52
 #, kde-format
 msgid "Delete theme"
 msgstr "Excluir tema"
 
-#: managethemes.cpp:97
+#: managethemes.cpp:96
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Deseja remover o tema selecionado \"%1\"?"
 
-#: managethemes.cpp:99
+#: managethemes.cpp:98
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Deseja remover os %1 temas selecionados?"
 
-#: managethemes.cpp:102 managethemes.cpp:104
+#: managethemes.cpp:100
 #, kde-format
 msgid "Remove theme"
 msgstr "Remover tema"
 
-#: managethemes.cpp:116
+#: managethemes.cpp:107
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "O tema \"%1\" não pode ser excluído. Por favor, contate o administrador do "
 "seu sistema."
 
-#: managethemes.cpp:117
+#: managethemes.cpp:108
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Ocorreu uma falha ao excluir o tema"

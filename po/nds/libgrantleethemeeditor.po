@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2014-04-03 00:21+0200\n"
 "Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -83,50 +83,50 @@ msgstr "Datei lett sik nich tofögen"
 msgid "Failed to open file \"%1\"."
 msgstr "Datei \"%1\" lett sik nich opmaken"
 
-#: managethemes.cpp:39
+#: managethemes.cpp:38
 #, fuzzy, kde-format
 #| msgid "Manage Theme"
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Muster plegen"
 
-#: managethemes.cpp:45
+#: managethemes.cpp:44
 #, kde-format
 msgid "Local themes:"
 msgstr "Lokaal Mustern:"
 
-#: managethemes.cpp:53
+#: managethemes.cpp:52
 #, kde-format
 msgid "Delete theme"
 msgstr "Muster wegdoon"
 
-#: managethemes.cpp:97
+#: managethemes.cpp:96
 #, fuzzy, kde-format
 #| msgid "Do you want to remove selected theme?"
 #| msgid_plural "Do you want to remove %1 selected themes?"
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Wullt Du dat utsöchte Muster redig wegmaken?"
 
-#: managethemes.cpp:99
+#: managethemes.cpp:98
 #, fuzzy, kde-format
 #| msgid "Do you want to remove selected theme?"
 #| msgid_plural "Do you want to remove %1 selected themes?"
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Wullt Du dat utsöchte Muster redig wegmaken?"
 
-#: managethemes.cpp:102 managethemes.cpp:104
+#: managethemes.cpp:100
 #, kde-format
 msgid "Remove theme"
 msgstr "Muster wegdoon"
 
-#: managethemes.cpp:116
+#: managethemes.cpp:107
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "Dat Muster \"%1\" lett sik nich wegdoon. Bitte snack dor Dien Systeempleger "
 "op an."
 
-#: managethemes.cpp:117
+#: managethemes.cpp:108
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Muster wegdoon fehlslaan"

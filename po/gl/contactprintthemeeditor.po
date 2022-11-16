@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2019-08-11 16:57+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -155,67 +155,67 @@ msgstr ""
 "O directorio non contén ningún ficheiro de tema. Non se pode cargar ningún "
 "tema."
 
-#: themeeditorpage.cpp:41
+#: themeeditorpage.cpp:40
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditorpage.cpp:47
+#: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
 msgstr "Ficheiro de escritorio"
 
-#: themeeditorpage.cpp:139
+#: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Xa existe ese tema. Quere substituílo?"
 
-#: themeeditorpage.cpp:140
+#: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
 msgstr "O tema xa existe"
 
-#: themeeditorpage.cpp:152
+#: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Non se pode crear o cartafol de temas."
 
-#: themeeditorpage.cpp:162
+#: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Instalouse o tema en «%1»"
 
-#: themeeditorpage.cpp:183
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Non se pode engadir un ficheiro de vista previa ao arquivo ZIP."
 
-#: themeeditorpage.cpp:183
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
 msgstr "Non se puido engadir o ficheiro."
 
-#: themeeditorpage.cpp:197
+#: themeeditorpage.cpp:188
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "A miña cabeceira favorita de KMail"
 
-#: themeeditorpage.cpp:220
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Ruta da páxina adicional"
 
-#: themeeditorpage.cpp:220
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename:"
 msgstr "Ruta:"
 
-#: themeeditorpage.cpp:269
+#: themeeditorpage.cpp:256
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Quere gardar o proxecto actual?"
 
-#: themeeditorpage.cpp:270
+#: themeeditorpage.cpp:257
 #, kde-format
 msgid "Save current project"
 msgstr "Gardar o proxecto"

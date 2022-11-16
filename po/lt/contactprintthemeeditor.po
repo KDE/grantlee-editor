@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2020-04-01 23:18+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -153,67 +153,67 @@ msgstr "Pasirinkti apipavidalinimų katalogą"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Kataloge nėra apipavidalinimo failo. Negalite įkelti apipavidalinimo."
 
-#: themeeditorpage.cpp:41
+#: themeeditorpage.cpp:40
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Redaktorius (%1)"
 
-#: themeeditorpage.cpp:47
+#: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
 msgstr "Darbalaukio failas"
 
-#: themeeditorpage.cpp:139
+#: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Apipavidalinimas jau yra. Ar norite jį perrašyti?"
 
-#: themeeditorpage.cpp:140
+#: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
 msgstr "Apipavidalinimas jau yra"
 
-#: themeeditorpage.cpp:152
+#: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nepavyksta sukurti apipavidalinimo aplanko."
 
-#: themeeditorpage.cpp:162
+#: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Apipavidalinimas įdiegtas į \"%1\""
 
-#: themeeditorpage.cpp:183
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Nepavyksta pridėti peržiūros failo į zip failą"
 
-#: themeeditorpage.cpp:183
+#: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
 msgstr "Nepavyko pridėti failo."
 
-#: themeeditorpage.cpp:197
+#: themeeditorpage.cpp:188
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "Mano mėgstama KMail antraštė"
 
-#: themeeditorpage.cpp:220
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Papildomo puslapio failo pavadinimas"
 
-#: themeeditorpage.cpp:220
+#: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename:"
 msgstr "Failo pavadinimas:"
 
-#: themeeditorpage.cpp:269
+#: themeeditorpage.cpp:256
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Ar norite įrašyti esamą projektą?"
 
-#: themeeditorpage.cpp:270
+#: themeeditorpage.cpp:257
 #, kde-format
 msgid "Save current project"
 msgstr "Įrašyti esamą projektą"

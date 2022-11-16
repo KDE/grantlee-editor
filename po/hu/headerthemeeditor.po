@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2014-01-20 21:52+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -188,68 +188,68 @@ msgstr "Témakönyvtár kiválasztása"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "A könyvtár nem tartalmaz témafájlt. Nem tudunk témát betölteni."
 
-#: themeeditorpage.cpp:39
+#: themeeditorpage.cpp:37
 #, fuzzy, kde-format
 #| msgid "Editor"
 msgid "Editor (%1)"
 msgstr "Szerkesztő"
 
-#: themeeditorpage.cpp:48
+#: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
 msgstr "Asztali fájl"
 
-#: themeeditorpage.cpp:163
+#: themeeditorpage.cpp:157
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "A téma már létezik. Szeretné azt felülírni?"
 
-#: themeeditorpage.cpp:164
+#: themeeditorpage.cpp:158
 #, kde-format
 msgid "Theme already exists"
 msgstr "A téma már létezik"
 
-#: themeeditorpage.cpp:176
+#: themeeditorpage.cpp:166
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nem sikerült létrehozni a témamappát."
 
-#: themeeditorpage.cpp:187
+#: themeeditorpage.cpp:177
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "A téma telepítve ide: „%1”"
 
-#: themeeditorpage.cpp:208
+#: themeeditorpage.cpp:198
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Nem tudunk előnézet fájlt hozzáadni a zip fájlhoz"
 
-#: themeeditorpage.cpp:208
+#: themeeditorpage.cpp:198
 #, kde-format
 msgid "Failed to add file."
 msgstr "Nem sikerült hozzáadni a fájlt."
 
-#: themeeditorpage.cpp:222
+#: themeeditorpage.cpp:212
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "A kedvenc KMail fejlécem"
 
-#: themeeditorpage.cpp:245
+#: themeeditorpage.cpp:235
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Az extra oldal fájlneve"
 
-#: themeeditorpage.cpp:245
+#: themeeditorpage.cpp:235
 #, kde-format
 msgid "Filename:"
 msgstr "Fájlnév:"
 
-#: themeeditorpage.cpp:296
+#: themeeditorpage.cpp:282
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "El szeretné menteni a jelenlegi projektet?"
 
-#: themeeditorpage.cpp:297
+#: themeeditorpage.cpp:283
 #, kde-format
 msgid "Save current project"
 msgstr "Jelenlegi projekt mentése"

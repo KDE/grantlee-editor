@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2013-12-13 10:30+0000\n"
 "Last-Translator: memsud <dedovic.memsud94@hotmail.com>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -118,67 +118,67 @@ msgstr "Odaberi direktorij tema"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"
 
-#: contacteditorpage.cpp:41
+#: contacteditorpage.cpp:40
 #, kde-format
 msgid "Editor"
 msgstr "Uređivač"
 
-#: contacteditorpage.cpp:53
+#: contacteditorpage.cpp:52
 #, kde-format
 msgid "Desktop File"
 msgstr "Stona datoteka"
 
-#: contacteditorpage.cpp:128
+#: contacteditorpage.cpp:123
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Tema već postoji. Želite li preći preko nje?"
 
-#: contacteditorpage.cpp:129
+#: contacteditorpage.cpp:124
 #, kde-format
 msgid "Theme already exists"
 msgstr "Tema već postoji."
 
-#: contacteditorpage.cpp:141
+#: contacteditorpage.cpp:132
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nije moguće kreirati tematski direktorij"
 
-#: contacteditorpage.cpp:155
+#: contacteditorpage.cpp:146
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema instalirana u \"%1\""
 
-#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
+#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Ne možemo dodati pregled datoteka u zip datoteci"
 
-#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
+#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "Failed to add file."
 msgstr "Neuspjelo dodavanje datoteke"
 
-#: contacteditorpage.cpp:197
+#: contacteditorpage.cpp:188
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "Moja najdraža Kaddressbook tema"
 
-#: contacteditorpage.cpp:223
+#: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Ime dodatne stranice"
 
-#: contacteditorpage.cpp:223
+#: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename:"
 msgstr "Ime datoteke:"
 
-#: contacteditorpage.cpp:285
+#: contacteditorpage.cpp:272
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Želite li snimiti trenutni projekat?"
 
-#: contacteditorpage.cpp:286
+#: contacteditorpage.cpp:273
 #, kde-format
 msgid "Save current project"
 msgstr "Snimi trenutni projekat"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2020-01-05 19:14+0100\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
@@ -82,45 +82,45 @@ msgstr "Non se puido engadir o ficheiro"
 msgid "Failed to open file \"%1\"."
 msgstr "Non se puido abrir o ficheiro «%1»."
 
-#: managethemes.cpp:39
+#: managethemes.cpp:38
 #, fuzzy, kde-format
 #| msgid "Manage Theme"
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Xestionar o tema"
 
-#: managethemes.cpp:45
+#: managethemes.cpp:44
 #, kde-format
 msgid "Local themes:"
 msgstr "Temas locais:"
 
-#: managethemes.cpp:53
+#: managethemes.cpp:52
 #, kde-format
 msgid "Delete theme"
 msgstr "Eliminar este tema"
 
-#: managethemes.cpp:97
+#: managethemes.cpp:96
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Quere retirar o tema seleccionado («%1»)?"
 
-#: managethemes.cpp:99
+#: managethemes.cpp:98
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Quere retirar os %1 temas seleccionados?"
 
-#: managethemes.cpp:102 managethemes.cpp:104
+#: managethemes.cpp:100
 #, kde-format
 msgid "Remove theme"
 msgstr "Retirar o tema"
 
-#: managethemes.cpp:116
+#: managethemes.cpp:107
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "Non se pode eliminar o tema «%1». Contacte co administrador do seu sistema."
 
-#: managethemes.cpp:117
+#: managethemes.cpp:108
 #, kde-format
 msgid "Delete theme failed"
 msgstr "A eliminación do tema fallou"

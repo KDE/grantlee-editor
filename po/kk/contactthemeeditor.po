@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2013-11-01 04:28+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -117,67 +117,67 @@ msgstr "Нақыш каталогын таңдау"
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Каталогта нақыш файлы жоқ. Нақыш жүктелмеді."
 
-#: contacteditorpage.cpp:41
+#: contacteditorpage.cpp:40
 #, kde-format
 msgid "Editor"
 msgstr "Редакторы"
 
-#: contacteditorpage.cpp:53
+#: contacteditorpage.cpp:52
 #, kde-format
 msgid "Desktop File"
 msgstr "Үстел файлы"
 
-#: contacteditorpage.cpp:128
+#: contacteditorpage.cpp:123
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Былай аталған нақыш бар екен, оның үстінен жазбақсыз ба?"
 
-#: contacteditorpage.cpp:129
+#: contacteditorpage.cpp:124
 #, kde-format
 msgid "Theme already exists"
 msgstr "Бұндай нақыш бар екен"
 
-#: contacteditorpage.cpp:141
+#: contacteditorpage.cpp:132
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Нақыш қапшығы құрылмады."
 
-#: contacteditorpage.cpp:155
+#: contacteditorpage.cpp:146
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Нақыш \"%1\" дегенде орнатылған"
 
-#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
+#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Файл нобайы zip-файлға қосылмайды"
 
-#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
+#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "Failed to add file."
 msgstr "Файлды қосу жаңылысы."
 
-#: contacteditorpage.cpp:197
+#: contacteditorpage.cpp:188
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "Ұнататын Kaddressbook нақышым"
 
-#: contacteditorpage.cpp:223
+#: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Қосымша бет файл атауы"
 
-#: contacteditorpage.cpp:223
+#: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename:"
 msgstr "Файл атауы:"
 
-#: contacteditorpage.cpp:285
+#: contacteditorpage.cpp:272
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Назардағы жобаны сақтамақсыз ба?"
 
-#: contacteditorpage.cpp:286
+#: contacteditorpage.cpp:273
 #, kde-format
 msgid "Save current project"
 msgstr "Назардағы жобаны сақтау"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
 "PO-Revision-Date: 2013-09-08 07:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -79,44 +79,44 @@ msgstr "ھۆججەت قوشۇش مەغلۇپ بولدى."
 msgid "Failed to open file \"%1\"."
 msgstr "ھۆججەت قوشۇش مەغلۇپ بولدى."
 
-#: managethemes.cpp:39
+#: managethemes.cpp:38
 #, fuzzy, kde-format
 #| msgid "New Theme"
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "يېڭى ئۆرنەك"
 
-#: managethemes.cpp:45
+#: managethemes.cpp:44
 #, kde-format
 msgid "Local themes:"
 msgstr ""
 
-#: managethemes.cpp:53
+#: managethemes.cpp:52
 #, kde-format
 msgid "Delete theme"
 msgstr ""
 
-#: managethemes.cpp:97
+#: managethemes.cpp:96
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr ""
 
-#: managethemes.cpp:99
+#: managethemes.cpp:98
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr ""
 
-#: managethemes.cpp:102 managethemes.cpp:104
+#: managethemes.cpp:100
 #, kde-format
 msgid "Remove theme"
 msgstr ""
 
-#: managethemes.cpp:116
+#: managethemes.cpp:107
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 
-#: managethemes.cpp:117
+#: managethemes.cpp:108
 #, kde-format
 msgid "Delete theme failed"
 msgstr ""
