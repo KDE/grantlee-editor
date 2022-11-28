@@ -1,0 +1,261 @@
+# Translation for headerthemeeditor.po to Euskara/Basque (eu).
+# Copyright (C) 2022 This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: grantlee-editor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"PO-Revision-Date: 2022-11-27 09:58+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.08.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Gaien txantiloiak:"
+
+#. i18n: ectx: Menu (edit)
+#: headerthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Editatu"
+
+#. i18n: ectx: Menu (Display)
+#: headerthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "Azal&du"
+
+#: main.cpp:37
+#, kde-format
+msgid "Header Theme Editor"
+msgstr "Goiburuen gai-editorea"
+
+#: main.cpp:39
+#, kde-format
+msgid "Messageviewer Header Theme Editor"
+msgstr "Mezu-erakuslearen goiburuen gai-editorea"
+
+#: main.cpp:41
+#, kde-format
+msgid "Copyright © 2013-%1 headerthemeeditor authors"
+msgstr "Copyright © 2013-%1 headerthemeeditor-ren egileak"
+
+#: main.cpp:42
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+#, kde-format
+msgid "Maintainer"
+msgstr "Arduraduna"
+
+#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Eguneratu ikuspegia"
+
+#: themeconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Konfiguratu"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgid "Default email:"
+msgstr "E-posta lehenetsia:"
+
+#: themeconfiguredialog.cpp:42
+#, kde-format
+msgid "General"
+msgstr "Orokorra"
+
+#: themeconfiguredialog.cpp:45
+#, kde-format
+msgid "Default Template"
+msgstr "Txantiloi lehenetsia"
+
+#: themedefaulttemplate.cpp:14
+#, kde-format
+msgid "Subject"
+msgstr "Gaia"
+
+#: themedefaulttemplate.cpp:21
+#, kde-format
+msgid "From"
+msgstr "Nork"
+
+#: themedefaulttemplate.cpp:28
+#, kde-format
+msgid "To"
+msgstr "Nori"
+
+#: themedefaulttemplate.cpp:35
+#, kde-format
+msgid "Cc"
+msgstr "Kk"
+
+#: themeeditormainwindow.cpp:79
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Zamatu azken aldiko gaia..."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Gehitu orri gehigarria..."
+
+#: themeeditormainwindow.cpp:91
+#, kde-format
+msgid "Upload theme..."
+msgstr "Zama-igo gaia..."
+
+#: themeeditormainwindow.cpp:97
+#, kde-format
+msgid "New theme..."
+msgstr "Gai berria..."
+
+#: themeeditormainwindow.cpp:100
+#, kde-format
+msgid "Open theme..."
+msgstr "Ireki gaia..."
+
+#: themeeditormainwindow.cpp:102
+#, kde-format
+msgid "Save theme"
+msgstr "Gorde gaia"
+
+#: themeeditormainwindow.cpp:105
+#, kde-format
+msgid "Save theme as..."
+msgstr "Gorde gaia honela..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgid "Install theme"
+msgstr "Instalatu gaia"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgid "Insert File..."
+msgstr "Txertatu fitxategia..."
+
+#: themeeditormainwindow.cpp:121
+#, kde-format
+msgid "Printing mode"
+msgstr "Inprimatzeko modua"
+
+#: themeeditormainwindow.cpp:126
+#, kde-format
+msgid "Normal mode"
+msgstr "Modu arrunta"
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgid "Manage themes..."
+msgstr "Kudeatu gaiak..."
+
+#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#, kde-format
+msgid "Select theme directory"
+msgstr "Hautatu gaiaren direktorioa"
+
+#: themeeditormainwindow.cpp:230
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Direktorioak ez du gai baten fitxategirik. Ezin dugu gaia zamatu."
+
+#: themeeditorpage.cpp:37
+#, kde-format
+msgid "Editor (%1)"
+msgstr "Editorea (%1)"
+
+#: themeeditorpage.cpp:46
+#, kde-format
+msgid "Desktop File"
+msgstr "Mahaigaineko fitxategia"
+
+#: themeeditorpage.cpp:157
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Gaia badago lehendik ere. Hura gainidatzi nahi duzu?"
+
+#: themeeditorpage.cpp:158
+#, kde-format
+msgid "Theme already exists"
+msgstr "Gaia badago lehendik ere"
+
+#: themeeditorpage.cpp:166
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Ezin du gaiaren karpeta sortu."
+
+#: themeeditorpage.cpp:177
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Gaia \"%1\"(e)n instalatu du"
+
+#: themeeditorpage.cpp:198
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Ezin dugu aurreikuspegi fitxategia gehitu zip fitxategian"
+
+#: themeeditorpage.cpp:198
+#, kde-format
+msgid "Failed to add file."
+msgstr "Fitxategia gehitzea huts egin du."
+
+#: themeeditorpage.cpp:212
+#, kde-format
+msgid "My favorite KMail header"
+msgstr "Nire KMail-erako gogoko goiburua"
+
+#: themeeditorpage.cpp:235
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Orri gehigarriaren fitxategi-izena"
+
+#: themeeditorpage.cpp:235
+#, kde-format
+msgid "Filename:"
+msgstr "Fitxategi-izena:"
+
+#: themeeditorpage.cpp:282
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Uneko proiektua gorde nahi duzu?"
+
+#: themeeditorpage.cpp:283
+#, kde-format
+msgid "Save current project"
+msgstr "Gorde uneko proiektua"
+
+#: themetemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"Elementu bat editorean arrastatu eta jaregin dezakezu txantiloi "
+"batinportatzeko"
