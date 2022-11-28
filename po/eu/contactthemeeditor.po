@@ -1,0 +1,233 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+#
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: grantlee-editor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-16 00:47+0000\n"
+"PO-Revision-Date: 2022-11-27 09:54+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.08.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Iñigo Salvador Azurmendi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xalba@ni.eus"
+
+#: contactconfigurationdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Konfiguratu"
+
+#: contactconfigurationdialog.cpp:41
+#, kde-format
+msgid "Default contact:"
+msgstr "Kontaktu lehenetsia:"
+
+#: contactconfigurationdialog.cpp:47
+#, kde-format
+msgid "General"
+msgstr "Orokorra"
+
+#: contactconfigurationdialog.cpp:50
+#, kde-format
+msgid "Default Template"
+msgstr "Txantiloi lehenetsia"
+
+#: contacteditormainwindow.cpp:75
+#, kde-format
+msgid "Load Recent Theme..."
+msgstr "Zamatu azken aldiko gaia..."
+
+#: contacteditormainwindow.cpp:82
+#, kde-format
+msgid "Add Extra Page..."
+msgstr "Gehitu orri gehigarria..."
+
+#: contacteditormainwindow.cpp:87
+#, kde-format
+msgid "Upload theme..."
+msgstr "Zama-igo gaia..."
+
+#: contacteditormainwindow.cpp:93
+#, kde-format
+msgid "New theme..."
+msgstr "Gai berria..."
+
+#: contacteditormainwindow.cpp:96
+#, kde-format
+msgid "Open theme..."
+msgstr "Ireki gaia..."
+
+#: contacteditormainwindow.cpp:98
+#, kde-format
+msgid "Save theme"
+msgstr "Gorde gaia"
+
+#: contacteditormainwindow.cpp:100
+#, kde-format
+msgid "Save theme as..."
+msgstr "Gorde gaia honela..."
+
+#: contacteditormainwindow.cpp:106
+#, kde-format
+msgid "Install theme"
+msgstr "Instalatu gaia"
+
+#: contacteditormainwindow.cpp:110
+#, kde-format
+msgid "Insert File..."
+msgstr "Txertatu fitxategia..."
+
+#: contacteditormainwindow.cpp:114
+#, kde-format
+msgid "Manage themes..."
+msgstr "Kudeatu gaiak..."
+
+#: contacteditormainwindow.cpp:118
+#, kde-format
+msgid "Update view"
+msgstr "Eguneratu ikuspegia"
+
+#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#, kde-format
+msgid "Select theme directory"
+msgstr "Hautatu gaiaren direktorioa"
+
+#: contacteditormainwindow.cpp:202
+#, kde-format
+msgid "Directory does not contain a theme file. We cannot load theme."
+msgstr "Direktorioak ez du gai baten fitxategirik. Ezin dugu gaia zamatu."
+
+#: contacteditorpage.cpp:41
+#, kde-format
+msgid "Editor"
+msgstr "Editorea"
+
+#: contacteditorpage.cpp:53
+#, kde-format
+msgid "Desktop File"
+msgstr "Mahaigaineko fitxategia"
+
+#: contacteditorpage.cpp:128
+#, kde-format
+msgid "Theme already exists. Do you want to overwrite it?"
+msgstr "Gaia badago lehendik ere. Hura gainidatzi nahi duzu?"
+
+#: contacteditorpage.cpp:129
+#, kde-format
+msgid "Theme already exists"
+msgstr "Gaia badago lehendik ere"
+
+#: contacteditorpage.cpp:141
+#, kde-format
+msgid "Cannot create theme folder."
+msgstr "Ezin du gaiaren karpeta sortu."
+
+#: contacteditorpage.cpp:155
+#, kde-format
+msgid "Theme installed in \"%1\""
+msgstr "Gaia \"%1\"(e)n instalatu du"
+
+#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
+#, kde-format
+msgid "We cannot add preview file in zip file"
+msgstr "Ezin dugu aurreikuspegi fitxategia gehitu zip fitxategian"
+
+#: contacteditorpage.cpp:178 contacteditorpage.cpp:184
+#, kde-format
+msgid "Failed to add file."
+msgstr "Fitxategia gehitzea huts egin du."
+
+#: contacteditorpage.cpp:197
+#, kde-format
+msgid "My favorite Kaddressbook theme"
+msgstr "Nire Kaddresbook-erako gogoko goiburua"
+
+#: contacteditorpage.cpp:223
+#, kde-format
+msgid "Filename of extra page"
+msgstr "Orri gehigarriaren fitxategi-izena"
+
+#: contacteditorpage.cpp:223
+#, kde-format
+msgid "Filename:"
+msgstr "Fitxategi-izena:"
+
+#: contacteditorpage.cpp:285
+#, kde-format
+msgid "Do you want to save current project?"
+msgstr "Uneko proiektua gorde nahi duzu?"
+
+#: contacteditorpage.cpp:286
+#, kde-format
+msgid "Save current project"
+msgstr "Gorde uneko proiektua"
+
+#: contactpreviewwidget.cpp:34
+#, kde-format
+msgid "Contact"
+msgstr "Kontaktua"
+
+#: contactpreviewwidget.cpp:37
+#, kde-format
+msgid "Group"
+msgstr "Taldea"
+
+#: contacttemplatewidget.cpp:34
+#, kde-format
+msgid "You can drag and drop element on editor to import template"
+msgstr ""
+"Elementu bat editorean arrastatu eta jaregin dezakezu txantiloi bat "
+"inportatzeko"
+
+#. i18n: ectx: Menu (edit)
+#: contactthemeeditorui.rc:16
+#, kde-format
+msgid "&Edit"
+msgstr "&Editatu"
+
+#. i18n: ectx: Menu (Display)
+#: contactthemeeditorui.rc:22
+#, kde-format
+msgid "&Display"
+msgstr "Azal&du"
+
+#: editorpage.cpp:52
+#, kde-format
+msgid "Theme Templates:"
+msgstr "Gaien txantiloiak:"
+
+#: main.cpp:36 main.cpp:38
+#, kde-format
+msgid "Contact Theme Editor"
+msgstr "Kontaktuen gai-editorea"
+
+#: main.cpp:40
+#, kde-format
+msgid "Copyright © 2013-%1 contactthemeeditor authors"
+msgstr "Copyright © 2013-%1 contactthemeeditor-ren egileak"
+
+#: main.cpp:41
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:41
+#, kde-format
+msgid "Maintainer"
+msgstr "Arduraduna"
