@@ -1,4 +1,5 @@
-set(contactthemeeditor_SRCS
+add_executable(contactthemeeditor)
+target_sources(contactthemeeditor PRIVATE
     main.cpp
     defaultcompletion.cpp
     contactdefaulttemplate.cpp
@@ -24,13 +25,12 @@ set(contactthemeeditor_SRCS
     contactpreviewwidget.h
     contactthemeeditor.qrc
     )
-ecm_qt_declare_logging_category(contactthemeeditor_SRCS HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor
+ecm_qt_declare_logging_category(contactthemeeditor HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor
         DESCRIPTION "grantleeeditor (contactthemeeditor)"
         OLD_CATEGORY_NAMES log_contactthemeeditor
         EXPORT GRANTLEEEDITOR
     )
 
-add_executable(contactthemeeditor ${contactthemeeditor_SRCS} )
 target_link_libraries(contactthemeeditor
     PRIVATE
     KF5::DBusAddons

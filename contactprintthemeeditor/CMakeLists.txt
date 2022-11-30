@@ -1,4 +1,5 @@
-set(contactprintthemeeditor_SRCS
+add_executable(contactprintthemeeditor )
+target_sources(contactprintthemeeditor PRIVATE
     main.cpp
     defaultcompletion.cpp
     editorpage.cpp
@@ -23,12 +24,11 @@ set(contactprintthemeeditor_SRCS
     contactprintthemeeditor.qrc
     )
 
-ecm_qt_declare_logging_category(contactprintthemeeditor_SRCS HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor
+ecm_qt_declare_logging_category(contactprintthemeeditor HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor
         DESCRIPTION "grantleeeditor (contactprintthemeeditor)"
         OLD_CATEGORY_NAMES log_contactprintthemeeditor
         EXPORT GRANTLEEEDITOR
     )
-add_executable(contactprintthemeeditor ${contactprintthemeeditor_SRCS} )
 if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(contactprintthemeeditor PROPERTIES UNITY_BUILD ON)
 endif()
