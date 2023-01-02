@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 "Aneu amb compte, Grantlee no admet «-» en el nom de la variable. De manera "
 "que quan vulgueu afegir una capçalera addicional com «X-Original-To» afegiu "
-"«X-Original-To» en la llista, però utilitzeu «XOriginalTo» com a variable en "
+"«X-Original-To» a la llista, però utilitzeu «XOriginalTo» com a variable en "
 "Grantlee (elimineu «-» del nom)."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:102
