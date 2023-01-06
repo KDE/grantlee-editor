@@ -3,121 +3,77 @@
 "dtd/kdedbx45.dtd" [
   <!-- Define an entity for your application if it is not part of KDE
        CVS -->
-  <!ENTITY i18n-kapplication "<application
->Designeditor für Vorspann</application
->">
+  <!ENTITY i18n-kapplication "<application>Header Theme Editor</application>">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % German "INCLUDE"
-> 
+  <!ENTITY % English "INCLUDE"> 
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
 
 <articleinfo id="headerthemeeditorinfo">
 
-<title
->Das Handbuch zu &i18n-kapplication;</title>
+<title>The &i18n-kapplication; Handbook</title>
 
 <authorgroup>
-<author
-><personname
-> <firstname
->Laurent</firstname
-> <surname
->Montel</surname
-> </personname
-> &Laurent.Montel.mail; </author>
-<othercredit role="translator"
-><firstname
->Burkhard</firstname
-><surname
->Lück</surname
-><affiliation
-><address
-><email
->lueck@hube-lueck.de</email
-></address
-></affiliation
-><contrib
->Übersetzung</contrib
-></othercredit
-> 
+<author>
+<personname>
+<firstname>Laurent</firstname>
+<surname>Montel</surname>
+</personname>
+&Laurent.Montel.mail;
+</author>
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
 </authorgroup>
 
 <copyright>
-<year
->2013</year>
-<holder
->&Laurent.Montel;</holder>
+<year>2013</year>
+<holder>&Laurent.Montel;</holder>
 </copyright>
 
-<legalnotice
->&FDLNotice;</legalnotice>
+<legalnotice>&FDLNotice;</legalnotice>
 
-<date
->2016-04-06</date>
-<releaseinfo
->Anwendungen 16.04</releaseinfo>
+<date>2016-04-06</date>
+<releaseinfo>Applications 16.04</releaseinfo>
 
 <abstract>
-<para
->&i18n-kapplication; ist ein Editor für den Vorspann von &kmail;. </para>
+<para>
+&i18n-kapplication; is an editor for &kmail; headers.
+</para>
 </abstract>
 
 <keywordset>
-<keyword
->KDE</keyword>
-<keyword
->KMail</keyword>
-<keyword
->Vorspann</keyword>
-<keyword
->Design</keyword>
+<keyword>KDE</keyword>
+<keyword>KMail</keyword>
+<keyword>Header</keyword>
+<keyword>Design</keyword>
 </keywordset>
 
 </articleinfo>
 <sect1 id="introduction">
-<title
->Einführung</title>
-<para
->&i18n-kapplication; ist ein Editor für den Vorspann von &kmail; auf der Basis von <ulink url="https://github.com/steveire/grantlee"
->Grantlee</ulink
->.</para>
+<title>Introduction</title>
+<para>&i18n-kapplication; is an editor for &kmail; headers based on <ulink url="https://github.com/steveire/grantlee">Grantlee</ulink>.</para>
 
 <sect2 id="using-kapp">
-<title
->&i18n-kapplication; verwenden</title>
-<para
->Eine kurze Einführung zu diesem Programm finden Sie in diesem <ulink url="http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
->Blog</ulink
->.</para>
-<para
->Weitere Informationen finden Sie in der Dokumentation zu <ulink url="http://www.grantlee.org/apidox/"
->Grantlee</ulink
->.</para>
-<para
->Beispiele für Vorspann-Design finden Sie im Quelltextarchiv <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/"
->Grantlee-designs</ulink
->.</para>
+<title>Using &i18n-kapplication;</title>
+<para>You can find a brief introduction to this application in <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>this Blog post</ulink>.</para>
+<para>More Information you find in the <ulink url="http://www.grantlee.org/apidox/">Grantlee</ulink> documentation.</para>
+<para>For examples of headers designs look at repository <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/">Grantlee-designs</ulink>.</para>
 </sect2>
 
 <sect2 id="credits">
 
-<title
->Danksagungen und Lizenz</title>
+<title>Credits and License</title>
 
-<para
->&i18n-kapplication;</para>
-<para
->Programm Copyright 2013 &Laurent.Montel;&Laurent.Montel.mail;</para>
-<para
->Dokumentation Copyright &copy; 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+<para>&i18n-kapplication;</para>
+<para>Program copyright 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+<para>Documentation Copyright &copy; 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
 
-<para
->Übersetzung Burkhard Lück<email
->lueck@hube-lueck.de</email
-></para
-> &underFDL; &underGPL; </sect2>
+<!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+
+&underFDL;               <!-- FDL: do not remove -->
+&underGPL;        	 <!-- GPL License -->
+</sect2>
 
 </sect1>
 
