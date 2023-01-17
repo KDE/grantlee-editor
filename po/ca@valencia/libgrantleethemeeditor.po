@@ -88,7 +88,7 @@ msgstr "No s'ha pogut obrir el fitxer «%1»."
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
-msgstr "Gestió del tema"
+msgstr "Gestioneu el tema"
 
 #: managethemes.cpp:44
 #, kde-format
