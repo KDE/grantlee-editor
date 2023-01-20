@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 set(PIM_VERSION "5.22.40")
 project(grantlee-editor VERSION ${PIM_VERSION})
 set(RELEASE_SERVICE_VERSION "23.03.40")
-set(KF5_MIN_VERSION "5.102.0")
+set(KF_MIN_VERSION "5.102.0")
 
-find_package(ECM ${KF5_MIN_VERSION} CONFIG REQUIRED)
+find_package(ECM ${KF_MIN_VERSION} CONFIG REQUIRED)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(ECMInstallIcons)
 
@@ -56,13 +56,13 @@ set(PIMCOMMON_LIB_VERSION "5.22.40")
 find_package(Qt${QT_MAJOR_VERSION} ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets WebEngineWidgets)
 
 # Find KF5 package
-find_package(KF5Crash ${KF5_MIN_VERSION} REQUIRED)
-find_package(KF5DBusAddons ${KF5_MIN_VERSION} CONFIG REQUIRED)
-find_package(KF5DocTools ${KF5_MIN_VERSION} REQUIRED)
-find_package(KF5XmlGui ${KF5_MIN_VERSION} CONFIG REQUIRED)
-find_package(KF5TextEditor ${KF5_MIN_VERSION} CONFIG REQUIRED)
-find_package(KF5NewStuff ${KF5_MIN_VERSION} CONFIG REQUIRED)
-find_package(KF5Archive ${KF5_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5Crash ${KF_MIN_VERSION} REQUIRED)
+find_package(KF5DBusAddons ${KF_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5DocTools ${KF_MIN_VERSION} REQUIRED)
+find_package(KF5XmlGui ${KF_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5TextEditor ${KF_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5NewStuff ${KF_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5Archive ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF5PimCommonAkonadi ${PIMCOMMON_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5MessageViewer ${MESSAGELIB_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5GrantleeTheme ${LIBGRANTLEETHEME_LIB_VERSION} CONFIG REQUIRED)
@@ -74,7 +74,7 @@ find_package(KF5IMAP ${KIMAP_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5PimTextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
 
 
-find_package(KF5SyntaxHighlighting ${KF5_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF5SyntaxHighlighting ${KF_MIN_VERSION} CONFIG REQUIRED)
 
 
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
