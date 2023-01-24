@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 Dependencies:
-- 'on': ['@all']
+- 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
   'require':
     'frameworks/extra-cmake-modules': '@latest'
     'pim/akonadi-mime' : '@same'
@@ -12,14 +12,19 @@ Dependencies:
     'pim/kpimtextedit' : '@same'
     'pim/messagelib' : '@same'
     'pim/pimcommon' : '@same'
+    'third-party/grantlee' : '@stable'
 
 - 'on': ['Linux/Qt6', 'FreeBSD/Qt6', 'Windows/Qt6']
   'require':
-    'libraries/ktexttemplate': '@stable'
-
-- 'on': ['Linux/Qt5', 'FreeBSD/Qt5', 'Windows/Qt5']
-  'require':
-    'third-party/grantlee' : '@stable'
+    'frameworks/extra-cmake-modules': '@latest-kf6'
+    'pim/akonadi-mime' : '@latest-kf6'
+    'pim/akonadi-contacts' : '@latest-kf6'
+    'pim/grantleetheme' : '@latest-kf6'
+    'pim/kimap' : '@latest-kf6'
+    'pim/kpimtextedit' : '@latest-kf6'
+    'pim/messagelib' : '@latest-kf6'
+    'pim/pimcommon' : '@latest-kf6'
+    'libraries/ktexttemplate': '@latest-kf6'
 
 Options:
   require-passing-tests-on: [ 'Linux', 'FreeBSD' ]      

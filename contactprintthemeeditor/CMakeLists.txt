@@ -34,15 +34,16 @@ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 
 target_link_libraries(contactprintthemeeditor
-    KF5::DBusAddons
-    KF5::NewStuff
+    KF${KF_MAJOR_VERSION}::DBusAddons
+    KF${KF_MAJOR_VERSION}::NewStuff
     KF5::AkonadiContact
     KF5::PimCommon
     grantleethemeeditor
     KF5::PimTextEdit
-    KF5::I18n
+    KF${KF_MAJOR_VERSION}::I18n
     Qt::WebEngineWidgets
-    KF5::Crash
+    KF${KF_MAJOR_VERSION}::XmlGui
+    KF${KF_MAJOR_VERSION}::Crash
     )
 
 install(TARGETS contactprintthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
