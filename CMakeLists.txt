@@ -83,7 +83,7 @@ find_package(KF${KF_MAJOR_VERSION}SyntaxHighlighting ${KF_MIN_VERSION} CONFIG RE
 
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
 
-ecm_set_disabled_deprecation_versions(QT 6.4  KF 5.102.0)
+ecm_set_disabled_deprecation_versions(QT 6.4  KF 5.103.0)
 
 
 
