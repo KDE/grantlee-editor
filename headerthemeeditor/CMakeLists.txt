@@ -35,7 +35,7 @@ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 
 target_link_libraries(headerthemeeditor
-    KF5::Mime
+    KPim${KF_MAJOR_VERSION}::Mime
     KF${KF_MAJOR_VERSION}::NewStuff
     KF5::PimCommon
     KF5::MessageViewer

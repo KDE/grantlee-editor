@@ -58,6 +58,7 @@ else()
 endif()
 set(KIMAP_LIB_VERSION "5.22.40")
 set(PIMCOMMON_LIB_VERSION "5.22.40")
+set(KPIM_MIME_VERSION "5.22.41")
 find_package(Qt${QT_MAJOR_VERSION} ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets WebEngineWidgets)
 
 # Find KF5 package
@@ -76,7 +77,7 @@ find_package(KF5IMAP ${KIMAP_LIB_VERSION} CONFIG REQUIRED)
 
 # Find KdepimLibs Package
 find_package(KF5PimTextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
-
+find_package(KPim${KF_MAJOR_VERSION}Mime ${KPIM_MIME_VERSION} CONFIG REQUIRED)
 
 find_package(KF${KF_MAJOR_VERSION}SyntaxHighlighting ${KF_MIN_VERSION} CONFIG REQUIRED)
 
