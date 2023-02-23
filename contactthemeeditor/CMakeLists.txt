@@ -35,7 +35,7 @@ target_link_libraries(contactthemeeditor
     PRIVATE
     KF${KF_MAJOR_VERSION}::DBusAddons
     KF${KF_MAJOR_VERSION}::NewStuff
-    KF5::AkonadiContact
+    KPim${KF_MAJOR_VERSION}::AkonadiContact
     KF5::PimCommon
     grantleethemeeditor
     KPim${KF_MAJOR_VERSION}::PimTextEdit
