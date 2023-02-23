@@ -42,7 +42,7 @@ target_link_libraries(headerthemeeditor
     grantleethemeeditor
     KF${KF_MAJOR_VERSION}::DBusAddons
     KPim${KF_MAJOR_VERSION}::GrantleeTheme
-    KF5::PimTextEdit
+    KPim${KF_MAJOR_VERSION}::PimTextEdit
     KF${KF_MAJOR_VERSION}::I18n
     KF${KF_MAJOR_VERSION}::XmlGui
     KF${KF_MAJOR_VERSION}::Crash

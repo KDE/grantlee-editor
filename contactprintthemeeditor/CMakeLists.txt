@@ -39,7 +39,7 @@ target_link_libraries(contactprintthemeeditor
     KF5::AkonadiContact
     KF5::PimCommon
     grantleethemeeditor
-    KF5::PimTextEdit
+    KPim${KF_MAJOR_VERSION}::PimTextEdit
     KF${KF_MAJOR_VERSION}::I18n
     Qt::WebEngineWidgets
     KF${KF_MAJOR_VERSION}::XmlGui

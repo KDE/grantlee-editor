@@ -53,7 +53,7 @@ target_link_libraries(grantleethemeeditor
     KF${KF_MAJOR_VERSION}::Archive
     PRIVATE
     KF${KF_MAJOR_VERSION}::KIOWidgets
-    KF5::PimTextEdit
+    KPim${KF_MAJOR_VERSION}::PimTextEdit
     KF5::PimCommon
     KF${KF_MAJOR_VERSION}::ConfigWidgets
     KF${KF_MAJOR_VERSION}::I18n
