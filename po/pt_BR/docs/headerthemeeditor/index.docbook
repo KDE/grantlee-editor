@@ -88,8 +88,8 @@
 <title
 >Usando o &i18n-kapplication;</title>
 <para
->Uma breve introdução para este aplicativo pode ser encontrada neste <ulink url="http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
->Blog</ulink
+>Você pode encontrar uma breve introdução para este aplicativo neste <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>blog</ulink
 >.</para>
 <para
 >Você pode encontrar mais informações na documentação do <ulink url="http://www.grantlee.org/apidox/"
@@ -117,8 +117,7 @@
 >Tradução de André Marcelo Alvarenga <email
 >alvarenga@kde.org</email
 ></para
-> 
-&underFDL; &underGPL; </sect2>
+> &underFDL; &underGPL; </sect2>
 
 </sect1>
 
