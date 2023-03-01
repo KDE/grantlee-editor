@@ -38,7 +38,7 @@ target_link_libraries(headerthemeeditor
     KPim${KF_MAJOR_VERSION}::Mime
     KF${KF_MAJOR_VERSION}::NewStuff
     KF5::PimCommon
-    KF5::MessageViewer
+    KPim${KF_MAJOR_VERSION}::MessageViewer
     grantleethemeeditor
     KF${KF_MAJOR_VERSION}::DBusAddons
     KPim${KF_MAJOR_VERSION}::GrantleeTheme
