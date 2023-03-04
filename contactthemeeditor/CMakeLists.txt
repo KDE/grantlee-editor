@@ -34,7 +34,6 @@ ecm_qt_declare_logging_category(contactthemeeditor HEADER contactthemeeditor_deb
 target_link_libraries(contactthemeeditor
     PRIVATE
     KF${KF_MAJOR_VERSION}::DBusAddons
-    KF${KF_MAJOR_VERSION}::NewStuff
     KPim${KF_MAJOR_VERSION}::AkonadiContact
     KF5::PimCommon
     grantleethemeeditor

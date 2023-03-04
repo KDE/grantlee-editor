@@ -36,7 +36,6 @@ endif()
 
 target_link_libraries(headerthemeeditor
     KPim${KF_MAJOR_VERSION}::Mime
-    KF${KF_MAJOR_VERSION}::NewStuff
     KF5::PimCommon
     KPim${KF_MAJOR_VERSION}::MessageViewer
     grantleethemeeditor
