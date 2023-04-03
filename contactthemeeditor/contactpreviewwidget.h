@@ -11,7 +11,7 @@
 
 class QTabWidget;
 
-namespace Akonadi
+namespace ContactEditor
 {
 class ContactViewer;
 class ContactGroupViewer;
@@ -37,8 +37,8 @@ public:
 
 private:
     KContacts::Addressee mContact;
-    Akonadi::ContactViewer *mContactViewer = nullptr;
-    Akonadi::ContactGroupViewer *mGroupViewer = nullptr;
+    ContactEditor::ContactViewer *mContactViewer = nullptr;
+    ContactEditor::ContactGroupViewer *mGroupViewer = nullptr;
 
     KAddressBookGrantlee::GrantleeContactFormatter *mFormatter = nullptr;
     KAddressBookGrantlee::GrantleeContactGroupFormatter *mGroupFormatter = nullptr;

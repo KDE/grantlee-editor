@@ -30,10 +30,10 @@ ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWid
     lay->setContentsMargins(0, 0, 0, 0);
     mTabWidget = new QTabWidget;
 
-    mContactViewer = new Akonadi::ContactViewer;
+    mContactViewer = new ContactEditor::ContactViewer;
     mTabWidget->addTab(mContactViewer, i18n("Contact"));
 
-    mGroupViewer = new Akonadi::ContactGroupViewer;
+    mGroupViewer = new ContactEditor::ContactGroupViewer;
     mTabWidget->addTab(mGroupViewer, i18n("Group"));
 
     lay->addWidget(mTabWidget);
