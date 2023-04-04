@@ -11,27 +11,14 @@
 #include <KCrash>
 #include <KDBusService>
 #include <KLocalizedString>
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-#include <Kdelibs4ConfigMigrator>
-#endif
 #include <QApplication>
 #include <QCommandLineParser>
 
 int main(int argc, char **argv)
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
-    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
-#endif
     QApplication app(argc, argv);
     app.setDesktopFileName(QStringLiteral("org.kde.headerthemeeditor"));
     KCrash::initialize();
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    Kdelibs4ConfigMigrator migrate(QStringLiteral("headerthemeeditor"));
-    migrate.setConfigFiles(QStringList() << QStringLiteral("headerthemeeditorrc"));
-    migrate.setUiFiles(QStringList() << QStringLiteral("headerthemeeditorui.rc"));
-    migrate.migrate();
-#endif
     KLocalizedString::setApplicationDomain("headerthemeeditor");
     KAboutData aboutData(QStringLiteral("headerthemeeditor"),
                          i18n("Header Theme Editor"),

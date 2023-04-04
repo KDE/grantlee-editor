@@ -9,28 +9,15 @@
 #include <KCrash>
 #include <KDBusService>
 #include <KLocalizedString>
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-#include <Kdelibs4ConfigMigrator>
-#endif
 #include <QApplication>
 #include <QCommandLineParser>
 
 int main(int argc, char **argv)
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling, true);
-    QCoreApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
-#endif
     QApplication app(argc, argv);
     app.setDesktopFileName(QStringLiteral("org.kde.contactthemeeditor"));
 
     KCrash::initialize();
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    Kdelibs4ConfigMigrator migrate(QStringLiteral("contactthemeeditor"));
-    migrate.setConfigFiles(QStringList() << QStringLiteral("contactthemeeditorrc"));
-    migrate.setUiFiles(QStringList() << QStringLiteral("contactthemeeditorui.rc"));
-    migrate.migrate();
-#endif
     KLocalizedString::setApplicationDomain("contactthemeeditor");
     KAboutData aboutData(QStringLiteral("contactthemeeditor"),
                          i18n("Contact Theme Editor"),
