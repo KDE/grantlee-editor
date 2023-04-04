@@ -50,13 +50,13 @@ target_include_directories(grantleethemeeditor PUBLIC "$<BUILD_INTERFACE:${grant
 
 target_link_libraries(grantleethemeeditor
     PUBLIC
-    KF${KF_MAJOR_VERSION}::Archive
+    KF6::Archive
     PRIVATE
-    KF${KF_MAJOR_VERSION}::KIOWidgets
-    KPim${KF_MAJOR_VERSION}::PimTextEdit
-    KPim${KF_MAJOR_VERSION}::PimCommon
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::SyntaxHighlighting
+    KF6::KIOWidgets
+    KPim6::PimTextEdit
+    KPim6::PimCommon
+    KF6::I18n
+    KF6::SyntaxHighlighting
     )
 
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})

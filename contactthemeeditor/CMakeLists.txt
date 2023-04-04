@@ -33,15 +33,15 @@ ecm_qt_declare_logging_category(contactthemeeditor HEADER contactthemeeditor_deb
 
 target_link_libraries(contactthemeeditor
     PRIVATE
-    KF${KF_MAJOR_VERSION}::DBusAddons
-    KPim${KF_MAJOR_VERSION}::AkonadiContact
-    KPim${KF_MAJOR_VERSION}::ContactEditor
-    KPim${KF_MAJOR_VERSION}::PimCommon
+    KF6::DBusAddons
+    KPim6::AkonadiContact
+    KPim6::ContactEditor
+    KPim6::PimCommon
     grantleethemeeditor
-    KPim${KF_MAJOR_VERSION}::PimTextEdit
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::Crash
-    KF${KF_MAJOR_VERSION}::XmlGui
+    KPim6::PimTextEdit
+    KF6::I18n
+    KF6::Crash
+    KF6::XmlGui
     )
 if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(contactthemeeditor PROPERTIES UNITY_BUILD ON)

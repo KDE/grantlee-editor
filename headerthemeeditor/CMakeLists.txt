@@ -35,16 +35,16 @@ if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 
 target_link_libraries(headerthemeeditor
-    KPim${KF_MAJOR_VERSION}::Mime
-    KPim${KF_MAJOR_VERSION}::PimCommon
-    KPim${KF_MAJOR_VERSION}::MessageViewer
+    KPim6::Mime
+    KPim6::PimCommon
+    KPim6::MessageViewer
     grantleethemeeditor
-    KF${KF_MAJOR_VERSION}::DBusAddons
-    KPim${KF_MAJOR_VERSION}::GrantleeTheme
-    KPim${KF_MAJOR_VERSION}::PimTextEdit
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::XmlGui
-    KF${KF_MAJOR_VERSION}::Crash
+    KF6::DBusAddons
+    KPim6::GrantleeTheme
+    KPim6::PimTextEdit
+    KF6::I18n
+    KF6::XmlGui
+    KF6::Crash
     )
 
 install(TARGETS headerthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
