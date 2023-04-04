@@ -6,9 +6,9 @@
 
 #include "themedefaulttemplate.h"
 
-QVector<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
+QList<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
 {
-    QVector<PimCommon::defaultTemplate> lst;
+    QList<PimCommon::defaultTemplate> lst;
     PimCommon::defaultTemplate tmp;
     // TODO
 

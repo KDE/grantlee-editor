@@ -10,5 +10,5 @@
 
 namespace ThemeDefaultTemplate
 {
-Q_REQUIRED_RESULT QVector<PimCommon::defaultTemplate> defaultTemplates();
+Q_REQUIRED_RESULT QList<PimCommon::defaultTemplate> defaultTemplates();
 }

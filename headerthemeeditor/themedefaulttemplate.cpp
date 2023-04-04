@@ -7,9 +7,9 @@
 
 #include <KLocalizedString>
 
-QVector<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
+QList<PimCommon::defaultTemplate> ThemeDefaultTemplate::defaultTemplates()
 {
-    QVector<PimCommon::defaultTemplate> lst;
+    QList<PimCommon::defaultTemplate> lst;
     PimCommon::defaultTemplate tmp;
     tmp.name = i18n("Subject");
     tmp.text = QStringLiteral(

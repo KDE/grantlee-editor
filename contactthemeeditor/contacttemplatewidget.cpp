@@ -19,7 +19,7 @@ ContactTemplateListWidget::ContactTemplateListWidget(const QString &configName, 
 
 ContactTemplateListWidget::~ContactTemplateListWidget() = default;
 
-QVector<PimCommon::defaultTemplate> ContactTemplateListWidget::defaultTemplates()
+QList<PimCommon::defaultTemplate> ContactTemplateListWidget::defaultTemplates()
 {
     return ContactDefaultTemplate::contactTemplates();
 }

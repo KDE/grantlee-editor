@@ -19,7 +19,7 @@ ThemeTemplateListWidget::ThemeTemplateListWidget(const QString &configName, QWid
 
 ThemeTemplateListWidget::~ThemeTemplateListWidget() = default;
 
-QVector<PimCommon::defaultTemplate> ThemeTemplateListWidget::defaultTemplates()
+QList<PimCommon::defaultTemplate> ThemeTemplateListWidget::defaultTemplates()
 {
     return ThemeDefaultTemplate::defaultTemplates();
 }

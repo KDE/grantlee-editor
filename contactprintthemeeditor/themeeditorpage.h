@@ -57,7 +57,7 @@ private:
     Q_REQUIRED_RESULT QString projectDirectory() const;
     void createZip(const QString &themeName, KZip *zip);
     EditorPage *createExtraPage(const QString &filename);
-    QVector<EditorPage *> mExtraPage;
+    QList<EditorPage *> mExtraPage;
     GrantleeThemeEditor::ThemeEditorTabWidget *mTabWidget = nullptr;
     EditorPage *mEditorPage = nullptr;
     GrantleeThemeEditor::DesktopFilePage *mDesktopPage = nullptr;
