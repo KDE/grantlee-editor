@@ -183,7 +183,7 @@ msgstr "Thema installate in \"%1\""
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "Non non pote adder file de vista preliminari in file zip"
+msgstr "Non non pote adder file de vista preliminar in file zip"
 
 #: themeeditorpage.cpp:174
 #, kde-format

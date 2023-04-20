@@ -218,7 +218,7 @@ msgstr "Thema installate in \"%1\""
 #: themeeditorpage.cpp:198
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "Il non pote monstrar vista preliminari de file"
+msgstr "Il non pote monstrar vista preliminar de file"
 
 #: themeeditorpage.cpp:198
 #, kde-format
@@ -325,4 +325,4 @@ msgstr "Tu pote trahee e deponer le elemento sur editor pro importar patrono"
 #~ msgstr "Claude scheda"
 
 #~ msgid "Preview"
-#~ msgstr "Vista preliminari"
+#~ msgstr "Vista preliminar"
