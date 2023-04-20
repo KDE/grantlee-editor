@@ -146,7 +146,7 @@ msgstr "Thema installate in \"%1\""
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "On non pote adder file de vista preliminari in file zip"
+msgstr "On non pote adder file de vista preliminar in file zip"
 
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
