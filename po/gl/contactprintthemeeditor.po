@@ -1,14 +1,14 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016.
-# Adrian Chaves <adrian@chaves.io>, 2018, 2019.
+# Adrian Chaves <adrian@chaves.io>, 2018, 2019, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:47+0000\n"
-"PO-Revision-Date: 2019-08-11 16:57+0200\n"
+"PO-Revision-Date: 2023-04-30 08:50+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.04.1\n"
+"X-Generator: Lokalize 23.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,8 +29,7 @@ msgid "Your emails"
 msgstr "adrian@chaves.io"
 
 #: contactprintthemeconfiguredialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "Configure"
+#, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Configurar"
@@ -73,10 +72,9 @@ msgid "Contact Print Theme Editor"
 msgstr "Editor de temas de impresión de contactos"
 
 #: main.cpp:30
-#, fuzzy, kde-format
-#| msgid "Copyright © 2015-2019 contactprintthemeeditor authors"
+#, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
-msgstr "© 2015-2019 Autores de contactprintthemeeditor"
+msgstr "© 2015-%1 Xente autora de contactprintthemeeditor"
 
 #: main.cpp:31
 #, kde-format
