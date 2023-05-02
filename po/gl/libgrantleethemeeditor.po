@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Xosé <xosecalvo@gmail.com>, 2013.
 # Adrián Chaves Fernández (Gallaecio) <adriyetichaves@gmail.com>, 2015.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019, 2020.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019, 2020, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:47+0000\n"
-"PO-Revision-Date: 2020-01-05 19:14+0100\n"
+"PO-Revision-Date: 2023-04-30 08:51+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.08.3\n"
+"X-Generator: Lokalize 23.04.0\n"
 
 #: desktopfilepage.cpp:29
 #, kde-format
@@ -83,8 +83,7 @@ msgid "Failed to open file \"%1\"."
 msgstr "Non se puido abrir o ficheiro «%1»."
 
 #: managethemes.cpp:38
-#, fuzzy, kde-format
-#| msgid "Manage Theme"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Xestionar o tema"
@@ -126,8 +125,7 @@ msgid "Delete theme failed"
 msgstr "A eliminación do tema fallou"
 
 #: newthemedialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "New Theme"
+#, kde-format
 msgctxt "@title:window"
 msgid "New Theme"
 msgstr "Tema novo"
