@@ -59,7 +59,7 @@ msgstr "محرّر سمات ترويسات «عارض الرّسائل»"
 #: main.cpp:41
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
-msgstr "الحقوق محفوظة © ٢٠١٣-%1 لمؤلّفي «محرّر سمات التّرويسات»"
+msgstr "الحقوق محفوظة © 2013-%1 لمؤلّفي «محرّر سمات التّرويسات»"
 
 #: main.cpp:42
 #, kde-format
