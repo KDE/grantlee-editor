@@ -220,7 +220,7 @@ msgstr "محرّر سمات المتراسلين"
 #: main.cpp:40
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr "الحقوق محفوظة © ٢٠١٣-%1 لمؤلّفي «محرّر سمات المتراسلين»"
+msgstr "الحقوق محفوظة © 2013-%1 لمؤلّفي «محرّر سمات المتراسلين»"
 
 #: main.cpp:41
 #, kde-format
