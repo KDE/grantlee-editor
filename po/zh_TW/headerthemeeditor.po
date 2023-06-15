@@ -4,20 +4,21 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013, 2014, 2015.
 # pan93412 <pan93412@gmail.com>, 2018, 2019.
 # Jeff Huang <s8321414@gmail.com>, 2020.
+# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:47+0000\n"
-"PO-Revision-Date: 2020-09-17 14:46+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"PO-Revision-Date: 2023-06-15 04:27+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.08.3\n"
+"X-Generator: Lokalize 23.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -57,10 +58,9 @@ msgid "Messageviewer Header Theme Editor"
 msgstr "訊息檢視器標頭主題編輯器"
 
 #: main.cpp:41
-#, fuzzy, kde-format
-#| msgid "Copyright © 2013-2020 headerthemeeditor authors"
+#, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
-msgstr "Copyright © 2013-2020 headerthemeeditor 作者群"
+msgstr "Copyright © 2013-%1 headerthemeeditor 作者群"
 
 #: main.cpp:42
 #, kde-format
