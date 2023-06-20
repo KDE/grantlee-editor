@@ -63,8 +63,8 @@ msgid ""
 msgstr ""
 "Teña coidado: Grantlee non admite «-» nos nomes de variábeis. Por iso, cando "
 "queira engadir cabeceiras extra, como «X-Original-To», engada «X-Original-"
-"To» na lista, pero empregue «XOriginalTo» como variábel en Grantlee (retire "
-"«-» do nome)."
+"To» na lista, pero use «XOriginalTo» como variábel en Grantlee (retire «-» "
+"do nome)."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:102
 #, kde-format
