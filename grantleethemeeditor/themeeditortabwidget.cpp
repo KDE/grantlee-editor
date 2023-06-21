@@ -60,3 +60,5 @@ void ThemeEditorTabWidget::slotTabContextMenuRequest(const QPoint &pos)
         }
     }
 }
+
+#include "moc_themeeditortabwidget.cpp"

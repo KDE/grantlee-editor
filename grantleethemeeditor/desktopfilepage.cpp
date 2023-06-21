@@ -206,3 +206,5 @@ QString DesktopFilePage::description() const
 {
     return mDescription->toPlainText();
 }
+
+#include "moc_desktopfilepage.cpp"

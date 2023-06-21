@@ -41,3 +41,5 @@ void PreviewWidget::setThemePath(const QString &projectDirectory, const QString 
     mPreview->setThemePath(projectDirectory);
     updateViewer();
 }
+
+#include "moc_previewwidget.cpp"

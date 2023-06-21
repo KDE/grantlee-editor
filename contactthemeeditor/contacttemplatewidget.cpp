@@ -37,3 +37,5 @@ ContactTemplateWidget::ContactTemplateWidget(const QString &title, QWidget *pare
 }
 
 ContactTemplateWidget::~ContactTemplateWidget() = default;
+
+#include "moc_contacttemplatewidget.cpp"

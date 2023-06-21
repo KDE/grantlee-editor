@@ -54,3 +54,5 @@ void ConfigureWidget::setDefault()
     ui->authorEmail->clear();
     ui->author->clear();
 }
+
+#include "moc_configurewidget.cpp"

@@ -322,3 +322,5 @@ void ContactEditorMainWindow::slotSaveAsTheme()
         }
     }
 }
+
+#include "moc_contacteditormainwindow.cpp"

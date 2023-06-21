@@ -37,3 +37,5 @@ ThemeTemplateWidget::ThemeTemplateWidget(const QString &title, QWidget *parent)
 }
 
 ThemeTemplateWidget::~ThemeTemplateWidget() = default;
+
+#include "moc_themetemplatewidget.cpp"

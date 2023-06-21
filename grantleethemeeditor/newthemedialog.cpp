@@ -95,3 +95,5 @@ void NewThemeDialog::slotUpdateOkButton()
 {
     d->mOkButton->setEnabled(!d->mUrlRequester->lineEdit()->text().trimmed().isEmpty() && !d->mThemeName->text().trimmed().isEmpty());
 }
+
+#include "moc_newthemedialog.cpp"

@@ -54,3 +54,5 @@ void PreviewWidget::slotExtraHeaderDisplayChanged(const QStringList &headers)
 {
     Q_UNUSED(headers)
 }
+
+#include "moc_previewwidget.cpp"

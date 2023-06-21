@@ -63,3 +63,5 @@ void GrantleePlainTextEditor::keyPressEvent(QKeyEvent *e)
     KPIMTextEdit::PlainTextEditor::keyPressEvent(e);
     mTextEditorCompleter->completeText();
 }
+
+#include "moc_grantleeplaintexteditor.cpp"

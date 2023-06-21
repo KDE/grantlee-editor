@@ -78,3 +78,5 @@ GrantleeThemeEditor::PreviewWidget *EditorPage::preview() const
 {
     return mPreview;
 }
+
+#include "moc_editorpage.cpp"

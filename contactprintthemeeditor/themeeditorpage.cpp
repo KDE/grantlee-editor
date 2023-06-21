@@ -301,3 +301,5 @@ void ThemeEditorPage::saveThemeAs(const QString &directory)
 {
     storeTheme(directory);
 }
+
+#include "moc_themeeditorpage.cpp"

@@ -74,3 +74,5 @@ void ContactPrintThemePreview::loadConfig()
         }
     }
 }
+
+#include "moc_contactprintthemepreview.cpp"

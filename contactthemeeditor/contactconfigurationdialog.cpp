@@ -141,3 +141,5 @@ void ContactConfigureDialog::writeConfig()
     group.writeEntry("defaultTemplate", mDefaultTemplate->toPlainText());
     mConfigureWidget->writeConfig();
 }
+
+#include "moc_contactconfigurationdialog.cpp"

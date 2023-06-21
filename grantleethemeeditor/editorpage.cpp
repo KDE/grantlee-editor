@@ -105,3 +105,5 @@ void EditorPage::installTheme(const QString &themePath)
     const QString filename = themePath + QLatin1Char('/') + mPageFileName;
     saveAsFilename(filename);
 }
+
+#include "moc_editorpage.cpp"

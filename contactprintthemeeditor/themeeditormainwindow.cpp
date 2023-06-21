@@ -325,3 +325,5 @@ void ThemeEditorMainWindow::slotSaveAsTheme()
         }
     }
 }
+
+#include "moc_themeeditormainwindow.cpp"

@@ -124,3 +124,5 @@ void ContactPreviewWidget::setThemePath(const QString &projectDirectory)
     mGroupFormatter->setAbsoluteThemePath(projectDirectory);
     mFormatter->setAbsoluteThemePath(projectDirectory);
 }
+
+#include "moc_contactpreviewwidget.cpp"

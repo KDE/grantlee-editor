@@ -110,3 +110,5 @@ void ThemeConfigureDialog::writeConfig()
     group.writeEntry("defaultTemplate", mDefaultTemplate->toPlainText());
     mConfigureWidget->writeConfig();
 }
+
+#include "moc_themeconfiguredialog.cpp"

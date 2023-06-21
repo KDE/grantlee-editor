@@ -48,3 +48,5 @@ void EditorWidget::clear()
 {
     editor()->clear();
 }
+
+#include "moc_editorwidget.cpp"
