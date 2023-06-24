@@ -207,7 +207,7 @@ msgstr "&Editar"
 #: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr "&Mostrar"
+msgstr "&Amosar"
 
 #: editorpage.cpp:52
 #, kde-format
