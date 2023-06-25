@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:47+0000\n"
-"PO-Revision-Date: 2023-06-17 10:08+0200\n"
+"PO-Revision-Date: 2023-06-24 11:44+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Galician <proxecto@trasno.gal>\n"
 "Language: gl\n"
@@ -144,13 +144,13 @@ msgstr "Actualizar a vista"
 #: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr "Escoller o directorio dos temas"
+msgstr "Escoller o cartafol dos temas"
 
 #: themeeditormainwindow.cpp:204
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
-"O directorio non contén ningún ficheiro de tema. Non se pode cargar ningún "
+"O cartafol non contén ningún ficheiro de tema. Non se pode cargar ningún "
 "tema."
 
 #: themeeditorpage.cpp:40
