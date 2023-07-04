@@ -12,7 +12,7 @@ namespace GrantleeThemeEditor
 class ConfigureWidget;
 }
 
-namespace ContactEditor
+namespace Akonadi
 {
 class AkonadiContactEditor;
 }
@@ -36,5 +36,5 @@ private:
     void slotOkClicked();
     GrantleeThemeEditor::ConfigureWidget *mConfigureWidget = nullptr;
     KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate = nullptr;
-    ContactEditor::AkonadiContactEditor *mDefaultContact = nullptr;
+    Akonadi::AkonadiContactEditor *mDefaultContact = nullptr;
 };

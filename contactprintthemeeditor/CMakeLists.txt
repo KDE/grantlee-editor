@@ -35,8 +35,7 @@ endif()
 
 target_link_libraries(contactprintthemeeditor
     KF6::DBusAddons
-    KPim6::AkonadiContact
-    KPim6::ContactEditor
+    KPim6::AkonadiContactWidgets
     KPim6::PimCommon
     grantleethemeeditor
     KPim6::PimTextEdit

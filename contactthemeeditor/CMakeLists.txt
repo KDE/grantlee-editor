@@ -34,8 +34,7 @@ ecm_qt_declare_logging_category(contactthemeeditor HEADER contactthemeeditor_deb
 target_link_libraries(contactthemeeditor
     PRIVATE
     KF6::DBusAddons
-    KPim6::AkonadiContact
-    KPim6::ContactEditor
+    KPim6::AkonadiContactWidgets
     KPim6::PimCommon
     grantleethemeeditor
     KPim6::PimTextEdit

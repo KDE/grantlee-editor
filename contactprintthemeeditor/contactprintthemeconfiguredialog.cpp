@@ -43,7 +43,7 @@ ContactPrintThemeConfigureDialog::ContactPrintThemeConfigureDialog(QWidget *pare
     auto lab = new QLabel(i18n("Default contact:"));
     lay->addWidget(lab);
 
-    mDefaultContact = new ContactEditor::AkonadiContactEditor(ContactEditor::AkonadiContactEditor::CreateMode, ContactEditor::AkonadiContactEditor::VCardMode);
+    mDefaultContact = new Akonadi::AkonadiContactEditor(Akonadi::AkonadiContactEditor::CreateMode, Akonadi::AkonadiContactEditor::VCardMode);
     lay->addWidget(mDefaultContact);
 
     tab->addTab(w, i18n("General"));
