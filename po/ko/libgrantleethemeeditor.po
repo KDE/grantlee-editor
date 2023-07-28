@@ -156,7 +156,7 @@ msgstr "테마 불러오는 중 오류 발생"
 #: themesession.cpp:58
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
-msgstr "이 프로그램에서 읽을 수 없는 테마를 불러오고 있음"
+msgstr "이 앱에서 읽을 수 없는 테마를 불러오고 있음"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configurewidget.ui:20
