@@ -8,7 +8,7 @@
 #include "contacttemplatewidget.h"
 #include "editorwidget.h"
 #include "previewwidget.h"
-#include <KPIMTextEdit/PlainTextEditor>
+#include <TextCustomEditor/PlainTextEditor>
 
 #include <KSplitterCollapserButton>
 

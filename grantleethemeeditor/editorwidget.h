@@ -6,11 +6,11 @@
 #pragma once
 
 #include "grantleethemeeditor_export.h"
-#include <KPIMTextEdit/PlainTextEditorWidget>
+#include <TextCustomEditor/PlainTextEditorWidget>
 
 namespace GrantleeThemeEditor
 {
-class GRANTLEETHEMEEDITOR_EXPORT EditorWidget : public KPIMTextEdit::PlainTextEditorWidget
+class GRANTLEETHEMEEDITOR_EXPORT EditorWidget : public TextCustomEditor::PlainTextEditorWidget
 {
     Q_OBJECT
 public:

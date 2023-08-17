@@ -50,6 +50,7 @@ set(LIBGRANTLEETHEME_LIB_VERSION "5.240.40")
 set(KIMAP_LIB_VERSION "5.240.40")
 set(PIMCOMMON_LIB_VERSION "5.240.40")
 set(KPIM_MIME_VERSION "5.240.40")
+set(KTEXTADDONS_MIN_VERSION "1.4.42")
 find_package(Qt6 ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets WebEngineWidgets)
 
 # Find KF6 package
@@ -70,6 +71,7 @@ find_package(KPim6TextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
 find_package(KPim6Mime ${KPIM_MIME_VERSION} CONFIG REQUIRED)
 
 find_package(KF6SyntaxHighlighting ${KF_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF6TextCustomEditor ${KTEXTADDONS_MIN_VERSION} CONFIG REQUIRED)
 
 
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})

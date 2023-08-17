@@ -18,7 +18,7 @@
 using namespace GrantleeThemeEditor;
 
 GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
-    : KPIMTextEdit::PlainTextEditor(parent)
+    : TextCustomEditor::PlainTextEditor(parent)
 {
     const KSyntaxHighlighting::Definition def = mRepo.definitionForName(QStringLiteral("HTML"));
     if (!def.isValid()) {
@@ -60,7 +60,7 @@ void GrantleePlainTextEditor::keyPressEvent(QKeyEvent *e)
             break;
         }
     }
-    KPIMTextEdit::PlainTextEditor::keyPressEvent(e);
+    TextCustomEditor::PlainTextEditor::keyPressEvent(e);
     mTextEditorCompleter->completeText();
 }
 

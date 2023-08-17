@@ -6,7 +6,7 @@
 
 #include "contactprintthemeconfiguredialog.h"
 #include "contactprintthemeeditorutil.h"
-#include <KPIMTextEdit/PlainTextEditorWidget>
+#include <TextCustomEditor/PlainTextEditorWidget>
 
 #include "configurewidget.h"
 
@@ -48,7 +48,7 @@ ContactPrintThemeConfigureDialog::ContactPrintThemeConfigureDialog(QWidget *pare
 
     tab->addTab(w, i18n("General"));
 
-    mDefaultTemplate = new KPIMTextEdit::PlainTextEditorWidget;
+    mDefaultTemplate = new TextCustomEditor::PlainTextEditorWidget;
     tab->addTab(mDefaultTemplate, i18n("Default Template"));
 
     auto mainLayout = new QVBoxLayout(this);

@@ -7,7 +7,7 @@
 
 #include <QDialog>
 
-namespace KPIMTextEdit
+namespace TextCustomEditor
 {
 class PlainTextEditorWidget;
 }
@@ -30,6 +30,6 @@ private:
     void slotOkClicked();
     void slotDefaultClicked();
     GrantleeThemeEditor::ConfigureWidget *mConfigureWidget = nullptr;
-    KPIMTextEdit::PlainTextEditorWidget *mDefaultTemplate = nullptr;
-    KPIMTextEdit::PlainTextEditorWidget *mDefaultEmail = nullptr;
+    TextCustomEditor::PlainTextEditorWidget *mDefaultTemplate = nullptr;
+    TextCustomEditor::PlainTextEditorWidget *mDefaultEmail = nullptr;
 };

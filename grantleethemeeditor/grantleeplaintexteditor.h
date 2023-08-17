@@ -5,8 +5,8 @@
 */
 #pragma once
 
-#include <KPIMTextEdit/PlainTextEditor>
 #include <KSyntaxHighlighting/Repository>
+#include <TextCustomEditor/PlainTextEditor>
 
 namespace KPIMTextEdit
 {
@@ -14,7 +14,7 @@ class TextEditorCompleter;
 }
 namespace GrantleeThemeEditor
 {
-class GrantleePlainTextEditor : public KPIMTextEdit::PlainTextEditor
+class GrantleePlainTextEditor : public TextCustomEditor::PlainTextEditor
 {
     Q_OBJECT
 public:

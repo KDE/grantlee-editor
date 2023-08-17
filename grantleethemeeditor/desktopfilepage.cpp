@@ -17,8 +17,8 @@
 #include <QGridLayout>
 #include <QLabel>
 
-#include <KPIMTextEdit/PlainTextEditor>
-#include <KPIMTextEdit/PlainTextEditorWidget>
+#include <TextCustomEditor/PlainTextEditor>
+#include <TextCustomEditor/PlainTextEditorWidget>
 
 using namespace GrantleeThemeEditor;
 
@@ -49,7 +49,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
 
     ++row;
     lab = new QLabel(i18n("Description:"));
-    mDescription = new KPIMTextEdit::PlainTextEditorWidget(this);
+    mDescription = new TextCustomEditor::PlainTextEditorWidget(this);
     mDescription->editor()->setSearchSupport(false);
     gridLayout->addWidget(lab, row, 0);
     gridLayout->addWidget(mDescription, row, 1);

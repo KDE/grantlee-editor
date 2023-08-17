@@ -10,7 +10,7 @@
 using namespace GrantleeThemeEditor;
 
 EditorWidget::EditorWidget(QWidget *parent)
-    : KPIMTextEdit::PlainTextEditorWidget(new GrantleeThemeEditor::GrantleePlainTextEditor(), parent)
+    : TextCustomEditor::PlainTextEditorWidget(new GrantleeThemeEditor::GrantleePlainTextEditor(), parent)
 {
 }
 

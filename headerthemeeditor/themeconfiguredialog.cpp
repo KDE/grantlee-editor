@@ -5,7 +5,7 @@
 */
 #include "themeconfiguredialog.h"
 #include "themeeditorutil.h"
-#include <KPIMTextEdit/PlainTextEditorWidget>
+#include <TextCustomEditor/PlainTextEditorWidget>
 
 #include "configurewidget.h"
 
@@ -37,11 +37,11 @@ ThemeConfigureDialog::ThemeConfigureDialog(QWidget *parent)
     auto lab = new QLabel(i18n("Default email:"));
     lay->addWidget(lab);
 
-    mDefaultEmail = new KPIMTextEdit::PlainTextEditorWidget;
+    mDefaultEmail = new TextCustomEditor::PlainTextEditorWidget;
     lay->addWidget(mDefaultEmail);
     tab->addTab(w, i18n("General"));
 
-    mDefaultTemplate = new KPIMTextEdit::PlainTextEditorWidget;
+    mDefaultTemplate = new TextCustomEditor::PlainTextEditorWidget;
     tab->addTab(mDefaultTemplate, i18n("Default Template"));
 
     auto mainLayout = new QVBoxLayout(this);

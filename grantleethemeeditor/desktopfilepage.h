@@ -10,7 +10,7 @@
 class QLineEdit;
 class KZip;
 class KEditListWidget;
-namespace KPIMTextEdit
+namespace TextCustomEditor
 {
 class PlainTextEditorWidget;
 }
@@ -50,7 +50,7 @@ private:
     void saveAsFilename(const QString &filename);
     QString mDefaultDesktopName;
     QLineEdit *mName = nullptr;
-    KPIMTextEdit::PlainTextEditorWidget *mDescription = nullptr;
+    TextCustomEditor::PlainTextEditorWidget *mDescription = nullptr;
     QLineEdit *mFilename = nullptr;
     QLineEdit *mAuthor = nullptr;
     QLineEdit *mEmail = nullptr;
