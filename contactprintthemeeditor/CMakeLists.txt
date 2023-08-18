@@ -38,7 +38,6 @@ target_link_libraries(contactprintthemeeditor
     KPim6::AkonadiContactWidgets
     KPim6::PimCommon
     grantleethemeeditor
-    KPim6::PimTextEdit
     KF6::I18n
     Qt::WebEngineWidgets
     KF6::XmlGui

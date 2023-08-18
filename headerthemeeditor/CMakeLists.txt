@@ -41,7 +41,6 @@ target_link_libraries(headerthemeeditor
     grantleethemeeditor
     KF6::DBusAddons
     KPim6::GrantleeTheme
-    KPim6::PimTextEdit
     KF6::I18n
     KF6::XmlGui
     KF6::Crash
