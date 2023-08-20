@@ -8,7 +8,7 @@
 #include <KSyntaxHighlighting/Repository>
 #include <TextCustomEditor/PlainTextEditor>
 
-namespace KPIMTextEdit
+namespace TextCustomEditor
 {
 class TextEditorCompleter;
 }
@@ -27,7 +27,7 @@ protected:
     void keyPressEvent(QKeyEvent *e) override;
 
 protected:
-    KPIMTextEdit::TextEditorCompleter *mTextEditorCompleter = nullptr;
+    TextCustomEditor::TextEditorCompleter *mTextEditorCompleter = nullptr;
 
 private:
     void initCompleter();

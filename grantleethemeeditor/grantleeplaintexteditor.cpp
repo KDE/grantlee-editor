@@ -10,10 +10,10 @@
 #include <KSyntaxHighlighting/SyntaxHighlighter>
 #include <KSyntaxHighlighting/Theme>
 
-#include <KPIMTextEdit/TextEditorCompleter>
 #include <QAbstractItemView>
 #include <QCompleter>
 #include <QKeyEvent>
+#include <TextCustomEditor/TextEditorCompleter>
 
 using namespace GrantleeThemeEditor;
 
@@ -37,7 +37,7 @@ GrantleePlainTextEditor::~GrantleePlainTextEditor() = default;
 
 void GrantleePlainTextEditor::initCompleter()
 {
-    mTextEditorCompleter = new KPIMTextEdit::TextEditorCompleter(this, this);
+    mTextEditorCompleter = new TextCustomEditor::TextEditorCompleter(this, this);
 }
 
 void GrantleePlainTextEditor::createCompleterList(const QStringList &extraCompletion)

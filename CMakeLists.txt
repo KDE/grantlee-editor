@@ -65,7 +65,6 @@ find_package(KPim6AkonadiContactWidgets ${AKONADI_CONTACT_VERSION} CONFIG REQUIR
 find_package(KPim6IMAP ${KIMAP_LIB_VERSION} CONFIG REQUIRED)
 
 # Find KdepimLibs Package
-find_package(KPim6TextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
 find_package(KPim6Mime ${KPIM_MIME_VERSION} CONFIG REQUIRED)
 
 find_package(KF6SyntaxHighlighting ${KF_MIN_VERSION} CONFIG REQUIRED)

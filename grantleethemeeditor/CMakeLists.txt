@@ -53,10 +53,10 @@ target_link_libraries(grantleethemeeditor
     KF6::Archive
     PRIVATE
     KF6::KIOWidgets
-    KPim6::PimTextEdit
     KPim6::PimCommon
     KF6::I18n
     KF6::SyntaxHighlighting
+    KF6::TextCustomEditor
     )
 
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
