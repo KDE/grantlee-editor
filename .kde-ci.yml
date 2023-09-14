@@ -5,11 +5,11 @@ Dependencies:
 - 'on': ['Linux', 'FreeBSD', 'Windows']
   'require':
     'frameworks/extra-cmake-modules': '@latest-kf6'
-    'pim/akonadi-contacts' : '@latest-kf6'
-    'pim/grantleetheme' : '@latest-kf6'
-    'pim/kimap' : '@latest-kf6'
-    'pim/messagelib' : '@latest-kf6'
-    'pim/pimcommon' : '@latest-kf6'
+    'pim/akonadi-contacts' : '@same'
+    'pim/grantleetheme' : '@same'
+    'pim/kimap' : '@same'
+    'pim/messagelib' : '@same'
+    'pim/pimcommon' : '@same'
     'frameworks/ktexttemplate': '@latest-kf6'
     'libraries/ktextaddons': '@latest-kf6'
 
