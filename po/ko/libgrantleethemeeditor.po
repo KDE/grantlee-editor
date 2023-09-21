@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2020-01-29 00:42+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -64,18 +64,18 @@ msgstr ""
 "추가하려면 'XOriginalTo'와 같이 이름에서 '-' 문자를 삭제한 형태를 사용하십시"
 "오."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "ZIP 파일에 파일을 추가할 수 없습니다."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "파일을 추가할 수 없음"
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "파일 \"%1\"을(를) 열 수 없습니다."

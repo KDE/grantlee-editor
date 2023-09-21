@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-01-02 14:49+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -212,22 +212,22 @@ msgstr "&Weergave"
 msgid "Theme Templates:"
 msgstr "Thema-sjablonen:"
 
-#: main.cpp:36 main.cpp:38
+#: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Contactpersoon van themabewerker"
 
-#: main.cpp:40
+#: main.cpp:27
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 auteurs van contactthemeeditor"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Maintainer"
 msgstr "Onderhouder"

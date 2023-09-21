@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-03-27 11:58+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -216,22 +216,22 @@ msgstr "Vi&sualitza"
 msgid "Theme Templates:"
 msgstr "Plantilles de temes:"
 
-#: main.cpp:36 main.cpp:38
+#: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Editor de temes dels contactes"
 
-#: main.cpp:40
+#: main.cpp:27
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1, Els autors de contactthemeeditor"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenidor"

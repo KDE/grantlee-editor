@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2023-08-02 00:51+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -212,22 +212,22 @@ msgstr "&Görünüm"
 msgid "Theme Templates:"
 msgstr "Tema Şablonları:"
 
-#: main.cpp:36 main.cpp:38
+#: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Kişi Teması Düzenleyicisi"
 
-#: main.cpp:40
+#: main.cpp:27
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Telif hakkı © 2013-%1 contactthemeeditor yazarları"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Maintainer"
 msgstr "Projeyi Yürüten"

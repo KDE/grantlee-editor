@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2014-03-16 22:27+0100\n"
 "Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -44,28 +44,28 @@ msgstr "&Bewerken"
 msgid "&Display"
 msgstr "&Wiesen"
 
-#: main.cpp:37
+#: main.cpp:24
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Koppreeg-Mustereditor"
 
-#: main.cpp:39
+#: main.cpp:26
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Narichtenkieker-Koppreegmustereditor"
 
-#: main.cpp:41
+#: main.cpp:28
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013, 2014 headerthemeeditor authors"
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013, 2014 de Schrievers vun Headerthemeeditor"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr "Pleger"

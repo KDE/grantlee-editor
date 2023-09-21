@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2014-04-03 00:21+0200\n"
 "Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -64,20 +64,20 @@ msgstr ""
 "Original-To\" to, man bruuk \"XOriginialTo\" (ahn \"-\" dor binnen) as "
 "Variabel binnen Grantlee."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, fuzzy, kde-format
 #| msgid "Failed to add file."
 msgid "Failed to add file into ZIP archive."
 msgstr "Datei lett sik nich tofögen"
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, fuzzy, kde-format
 #| msgid "Failed to add file."
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Datei lett sik nich tofögen"
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, fuzzy, kde-format
 #| msgid "Impossible to open file \"%1\""
 msgid "Failed to open file \"%1\"."

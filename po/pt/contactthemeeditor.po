@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-03-27 00:33+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -208,22 +208,22 @@ msgstr "&Visualização"
 msgid "Theme Templates:"
 msgstr "Modelos de Temas:"
 
-#: main.cpp:36 main.cpp:38
+#: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Editor de Temas de Contactos"
 
-#: main.cpp:40
+#: main.cpp:27
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 dos autores do 'contactthemeeditor'"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Maintainer"
 msgstr "Manutenção"

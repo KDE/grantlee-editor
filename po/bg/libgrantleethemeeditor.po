@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2013-08-05 19:33+0300\n"
 "Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
@@ -64,18 +64,18 @@ msgstr ""
 "\"X-Original-To\" в списъка, но използвайте \"XOriginalTo\" като променлива "
 "в Grantlee (махнете \"-\" в името)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, fuzzy, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Грешка при добавяне на файл."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Грешка при добавяне на файл."
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, fuzzy, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Грешка при добавяне на файл."

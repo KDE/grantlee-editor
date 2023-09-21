@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2015-12-29 21:41+0200\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
@@ -217,23 +217,23 @@ msgstr "&Rodyti"
 msgid "Theme Templates:"
 msgstr "Apipavidalinimų šablonai:"
 
-#: main.cpp:36 main.cpp:38
+#: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Contact apipavidalinimo redaktorius"
 
-#: main.cpp:40
+#: main.cpp:27
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013-2014 contactthemeeditor authors"
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Autorinės teisės © 2013-2014 contactthemeeditor autoriai"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Maintainer"
 msgstr "Prižiūrėtojas"

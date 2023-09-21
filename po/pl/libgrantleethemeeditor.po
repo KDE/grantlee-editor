@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2020-12-13 09:01+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -65,18 +65,18 @@ msgstr ""
 "liście, lecz użyj \"XOriginalTo\" jako zmiennej w Grantlee (usuń '-' w "
 "nazwie)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Nieudane dodawanie pliku do archiwum ZIP."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Nieudane dodawanie pliku"
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Nie można otworzyć pliku \"%1\"."

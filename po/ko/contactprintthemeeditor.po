@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-02-20 21:52+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -65,22 +65,22 @@ msgstr "표시(&D)"
 msgid "Theme Templates:"
 msgstr "테마 템플릿:"
 
-#: main.cpp:26 main.cpp:28
+#: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr "연락처 인쇄 테마 편집기"
 
-#: main.cpp:30
+#: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Copyright © 2015-%1 contactprintthemeeditor authors"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Maintainer"
 msgstr "관리자"

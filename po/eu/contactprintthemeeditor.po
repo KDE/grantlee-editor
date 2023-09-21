@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-11-27 09:54+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -68,22 +68,22 @@ msgstr "Azal&du"
 msgid "Theme Templates:"
 msgstr "Gaien txantiloiak:"
 
-#: main.cpp:26 main.cpp:28
+#: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr "Kontaktuak inprimatzeko gai-editorea"
 
-#: main.cpp:30
+#: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Copyright © 2015-%1 contactprintthemeeditor-ren egileak"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Maintainer"
 msgstr "Arduraduna"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2019-12-29 15:33+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
@@ -63,18 +63,18 @@ msgstr ""
 "to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
 "use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Failed to add file into ZIP archive."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Failed to add file"
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Failed to open file \"%1\"."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2020-09-24 23:56+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian\n"
@@ -46,27 +46,27 @@ msgstr "Editor"
 msgid "&Display"
 msgstr ""
 
-#: main.cpp:37
+#: main.cpp:24
 #, kde-format
 msgid "Header Theme Editor"
 msgstr ""
 
-#: main.cpp:39
+#: main.cpp:26
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr ""
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr "Responsabil"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-03-27 11:58+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -48,27 +48,27 @@ msgstr "&Edita"
 msgid "&Display"
 msgstr "&Mostra"
 
-#: main.cpp:37
+#: main.cpp:24
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Editor de temes de capçalera"
 
-#: main.cpp:39
+#: main.cpp:26
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Editor de temes de capçalera per a «messageviewer»"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013-%1, Els autors de headerthemeeditor"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenidor"

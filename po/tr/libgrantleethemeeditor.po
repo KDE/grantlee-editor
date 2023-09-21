@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-07-11 10:58+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -65,18 +65,18 @@ msgstr ""
 "Original-To\" yazın ama değişken adı olarak \"XOriginalTo\" kullanın (addan "
 "'-' işaretini çıkarın)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "ZIP arşivine dosya ekleme başarısız."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Dosya ekleme başarısız oldu"
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "\"%1\" dosyası açılamadı."

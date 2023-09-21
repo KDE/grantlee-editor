@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-08-14 10:41+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian<kde-i18n-doc@kde.org>\n"
@@ -66,22 +66,22 @@ msgstr "&ჩვენება"
 msgid "Theme Templates:"
 msgstr "თემის შაბლონები:"
 
-#: main.cpp:26 main.cpp:28
+#: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr "საკონტაქტო ბეჭდვის თემატური რედაქტორი"
 
-#: main.cpp:30
+#: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Copyright © 2015-%1 contactprintthemeeditor -ის ავტორები"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Maintainer"
 msgstr "წამყვანი პროგრამისტი"

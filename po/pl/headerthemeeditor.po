@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-01-08 10:50+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
@@ -46,27 +46,27 @@ msgstr "&Edycja"
 msgid "&Display"
 msgstr "&Wyświetlanie"
 
-#: main.cpp:37
+#: main.cpp:24
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Edytor wyglądu nagłówków pocztowych"
 
-#: main.cpp:39
+#: main.cpp:26
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Edytor wyglądu nagłówków pocztowych"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013-%1 Autorzy Edytora Wyglądu Nagłówków Pocztowych"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:42
+#: main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr "Opiekun"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2013-12-13 10:30+0000\n"
 "Last-Translator: memsud <dedovic.memsud94@hotmail.com>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -215,23 +215,23 @@ msgstr "&Prikaži"
 msgid "Theme Templates:"
 msgstr "Predlošci tema"
 
-#: main.cpp:36 main.cpp:38
+#: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Editor tema za kontakte"
 
-#: main.cpp:40
+#: main.cpp:27
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013 contactthemeeditor authors"
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Autorska prava © 2013 kontakt tema urednik autori"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:41
+#: main.cpp:28
 #, kde-format
 msgid "Maintainer"
 msgstr "Održavaoc"

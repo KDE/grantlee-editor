@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2013-09-18 05:15+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -64,20 +64,20 @@ msgstr ""
 "дегенді қосыңыз, бірақ Grantlee айнымалы ретінде \"XOriginlTo\" дегенді "
 "қолданыңыз (атауында '-' дегенді алып тастап)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, fuzzy, kde-format
 #| msgid "Failed to add file."
 msgid "Failed to add file into ZIP archive."
 msgstr "Файлды қосу жаңылысы."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, fuzzy, kde-format
 #| msgid "Failed to add file."
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Файлды қосу жаңылысы."
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, fuzzy, kde-format
 #| msgid "Impossible to open file \"%1\""
 msgid "Failed to open file \"%1\"."

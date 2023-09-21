@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2020-04-01 23:18+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -67,23 +67,23 @@ msgstr "&Rodyti"
 msgid "Theme Templates:"
 msgstr "Apipavidalinimo šablonai:"
 
-#: main.cpp:26 main.cpp:28
+#: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr "Adresatų spausdinimo apipavidalinimo redaktorius"
 
-#: main.cpp:30
+#: main.cpp:26
 #, fuzzy, kde-format
 #| msgid "Copyright © 2015-2020 contactprintthemeeditor authors"
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Autorių teisės © 2015-2020 contactprintthemeeditor autoriai"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Maintainer"
 msgstr "Prižiūrėtojas"

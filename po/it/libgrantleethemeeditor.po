@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2019-12-24 21:37+0100\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -64,18 +64,18 @@ msgstr ""
 "esempio «X-Original-To», aggiungi «X-Original-To» all'elenco, ma usa "
 "«XOriginalTo» come nome di variabile in Grantlee (rimuovi «-» dal nome)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Impossibile aggiungere il file nell'archivio ZIP."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:102
+#: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Impossibile aggiungere il file"
 
-#: editorpage.cpp:91
+#: editorpage.cpp:88
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Impossibile aprire il file «%1»"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactprintthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-16 00:47+0000\n"
+"POT-Creation-Date: 2023-09-21 00:45+0000\n"
 "PO-Revision-Date: 2022-01-03 21:40+0100\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -65,22 +65,22 @@ msgstr "&Visualizza"
 msgid "Theme Templates:"
 msgstr "Modelli dei temi:"
 
-#: main.cpp:26 main.cpp:28
+#: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr "Editor dei temi di stampa dei contatti"
 
-#: main.cpp:30
+#: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Copyright © 2015-%1, gli autori di contactprintthemeeditor"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:31
+#: main.cpp:27
 #, kde-format
 msgid "Maintainer"
 msgstr "Responsabile"
