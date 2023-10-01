@@ -140,7 +140,7 @@ msgstr "Xa existe ese tema"
 #: contacteditorpage.cpp:132
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "Non se pode crear o cartafol de temas."
+msgstr "Non é posíbel crear o cartafol de temas."
 
 #: contacteditorpage.cpp:146
 #, kde-format
@@ -150,12 +150,12 @@ msgstr "O tema instalouse en «%1»."
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "Non se pode engadir un ficheiro de vista previa nun ficheiro zip"
+msgstr "Non é posíbel engadir un ficheiro de vista previa nun ficheiro zip"
 
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "Failed to add file."
-msgstr "Non se puido engadir o ficheiro."
+msgstr "Non foi posíbel engadir o ficheiro."
 
 #: contacteditorpage.cpp:188
 #, kde-format

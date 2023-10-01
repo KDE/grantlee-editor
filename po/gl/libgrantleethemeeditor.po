@@ -69,18 +69,18 @@ msgstr ""
 #: desktopfilepage.cpp:127 editorpage.cpp:102
 #, kde-format
 msgid "Failed to add file into ZIP archive."
-msgstr "Non se puido engadir o ficheiro ao arquivo ZIP."
+msgstr "Non foi posíbel engadir o ficheiro ao arquivo ZIP."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:102
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
-msgstr "Non se puido engadir o ficheiro"
+msgstr "Non foi posíbel engadir o ficheiro"
 
 #: editorpage.cpp:91
 #, kde-format
 msgid "Failed to open file \"%1\"."
-msgstr "Non se puido abrir o ficheiro «%1»."
+msgstr "Non foi posíbel abrir o ficheiro «%1»."
 
 #: managethemes.cpp:38
 #, kde-format
@@ -117,7 +117,7 @@ msgstr "Retirar o tema"
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
-"Non se pode eliminar o tema «%1». Contacte co administrador do seu sistema."
+"Non é posíbel eliminar o tema «%1». Contacte co administrador do seu sistema."
 
 #: managethemes.cpp:108
 #, kde-format
