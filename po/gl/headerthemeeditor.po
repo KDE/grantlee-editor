@@ -211,7 +211,7 @@ msgstr "O tema xa existe"
 #: themeeditorpage.cpp:166
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "Non se pode crear o cartafol de temas."
+msgstr "Non é posíbel crear o cartafol de temas."
 
 #: themeeditorpage.cpp:177
 #, kde-format
@@ -221,12 +221,12 @@ msgstr "Instalouse o tema en «%1»"
 #: themeeditorpage.cpp:198
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "Non se pode engadir un ficheiro de vista previa nun ficheiro zip"
+msgstr "Non é posíbel engadir un ficheiro de vista previa nun ficheiro zip"
 
 #: themeeditorpage.cpp:198
 #, kde-format
 msgid "Failed to add file."
-msgstr "Non se puido engadir o ficheiro."
+msgstr "Non foi posíbel engadir o ficheiro."
 
 #: themeeditorpage.cpp:212
 #, kde-format
