@@ -45,11 +45,11 @@ private:
 private:
     enum ActionSaveTheme { SaveOnly = 0, SaveAndCloseTheme, SaveAndCreateNewTheme };
 
-    Q_REQUIRED_RESULT bool loadTheme(const QString &directory);
+    [[nodiscard]] bool loadTheme(const QString &directory);
     void writeConfig();
     void readConfig();
     void updateActions();
-    Q_REQUIRED_RESULT bool saveCurrentProject(ActionSaveTheme act);
+    [[nodiscard]] bool saveCurrentProject(ActionSaveTheme act);
     void setupActions();
     void closeThemeEditor();
     ThemeEditorPage *mThemeEditor = nullptr;

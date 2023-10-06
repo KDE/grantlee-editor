@@ -32,7 +32,7 @@ private:
     void slotAddExtraPage();
     void slotOpenTheme();
     void slotQuitApp();
-    Q_REQUIRED_RESULT bool slotSaveTheme();
+    [[nodiscard]] bool slotSaveTheme();
     void slotConfigure();
     void slotInstallTheme();
     void slotInsertFile();

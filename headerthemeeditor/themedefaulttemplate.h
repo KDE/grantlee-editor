@@ -9,5 +9,5 @@
 
 namespace ThemeDefaultTemplate
 {
-Q_REQUIRED_RESULT QList<PimCommon::defaultTemplate> defaultTemplates();
+[[nodiscard]] QList<PimCommon::defaultTemplate> defaultTemplates();
 }

@@ -18,8 +18,8 @@ public:
     explicit NewThemeDialog(QWidget *parent = nullptr);
     ~NewThemeDialog() override;
 
-    Q_REQUIRED_RESULT QString themeName() const;
-    Q_REQUIRED_RESULT QString directory() const;
+    [[nodiscard]] QString themeName() const;
+    [[nodiscard]] QString directory() const;
 
 private:
     void slotUpdateOkButton();

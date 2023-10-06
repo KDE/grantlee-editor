@@ -21,7 +21,7 @@ public:
 
     virtual void createCompleterList(const QStringList &extraCompletion = QStringList());
 
-    Q_REQUIRED_RESULT QString toPlainText() const;
+    [[nodiscard]] QString toPlainText() const;
     void setPlainText(const QString &str);
     void clear();
 };

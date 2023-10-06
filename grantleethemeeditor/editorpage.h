@@ -25,7 +25,7 @@ public:
     EditorPage::PageType pageType() const;
 
     void setPageFileName(const QString &filename);
-    Q_REQUIRED_RESULT QString pageFileName() const;
+    [[nodiscard]] QString pageFileName() const;
 
     GrantleeThemeEditor::EditorWidget *editor() const;
 

@@ -32,7 +32,7 @@ public:
     void uploadTheme();
     void installTheme(const QString &themePath);
 
-    Q_REQUIRED_RESULT bool themeWasChanged() const;
+    [[nodiscard]] bool themeWasChanged() const;
 
     void reloadConfig();
 

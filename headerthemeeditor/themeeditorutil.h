@@ -11,5 +11,5 @@ class ThemeEditorUtil
 {
 public:
     ThemeEditorUtil();
-    Q_REQUIRED_RESULT QString defaultMail() const;
+    [[nodiscard]] QString defaultMail() const;
 };

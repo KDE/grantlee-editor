@@ -25,7 +25,7 @@ public:
     ~ThemeEditorPage() override;
 
     void saveThemeAs(const QString &directory);
-    Q_REQUIRED_RESULT bool saveTheme(bool withConfirmation = true);
+    [[nodiscard]] bool saveTheme(bool withConfirmation = true);
     void loadTheme(const QString &filename);
 
     void addExtraPage();
@@ -54,7 +54,7 @@ private:
 private:
     void setChanged(bool b);
     void storeTheme(const QString &directory = QString());
-    Q_REQUIRED_RESULT QString projectDirectory() const;
+    [[nodiscard]] QString projectDirectory() const;
     void createZip(const QString &themeName, KZip *zip);
     EditorPage *createExtraPage(const QString &filename);
     QList<EditorPage *> mExtraPage;

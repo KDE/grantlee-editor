@@ -9,5 +9,5 @@
 
 namespace ContactDefaultTemplate
 {
-Q_REQUIRED_RESULT QList<PimCommon::defaultTemplate> contactTemplates();
+[[nodiscard]] QList<PimCommon::defaultTemplate> contactTemplates();
 }
