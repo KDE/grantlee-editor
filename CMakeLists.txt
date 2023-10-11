@@ -77,7 +77,7 @@ ecm_set_disabled_deprecation_versions(QT 6.5  KF 5.240.0)
 
 
 
-configure_file(grantleeeditor-version.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/grantleeeditor-version.h @ONLY)
+configure_file(grantleeeditor-version.h.in ${CMAKE_CURRENT_BINARY_DIR}/grantleeeditor-version.h @ONLY)
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
