@@ -19,7 +19,7 @@ int main(int argc, char **argv)
     QApplication app(argc, argv);
     app.setDesktopFileName(QStringLiteral("org.kde.headerthemeeditor"));
     KCrash::initialize();
-    KLocalizedString::setApplicationDomain("headerthemeeditor");
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("headerthemeeditor"));
     KAboutData aboutData(QStringLiteral("headerthemeeditor"),
                          i18n("Header Theme Editor"),
                          QStringLiteral(GRANTLEEEDITOR_VERSION),

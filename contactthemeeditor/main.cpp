@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     app.setDesktopFileName(QStringLiteral("org.kde.contactthemeeditor"));
 
     KCrash::initialize();
-    KLocalizedString::setApplicationDomain("contactthemeeditor");
+    KLocalizedString::setApplicationDomain(QByteArrayLiteral("contactthemeeditor"));
     KAboutData aboutData(QStringLiteral("contactthemeeditor"),
                          i18n("Contact Theme Editor"),
                          QStringLiteral(GRANTLEEEDITOR_VERSION),
