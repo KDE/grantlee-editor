@@ -48,7 +48,7 @@ void ContactEditorMainWindow::writeConfig()
 void ContactEditorMainWindow::readConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup group = KConfigGroup(config, QLatin1String("ContactEditorMainWindow"));
+    KConfigGroup group = KConfigGroup(config, QStringLiteral("ContactEditorMainWindow"));
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);

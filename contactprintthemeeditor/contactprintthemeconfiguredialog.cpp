@@ -125,7 +125,7 @@ void ContactPrintThemeConfigureDialog::readConfig()
 
     mConfigureWidget->readConfig();
 
-    KConfigGroup group = KConfigGroup(config, QLatin1String("ContactPrintThemeConfigureDialog"));
+    KConfigGroup group = KConfigGroup(config, QStringLiteral("ContactPrintThemeConfigureDialog"));
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);

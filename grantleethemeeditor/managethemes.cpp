@@ -73,7 +73,7 @@ ManageThemes::~ManageThemes()
 
 void ManageThemes::readConfig()
 {
-    KConfigGroup group(KSharedConfig::openConfig(), QLatin1String("ManageThemesDialog"));
+    KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("ManageThemesDialog"));
     const QSize sizeDialog = group.readEntry("Size", QSize(300, 150));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
@@ -82,7 +82,7 @@ void ManageThemes::readConfig()
 
 void ManageThemes::writeConfig()
 {
-    KConfigGroup group(KSharedConfig::openConfig(), QLatin1String("ManageThemesDialog"));
+    KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("ManageThemesDialog"));
     group.writeEntry("Size", size());
 }
 
