@@ -50,7 +50,7 @@ void ThemeEditorMainWindow::writeConfig()
 void ThemeEditorMainWindow::readConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup group = KConfigGroup(config, "ThemeEditorMainWindow");
+    KConfigGroup group = KConfigGroup(config, QLatin1String("ThemeEditorMainWindow"));
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);

@@ -122,7 +122,7 @@ void ContactConfigureDialog::readConfig()
 
     mConfigureWidget->readConfig();
 
-    KConfigGroup group = KConfigGroup(config, "ContactConfigureDialog");
+    KConfigGroup group = KConfigGroup(config, QLatin1String("ContactConfigureDialog"));
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);

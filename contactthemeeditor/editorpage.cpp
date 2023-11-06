@@ -58,7 +58,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
     connect(mEditor->editor(), &QPlainTextEdit::textChanged, this, &GrantleeThemeEditor::EditorPage::changed);
 
     if (mType == MainPage) {
-        KConfigGroup group(KSharedConfig::openConfig(), "EditorPage");
+        KConfigGroup group(KSharedConfig::openConfig(), QLatin1String("EditorPage"));
         const QList<int> size{400, 100};
         mMainSplitter->setSizes(group.readEntry("mainSplitter", size));
         mWidgetSplitter->setSizes(group.readEntry("widgetSplitter", size));
@@ -68,7 +68,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 EditorPage::~EditorPage()
 {
     if (mType == MainPage) {
-        KConfigGroup group(KSharedConfig::openConfig(), "EditorPage");
+        KConfigGroup group(KSharedConfig::openConfig(), QLatin1String("EditorPage"));
         group.writeEntry("mainSplitter", mMainSplitter->sizes());
         group.writeEntry("widgetSplitter", mWidgetSplitter->sizes());
     }

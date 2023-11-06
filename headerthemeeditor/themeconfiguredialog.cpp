@@ -95,7 +95,7 @@ void ThemeConfigureDialog::readConfig()
         mDefaultEmail->setPlainText(themeutil.defaultMail());
     }
 
-    KConfigGroup group = KConfigGroup(config, "ThemeConfigureDialog");
+    KConfigGroup group = KConfigGroup(config, QLatin1String("ThemeConfigureDialog"));
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
