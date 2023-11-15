@@ -74,7 +74,7 @@ find_package(KF6TextCustomEditor ${KTEXTADDONS_MIN_VERSION} CONFIG REQUIRED)
 include_directories(${grantlee-editor_SOURCE_DIR} ${grantlee-editor_BINARY_DIR})
 
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
-ecm_set_disabled_deprecation_versions(QT 6.6  KF 5.240.0)
+ecm_set_disabled_deprecation_versions(QT 6.6  KF 5.245.0)
 
 
 
