@@ -2,34 +2,34 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Balázs Úr <urbalazs@gmail.com>, 2013, 2014.
+# SPDX-FileCopyrightText: 2024 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-11-16 00:47+0000\n"
-"PO-Revision-Date: 2014-02-16 19:52+0100\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"PO-Revision-Date: 2024-01-12 22:22+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Úr Balázs"
+msgstr "Kiszel Kristóf,Úr Balázs"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "urbalazs@gmail.com"
+msgstr "ulysses@fsf.hu,urbalazs@fsf.hu"
 
 #: contactconfigurationdialog.cpp:31
-#, fuzzy, kde-format
-#| msgid "Configure"
+#, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Beállítás"
@@ -75,10 +75,9 @@ msgid "Open theme..."
 msgstr "Téma megnyitása…"
 
 #: contacteditormainwindow.cpp:98
-#, fuzzy, kde-format
-#| msgid "Save theme..."
+#, kde-format
 msgid "Save theme"
-msgstr "Téma mentése…"
+msgstr "Téma mentése"
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
@@ -220,10 +219,9 @@ msgid "Contact Theme Editor"
 msgstr "Névjegy téma szerkesztő"
 
 #: main.cpp:40
-#, fuzzy, kde-format
-#| msgid "Copyright © 2013-2014 contactthemeeditor authors"
+#, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr "Copyright © A contactthemeeditor szerzői, 2013-2014."
+msgstr "Copyright © A contactthemeeditor szerzői, 2013-%1."
 
 #: main.cpp:41
 #, kde-format
