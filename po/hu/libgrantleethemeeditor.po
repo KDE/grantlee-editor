@@ -2,20 +2,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Balázs Úr <urbalazs@gmail.com>, 2013.
+# SPDX-FileCopyrightText: 2024 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-21 00:45+0000\n"
-"PO-Revision-Date: 2013-10-06 12:17+0200\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"PO-Revision-Date: 2024-01-15 12:53+0100\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 24.01.90\n"
 
 #: desktopfilepage.cpp:29
 #, kde-format
@@ -65,27 +66,23 @@ msgstr ""
 "használja a Grantlee programban (távolítsa el a „-” karaktert a névből)."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:99
-#, fuzzy, kde-format
-#| msgid "Failed to add file."
+#, kde-format
 msgid "Failed to add file into ZIP archive."
-msgstr "Nem sikerült hozzáadni a fájlt."
+msgstr "Nem sikerült hozzáadni a fájlt a ZIP-archívumhoz."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:99
-#, fuzzy, kde-format
-#| msgid "Failed to add file."
+#, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
-msgstr "Nem sikerült hozzáadni a fájlt."
+msgstr "Nem sikerült hozzáadni a fájlt"
 
 #: editorpage.cpp:88
-#, fuzzy, kde-format
-#| msgid "Impossible to open file \"%1\""
+#, kde-format
 msgid "Failed to open file \"%1\"."
-msgstr "Lehetetlen megnyitni a(z) „%1” fájlt"
+msgstr "Nem sikerült megnyitni a(z) „%1” fájlt"
 
 #: managethemes.cpp:38
-#, fuzzy, kde-format
-#| msgid "Manage Theme"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Téma kezelése"
@@ -101,18 +98,14 @@ msgid "Delete theme"
 msgstr "Téma törlése"
 
 #: managethemes.cpp:96
-#, fuzzy, kde-format
-#| msgid "Do you want to remove selected theme?"
-#| msgid_plural "Do you want to remove %1 selected themes?"
+#, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
-msgstr "Szeretné eltávolítani a kijelölt témát?"
+msgstr "Szeretné eltávolítani a kijelölt „%1” témát?"
 
 #: managethemes.cpp:98
-#, fuzzy, kde-format
-#| msgid "Do you want to remove selected theme?"
-#| msgid_plural "Do you want to remove %1 selected themes?"
+#, kde-format
 msgid "Do you want to remove %1 selected themes?"
-msgstr "Szeretné eltávolítani a kijelölt témát?"
+msgstr "Szeretné eltávolítani a kijelölt %1 témát?"
 
 #: managethemes.cpp:100
 #, kde-format
@@ -130,8 +123,7 @@ msgid "Delete theme failed"
 msgstr "A téma törlése nem sikerült"
 
 #: newthemedialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "New Theme"
+#, kde-format
 msgctxt "@title:window"
 msgid "New Theme"
 msgstr "Új téma"
@@ -147,10 +139,9 @@ msgid "Theme directory:"
 msgstr "Téma könyvtár:"
 
 #: themeeditortabwidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "Editor"
+#, kde-format
 msgid "Editor (%1)"
-msgstr "Szerkesztő"
+msgstr "Szerkesztő (%1)"
 
 #: themeeditortabwidget.cpp:53
 #, kde-format
