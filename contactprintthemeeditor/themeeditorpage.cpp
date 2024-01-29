@@ -160,16 +160,16 @@ void ThemeEditorPage::uploadTheme()
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
-    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String(".zip");
+    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
-        const QString previewFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("_preview.png");
+        const QString previewFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView("_preview.png");
         // qCDebug(CONTACTPRINTTHEMEEDITOR_LOG)<<" previewFileName"<<previewFileName;
         QStringList lst;
         lst << previewFileName;
         mEditorPage->preview()->createScreenShot(lst);
 
-        const bool fileAdded = zip->addLocalFile(previewFileName, themename + QLatin1Char('/') + QLatin1String("theme_preview.png"));
+        const bool fileAdded = zip->addLocalFile(previewFileName, themename + QLatin1Char('/') + QLatin1StringView("theme_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
@@ -211,8 +211,8 @@ void ThemeEditorPage::addExtraPage()
     QString filename = QInputDialog::getText(this, i18n("Filename of extra page"), i18n("Filename:"), {}, {}, &ok);
     if (ok) {
         if (!filename.trimmed().isEmpty()) {
-            if (!filename.endsWith(QLatin1String(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
-                filename += QLatin1String(".html");
+            if (!filename.endsWith(QLatin1StringView(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
+                filename += QLatin1StringView(".html");
             }
             createExtraPage(filename);
             mThemeSession->addExtraPage(filename);

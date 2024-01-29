@@ -176,7 +176,7 @@ void ThemeEditorMainWindow::slotInstallTheme()
 {
     // Save before installing :)
     if (slotSaveTheme()) {
-        const QString localThemePath = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1String("/messageviewer/themes/");
+        const QString localThemePath = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1StringView("/messageviewer/themes/");
         QDir().mkpath(localThemePath);
         mThemeEditor->installTheme(localThemePath);
     }
@@ -225,7 +225,7 @@ void ThemeEditorMainWindow::slotOpenTheme()
 bool ThemeEditorMainWindow::loadTheme(const QString &directory)
 {
     if (!directory.isEmpty()) {
-        const QString filename = directory + QLatin1String("/theme.themerc");
+        const QString filename = directory + QLatin1StringView("/theme.themerc");
         if (!QFileInfo::exists(filename)) {
             KMessageBox::error(this, i18n("Directory does not contain a theme file. We cannot load theme."));
             return false;

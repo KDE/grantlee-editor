@@ -72,7 +72,7 @@ bool ThemeSession::loadSession(const QString &session)
 void ThemeSession::writeSession(const QString &directory)
 {
     QString themeDirectory = (directory.isEmpty() ? mProjectDirectory : directory);
-    KConfig config(themeDirectory + QLatin1String("/theme.themerc"));
+    KConfig config(themeDirectory + QLatin1StringView("/theme.themerc"));
     KConfigGroup global = config.group(QStringLiteral("Global"));
     global.writeEntry(QStringLiteral("path"), themeDirectory);
     global.writeEntry(QStringLiteral("mainPageName"), mMainPageFileName);

@@ -148,7 +148,8 @@ void ContactEditorMainWindow::slotInstallTheme()
 {
     // Save before installing :)
     if (slotSaveTheme()) {
-        const QString localThemePath = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1String("/kaddressbook/viewertemplates/");
+        const QString localThemePath =
+            QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1StringView("/kaddressbook/viewertemplates/");
         QDir().mkpath(localThemePath);
         mContactEditor->installTheme(localThemePath);
     }
@@ -197,7 +198,7 @@ void ContactEditorMainWindow::slotOpenTheme()
 bool ContactEditorMainWindow::loadTheme(const QString &directory)
 {
     if (!directory.isEmpty()) {
-        const QString filename = directory + QLatin1String("/theme.themerc");
+        const QString filename = directory + QLatin1StringView("/theme.themerc");
         if (!QFileInfo::exists(filename)) {
             KMessageBox::error(this, i18n("Directory does not contain a theme file. We cannot load theme."));
             return false;

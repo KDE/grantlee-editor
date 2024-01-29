@@ -37,7 +37,7 @@ ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &t
     mEditorPage->setPageFileName(QStringLiteral("contact.html"));
     connect(mEditorPage, &EditorPage::needUpdateViewer, this, &ContactEditorPage::slotUpdateViewer);
     connect(mEditorPage, &EditorPage::changed, this, &ContactEditorPage::slotChanged);
-    mTabWidget->addTab(mEditorPage, i18n("Editor") + QLatin1String(" (contact.html)"));
+    mTabWidget->addTab(mEditorPage, i18n("Editor") + QLatin1StringView(" (contact.html)"));
 
     mEditorEmbeddedPage = createCustomPage(QStringLiteral("contact_embedded.html"));
 
@@ -153,24 +153,24 @@ void ContactEditorPage::uploadTheme()
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
-    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String(".zip");
+    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
         // TODO reactivate it when we will be able to create a preview
-        const QString previewContactFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("contact_preview.png");
-        const QString previewContactGroupFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1String("contactgroup_preview.png");
+        const QString previewContactFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView("contact_preview.png");
+        const QString previewContactGroupFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView("contactgroup_preview.png");
         QStringList lst;
         lst << previewContactFileName << previewContactGroupFileName;
 
         mEditorPage->preview()->createScreenShot(lst);
 
-        bool fileAdded = zip->addLocalFile(previewContactFileName, themename + QLatin1Char('/') + QLatin1String("contact_preview.png"));
+        bool fileAdded = zip->addLocalFile(previewContactFileName, themename + QLatin1Char('/') + QLatin1StringView("contact_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
             return;
         }
-        fileAdded = zip->addLocalFile(previewContactGroupFileName, themename + QLatin1Char('/') + QLatin1String("contactgroup_preview.png"));
+        fileAdded = zip->addLocalFile(previewContactGroupFileName, themename + QLatin1Char('/') + QLatin1StringView("contactgroup_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
@@ -214,8 +214,8 @@ void ContactEditorPage::addExtraPage()
     QString filename = QInputDialog::getText(this, i18n("Filename of extra page"), i18n("Filename:"), {}, {}, &ok);
     if (ok) {
         if (!filename.trimmed().isEmpty()) {
-            if (!filename.endsWith(QLatin1String(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
-                filename += QLatin1String(".html");
+            if (!filename.endsWith(QLatin1StringView(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
+                filename += QLatin1StringView(".html");
             }
             createExtraPage(filename);
             mThemeSession->addExtraPage(filename);
@@ -291,9 +291,9 @@ void ContactEditorPage::loadTheme(const QString &filename)
     if (mThemeSession->loadSession(filename)) {
         const QString projectDirectory = mThemeSession->projectDirectory();
         mDesktopPage->loadTheme(projectDirectory);
-        mEditorGroupPage->loadTheme(projectDirectory + QLatin1String("/contactgroup.html"));
-        mEditorGroupEmbeddedPage->loadTheme(projectDirectory + QLatin1String("/contactgroup_embedded.html"));
-        mEditorEmbeddedPage->loadTheme(projectDirectory + QLatin1String("/contact_embedded.html"));
+        mEditorGroupPage->loadTheme(projectDirectory + QLatin1StringView("/contactgroup.html"));
+        mEditorGroupEmbeddedPage->loadTheme(projectDirectory + QLatin1StringView("/contactgroup_embedded.html"));
+        mEditorEmbeddedPage->loadTheme(projectDirectory + QLatin1StringView("/contact_embedded.html"));
 
         mEditorPage->loadTheme(projectDirectory + QLatin1Char('/') + mThemeSession->mainPageFileName());
         mEditorPage->preview()->setThemePath(projectDirectory, mThemeSession->mainPageFileName());
