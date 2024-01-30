@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2022-07-29 13:24+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -104,12 +104,12 @@ msgstr "Hallitse teemoja…"
 msgid "Update view"
 msgstr "Päivitä näkymä"
 
-#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
 #, kde-format
 msgid "Select theme directory"
 msgstr "Valitse teeman kansio"
 
-#: contacteditormainwindow.cpp:202
+#: contacteditormainwindow.cpp:203
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Kansiossa ei ole teematiedostoa. Teemaa ei voi ladata."

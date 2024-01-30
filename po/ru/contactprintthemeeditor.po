@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2022-10-07 16:46+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -148,12 +148,12 @@ msgstr "Настроить оформления..."
 msgid "Update view"
 msgstr "Обновить"
 
-#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
 #, kde-format
 msgid "Select theme directory"
 msgstr "Выбор каталога с оформлением"
 
-#: themeeditormainwindow.cpp:204
+#: themeeditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""

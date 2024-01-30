@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2024-01-21 14:11\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -103,12 +103,12 @@ msgstr "管理主题..."
 msgid "Update view"
 msgstr "更新视图"
 
-#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
 #, kde-format
 msgid "Select theme directory"
 msgstr "选择主题目录"
 
-#: contacteditormainwindow.cpp:202
+#: contacteditormainwindow.cpp:203
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "目录不包含主题文件。无法加载主题。"

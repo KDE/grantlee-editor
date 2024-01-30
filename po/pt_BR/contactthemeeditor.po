@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2022-01-04 11:52-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -105,12 +105,12 @@ msgstr "Gerenciar temas..."
 msgid "Update view"
 msgstr "Atualizar visualização"
 
-#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
 #, kde-format
 msgid "Select theme directory"
 msgstr "Selecione a pasta do tema"
 
-#: contacteditormainwindow.cpp:202
+#: contacteditormainwindow.cpp:203
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "A pasta não contém um arquivo de tema. Não é possível carregar o tema."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2022-08-14 10:41+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian<kde-i18n-doc@kde.org>\n"
@@ -141,12 +141,12 @@ msgstr "თემების მართვა..."
 msgid "Update view"
 msgstr "ხედის განახლება"
 
-#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
 #, kde-format
 msgid "Select theme directory"
 msgstr "აირჩიეთ თემის საქაღალდე"
 
-#: themeeditormainwindow.cpp:204
+#: themeeditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "საქაღალდე თემისი ფაილს არ შეიცავს . ჩვენ არ შეგვიძლია დატვირთოთ თემა."

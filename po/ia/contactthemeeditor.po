@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2022-01-05 12:53+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -103,12 +103,12 @@ msgstr "Gere themas..."
 msgid "Update view"
 msgstr "Actualisa vista"
 
-#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
 #, kde-format
 msgid "Select theme directory"
 msgstr "Selige directorio de thema"
 
-#: contacteditormainwindow.cpp:202
+#: contacteditormainwindow.cpp:203
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Directorio non contine un file de thema. On non pote cargar thema."

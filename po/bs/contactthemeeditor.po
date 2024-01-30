@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2013-12-13 10:30+0000\n"
 "Last-Translator: memsud <dedovic.memsud94@hotmail.com>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -108,12 +108,12 @@ msgstr "Upravljaj temama..."
 msgid "Update view"
 msgstr "Ažuriraj pogled"
 
-#: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
+#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
 #, kde-format
 msgid "Select theme directory"
 msgstr "Odaberi direktorij tema"
 
-#: contacteditormainwindow.cpp:202
+#: contacteditormainwindow.cpp:203
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"

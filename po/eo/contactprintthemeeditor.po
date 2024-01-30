@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 00:45+0000\n"
+"POT-Creation-Date: 2024-01-30 00:37+0000\n"
 "PO-Revision-Date: 2023-10-01 23:30+0100\n"
 "Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -143,12 +143,12 @@ msgstr "Administri etosojn..."
 msgid "Update view"
 msgstr "Ĝisdatigi vidon"
 
-#: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
+#: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
 #, kde-format
 msgid "Select theme directory"
 msgstr "Elekti etosan dosierujon"
 
-#: themeeditormainwindow.cpp:204
+#: themeeditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Dosierujo ne enhavas etosieron. Ni ne povas ŝargi etoson."
