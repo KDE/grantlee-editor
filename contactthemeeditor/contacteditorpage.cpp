@@ -214,7 +214,8 @@ void ContactEditorPage::addExtraPage()
     QString filename = QInputDialog::getText(this, i18n("Filename of extra page"), i18n("Filename:"), {}, {}, &ok);
     if (ok) {
         if (!filename.trimmed().isEmpty()) {
-            if (!filename.endsWith(QLatin1StringView(".html")) && !filename.endsWith(QLatin1String(".css")) && !filename.endsWith(QLatin1String(".js"))) {
+            if (!filename.endsWith(QLatin1StringView(".html")) && !filename.endsWith(QLatin1StringView(".css"))
+                && !filename.endsWith(QLatin1StringView(".js"))) {
                 filename += QLatin1StringView(".html");
             }
             createExtraPage(filename);
