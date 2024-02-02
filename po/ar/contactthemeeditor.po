@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
+"POT-Creation-Date: 2024-02-02 00:38+0000\n"
 "PO-Revision-Date: 2022-01-11 11:21+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -170,12 +170,12 @@ msgstr "اسم ملفّ الصّفحة الإضافيّة"
 msgid "Filename:"
 msgstr "اسم الملفّ:"
 
-#: contacteditorpage.cpp:272
+#: contacteditorpage.cpp:273
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "أتريد حفظ المشروع الحاليّ؟"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:274
 #, kde-format
 msgid "Save current project"
 msgstr "احفظ المشروع الحاليّ"

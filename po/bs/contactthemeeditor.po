@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
+"POT-Creation-Date: 2024-02-02 00:38+0000\n"
 "PO-Revision-Date: 2013-12-13 10:30+0000\n"
 "Last-Translator: memsud <dedovic.memsud94@hotmail.com>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -173,12 +173,12 @@ msgstr "Ime dodatne stranice"
 msgid "Filename:"
 msgstr "Ime datoteke:"
 
-#: contacteditorpage.cpp:272
+#: contacteditorpage.cpp:273
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Želite li snimiti trenutni projekat?"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:274
 #, kde-format
 msgid "Save current project"
 msgstr "Snimi trenutni projekat"

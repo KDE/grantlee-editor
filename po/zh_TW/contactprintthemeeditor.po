@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
+"POT-Creation-Date: 2024-02-02 00:38+0000\n"
 "PO-Revision-Date: 2023-06-15 04:27+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
@@ -208,12 +208,12 @@ msgstr "額外頁面的檔名"
 msgid "Filename:"
 msgstr "檔案名稱："
 
-#: themeeditorpage.cpp:256
+#: themeeditorpage.cpp:257
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "您要儲存目前的專案嗎？"
 
-#: themeeditorpage.cpp:257
+#: themeeditorpage.cpp:258
 #, kde-format
 msgid "Save current project"
 msgstr "儲存目前的專案"

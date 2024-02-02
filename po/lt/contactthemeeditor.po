@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
+"POT-Creation-Date: 2024-02-02 00:38+0000\n"
 "PO-Revision-Date: 2015-12-29 21:41+0200\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
@@ -174,12 +174,12 @@ msgstr "Papildomo puslapio failo pavadinimas"
 msgid "Filename:"
 msgstr "Failo pavadinimas:"
 
-#: contacteditorpage.cpp:272
+#: contacteditorpage.cpp:273
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Ar norite išsaugoti dabartinį projektą?"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:274
 #, kde-format
 msgid "Save current project"
 msgstr "Išsaugoti dabartinį projektą"

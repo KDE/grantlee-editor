@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
+"POT-Creation-Date: 2024-02-02 00:38+0000\n"
 "PO-Revision-Date: 2022-08-14 10:41+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian<kde-i18n-doc@kde.org>\n"
@@ -206,12 +206,12 @@ msgstr "დამატებითი გვერდის ფაილის 
 msgid "Filename:"
 msgstr "ფაილის სახელი:"
 
-#: themeeditorpage.cpp:256
+#: themeeditorpage.cpp:257
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "გნებავთ მიმდინარე პროექტის შენახვა?"
 
-#: themeeditorpage.cpp:257
+#: themeeditorpage.cpp:258
 #, kde-format
 msgid "Save current project"
 msgstr "მიმდინარე პროექტის შენახვა"

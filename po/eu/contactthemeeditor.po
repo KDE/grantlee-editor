@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
+"POT-Creation-Date: 2024-02-02 00:38+0000\n"
 "PO-Revision-Date: 2022-11-27 09:54+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -171,12 +171,12 @@ msgstr "Orri gehigarriaren fitxategi-izena"
 msgid "Filename:"
 msgstr "Fitxategi-izena:"
 
-#: contacteditorpage.cpp:272
+#: contacteditorpage.cpp:273
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Uneko proiektua gorde nahi duzu?"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:274
 #, kde-format
 msgid "Save current project"
 msgstr "Gorde uneko proiektua"
