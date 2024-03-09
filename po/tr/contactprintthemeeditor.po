@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2017.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-21 00:45+0000\n"
-"PO-Revision-Date: 2023-01-10 21:14+0300\n"
+"PO-Revision-Date: 2024-03-08 18:37+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.12.0\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,7 +37,7 @@ msgstr "Yapılandır"
 #: contactprintthemeconfiguredialog.cpp:43
 #, kde-format
 msgid "Default contact:"
-msgstr "Öntanımlı bağlantı:"
+msgstr "Öntanımlı kişi:"
 
 #: contactprintthemeconfiguredialog.cpp:49
 #, kde-format
@@ -64,17 +64,17 @@ msgstr "&Görünüm"
 #: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
-msgstr "Tema Şablonları:"
+msgstr "Tema şablonları:"
 
 #: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
-msgstr "Kişi Yazdırma Teması Düzenleyici"
+msgstr "Kişi Yazdırma Teması Düzenleyicisi"
 
 #: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
-msgstr "Telif hakkı © 2015-%1 contactprintthemeeditor yazarları"
+msgstr "Telif hakkı © 2015–%1 contactprintthemeeditor yazarları"
 
 #: main.cpp:27
 #, kde-format
@@ -89,27 +89,27 @@ msgstr "Bakımcı"
 #: themeeditormainwindow.cpp:76
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Son Temayı Yükle..."
+msgstr "Son Temayı Yükle…"
 
 #: themeeditormainwindow.cpp:83
 #, kde-format
 msgid "Add Extra Page..."
-msgstr "Ek Sayfa Ekle..."
+msgstr "Ek Sayfa Ekle…"
 
 #: themeeditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "Tema Karşıya Yükle..."
+msgstr "Tema Karşıya Yükle…"
 
 #: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "Yeni Tema..."
+msgstr "Yeni Tema…"
 
 #: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "Tema Aç..."
+msgstr "Tema Aç…"
 
 #: themeeditormainwindow.cpp:98
 #, kde-format
@@ -119,7 +119,7 @@ msgstr "Temayı Kaydet"
 #: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme as..."
-msgstr "Temayı farklı kaydet..."
+msgstr "Temayı Farklı Kaydet…"
 
 #: themeeditormainwindow.cpp:107
 #, kde-format
@@ -129,12 +129,12 @@ msgstr "Tema Kur"
 #: themeeditormainwindow.cpp:111
 #, kde-format
 msgid "Insert File..."
-msgstr "Dosya Ekle..."
+msgstr "Dosya Ekle…"
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
 msgid "Manage themes..."
-msgstr "Temaları Yönet..."
+msgstr "Temaları Yönet…"
 
 #: themeeditormainwindow.cpp:119
 #, kde-format
@@ -144,7 +144,7 @@ msgstr "Görünümü Güncelle"
 #: themeeditormainwindow.cpp:188 themeeditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr "Tema dizinini seç"
+msgstr "Tema Dizinini Seç"
 
 #: themeeditormainwindow.cpp:204
 #, kde-format
@@ -164,32 +164,32 @@ msgstr "Masaüstü Dosyası"
 #: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "Tema zaten mevcut. Üzerine yazmak ister misiniz?"
+msgstr "Tema halihazırda var. Üzerine yazmak istiyor musunuz?"
 
 #: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
-msgstr "Tema zaten mevcut"
+msgstr "Tema Halihazırda Var"
 
 #: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "Tema klasörü oluşturulamadı."
+msgstr "Tema klasörü oluşturulamıyor."
 
 #: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr "Tema \"%1\" içine kuruldu"
+msgstr "Tema “%1” içine kuruldu"
 
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "Zip dosyasına önizleme dosyası ekleyemiyoruz"
+msgstr "ZIP içine önizleme dosyasını koyamıyoruz."
 
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
-msgstr "Dosyası ekleme başarısız."
+msgstr "Dosya eklenemedi."
 
 #: themeeditorpage.cpp:188
 #, kde-format
@@ -209,12 +209,12 @@ msgstr "Dosya adı:"
 #: themeeditorpage.cpp:256
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "Geçerli projeyi kaydetmek ister misiniz?"
+msgstr "Geçerli projeyi kaydetmek istiyor musunuz?"
 
 #: themeeditorpage.cpp:257
 #, kde-format
 msgid "Save current project"
-msgstr "Geçerli projeyi kaydet"
+msgstr "Geçerli Projeyi Kaydet"
 
 #: themetemplatewidget.cpp:35
 #, kde-format

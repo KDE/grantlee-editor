@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2015, 2017.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-21 00:45+0000\n"
-"PO-Revision-Date: 2023-08-02 00:51+0300\n"
+"PO-Revision-Date: 2024-03-08 18:37+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 24.02.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -52,27 +52,27 @@ msgstr "Öntanımlı Şablon"
 #: contacteditormainwindow.cpp:75
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Son Temayı Yükle..."
+msgstr "Son Temayı Yükle…"
 
 #: contacteditormainwindow.cpp:82
 #, kde-format
 msgid "Add Extra Page..."
-msgstr "Ek Sayfa Ekle..."
+msgstr "Ek Sayfa Ekle…"
 
 #: contacteditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "Tema Karşıya Yükle..."
+msgstr "Tema Karşıya Yükle…"
 
 #: contacteditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "Yeni Tema..."
+msgstr "Yeni Tema…"
 
 #: contacteditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "Tema Aç..."
+msgstr "Tema Aç…"
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
@@ -82,7 +82,7 @@ msgstr "Temayı Kaydet"
 #: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme as..."
-msgstr "Temayı Farklı Kaydet..."
+msgstr "Temayı Farklı Kaydet…"
 
 #: contacteditormainwindow.cpp:106
 #, kde-format
@@ -92,12 +92,12 @@ msgstr "Tema Kur"
 #: contacteditormainwindow.cpp:110
 #, kde-format
 msgid "Insert File..."
-msgstr "Dosya Ekle..."
+msgstr "Dosya Ekle…"
 
 #: contacteditormainwindow.cpp:114
 #, kde-format
 msgid "Manage themes..."
-msgstr "Temaları Yönet..."
+msgstr "Temaları Yönet…"
 
 #: contacteditormainwindow.cpp:118
 #, kde-format
@@ -107,7 +107,7 @@ msgstr "Görünümü Güncelle"
 #: contacteditormainwindow.cpp:186 contacteditormainwindow.cpp:318
 #, kde-format
 msgid "Select theme directory"
-msgstr "Tema dizinini seçin"
+msgstr "Tema Dizinini Seç"
 
 #: contacteditormainwindow.cpp:202
 #, kde-format
@@ -127,17 +127,17 @@ msgstr "Masaüstü Dosyası"
 #: contacteditorpage.cpp:123
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "Tema zaten mevcut. Üzerine yazmak ister misiniz?"
+msgstr "Tema halihazırda var. Üzerine yazmak istiyor musunuz?"
 
 #: contacteditorpage.cpp:124
 #, kde-format
 msgid "Theme already exists"
-msgstr "Tema zaten mevcut"
+msgstr "Tema Halihazırda Var"
 
 #: contacteditorpage.cpp:132
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "Tema klasörü oluşturulamadı."
+msgstr "Tema klasörü oluşturulamıyor."
 
 #: contacteditorpage.cpp:146
 #, kde-format
@@ -147,12 +147,12 @@ msgstr "Tema \"%1\" içine kuruldu"
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "Önizleme dosyasını zip dosyasına ekleyemeyiz"
+msgstr "ZIP içine önizleme dosyasını koyamıyoruz."
 
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "Failed to add file."
-msgstr "Dosyası ekleme başarısız."
+msgstr "Dosya eklenemedi."
 
 #: contacteditorpage.cpp:188
 #, kde-format
@@ -172,17 +172,17 @@ msgstr "Dosya adı:"
 #: contacteditorpage.cpp:272
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "Geçerli projeyi kaydetmek ister misiniz?"
+msgstr "Geçerli projeyi kaydetmek istiyor musunuz?"
 
 #: contacteditorpage.cpp:273
 #, kde-format
 msgid "Save current project"
-msgstr "Geçerli projeyi kaydet"
+msgstr "Geçerli Projeyi Kaydet"
 
 #: contactpreviewwidget.cpp:34
 #, kde-format
 msgid "Contact"
-msgstr "Bağlantı"
+msgstr "Kişi"
 
 #: contactpreviewwidget.cpp:37
 #, kde-format
@@ -210,7 +210,7 @@ msgstr "&Görünüm"
 #: editorpage.cpp:52
 #, kde-format
 msgid "Theme Templates:"
-msgstr "Tema Şablonları:"
+msgstr "Tema şablonları:"
 
 #: main.cpp:23 main.cpp:25
 #, kde-format
@@ -220,7 +220,7 @@ msgstr "Kişi Teması Düzenleyicisi"
 #: main.cpp:27
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr "Telif hakkı © 2013-%1 contactthemeeditor yazarları"
+msgstr "Telif hakkı © 2013–%1 contactthemeeditor yazarları"
 
 #: main.cpp:28
 #, kde-format
