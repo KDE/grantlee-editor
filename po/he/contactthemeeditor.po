@@ -1,231 +1,231 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-02 00:38+0000\n"
-"PO-Revision-Date: 2024-03-14 19:27\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2024-03-14 13:07+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/grantlee-editor/contactthemeeditor.pot\n"
-"X-Crowdin-File-ID: 45327\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国"
+msgstr "צוות התרגום של KDE ישראל"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org"
+msgstr "kde-l10n-he@kde.org"
 
 #: contactconfigurationdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
-msgstr "配置"
+msgstr "הגדרה"
 
 #: contactconfigurationdialog.cpp:41
 #, kde-format
 msgid "Default contact:"
-msgstr "默认联系人："
+msgstr "פרטי קשר בברירת מחדל:"
 
 #: contactconfigurationdialog.cpp:47
 #, kde-format
 msgid "General"
-msgstr "常规"
+msgstr "כללי"
 
 #: contactconfigurationdialog.cpp:50
 #, kde-format
 msgid "Default Template"
-msgstr "默认模板"
+msgstr "תבנית ברירת מחדל"
 
 #: contacteditormainwindow.cpp:75
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "加载最近主题..."
+msgstr "טעינת ערכת עיצוב מהאחרונות…"
 
 #: contacteditormainwindow.cpp:82
 #, kde-format
 msgid "Add Extra Page..."
-msgstr "添加额外页面..."
+msgstr "הוספת עמוד נוסף…"
 
 #: contacteditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "上传主题..."
+msgstr "העלאת ערכת עיצוב…"
 
 #: contacteditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "新建主题..."
+msgstr "ערכת עיצוב חדשה…"
 
 #: contacteditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "打开主题..."
+msgstr "פתיחת ערכת עיצוב…"
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Save theme"
-msgstr "保存主题"
+msgstr "שמירת ערכת עיצוב"
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme as..."
-msgstr "主题另存为..."
+msgstr "שמירת ערכת עיצוב בתור…"
 
 #: contacteditormainwindow.cpp:106
 #, kde-format
 msgid "Install theme"
-msgstr "安装主题"
+msgstr "התקנת ערכת עיצוב"
 
 #: contacteditormainwindow.cpp:110
 #, kde-format
 msgid "Insert File..."
-msgstr "插入文件..."
+msgstr "הוספת קובץ…"
 
 #: contacteditormainwindow.cpp:114
 #, kde-format
 msgid "Manage themes..."
-msgstr "管理主题..."
+msgstr "ניהול ערכות עיצוב…"
 
 #: contacteditormainwindow.cpp:118
 #, kde-format
 msgid "Update view"
-msgstr "更新视图"
+msgstr "עדכון תצוגה"
 
 #: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
 #, kde-format
 msgid "Select theme directory"
-msgstr "选择主题目录"
+msgstr "בחירת תיקיית ערכות עיצוב"
 
 #: contacteditormainwindow.cpp:203
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "目录不包含主题文件。无法加载主题。"
+msgstr "התיקייה לא מכילה קובצי ערכות עיצוב. אי אפשר לטעון את ערכת העיצוב."
 
 #: contacteditorpage.cpp:40
 #, kde-format
 msgid "Editor"
-msgstr "编辑器"
+msgstr "עורך"
 
 #: contacteditorpage.cpp:52
 #, kde-format
 msgid "Desktop File"
-msgstr "桌面定义文件"
+msgstr "קובץ Desktop"
 
 #: contacteditorpage.cpp:123
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "主题已经存在。您要覆盖它吗？"
+msgstr "קובץ ערכת העיצוב כבר קיים. לדרוס אותו?"
 
 #: contacteditorpage.cpp:124
 #, kde-format
 msgid "Theme already exists"
-msgstr "主题已经存在"
+msgstr "ערכת העיצוב כבר קיימת"
 
 #: contacteditorpage.cpp:132
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "无法创建主题文件夹。"
+msgstr "לא ניתן ליצור תיקיית ערכת עיצוב."
 
 #: contacteditorpage.cpp:146
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr "主题安装于“%1”。"
+msgstr "ערכת העיצוב הותקנה תחת „%1”."
 
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "无法添加预览文件到 zip 文件"
+msgstr "אי אפשר להציג קובץ מ־zip בתצוגה מקדימה"
 
 #: contacteditorpage.cpp:169 contacteditorpage.cpp:175
 #, kde-format
 msgid "Failed to add file."
-msgstr "添加文件失败"
+msgstr "הוספת הקובץ נכשלה."
 
 #: contacteditorpage.cpp:188
 #, kde-format
 msgid "My favorite Kaddressbook theme"
-msgstr "我最爱的 Kaddressbook 主题"
+msgstr "ערכת העיצוב המועדפת עלי של Kaddressbook."
 
 #: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename of extra page"
-msgstr "额外页面文件名"
+msgstr "שם קובץ העמוד הנוסף"
 
 #: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename:"
-msgstr "文件名："
+msgstr "שם הקובץ:"
 
 #: contacteditorpage.cpp:273
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "保存当前项目吗？"
+msgstr "לשמור את המיזם הנוכחי?"
 
 #: contacteditorpage.cpp:274
 #, kde-format
 msgid "Save current project"
-msgstr "保存当前项目"
+msgstr "שמירת המיזם הנוכחי"
 
 #: contactpreviewwidget.cpp:34
 #, kde-format
 msgid "Contact"
-msgstr "联系人"
+msgstr "איש קשר"
 
 #: contactpreviewwidget.cpp:37
 #, kde-format
 msgid "Group"
-msgstr "组"
+msgstr "קבוצה"
 
 #: contacttemplatewidget.cpp:34
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr "您可以在编辑器上拖拽元素来导入模板"
+msgstr "אפשר לגרור ולעזוב רכיב על העורך כדי לייבא תבנית"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "编辑(&E)"
+msgstr "&עריכה"
 
 #. i18n: ectx: Menu (Display)
 #: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr "显示(&D)"
+msgstr "&תצוגה"
 
 #: editorpage.cpp:52
 #, kde-format
 msgid "Theme Templates:"
-msgstr "主题模板："
+msgstr "תבניות ערכות העיצוב:"
 
 #: main.cpp:23 main.cpp:25
 #, kde-format
 msgid "Contact Theme Editor"
-msgstr "联系人主题编辑器"
+msgstr "עורך ערכת עיצוב אנשי קשר"
 
 #: main.cpp:27
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr "版权所有 © 2013-%1 contactthemeeditor 作者"
+msgstr "כל הזכויות שמורות © 2013‏-%1 יוצרי contactthemeeditor"
 
 #: main.cpp:28
 #, kde-format
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr "לורנט מונטל"
 
 #: main.cpp:28
 #, kde-format
 msgid "Maintainer"
-msgstr "维护者"
+msgstr "מתחזק"

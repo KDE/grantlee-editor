@@ -1,222 +1,221 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeorg\n"
+"Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-02 00:38+0000\n"
-"PO-Revision-Date: 2024-03-14 19:27\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2024-03-14 13:10+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: kdeorg\n"
-"X-Crowdin-Project-ID: 269464\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/grantlee-editor/contactprintthemeeditor."
-"pot\n"
-"X-Crowdin-File-ID: 45629\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 23.08.4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国"
+msgstr "צוות התרגום של KDE ישראל"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org"
+msgstr "kde-l10n-he@kde.org"
 
 #: contactprintthemeconfiguredialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
-msgstr "配置"
+msgstr "הגדרה"
 
 #: contactprintthemeconfiguredialog.cpp:43
 #, kde-format
 msgid "Default contact:"
-msgstr "默认联系人："
+msgstr "פרטי קשר כברירת מחדל:"
 
 #: contactprintthemeconfiguredialog.cpp:49
 #, kde-format
 msgid "General"
-msgstr "常规"
+msgstr "כללי"
 
 #: contactprintthemeconfiguredialog.cpp:52
 #, kde-format
 msgid "Default Template"
-msgstr "默认模板"
+msgstr "תבנית ברירת מחדל"
 
 #. i18n: ectx: Menu (edit)
 #: contactprintthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "编辑(&E)"
+msgstr "&עריכה"
 
 #. i18n: ectx: Menu (Display)
 #: contactprintthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr "显示(&D)"
+msgstr "&תצוגה"
 
 #: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
-msgstr "主题模板："
+msgstr "תבניות ערכות העיצוב:"
 
 #: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
-msgstr "联系人打印主题编辑器"
+msgstr "עורך ערכת עיצוב אנשי קשר להדפסה"
 
 #: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
-msgstr "版权所有 © 2015-%1 contactprintthemeeditor 作者"
+msgstr "כל הזכויות שמורות ‏2015‏-%1 ליוצרי contactprintthemeeditor"
 
 #: main.cpp:27
 #, kde-format
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr "לורנט מונטל"
 
 #: main.cpp:27
 #, kde-format
 msgid "Maintainer"
-msgstr "维护者"
+msgstr "מתחזק"
 
 #: themeeditormainwindow.cpp:76
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "加载最近主题..."
+msgstr "טעינת ערכת עיצוב מהאחרונות…"
 
 #: themeeditormainwindow.cpp:83
 #, kde-format
 msgid "Add Extra Page..."
-msgstr "添加额外页面..."
+msgstr "הוספת עמוד נוסף…"
 
 #: themeeditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "上传主题..."
+msgstr "העלאת ערכת עיצוב…"
 
 #: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "新建主题..."
+msgstr "ערכת עיצוב חדשה…"
 
 #: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "打开主题..."
+msgstr "פתיחת ערכת עיצוב…"
 
 #: themeeditormainwindow.cpp:98
 #, kde-format
 msgid "Save theme"
-msgstr "保存主题"
+msgstr "שמירת ערכת עיצוב"
 
 #: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme as..."
-msgstr "主题另存为..."
+msgstr "שמירת ערכת עיצוב בתור…"
 
 #: themeeditormainwindow.cpp:107
 #, kde-format
 msgid "Install theme"
-msgstr "安装主题"
+msgstr "התקנת ערכת עיצוב"
 
 #: themeeditormainwindow.cpp:111
 #, kde-format
 msgid "Insert File..."
-msgstr "插入文件..."
+msgstr "הוספת קובץ…"
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
 msgid "Manage themes..."
-msgstr "管理主题..."
+msgstr "ניהול ערכות עיצוב…"
 
 #: themeeditormainwindow.cpp:119
 #, kde-format
 msgid "Update view"
-msgstr "更新视图"
+msgstr "עדכון תצוגה"
 
 #: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
 #, kde-format
 msgid "Select theme directory"
-msgstr "选择主题目录"
+msgstr "בחירת תיקיית ערכות עיצוב"
 
 #: themeeditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "目录不包含主题文件。无法加载主题。"
+msgstr "התיקייה לא מכילה קובצי ערכות עיצוב. אי אפשר לטעון את ערכת העיצוב."
 
 #: themeeditorpage.cpp:40
 #, kde-format
 msgid "Editor (%1)"
-msgstr "编辑器 (%1)"
+msgstr "עורך (%1)"
 
 #: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
-msgstr "桌面定义文件"
+msgstr "קובץ Desktop"
 
 #: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "主题已经存在。您要覆盖它吗？"
+msgstr "ערכת העיצוב כבר קיימת. לדרוס אותה?"
 
 #: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
-msgstr "主题已经存在"
+msgstr "ערכת העיצוב כבר קיימת"
 
 #: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "无法创建主题文件夹。"
+msgstr "לא ניתן ליצור תיקיית ערכת עיצוב."
 
 #: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr "主题安装于“%1”。"
+msgstr "ערכת העיצוב הותקנה תחת „%1”."
 
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "无法添加预览文件到 zip 文件"
+msgstr "אי אפשר להציג את הקובץ"
 
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
-msgstr "添加文件失败"
+msgstr "הוספת הקובץ נכשלה."
 
 #: themeeditorpage.cpp:188
 #, kde-format
 msgid "My favorite KMail header"
-msgstr "我最爱的 KMail 头"
+msgstr "כותרת ה־KMail המועדפת עליי"
 
 #: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
-msgstr "额外页面文件名"
+msgstr "שם קובץ העמוד הנוסף"
 
 #: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename:"
-msgstr "文件名："
+msgstr "שם הקובץ:"
 
 #: themeeditorpage.cpp:257
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "保存当前项目吗？"
+msgstr "לשמור את המיזם הנוכחי?"
 
 #: themeeditorpage.cpp:258
 #, kde-format
 msgid "Save current project"
-msgstr "保存当前项目"
+msgstr "שמירת המיזם הנוכחי"
 
 #: themetemplatewidget.cpp:35
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr "您可以在编辑器上拖拽元素来导入模板"
+msgstr "אפשר לגרור ולעזוב רכיב על העורך כדי לייבא תבנית"
