@@ -92,27 +92,27 @@ msgstr "Mantenidor"
 #: themeeditormainwindow.cpp:76
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Carrega un tema recent..."
+msgstr "Carrega un tema recent…"
 
 #: themeeditormainwindow.cpp:83
 #, kde-format
 msgid "Add Extra Page..."
-msgstr "Afig una pàgina extra..."
+msgstr "Afig una pàgina addicional…"
 
 #: themeeditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "Publica un tema..."
+msgstr "Publica un tema…"
 
 #: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "Tema nou..."
+msgstr "Tema nou…"
 
 #: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "Obri un tema..."
+msgstr "Obri un tema…"
 
 #: themeeditormainwindow.cpp:98
 #, kde-format
@@ -122,7 +122,7 @@ msgstr "Guarda el tema"
 #: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme as..."
-msgstr "Guarda el tema com a..."
+msgstr "Anomena i guarda el tema…"
 
 #: themeeditormainwindow.cpp:107
 #, kde-format
@@ -132,12 +132,12 @@ msgstr "Instal·la un tema"
 #: themeeditormainwindow.cpp:111
 #, kde-format
 msgid "Insert File..."
-msgstr "Inserix un fitxer..."
+msgstr "Inserix un fitxer…"
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
 msgid "Manage themes..."
-msgstr "Gestiona els temes..."
+msgstr "Gestiona els temes…"
 
 #: themeeditormainwindow.cpp:119
 #, kde-format
@@ -203,7 +203,7 @@ msgstr "La meua capçalera preferida de KMail"
 #: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
-msgstr "Nom de fitxer de la pàgina extra"
+msgstr "Nom de fitxer de la pàgina addicional"
 
 #: themeeditorpage.cpp:211
 #, kde-format
