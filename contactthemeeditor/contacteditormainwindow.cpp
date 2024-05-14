@@ -79,7 +79,7 @@ void ContactEditorMainWindow::setupActions()
     KConfigGroup groupConfig = config->group(QStringLiteral("ContactEditorMainWindow"));
     mRecentFileAction->loadEntries(groupConfig);
 
-    mAddExtraPage = new QAction(i18n("Add Extra Page..."), this);
+    mAddExtraPage = new QAction(i18nc("@action", "Add Extra Page..."), this);
     connect(mAddExtraPage, &QAction::triggered, this, &ContactEditorMainWindow::slotAddExtraPage);
     actionCollection()->addAction(QStringLiteral("add_extra_page"), mAddExtraPage);
 
@@ -103,15 +103,15 @@ void ContactEditorMainWindow::setupActions()
     KStandardAction::quit(this, &ContactEditorMainWindow::slotQuitApp, actionCollection());
     KStandardAction::preferences(this, &ContactEditorMainWindow::slotConfigure, actionCollection());
 
-    mInstallTheme = new QAction(i18n("Install theme"), this);
+    mInstallTheme = new QAction(i18nc("@action", "Install theme"), this);
     actionCollection()->addAction(QStringLiteral("install_theme"), mInstallTheme);
     connect(mInstallTheme, &QAction::triggered, this, &ContactEditorMainWindow::slotInstallTheme);
 
-    mInsertFile = new QAction(i18n("Insert File..."), this);
+    mInsertFile = new QAction(i18nc("@action", "Insert File..."), this);
     actionCollection()->addAction(QStringLiteral("insert_file"), mInsertFile);
     connect(mInsertFile, &QAction::triggered, this, &ContactEditorMainWindow::slotInsertFile);
 
-    mManageTheme = new QAction(i18n("Manage themes..."), this);
+    mManageTheme = new QAction(i18nc("@action", "Manage themes..."), this);
     connect(mManageTheme, &QAction::triggered, this, &ContactEditorMainWindow::slotManageTheme);
     actionCollection()->addAction(QStringLiteral("manage_themes"), mManageTheme);
 
