@@ -41,6 +41,8 @@ public:
 
     void updatePreview();
 
+    void slotChanged();
+
 Q_SIGNALS:
     void changed(bool);
     void canInsertFile(bool);
@@ -48,7 +50,6 @@ Q_SIGNALS:
 private:
     void slotUpdateViewer();
     void slotCloseTab(int);
-    void slotChanged();
     void slotCurrentWidgetChanged(int);
 
 private:

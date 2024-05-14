@@ -169,6 +169,7 @@ bool ThemeEditorMainWindow::slotSaveTheme()
 {
     bool result = false;
     if (mThemeEditor) {
+        mThemeEditor->slotChanged();
         result = mThemeEditor->saveTheme(false);
         mSaveAction->setEnabled(!result);
     }
