@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-02-20 21:52+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -54,7 +54,9 @@ msgid "Load Recent Theme..."
 msgstr "외부 테마 불러오기..."
 
 #: contacteditormainwindow.cpp:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "쪽 추가..."
 
@@ -84,17 +86,23 @@ msgid "Save theme as..."
 msgstr "다른 이름으로 테마 저장..."
 
 #: contacteditormainwindow.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "테마 설치"
 
 #: contacteditormainwindow.cpp:110
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "파일 삽입..."
 
 #: contacteditormainwindow.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "테마 관리..."
 

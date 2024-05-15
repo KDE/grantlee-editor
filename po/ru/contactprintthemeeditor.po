@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-10-07 16:46+0300\n"
 "Last-Translator: Olesya Gerasimenko <translation-team@basealt.ru>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -99,7 +99,9 @@ msgid "Load Recent Theme..."
 msgstr "Загрузить новые оформления..."
 
 #: themeeditormainwindow.cpp:83
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Добавить страницу..."
 
@@ -129,17 +131,23 @@ msgid "Save theme as..."
 msgstr "Сохранить оформление как..."
 
 #: themeeditormainwindow.cpp:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Установить оформление"
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Вставить файл..."
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Настроить оформления..."
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-01-03 21:40+0100\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -54,7 +54,9 @@ msgid "Load Recent Theme..."
 msgstr "Carica tema recente..."
 
 #: contacteditormainwindow.cpp:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Aggiungi un'altra pagina..."
 
@@ -84,17 +86,23 @@ msgid "Save theme as..."
 msgstr "Salva tema come..."
 
 #: contacteditormainwindow.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Installa tema"
 
 #: contacteditormainwindow.cpp:110
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserisci file..."
 
 #: contacteditormainwindow.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Gestisci temi..."
 

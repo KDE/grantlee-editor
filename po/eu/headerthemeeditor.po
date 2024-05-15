@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-11-27 09:58+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -124,7 +124,9 @@ msgid "Load Recent Theme..."
 msgstr "Zamatu azken aldiko gaia..."
 
 #: themeeditormainwindow.cpp:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Gehitu orri gehigarria..."
 
@@ -154,12 +156,16 @@ msgid "Save theme as..."
 msgstr "Gorde gaia honela..."
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalatu gaia"
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Txertatu fitxategia..."
 
@@ -174,7 +180,9 @@ msgid "Normal mode"
 msgstr "Modu arrunta"
 
 #: themeeditormainwindow.cpp:132
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Kudeatu gaiak..."
 

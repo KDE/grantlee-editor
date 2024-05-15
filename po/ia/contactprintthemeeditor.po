@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-01-05 12:53+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -91,7 +91,9 @@ msgid "Load Recent Theme..."
 msgstr "Carga thema recente..."
 
 #: themeeditormainwindow.cpp:83
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Adde pagina extra..."
 
@@ -121,17 +123,23 @@ msgid "Save theme as..."
 msgstr "Salveguarda thema como..."
 
 #: themeeditormainwindow.cpp:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Installa  thema"
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserta file"
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Gere themas..."
 

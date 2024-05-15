@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-03-27 11:57+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -95,7 +95,9 @@ msgid "Load Recent Theme..."
 msgstr "Carrega un tema recent…"
 
 #: themeeditormainwindow.cpp:83
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Afig una pàgina addicional…"
 
@@ -125,17 +127,23 @@ msgid "Save theme as..."
 msgstr "Anomena i guarda el tema…"
 
 #: themeeditormainwindow.cpp:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Instal·la un tema"
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserix un fitxer…"
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Gestiona els temes…"
 

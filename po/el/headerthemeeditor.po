@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2013-04-28 14:56+0300\n"
 "Last-Translator: Stelios <<sstavra@gmail.com>>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -127,6 +127,7 @@ msgstr "Αποστολή θέματος..."
 #: themeeditormainwindow.cpp:86
 #, fuzzy, kde-format
 #| msgid "Add Extra Page"
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Προσθήκη επιπρόσθετης σελίδας"
 
@@ -159,12 +160,15 @@ msgid "Save theme as..."
 msgstr "Νέο θέμα..."
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New theme..."
+msgctxt "@action"
 msgid "Install theme"
-msgstr ""
+msgstr "Νέο θέμα..."
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
+msgctxt "@action"
 msgid "Insert File..."
 msgstr ""
 
@@ -181,6 +185,7 @@ msgstr ""
 #: themeeditormainwindow.cpp:132
 #, fuzzy, kde-format
 #| msgid "New theme..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Νέο θέμα..."
 

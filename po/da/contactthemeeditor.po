@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-08-08 17:36+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -54,7 +54,9 @@ msgid "Load Recent Theme..."
 msgstr "Indlæs nyligt tema..."
 
 #: contacteditormainwindow.cpp:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Tilføj ekstra side..."
 
@@ -84,17 +86,23 @@ msgid "Save theme as..."
 msgstr "Gem tema som..."
 
 #: contacteditormainwindow.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Installér tema"
 
 #: contacteditormainwindow.cpp:110
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Indsæt fil..."
 
 #: contacteditormainwindow.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Håndtér temaer..."
 

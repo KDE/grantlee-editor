@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2024-03-14 12:28+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -122,7 +122,9 @@ msgid "Load Recent Theme..."
 msgstr "טעינת ערכת עיצוב מהאחרונות…"
 
 #: themeeditormainwindow.cpp:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "הוספת עמוד נוסף…"
 
@@ -152,12 +154,16 @@ msgid "Save theme as..."
 msgstr "שמירת ערכת עיצוב בתור…"
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "התקנת ערכת עיצוב"
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "הוספת קובץ…"
 
@@ -172,7 +178,9 @@ msgid "Normal mode"
 msgstr "מצב רגיל"
 
 #: themeeditormainwindow.cpp:132
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "ניהול ערכות עיצוב…"
 

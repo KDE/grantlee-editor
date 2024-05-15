@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2020-04-01 23:18+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
@@ -94,7 +94,9 @@ msgid "Load Recent Theme..."
 msgstr "Įkelti paskiausią apipavidalinimą..."
 
 #: themeeditormainwindow.cpp:83
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Pridėti papildomą puslapį..."
 
@@ -124,17 +126,23 @@ msgid "Save theme as..."
 msgstr "Įrašyti apipavidalinimą kaip..."
 
 #: themeeditormainwindow.cpp:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Įdiegti apipavidalinimą"
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Įterpti failą..."
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Tvarkyti apipavidalinimus..."
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2015-12-29 21:41+0200\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
@@ -127,7 +127,9 @@ msgid "Load Recent Theme..."
 msgstr "Įkelti dabartinį apipavidalinimą..."
 
 #: themeeditormainwindow.cpp:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Pridėti papildomą puslapį..."
 
@@ -158,12 +160,16 @@ msgid "Save theme as..."
 msgstr "Išsaugoti apipavidalinimą kaip..."
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Įdiegti apipavidalinimą"
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Įterpti failą..."
 
@@ -178,7 +184,9 @@ msgid "Normal mode"
 msgstr "Paprasta veiksena"
 
 #: themeeditormainwindow.cpp:132
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Tvarkyti apipavidalinimus..."
 

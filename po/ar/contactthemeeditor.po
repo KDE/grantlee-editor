@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-01-11 11:21+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -56,7 +56,9 @@ msgid "Load Recent Theme..."
 msgstr "حمّل أحدث سمة..."
 
 #: contacteditormainwindow.cpp:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Extra Page..."
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "أضف صفحة إضافيّة..."
 
@@ -86,17 +88,23 @@ msgid "Save theme as..."
 msgstr "احفظ السّمة كَ‍..."
 
 #: contacteditormainwindow.cpp:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "ثبّت سمة"
 
 #: contacteditormainwindow.cpp:110
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "أدرج ملفًّا..."
 
 #: contacteditormainwindow.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Manage themes..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "أدِر السّمات..."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2013-09-08 07:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -123,6 +123,7 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:86
 #, kde-format
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
@@ -153,11 +154,14 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:111
 #, kde-format
+msgctxt "@action"
 msgid "Install theme"
 msgstr ""
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "ھۆججەت قىستۇرۇش…"
 
@@ -173,6 +177,7 @@ msgstr "ئادەتتىكى ھالەت"
 
 #: themeeditormainwindow.cpp:132
 #, kde-format
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr ""
 

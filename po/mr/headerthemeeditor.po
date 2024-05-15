@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2013-04-12 16:52+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -126,6 +126,7 @@ msgstr "नवीन शैली..."
 
 #: themeeditormainwindow.cpp:86
 #, kde-format
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
@@ -159,12 +160,15 @@ msgid "Save theme as..."
 msgstr "नवीन शैली..."
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New theme..."
+msgctxt "@action"
 msgid "Install theme"
-msgstr ""
+msgstr "नवीन शैली..."
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
+msgctxt "@action"
 msgid "Insert File..."
 msgstr ""
 
@@ -181,6 +185,7 @@ msgstr ""
 #: themeeditormainwindow.cpp:132
 #, fuzzy, kde-format
 #| msgid "New theme..."
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr "नवीन शैली..."
 

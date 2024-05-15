@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2020-09-24 23:56+0100\n"
 "Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
 "Language-Team: Romanian\n"
@@ -124,6 +124,7 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:86
 #, kde-format
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
@@ -153,12 +154,16 @@ msgid "Save theme as..."
 msgstr "Salvează tematica ca..."
 
 #: themeeditormainwindow.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Install theme"
+msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalează o tematică"
 
 #: themeeditormainwindow.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Insert File..."
+msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserează fișier..."
 
@@ -173,9 +178,11 @@ msgid "Normal mode"
 msgstr "Regim normal"
 
 #: themeeditormainwindow.cpp:132
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Save theme as..."
+msgctxt "@action"
 msgid "Manage themes..."
-msgstr ""
+msgstr "Salvează tematica ca..."
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format

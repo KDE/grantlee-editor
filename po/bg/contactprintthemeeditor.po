@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2022-01-02 00:47+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -92,6 +92,7 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:83
 #, kde-format
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
@@ -122,16 +123,19 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:107
 #, kde-format
+msgctxt "@action"
 msgid "Install theme"
 msgstr ""
 
 #: themeeditormainwindow.cpp:111
 #, kde-format
+msgctxt "@action"
 msgid "Insert File..."
 msgstr ""
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr ""
 

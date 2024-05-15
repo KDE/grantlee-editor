@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2013-04-09 02:51-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -119,6 +119,7 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:86
 #, kde-format
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
@@ -149,11 +150,13 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:111
 #, kde-format
+msgctxt "@action"
 msgid "Install theme"
 msgstr ""
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
+msgctxt "@action"
 msgid "Insert File..."
 msgstr ""
 
@@ -169,6 +172,7 @@ msgstr ""
 
 #: themeeditormainwindow.cpp:132
 #, kde-format
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr ""
 

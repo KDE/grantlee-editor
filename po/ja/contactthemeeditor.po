@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-02 00:38+0000\n"
+"POT-Creation-Date: 2024-05-15 00:39+0000\n"
 "PO-Revision-Date: 2013-08-19 00:13-0700\n"
 "Last-Translator: Japanese KDE translation team <kde-jp@kde.org>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
@@ -52,6 +52,7 @@ msgstr ""
 
 #: contacteditormainwindow.cpp:82
 #, kde-format
+msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
@@ -82,16 +83,19 @@ msgstr ""
 
 #: contacteditormainwindow.cpp:106
 #, kde-format
+msgctxt "@action"
 msgid "Install theme"
 msgstr ""
 
 #: contacteditormainwindow.cpp:110
 #, kde-format
+msgctxt "@action"
 msgid "Insert File..."
 msgstr ""
 
 #: contacteditormainwindow.cpp:114
 #, kde-format
+msgctxt "@action"
 msgid "Manage themes..."
 msgstr ""
 
