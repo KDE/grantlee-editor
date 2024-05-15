@@ -24,7 +24,7 @@ int main(int argc, char **argv)
                          i18n("Contact Print Theme Editor"),
                          KAboutLicense::GPL_V2,
                          i18n("Copyright © 2015-%1 contactprintthemeeditor authors", QStringLiteral("2023")));
-    aboutData.addAuthor(i18n("Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
+    aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kaddressbook")));
     aboutData.setProductName(QByteArray("contactprintthemeeditor"));
 
