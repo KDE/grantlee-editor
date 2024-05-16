@@ -1,7 +1,7 @@
 # translation of contactthemeeditor.pot to Esperanto
 # Copyright (C) 2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grantlee-editor package.
-# Oliver Kellogg <okellogg@users.sourceforge.net>, 2023.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
 #
 # Minuskloj: ĉ ĝ ĵ ĥ ŝ ŭ   Majuskloj: Ĉ Ĝ Ĵ Ĥ Ŝ Ŭ
 #
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-15 00:39+0000\n"
-"PO-Revision-Date: 2023-10-01 23:30+0100\n"
-"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
+"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"PO-Revision-Date: 2023-10-01 09:56+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Oliver Kellogg"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "okellogg@users.sourceforge.net"
+msgstr "olivermkellogg@gmail.com"
 
 #: contactconfigurationdialog.cpp:31
 #, kde-format
@@ -57,8 +57,7 @@ msgid "Load Recent Theme..."
 msgstr "Ŝargi Lastatempan Etoson..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Aldoni Kroman Paĝon..."
@@ -89,22 +88,19 @@ msgid "Save theme as..."
 msgstr "Konservi etoson kiel..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instali etoson"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Enmeti dosieron..."
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Administri etosojn..."
@@ -232,7 +228,9 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Kopirajto © 2013-%1 contactthemeeditor aŭtoroj"
 
 #: main.cpp:28
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Laurent Montel"
+msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 

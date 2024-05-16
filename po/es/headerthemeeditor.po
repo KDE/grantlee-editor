@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Javier Viñal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-15 00:39+0000\n"
-"PO-Revision-Date: 2022-01-03 01:02+0100\n"
+"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"PO-Revision-Date: 2024-05-16 00:53+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.0\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -61,7 +61,9 @@ msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013-%1 los autores de headerthemeeditor"
 
 #: main.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Laurent Montel"
+msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
@@ -122,8 +124,7 @@ msgid "Load Recent Theme..."
 msgstr "Cargar tema reciente..."
 
 #: themeeditormainwindow.cpp:86
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Añadir página extra..."
@@ -154,15 +155,13 @@ msgid "Save theme as..."
 msgstr "Guardar tema como..."
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalar tema"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Insertar archivo..."
@@ -178,8 +177,7 @@ msgid "Normal mode"
 msgstr "Modo normal"
 
 #: themeeditormainwindow.cpp:132
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Nuevo tema..."
@@ -208,7 +206,7 @@ msgstr "Archivo de escritorio"
 #: themeeditorpage.cpp:157
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "El tema ya existe. ¿Quiere usted sobrescribirlo?"
+msgstr "El tema ya existe. ¿Quiere sobrescribirlo?"
 
 #: themeeditorpage.cpp:158
 #, kde-format
@@ -253,7 +251,7 @@ msgstr "Nombre de archivo:"
 #: themeeditorpage.cpp:283
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "¿Quiere usted guardar el proyecto actual?"
+msgstr "¿Quiere guardar el proyecto actual?"
 
 #: themeeditorpage.cpp:284
 #, kde-format
@@ -264,5 +262,4 @@ msgstr "Guardar el proyecto actual"
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""
-"Usted puede arrastrar y soltar el elemento en el editor para importar la "
-"plantilla"
+"Puede arrastrar y soltar el elemento en el editor para importar la plantilla"

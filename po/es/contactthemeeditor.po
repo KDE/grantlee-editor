@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Javier Viñal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-15 00:39+0000\n"
-"PO-Revision-Date: 2022-01-03 01:02+0100\n"
+"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"PO-Revision-Date: 2024-05-16 00:54+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.0\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,8 +55,7 @@ msgid "Load Recent Theme..."
 msgstr "Cargar tema reciente..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Añadir página extra..."
@@ -87,22 +86,19 @@ msgid "Save theme as..."
 msgstr "Guardar tema como..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalar tema"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Insertar archivo..."
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Gestionar temas..."
@@ -181,7 +177,7 @@ msgstr "Nombre de archivo:"
 #: contacteditorpage.cpp:273
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "¿Quiere usted guardar el proyecto actual?"
+msgstr "¿Quiere guardar el proyecto actual?"
 
 #: contacteditorpage.cpp:274
 #, kde-format
@@ -202,8 +198,7 @@ msgstr "Grupo"
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""
-"Usted puede arrastrar y soltar el elemento en el editor para importar la "
-"plantilla"
+"Puede arrastrar y soltar el elemento en el editor para importar la plantilla"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
@@ -233,7 +228,9 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 los autores de contactthemeeditor"
 
 #: main.cpp:28
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Laurent Montel"
+msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 

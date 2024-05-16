@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-15 00:39+0000\n"
+"POT-Creation-Date: 2024-05-16 00:39+0000\n"
 "PO-Revision-Date: 2023-02-22 14:28+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -54,11 +54,10 @@ msgid "Load Recent Theme..."
 msgstr "Načíst nedávný motiv..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "Přidat extra stránku..."
+msgstr ""
 
 #: contacteditormainwindow.cpp:87
 #, kde-format
@@ -86,25 +85,22 @@ msgid "Save theme as..."
 msgstr "Uložit motiv jako..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
-msgstr "Instalovat motiv"
+msgstr ""
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "Vložit soubor..."
+msgstr ""
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "Spravovat motivy..."
+msgstr ""
 
 #: contacteditormainwindow.cpp:118
 #, kde-format
@@ -229,7 +225,9 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Autorská práva © 2013-%1 Autoři contactthemeeditor"
 
 #: main.cpp:28
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Laurent Montel"
+msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
