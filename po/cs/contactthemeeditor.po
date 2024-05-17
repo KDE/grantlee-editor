@@ -225,8 +225,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Autorská práva © 2013-%1 Autoři contactthemeeditor"
 
 #: main.cpp:28
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

@@ -60,8 +60,7 @@ msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Autorská práva © 2013-%1 Vývojáři headerthemeeditor"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Safa Alfulaij <safa1996alfulaij@gmail.com>, 2017, 2018.
-# Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2021, 2022.
+# SPDX-FileCopyrightText: 2021, 2022, 2024 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-16 00:39+0000\n"
-"PO-Revision-Date: 2022-01-11 11:21+0400\n"
+"PO-Revision-Date: 2024-05-16 13:39+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 21.07.70\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -78,11 +78,10 @@ msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "الحقوق محفوظة © 2015-%1 لمؤلّفي «محرّر سمات طباعة المتراسلين»"
 
 #: main.cpp:27
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr "لوران مونتال"
 
 #: main.cpp:27
 #, kde-format
@@ -95,11 +94,10 @@ msgid "Load Recent Theme..."
 msgstr "حمّل سمة حديثة..."
 
 #: themeeditormainwindow.cpp:83
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "أضف صفحة إضافيّة..."
+msgstr "أضف صفحة إضافيّة…"
 
 #: themeeditormainwindow.cpp:87
 #, kde-format
@@ -127,25 +125,22 @@ msgid "Save theme as..."
 msgstr "احفظ السّمة كَ‍..."
 
 #: themeeditormainwindow.cpp:107
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "ثبّت سمة"
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "أدرج ملفًّا..."
+msgstr "أدرج ملفًّا…"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "أدِر السّمات..."
+msgstr "أدِر السّمات…"
 
 #: themeeditormainwindow.cpp:119
 #, kde-format
