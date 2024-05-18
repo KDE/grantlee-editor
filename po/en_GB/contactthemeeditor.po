@@ -1,22 +1,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Steve Allewell <steve.allewell@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024 Steve Allewell <steve.allewell@gmail.com>
 # Jonathan Marten <jjm@keelhaul.me.uk>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-16 00:39+0000\n"
-"PO-Revision-Date: 2022-02-19 11:59+0000\n"
+"PO-Revision-Date: 2024-05-17 19:39+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
-"Language-Team: British English <kde-l10n-en_gb@kde.org>\n"
+"Language-Team: British English\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 21.12.1\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,8 +55,7 @@ msgid "Load Recent Theme..."
 msgstr "Load Recent Theme..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Add Extra Page..."
@@ -87,22 +86,19 @@ msgid "Save theme as..."
 msgstr "Save theme as..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Install theme"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Insert File..."
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Manage themes..."
@@ -230,8 +226,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 contactthemeeditor authors"
 
 #: main.cpp:28
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

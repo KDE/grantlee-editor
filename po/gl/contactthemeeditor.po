@@ -3,22 +3,22 @@
 # Xosé <xosecalvo@gmail.com>, 2013.
 # Marce Villarino <mvillarino@kde-espana.org>, 2014.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016, 2017.
-# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2017, 2018, 2019, 2023.
+# SPDX-FileCopyrightText: 2024 Adrián Chaves (Gallaecio)
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-16 00:39+0000\n"
-"PO-Revision-Date: 2023-06-24 11:44+0200\n"
+"PO-Revision-Date: 2024-05-17 21:16+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.2\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -57,8 +57,7 @@ msgid "Load Recent Theme..."
 msgstr "Cargar un tema recente…"
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Engadir unha páxina adicional…"
@@ -89,22 +88,19 @@ msgid "Save theme as..."
 msgstr "Gardar o tema como…"
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalar un tema"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserir un ficheiro…"
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Administrar os temas…"
@@ -233,8 +229,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "© 2013-%1 Xente autora de contactthemeeditor"
 
 #: main.cpp:28
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

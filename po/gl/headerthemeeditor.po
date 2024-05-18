@@ -3,22 +3,22 @@
 # Marce Villarino <mvillarino@kde-espana.es>, 2013, 2014.
 # Xosé <xosecalvo@gmail.com>, 2013.
 # Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016, 2017.
-# Adrian Chaves <adrian@chaves.io>, 2018, 2019, 2023.
+# SPDX-FileCopyrightText: 2018, 2019, 2023, 2024 Adrian Chaves <adrian@chaves.io>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-16 00:39+0000\n"
-"PO-Revision-Date: 2023-06-24 11:44+0200\n"
+"PO-Revision-Date: 2024-05-17 21:16+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
-"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.04.2\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,8 +63,7 @@ msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "© 2013-%1 Xente autora de headerthemeeditor"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -126,8 +125,7 @@ msgid "Load Recent Theme..."
 msgstr "Cargar un tema recente…"
 
 #: themeeditormainwindow.cpp:86
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Engadir unha páxina adicional…"
@@ -158,15 +156,13 @@ msgid "Save theme as..."
 msgstr "Gardar o tema como…"
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalar un tema"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserir un ficheiro…"
@@ -182,8 +178,7 @@ msgid "Normal mode"
 msgstr "Modo normal"
 
 #: themeeditormainwindow.cpp:132
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Administrar os temas…"
