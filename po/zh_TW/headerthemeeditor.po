@@ -4,21 +4,21 @@
 # Franklin Weng <franklin at goodhorse dot idv dot tw>, 2013, 2014, 2015.
 # pan93412 <pan93412@gmail.com>, 2018, 2019.
 # Jeff Huang <s8321414@gmail.com>, 2020.
-# Kisaragi Hiu <mail@kisaragi-hiu.com>, 2023.
+# SPDX-FileCopyrightText: 2023, 2024 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-16 00:39+0000\n"
-"PO-Revision-Date: 2023-06-15 04:27+0900\n"
+"PO-Revision-Date: 2024-05-18 17:35+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
-"Language-Team: Chinese <zh-l10n@linux.org.tw>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 23.04.2\n"
+"X-Generator: Lokalize 24.04.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -63,8 +63,7 @@ msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013-%1 headerthemeeditor 作者群"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -126,8 +125,7 @@ msgid "Load Recent Theme..."
 msgstr "載入最近的主題..."
 
 #: themeeditormainwindow.cpp:86
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "新增額外頁面..."
@@ -158,15 +156,13 @@ msgid "Save theme as..."
 msgstr "另存主題..."
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "安裝主題"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "插入檔案..."
@@ -182,8 +178,7 @@ msgid "Normal mode"
 msgstr "正常模式"
 
 #: themeeditormainwindow.cpp:132
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "管理佈景主題..."
