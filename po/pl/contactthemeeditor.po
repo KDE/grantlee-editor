@@ -1,22 +1,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-16 00:39+0000\n"
-"PO-Revision-Date: 2022-01-08 10:49+0100\n"
+"PO-Revision-Date: 2024-05-26 12:24+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.03.70\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10"
+" || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -55,7 +55,7 @@ msgid "Load Recent Theme..."
 msgstr "Wczytaj ostatni wygląd..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
@@ -87,21 +87,21 @@ msgid "Save theme as..."
 msgstr "Zapisz wygląd jako..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Wgraj wygląd"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Wstaw plik..."
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
@@ -231,7 +231,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 Autorzy Edytora Wyglądów Kontaktów Pocztowych"
 
 #: main.cpp:28
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
@@ -241,3 +241,4 @@ msgstr "Laurent Montel"
 #, kde-format
 msgid "Maintainer"
 msgstr "Opiekun"
+
