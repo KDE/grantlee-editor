@@ -26,7 +26,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     : QWidget(parent)
 {
     auto gridLayout = new QGridLayout(this);
-    auto lab = new QLabel(i18n("Name:"), this);
+    auto lab = new QLabel(i18nc("@label:textbox", "Name:"), this);
     mName = new QLineEdit(this);
     mName->setReadOnly(true);
     int row = 0;
@@ -34,21 +34,21 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     gridLayout->addWidget(mName, row, 1);
 
     ++row;
-    lab = new QLabel(i18n("Author:"), this);
+    lab = new QLabel(i18nc("@label:textbox", "Author:"), this);
     mAuthor = new QLineEdit(this);
     mAuthor->setClearButtonEnabled(true);
     gridLayout->addWidget(lab, row, 0);
     gridLayout->addWidget(mAuthor, row, 1);
 
     ++row;
-    lab = new QLabel(i18n("Email:"), this);
+    lab = new QLabel(i18nc("@label:textbox", "Email:"), this);
     mEmail = new QLineEdit(this);
     mEmail->setClearButtonEnabled(true);
     gridLayout->addWidget(lab, row, 0);
     gridLayout->addWidget(mEmail, row, 1);
 
     ++row;
-    lab = new QLabel(i18n("Description:"));
+    lab = new QLabel(i18nc("@label:textbox", "Description:"));
     mDescription = new TextCustomEditor::PlainTextEditorWidget(this);
     mDescription->editor()->setSearchSupport(false);
     gridLayout->addWidget(lab, row, 0);
@@ -56,7 +56,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
 
     if (options & SpecifyFileName) {
         ++row;
-        lab = new QLabel(i18n("Filename:"), this);
+        lab = new QLabel(i18nc("@label:textbox", "Filename:"), this);
         mFilename = new QLineEdit(this);
         mFilename->setText(defaultFileName);
         connect(mFilename, &QLineEdit::textChanged, this, &DesktopFilePage::slotFileNameChanged);
@@ -65,7 +65,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     }
 
     ++row;
-    lab = new QLabel(i18n("Version:"));
+    lab = new QLabel(i18nc("@label:textbox", "Version:"));
     mVersion = new QLineEdit(this);
     mVersion->setClearButtonEnabled(true);
     mVersion->setText(QStringLiteral("0.1"));
@@ -74,7 +74,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
 
     ++row;
     if (options & ExtraDisplayVariables) {
-        lab = new QLabel(i18n("Extract Headers:"), this);
+        lab = new QLabel(i18nc("@label:textbox", "Extract Headers:"), this);
         gridLayout->addWidget(lab, row, 0);
 
         ++row;

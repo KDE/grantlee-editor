@@ -34,7 +34,7 @@ ThemeConfigureDialog::ThemeConfigureDialog(QWidget *parent)
     mConfigureWidget = new GrantleeThemeEditor::ConfigureWidget;
     lay->addWidget(mConfigureWidget);
 
-    auto lab = new QLabel(i18n("Default email:"));
+    auto lab = new QLabel(i18nc("@label:textbox", "Default email:"));
     lay->addWidget(lab);
 
     mDefaultEmail = new TextCustomEditor::PlainTextEditorWidget;

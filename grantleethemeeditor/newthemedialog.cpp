@@ -36,7 +36,7 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
     auto lay = new QVBoxLayout(w);
     lay->setContentsMargins(0, 0, 0, 0);
 
-    auto lab = new QLabel(i18n("Theme name:"));
+    auto lab = new QLabel(i18nc("@label:textbox", "Theme name:"));
     lay->addWidget(lab);
 
     d->mThemeName = new KLineEdit;
@@ -45,7 +45,7 @@ NewThemeDialog::NewThemeDialog(QWidget *parent)
     connect(d->mThemeName, &KLineEdit::textChanged, this, &NewThemeDialog::slotUpdateOkButton);
     lay->addWidget(d->mThemeName);
 
-    lab = new QLabel(i18n("Theme directory:"));
+    lab = new QLabel(i18nc("@label:textbox", "Theme directory:"));
     lay->addWidget(lab);
 
     d->mUrlRequester = new KUrlRequester;

@@ -38,7 +38,7 @@ ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     mConfigureWidget = new GrantleeThemeEditor::ConfigureWidget;
     lay->addWidget(mConfigureWidget);
 
-    auto lab = new QLabel(i18n("Default contact:"));
+    auto lab = new QLabel(i18nc("@label:textbox", "Default contact:"));
     lay->addWidget(lab);
 
     mDefaultContact = new Akonadi::AkonadiContactEditor(Akonadi::AkonadiContactEditor::CreateMode, Akonadi::AkonadiContactEditor::VCardMode);

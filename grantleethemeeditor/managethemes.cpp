@@ -41,7 +41,7 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
     auto lay = new QVBoxLayout(w);
     lay->setContentsMargins(0, 0, 0, 0);
 
-    auto lab = new QLabel(i18n("Local themes:"));
+    auto lab = new QLabel(i18nc("@label:textbox", "Local themes:"));
     lay->addWidget(lab);
 
     d->mListThemes = new QListWidget;
