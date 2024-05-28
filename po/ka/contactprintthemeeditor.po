@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"POT-Creation-Date: 2024-05-28 00:38+0000\n"
 "PO-Revision-Date: 2024-05-16 07:47+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian<kde-i18n-doc@kde.org>\n"
@@ -35,7 +35,9 @@ msgid "Configure"
 msgstr "მორგება"
 
 #: contactprintthemeconfiguredialog.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Default contact:"
+msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "ნაგულისხმები კონტაქტი:"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"POT-Creation-Date: 2024-05-28 00:38+0000\n"
 "PO-Revision-Date: 2024-05-16 12:18+0200\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -35,7 +35,9 @@ msgid "Configure"
 msgstr "Configurar"
 
 #: contactprintthemeconfiguredialog.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Default contact:"
+msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Contacto predeterminado:"
 

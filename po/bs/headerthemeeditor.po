@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-16 00:39+0000\n"
+"POT-Creation-Date: 2024-05-28 00:38+0000\n"
 "PO-Revision-Date: 2014-01-31 18:56+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosanski <lokal@lugbih.org>\n"
@@ -88,7 +88,9 @@ msgid "Configure"
 msgstr "Konfiguriši"
 
 #: themeconfiguredialog.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Default email:"
+msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Podrazumijevana pošta:"
 
