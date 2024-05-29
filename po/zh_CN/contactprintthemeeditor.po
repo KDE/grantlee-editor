@@ -35,8 +35,7 @@ msgid "Configure"
 msgstr "配置"
 
 #: contactprintthemeconfiguredialog.cpp:43
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "默认联系人："

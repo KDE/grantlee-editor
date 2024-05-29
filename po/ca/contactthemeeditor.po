@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-28 00:38+0000\n"
-"PO-Revision-Date: 2024-05-16 15:45+0200\n"
+"PO-Revision-Date: 2024-05-28 13:46+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -38,11 +38,10 @@ msgid "Configure"
 msgstr "Configuració"
 
 #: contactconfigurationdialog.cpp:41
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "Contacte per omissió:"
+msgstr "Contacte predeterminat:"
 
 #: contactconfigurationdialog.cpp:47
 #, kde-format
@@ -52,7 +51,7 @@ msgstr "General"
 #: contactconfigurationdialog.cpp:50
 #, kde-format
 msgid "Default Template"
-msgstr "Plantilla per omissió"
+msgstr "Plantilla predeterminada"
 
 #: contacteditormainwindow.cpp:75
 #, kde-format

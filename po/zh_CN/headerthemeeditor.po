@@ -82,8 +82,7 @@ msgid "Configure"
 msgstr "配置"
 
 #: themeconfiguredialog.cpp:37
-#, fuzzy, kde-format
-#| msgid "Default email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "默认电子邮件："
