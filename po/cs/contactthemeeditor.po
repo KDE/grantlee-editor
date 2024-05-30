@@ -34,11 +34,10 @@ msgid "Configure"
 msgstr "Nastavit"
 
 #: contactconfigurationdialog.cpp:41
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "Výchozí kontakt"
+msgstr ""
 
 #: contactconfigurationdialog.cpp:47
 #, kde-format

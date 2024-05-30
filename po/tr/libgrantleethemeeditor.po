@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2015, 2017.
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-28 00:38+0000\n"
-"PO-Revision-Date: 2022-07-11 10:58+0300\n"
+"PO-Revision-Date: 2024-05-29 12:32+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,56 +16,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 24.07.70\n"
 
 #: desktopfilepage.cpp:29
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Ad:"
 
 #: desktopfilepage.cpp:37
-#, fuzzy, kde-format
-#| msgid "Author:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Yazar:"
 
 #: desktopfilepage.cpp:44
-#, fuzzy, kde-format
-#| msgid "Email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-posta:"
 
 #: desktopfilepage.cpp:51
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Açıklama:"
 
 #: desktopfilepage.cpp:59
-#, fuzzy, kde-format
-#| msgid "Filename:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
-msgstr "Dosya Adı:"
+msgstr "Dosya adı:"
 
 #: desktopfilepage.cpp:68
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Sürüm:"
 
 #: desktopfilepage.cpp:77
-#, fuzzy, kde-format
-#| msgid "Extract Headers:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
-msgstr "Başlıkları Çıkar:"
+msgstr "Üstbilgileri çıkar:"
 
 #: desktopfilepage.cpp:82
 #, kde-format
@@ -74,10 +67,10 @@ msgid ""
 "to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
 "use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
 msgstr ""
-"Dikkatli olun, Grantlee değişken adında '-' kullanımını desteklemez. Bu "
-"nedenle ek başlık olarak \"X-Original-To\" eklemek istediğinizde listeye \"X-"
-"Original-To\" yazın ama değişken adı olarak \"XOriginalTo\" kullanın (addan "
-"'-' işaretini çıkarın)."
+"Dikkatli olun, Grantlee değişken adında ‘-’ kullanımını desteklemez. Bu "
+"nedenle ek başlık olarak “X-Original-To” eklemek istediğinizde listeye “X-"
+"Original-To” yazın ama değişken adı olarak “XOriginalTo” kullanın (addan ‘-’ "
+"işaretini çıkarın)."
 
 #: desktopfilepage.cpp:127 editorpage.cpp:99
 #, kde-format
@@ -93,7 +86,7 @@ msgstr "Dosya ekleme başarısız oldu"
 #: editorpage.cpp:88
 #, kde-format
 msgid "Failed to open file \"%1\"."
-msgstr "\"%1\" dosyası açılamadı."
+msgstr "“%1” dosyası açılamadı."
 
 #: managethemes.cpp:38
 #, kde-format
@@ -102,8 +95,7 @@ msgid "Manage Theme"
 msgstr "Temayı Yönet"
 
 #: managethemes.cpp:44
-#, fuzzy, kde-format
-#| msgid "Local themes:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Yerel temalar:"
@@ -116,12 +108,12 @@ msgstr "Temayı sil"
 #: managethemes.cpp:96
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
-msgstr "\"%1\" temasını gerçekten kaldırmak istiyor musunuz?"
+msgstr "“%1” temasını kaldırmayı gerçekten istiyor musunuz?"
 
 #: managethemes.cpp:98
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
-msgstr "Seçili %1 temalarını gerçekten kaldırmak istiyor musunuz?"
+msgstr "Seçili %1 temayı kaldırmayı gerçekten istiyor musunuz?"
 
 #: managethemes.cpp:100
 #, kde-format
@@ -131,7 +123,7 @@ msgstr "Temayı Kaldır"
 #: managethemes.cpp:107
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
-msgstr "\"%1\" teması silinemiyor. Lütfen sistem yöneticinizle görüşün."
+msgstr "“%1” teması silinemiyor. Lütfen sistem yöneticinizle görüşün."
 
 #: managethemes.cpp:108
 #, kde-format
@@ -145,15 +137,13 @@ msgid "New Theme"
 msgstr "Yeni Tema"
 
 #: newthemedialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Theme name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "Tema adı:"
 
 #: newthemedialog.cpp:48
-#, fuzzy, kde-format
-#| msgid "Theme directory:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Tema dizini:"

@@ -82,11 +82,10 @@ msgid "Configure"
 msgstr "Nastavit"
 
 #: themeconfiguredialog.cpp:37
-#, fuzzy, kde-format
-#| msgid "Default Template"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
-msgstr "Výchozí šablona"
+msgstr ""
 
 #: themeconfiguredialog.cpp:42
 #, kde-format
