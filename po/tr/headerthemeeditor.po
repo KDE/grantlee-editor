@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-02 00:38+0000\n"
-"PO-Revision-Date: 2024-05-16 13:56+0300\n"
+"PO-Revision-Date: 2024-05-29 12:32+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -53,7 +53,7 @@ msgstr "Üstbilgi Teması Düzenleyicisi"
 #: main.cpp:26
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
-msgstr "Messageviewer Üstbilgi Teması Düzenleyicisi"
+msgstr "Messageviewer Üstbilgisi Teması Düzenleyicisi"
 
 #: main.cpp:28
 #, kde-format
@@ -68,7 +68,7 @@ msgstr "Laurent Montel"
 #: main.cpp:29
 #, kde-format
 msgid "Maintainer"
-msgstr "Projeyi Yürüten"
+msgstr "Bakımcı"
 
 #: previewwidget.cpp:34 themeeditormainwindow.cpp:136
 #, kde-format

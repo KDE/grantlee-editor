@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-02-02 00:38+0000\n"
-"PO-Revision-Date: 2024-05-16 13:57+0300\n"
+"PO-Revision-Date: 2024-05-29 12:33+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -187,7 +187,7 @@ msgstr "Kişi"
 #: contactpreviewwidget.cpp:37
 #, kde-format
 msgid "Group"
-msgstr "Grub"
+msgstr "Grup"
 
 #: contacttemplatewidget.cpp:34
 #, kde-format
@@ -230,4 +230,4 @@ msgstr "Laurent Montel"
 #: main.cpp:28
 #, kde-format
 msgid "Maintainer"
-msgstr "Projeyi Yürüten"
+msgstr "Bakımcı"
