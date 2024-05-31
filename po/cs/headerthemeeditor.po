@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Vit Pelcak <vit@pelcak.org>, 2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
+# SPDX-FileCopyrightText: 2013, 2015, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-28 00:38+0000\n"
-"PO-Revision-Date: 2023-02-21 09:38+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2024-05-30 10:39+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 22.12.2\n"
+"X-Generator: Lokalize 24.02.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -85,7 +85,7 @@ msgstr "Nastavit"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
-msgstr ""
+msgstr "Výchozí e-mail:"
 
 #: themeconfiguredialog.cpp:42
 #, kde-format
@@ -126,7 +126,7 @@ msgstr "Načíst nedávný motiv..."
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr ""
+msgstr "Přidat extra stránku..."
 
 #: themeeditormainwindow.cpp:91
 #, kde-format
@@ -157,13 +157,13 @@ msgstr "Uložit motiv jako..."
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
-msgstr ""
+msgstr "Instalovat motiv"
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr ""
+msgstr "Vložit soubor..."
 
 #: themeeditormainwindow.cpp:121
 #, kde-format
@@ -179,7 +179,7 @@ msgstr "Normální režim"
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr ""
+msgstr "Spravovat motivy..."
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format
