@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-16 00:39+0000\n"
 "PO-Revision-Date: 2015-02-07 19:05+0100\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -154,12 +154,12 @@ msgstr "Håndter temaer …"
 msgid "Update view"
 msgstr "Oppdater visning"
 
-#: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
+#: themeeditormainwindow.cpp:190 themeeditormainwindow.cpp:323
 #, kde-format
 msgid "Select theme directory"
 msgstr "Velg temamappe"
 
-#: themeeditormainwindow.cpp:205
+#: themeeditormainwindow.cpp:206
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Det er ikke noen temafil i mappa. Kan ikke laste inn tema."

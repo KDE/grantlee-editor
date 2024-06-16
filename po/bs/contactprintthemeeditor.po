@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-16 00:39+0000\n"
 "PO-Revision-Date: 2015-02-24 19:24+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosnian\n"
@@ -156,12 +156,12 @@ msgstr "Upravljaj temama..."
 msgid "Update view"
 msgstr "Ažuriraj pogled"
 
-#: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
+#: themeeditormainwindow.cpp:190 themeeditormainwindow.cpp:323
 #, kde-format
 msgid "Select theme directory"
 msgstr "Odaberi direktorij tema"
 
-#: themeeditormainwindow.cpp:205
+#: themeeditormainwindow.cpp:206
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"

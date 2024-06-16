@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-16 00:39+0000\n"
 "PO-Revision-Date: 2022-03-06 15:56+0100\n"
 "Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
 "Language-Team: German <kde-i18n-doc@kde.org>\n"
@@ -150,12 +150,12 @@ msgstr "Designs verwalten ..."
 msgid "Update view"
 msgstr "Ansicht aktualisieren"
 
-#: themeeditormainwindow.cpp:189 themeeditormainwindow.cpp:322
+#: themeeditormainwindow.cpp:190 themeeditormainwindow.cpp:323
 #, kde-format
 msgid "Select theme directory"
 msgstr "Designordner auswählen"
 
-#: themeeditormainwindow.cpp:205
+#: themeeditormainwindow.cpp:206
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
