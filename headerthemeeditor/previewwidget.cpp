@@ -31,7 +31,7 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
                                        MessageViewer::HeaderStrategy::create(QString()));
 #endif
     lay->addWidget(mViewer);
-    auto update = new QPushButton(i18n("Update view"));
+    auto update = new QPushButton(i18nc("@action:button", "Update view"));
     connect(update, &QPushButton::clicked, this, &PreviewWidget::needUpdateViewer);
     lay->addWidget(update);
 }

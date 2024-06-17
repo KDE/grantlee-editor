@@ -49,7 +49,7 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
     d->mListThemes->setSelectionMode(QAbstractItemView::ExtendedSelection);
     lay->addWidget(d->mListThemes);
 
-    d->mDeleteTheme = new QPushButton(i18n("Delete theme"));
+    d->mDeleteTheme = new QPushButton(i18nc("@action:button", "Delete theme"));
     connect(d->mDeleteTheme, &QPushButton::clicked, this, &ManageThemes::slotDeleteTheme);
     d->mDeleteTheme->setEnabled(false);
     lay->addWidget(d->mDeleteTheme);
