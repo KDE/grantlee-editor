@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-09-21 00:45+0000\n"
-"PO-Revision-Date: 2024-05-05 14:21+0530\n"
+"PO-Revision-Date: 2024-06-16 19:34+0530\n"
 "Last-Translator: Kishore G <kishore96@gmail.com>\n"
 "Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
 "Language: ta\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #: desktopfilepage.cpp:29
 #, kde-format
@@ -105,7 +105,7 @@ msgstr ""
 #: managethemes.cpp:100
 #, kde-format
 msgid "Remove theme"
-msgstr ""
+msgstr "தோற்றத்திட்டத்தை நீக்கு"
 
 #: managethemes.cpp:107
 #, kde-format
@@ -115,18 +115,18 @@ msgstr ""
 #: managethemes.cpp:108
 #, kde-format
 msgid "Delete theme failed"
-msgstr ""
+msgstr "தோற்றத்திட்டத்தை நீக்குவது தோல்வியடைந்தது"
 
 #: newthemedialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "New Theme"
-msgstr ""
+msgstr "புதிய தோற்றத்திட்டம்"
 
 #: newthemedialog.cpp:39
 #, kde-format
 msgid "Theme name:"
-msgstr ""
+msgstr "தோற்றத்திட்டத்தின் பெயர்:"
 
 #: newthemedialog.cpp:48
 #, kde-format
@@ -142,12 +142,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
-msgstr ""
+msgstr "கீற்றை மூடு"
 
 #: themesession.cpp:57
 #, kde-format
 msgid "Error during theme loading"
-msgstr ""
+msgstr "தோற்றத்திட்டத்தை ஏற்றுவதில் சிக்கல்"
 
 #: themesession.cpp:58
 #, kde-format
@@ -158,16 +158,16 @@ msgstr ""
 #: ui/configurewidget.ui:20
 #, kde-format
 msgid "Default theme path:"
-msgstr ""
+msgstr "இயல்பிருப்பு தோற்றத்திட்டப் பாதை:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/configurewidget.ui:44
 #, kde-format
 msgid "Author email:"
-msgstr ""
+msgstr "இயற்றியவரின் மின்னஞ்சல்:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/configurewidget.ui:61
 #, kde-format
 msgid "Author name:"
-msgstr ""
+msgstr "இயற்றியவரின் பெயர்:"
