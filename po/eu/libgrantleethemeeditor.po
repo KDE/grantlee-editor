@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2022-11-27 09:25+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -111,7 +111,9 @@ msgid "Local themes:"
 msgstr "Gai lokalak:"
 
 #: managethemes.cpp:52
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete theme"
+msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Ezabatu gaia"
 

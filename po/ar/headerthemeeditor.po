@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2024-05-30 07:14+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -71,8 +71,10 @@ msgstr "لوران مونتال"
 msgid "Maintainer"
 msgstr "المصين"
 
-#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
-#, kde-format
+#: previewwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Update view"
+msgctxt "@action:button"
 msgid "Update view"
 msgstr "حدّث المنظور"
 
@@ -181,6 +183,11 @@ msgstr "الوضع العاديّ"
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "أدِر السّمات…"
+
+#: themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "حدّث المنظور"
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format

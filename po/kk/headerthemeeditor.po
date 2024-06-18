@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2013-10-31 04:19+0600\n"
 "Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
 "Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
@@ -72,8 +72,10 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Жетілдірушісі"
 
-#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
-#, kde-format
+#: previewwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Update view"
+msgctxt "@action:button"
 msgid "Update view"
 msgstr "Көріністі жаңарту"
 
@@ -189,6 +191,11 @@ msgstr "Қәдімгі режім"
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Нақыштарды басқару..."
+
+#: themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Көріністі жаңарту"
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format

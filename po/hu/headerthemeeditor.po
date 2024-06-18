@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2024-01-12 22:21+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -72,8 +72,10 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Karbantartó"
 
-#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
-#, kde-format
+#: previewwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Update view"
+msgctxt "@action:button"
 msgid "Update view"
 msgstr "Nézet frissítése"
 
@@ -187,6 +189,11 @@ msgstr "Normál mód"
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Témák kezelése…"
+
+#: themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Nézet frissítése"
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format

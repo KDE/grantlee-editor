@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2023-08-28 00:17+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -71,8 +71,10 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "관리자"
 
-#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
-#, kde-format
+#: previewwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Update view"
+msgctxt "@action:button"
 msgid "Update view"
 msgstr "보기 업데이트"
 
@@ -186,6 +188,11 @@ msgstr "일반 모드"
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "테마 관리..."
+
+#: themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "보기 업데이트"
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format

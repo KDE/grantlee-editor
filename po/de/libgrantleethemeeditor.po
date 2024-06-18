@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2020-01-08 08:51+0100\n"
 "Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -105,7 +105,9 @@ msgid "Local themes:"
 msgstr "Lokale Designs:"
 
 #: managethemes.cpp:52
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete theme"
+msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Design löschen"
 

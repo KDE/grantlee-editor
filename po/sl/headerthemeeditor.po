@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2024-06-18 00:39+0000\n"
 "PO-Revision-Date: 2024-05-28 07:03+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -73,8 +73,10 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Vzdrževalec"
 
-#: previewwidget.cpp:34 themeeditormainwindow.cpp:136
-#, kde-format
+#: previewwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Update view"
+msgctxt "@action:button"
 msgid "Update view"
 msgstr "Posodobi pogled"
 
@@ -183,6 +185,11 @@ msgstr "Običajen način"
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Upravljaj teme..."
+
+#: themeeditormainwindow.cpp:136
+#, kde-format
+msgid "Update view"
+msgstr "Posodobi pogled"
 
 #: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
 #, kde-format
