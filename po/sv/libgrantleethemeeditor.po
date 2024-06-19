@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-06-17 17:39+0200\n"
+"PO-Revision-Date: 2024-06-18 17:04+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -100,7 +100,7 @@ msgid "Local themes:"
 msgstr "Lokala teman:"
 
 #: managethemes.cpp:52
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Delete theme"
 msgctxt "@action:button"
 msgid "Delete theme"
@@ -198,3 +198,4 @@ msgstr "Upphovsmannens namn:"
 #~| msgid "We cannot add file in zip file"
 #~ msgid "We can not add file in zip file"
 #~ msgstr "Det går inte att lägga till filen i zip-filen"
+

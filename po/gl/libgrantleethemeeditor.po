@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-05-29 08:58+0200\n"
+"PO-Revision-Date: 2024-06-18 19:52+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
 "Language: gl\n"
@@ -102,11 +102,10 @@ msgid "Local themes:"
 msgstr "Temas locais:"
 
 #: managethemes.cpp:52
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
-msgstr "Eliminar este tema"
+msgstr "Eliminar o tema"
 
 #: managethemes.cpp:96
 #, kde-format

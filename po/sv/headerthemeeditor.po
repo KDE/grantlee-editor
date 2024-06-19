@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-06-17 17:38+0200\n"
+"PO-Revision-Date: 2024-06-18 17:04+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -71,7 +71,7 @@ msgid "Maintainer"
 msgstr "Underhåll"
 
 #: previewwidget.cpp:34
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Update view"
 msgctxt "@action:button"
 msgid "Update view"
@@ -354,3 +354,4 @@ msgstr "Du kan dra och släppa element på editorn för att importera en mall"
 
 #~ msgid "Format Toolbar"
 #~ msgstr "Formatverktygsrad"
+

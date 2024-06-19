@@ -100,8 +100,7 @@ msgid "Local themes:"
 msgstr "本地主题："
 
 #: managethemes.cpp:52
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "删除主题"
