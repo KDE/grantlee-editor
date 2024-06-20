@@ -1,4 +1,4 @@
-add_executable(contactprintthemeeditor )
+add_executable(contactprintthemeeditor)
 target_sources(contactprintthemeeditor PRIVATE
     main.cpp
     defaultcompletion.cpp
@@ -22,14 +22,14 @@ target_sources(contactprintthemeeditor PRIVATE
     themetemplatewidget.h
     contactprintthemepreview.h
     contactprintthemeeditor.qrc
-    )
+)
 
 ecm_qt_declare_logging_category(contactprintthemeeditor HEADER contactprintthemeeditor_debug.h IDENTIFIER CONTACTPRINTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactprintthemeeditor
         DESCRIPTION "grantleeeditor (contactprintthemeeditor)"
         OLD_CATEGORY_NAMES log_contactprintthemeeditor
         EXPORT GRANTLEEEDITOR
-    )
-if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+)
+if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(contactprintthemeeditor PROPERTIES UNITY_BUILD ON)
 endif()
 
@@ -42,7 +42,7 @@ target_link_libraries(contactprintthemeeditor
     Qt::WebEngineWidgets
     KF6::XmlGui
     KF6::Crash
-    )
+)
 
 install(TARGETS contactprintthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 

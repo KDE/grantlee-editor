@@ -24,12 +24,12 @@ target_sources(contactthemeeditor PRIVATE
     contacteditorutil.h
     contactpreviewwidget.h
     contactthemeeditor.qrc
-    )
+)
 ecm_qt_declare_logging_category(contactthemeeditor HEADER contactthemeeditor_debug.h IDENTIFIER CONTACTTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.contactthemeeditor
         DESCRIPTION "grantleeeditor (contactthemeeditor)"
         OLD_CATEGORY_NAMES log_contactthemeeditor
         EXPORT GRANTLEEEDITOR
-    )
+)
 
 target_link_libraries(contactthemeeditor
     PRIVATE
@@ -40,8 +40,8 @@ target_link_libraries(contactthemeeditor
     KF6::I18n
     KF6::Crash
     KF6::XmlGui
-    )
-if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+)
+if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(contactthemeeditor PROPERTIES UNITY_BUILD ON)
 endif()
 

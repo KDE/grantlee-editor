@@ -22,25 +22,25 @@ set(libgrantleethemeeditor_SRCS
     previewwidget.h
     configurewidget.h
     grantleeplaintexteditor.h
-    )
+)
 
 kconfig_add_kcfg_files(libgrantleethemeeditor_SRCS
     settings/globalsettings_base.kcfgc
-    )
+)
 
 ki18n_wrap_ui(libgrantleethemeeditor_SRCS
     ui/configurewidget.ui
-    )
+)
 
 ecm_qt_declare_logging_category(libgrantleethemeeditor_SRCS HEADER grantleethemeeditor_debug.h IDENTIFIER GRANTLEETHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.grantleethemeeditor
         DESCRIPTION "grantleeeditor (grantleethemeeditor)"
         OLD_CATEGORY_NAMES log_grantleethemeeditor
         EXPORT GRANTLEEEDITOR
-    )
+)
 
 
 add_library(grantleethemeeditor ${libgrantleethemeeditor_SRCS})
-if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(grantleethemeeditor PROPERTIES UNITY_BUILD ON)
 endif()
 
@@ -57,7 +57,7 @@ target_link_libraries(grantleethemeeditor
     KF6::I18n
     KF6::SyntaxHighlighting
     KF6::TextCustomEditor
-    )
+)
 
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 

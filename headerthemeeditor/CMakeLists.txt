@@ -1,4 +1,4 @@
-add_executable(headerthemeeditor ${headerthemeeditor_SRCS} )
+add_executable(headerthemeeditor ${headerthemeeditor_SRCS})
 target_sources(headerthemeeditor PRIVATE
     main.cpp
     themeeditormainwindow.cpp
@@ -22,15 +22,15 @@ target_sources(headerthemeeditor PRIVATE
     themeconfiguredialog.h
     themeeditorutil.h
     themeeditorwidget.h
-    )
+)
 
 ecm_qt_declare_logging_category(headerthemeeditor HEADER headerthemeeditor_debug.h IDENTIFIER HEADERTHEMEEDITOR_LOG CATEGORY_NAME org.kde.pim.headerthemeeditor
         DESCRIPTION "grantleeeditor (headerthemeeditor)"
         OLD_CATEGORY_NAMES log_headerthemeeditor
         EXPORT GRANTLEEEDITOR
-    )
+)
 
-if (COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(headerthemeeditor PROPERTIES UNITY_BUILD ON)
 endif()
 
@@ -44,7 +44,7 @@ target_link_libraries(headerthemeeditor
     KF6::I18n
     KF6::XmlGui
     KF6::Crash
-    )
+)
 
 install(TARGETS headerthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
 

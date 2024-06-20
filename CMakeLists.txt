@@ -83,7 +83,7 @@ configure_file(grantleeeditor-version.h.in ${CMAKE_CURRENT_BINARY_DIR}/grantleee
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
-if (USE_UNITY_CMAKE_SUPPORT)
+if(USE_UNITY_CMAKE_SUPPORT)
     set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
 endif()
 add_subdirectory(headerthemeeditor)
@@ -95,7 +95,7 @@ ecm_qt_install_logging_categories(
         EXPORT GRANTLEEEDITOR
         FILE grantleeditor.categories
         DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
-        )
+)
 
 add_subdirectory(doc)
 kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
