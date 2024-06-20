@@ -101,7 +101,6 @@ msgstr "Lokala teman:"
 
 #: managethemes.cpp:52
 #, kde-format
-#| msgid "Delete theme"
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Ta bort tema"
@@ -198,4 +197,3 @@ msgstr "Upphovsmannens namn:"
 #~| msgid "We cannot add file in zip file"
 #~ msgid "We can not add file in zip file"
 #~ msgstr "Det går inte att lägga till filen i zip-filen"
-

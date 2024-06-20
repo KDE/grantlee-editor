@@ -72,7 +72,6 @@ msgstr "Underhåll"
 
 #: previewwidget.cpp:34
 #, kde-format
-#| msgid "Update view"
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Uppdatera vy"
@@ -354,4 +353,3 @@ msgstr "Du kan dra och släppa element på editorn för att importera en mall"
 
 #~ msgid "Format Toolbar"
 #~ msgstr "Formatverktygsrad"
-
