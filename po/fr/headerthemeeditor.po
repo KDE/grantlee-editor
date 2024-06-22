@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-05-29 09:25+0200\n"
+"PO-Revision-Date: 2024-06-20 18:35+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -77,8 +77,7 @@ msgid "Maintainer"
 msgstr "Mainteneur"
 
 #: previewwidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "Update view"
+#, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Mettre à jour l'affichage"
