@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-05-26 12:24+0200\n"
+"PO-Revision-Date: 2024-06-22 08:42+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -72,8 +73,7 @@ msgid "Maintainer"
 msgstr "Opiekun"
 
 #: previewwidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "Update view"
+#, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Uaktualnij widok"
@@ -85,8 +85,7 @@ msgid "Configure"
 msgstr "Ustawienia"
 
 #: themeconfiguredialog.cpp:37
-#, fuzzy, kde-format
-#| msgid "Default email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Domyślny e-mail:"
