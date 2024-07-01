@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-05-30 03:14+0900\n"
+"PO-Revision-Date: 2024-06-30 11:47+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -74,8 +74,7 @@ msgid "Maintainer"
 msgstr "維護者"
 
 #: previewwidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "Update view"
+#, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "更新檢視"
