@@ -1,16 +1,16 @@
 # Translation for contactthemeeditor.po to Euskara/Basque (eu).
-# Copyright (C) 2022 This file is copyright:
+# Copyright (C) 2022-2024 This file is copyright:
 # This file is distributed under the same license as the grantlee-editor package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-28 00:38+0000\n"
-"PO-Revision-Date: 2022-11-27 09:54+0100\n"
+"PO-Revision-Date: 2024-07-03 09:06+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,8 +37,7 @@ msgid "Configure"
 msgstr "Konfiguratu"
 
 #: contactconfigurationdialog.cpp:41
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Kontaktu lehenetsia:"
@@ -59,8 +58,7 @@ msgid "Load Recent Theme..."
 msgstr "Zamatu azken aldiko gaia..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Gehitu orri gehigarria..."
@@ -91,25 +89,22 @@ msgid "Save theme as..."
 msgstr "Gorde gaia honela..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalatu gaia"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "Txertatu fitxategia..."
+msgstr "Sartu fitxategia..."
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "Kudeatu gaiak..."
+msgstr "Gaiak kudeatu..."
 
 #: contacteditormainwindow.cpp:118
 #, kde-format
@@ -236,8 +231,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 contactthemeeditor-ren egileak"
 
 #: main.cpp:28
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

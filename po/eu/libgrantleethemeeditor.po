@@ -1,16 +1,16 @@
 # Translation for libgrantleethemeeditor.po to Euskara/Basque (eu).
-# Copyright (C) 2022 This file is copyright:
+# Copyright (C) 2022-2024 This file is copyright:
 # This file is distributed under the same license as the grantlee-editor package.
-# KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2024 KDE euskaratzeko proiektuko arduraduna <xalba@ni.eus>
 #
 # Translators:
-# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022.
+# Iñigo Salvador Azurmendi <xalba@ni.eus>, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2022-11-27 09:25+0100\n"
+"PO-Revision-Date: 2024-07-03 09:08+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,56 +18,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.08.3\n"
+"X-Generator: Lokalize 24.05.1\n"
 
 #: desktopfilepage.cpp:29
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Izena:"
 
 #: desktopfilepage.cpp:37
-#, fuzzy, kde-format
-#| msgid "Author:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Egilea:"
 
 #: desktopfilepage.cpp:44
-#, fuzzy, kde-format
-#| msgid "Email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-posta:"
 
 #: desktopfilepage.cpp:51
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
-msgstr "Azalpena:"
+msgstr "Deskribapena:"
 
 #: desktopfilepage.cpp:59
-#, fuzzy, kde-format
-#| msgid "Filename:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Fitxategi-izena:"
 
 #: desktopfilepage.cpp:68
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Bertsioa:"
 
 #: desktopfilepage.cpp:77
-#, fuzzy, kde-format
-#| msgid "Extract Headers:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
-msgstr "Erauzi goiburuak:"
+msgstr "Atera goiburuak:"
 
 #: desktopfilepage.cpp:82
 #, kde-format
@@ -104,15 +97,13 @@ msgid "Manage Theme"
 msgstr "Kudeatu gaia"
 
 #: managethemes.cpp:44
-#, fuzzy, kde-format
-#| msgid "Local themes:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Gai lokalak:"
 
 #: managethemes.cpp:52
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Ezabatu gaia"
@@ -151,15 +142,13 @@ msgid "New Theme"
 msgstr "Gai berria"
 
 #: newthemedialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Theme name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "Gaiaren izena:"
 
 #: newthemedialog.cpp:48
-#, fuzzy, kde-format
-#| msgid "Theme directory:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Gaiaren direktorioa:"
