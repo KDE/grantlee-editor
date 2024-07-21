@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-16 00:39+0000\n"
-"PO-Revision-Date: 2024-01-12 22:25+0100\n"
+"PO-Revision-Date: 2024-07-20 15:21+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -34,8 +34,7 @@ msgid "Configure"
 msgstr "Beállítás"
 
 #: contactprintthemeconfiguredialog.cpp:43
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Alapértelmezett névjegy:"
@@ -78,8 +77,7 @@ msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Copyright © A contactprintthemeeditor szerzői, 2015-%1."
 
 #: main.cpp:27
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -95,8 +93,7 @@ msgid "Load Recent Theme..."
 msgstr "Legutóbbi téma betöltése…"
 
 #: themeeditormainwindow.cpp:83
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Extra oldal hozzáadása…"
@@ -127,22 +124,19 @@ msgid "Save theme as..."
 msgstr "Téma mentése másként…"
 
 #: themeeditormainwindow.cpp:107
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Téma telepítése"
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Fájl beszúrása…"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Témák kezelése…"
