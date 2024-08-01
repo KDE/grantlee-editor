@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-01-12 22:20+0100\n"
+"PO-Revision-Date: 2024-07-31 21:59+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,53 +16,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #: desktopfilepage.cpp:29
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Név:"
 
 #: desktopfilepage.cpp:37
-#, fuzzy, kde-format
-#| msgid "Author:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Szerző:"
 
 #: desktopfilepage.cpp:44
-#, fuzzy, kde-format
-#| msgid "Email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-mail:"
 
 #: desktopfilepage.cpp:51
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Leírás:"
 
 #: desktopfilepage.cpp:59
-#, fuzzy, kde-format
-#| msgid "Filename:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Fájlnév:"
 
 #: desktopfilepage.cpp:68
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Verzió:"
 
 #: desktopfilepage.cpp:77
-#, fuzzy, kde-format
-#| msgid "Extract Headers:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Fejlécek kibontása:"
@@ -102,15 +95,13 @@ msgid "Manage Theme"
 msgstr "Téma kezelése"
 
 #: managethemes.cpp:44
-#, fuzzy, kde-format
-#| msgid "Local themes:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Helyi témák:"
 
 #: managethemes.cpp:52
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Téma törlése"
@@ -147,18 +138,16 @@ msgid "New Theme"
 msgstr "Új téma"
 
 #: newthemedialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Theme name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "Témanév:"
 
 #: newthemedialog.cpp:48
-#, fuzzy, kde-format
-#| msgid "Theme directory:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
-msgstr "Téma könyvtár:"
+msgstr "Téma könyvtára:"
 
 #: themeeditortabwidget.cpp:34
 #, kde-format
