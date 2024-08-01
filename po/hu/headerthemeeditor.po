@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-01-12 22:21+0100\n"
+"PO-Revision-Date: 2024-07-31 21:58+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.4\n"
+"X-Generator: Lokalize 24.05.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -61,8 +61,7 @@ msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © A headerthemeeditor szerzői, 2013-%1."
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -73,8 +72,7 @@ msgid "Maintainer"
 msgstr "Karbantartó"
 
 #: previewwidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "Update view"
+#, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Nézet frissítése"
@@ -86,8 +84,7 @@ msgid "Configure"
 msgstr "Beállítás"
 
 #: themeconfiguredialog.cpp:37
-#, fuzzy, kde-format
-#| msgid "Default email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Alapértelmezett e-mail:"
@@ -128,8 +125,7 @@ msgid "Load Recent Theme..."
 msgstr "Legutóbbi téma betöltése…"
 
 #: themeeditormainwindow.cpp:86
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Extra oldal hozzáadása…"
@@ -160,15 +156,13 @@ msgid "Save theme as..."
 msgstr "Téma mentése másként…"
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Téma telepítése"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Fájl beszúrása…"
@@ -184,8 +178,7 @@ msgid "Normal mode"
 msgstr "Normál mód"
 
 #: themeeditormainwindow.cpp:132
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Témák kezelése…"
