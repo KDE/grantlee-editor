@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2020.
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2020, 2024 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2020-01-29 00:42+0100\n"
+"PO-Revision-Date: 2024-08-19 22:30+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,53 +15,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.04.3\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: desktopfilepage.cpp:29
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "이름:"
 
 #: desktopfilepage.cpp:37
-#, fuzzy, kde-format
-#| msgid "Author:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "작성자:"
 
 #: desktopfilepage.cpp:44
-#, fuzzy, kde-format
-#| msgid "Email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "이메일:"
 
 #: desktopfilepage.cpp:51
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "설명:"
 
 #: desktopfilepage.cpp:59
-#, fuzzy, kde-format
-#| msgid "Filename:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "파일 이름:"
 
 #: desktopfilepage.cpp:68
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "버전:"
 
 #: desktopfilepage.cpp:77
-#, fuzzy, kde-format
-#| msgid "Extract Headers:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "헤더 추출:"
@@ -101,15 +94,13 @@ msgid "Manage Theme"
 msgstr "테마 관리"
 
 #: managethemes.cpp:44
-#, fuzzy, kde-format
-#| msgid "Local themes:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "로컬 테마:"
 
 #: managethemes.cpp:52
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "테마 삭제"
@@ -146,15 +137,13 @@ msgid "New Theme"
 msgstr "새 테마"
 
 #: newthemedialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Theme name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "테마 이름:"
 
 #: newthemedialog.cpp:48
-#, fuzzy, kde-format
-#| msgid "Theme directory:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "테마 디렉터리:"
