@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Shinjo Park <kde@peremen.name>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-28 00:38+0000\n"
-"PO-Revision-Date: 2022-02-20 21:52+0100\n"
+"PO-Revision-Date: 2024-08-19 22:30+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.08.1\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -34,8 +34,7 @@ msgid "Configure"
 msgstr "설정"
 
 #: contactconfigurationdialog.cpp:41
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "기본 연락처:"
@@ -56,11 +55,10 @@ msgid "Load Recent Theme..."
 msgstr "외부 테마 불러오기..."
 
 #: contacteditormainwindow.cpp:82
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "쪽 추가..."
+msgstr "추가 쪽 추가..."
 
 #: contacteditormainwindow.cpp:87
 #, kde-format
@@ -88,22 +86,19 @@ msgid "Save theme as..."
 msgstr "다른 이름으로 테마 저장..."
 
 #: contacteditormainwindow.cpp:106
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "테마 설치"
 
 #: contacteditormainwindow.cpp:110
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "파일 삽입..."
 
 #: contacteditormainwindow.cpp:114
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "테마 관리..."
@@ -231,8 +226,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 contactthemeeditor authors"
 
 #: main.cpp:28
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
