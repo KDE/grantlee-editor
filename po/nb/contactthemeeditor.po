@@ -37,7 +37,6 @@ msgstr ""
 
 #: contactconfigurationdialog.cpp:41
 #, fuzzy, kde-format
-#| msgid "Default contact:"
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Standardkontakt:"
@@ -59,7 +58,6 @@ msgstr "Last inn nylig brukt tema …"
 
 #: contacteditormainwindow.cpp:82
 #, fuzzy, kde-format
-#| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Legg til ekstra side …"
@@ -91,21 +89,18 @@ msgstr "Lagre tema som …"
 
 #: contacteditormainwindow.cpp:106
 #, fuzzy, kde-format
-#| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Installer tema"
 
 #: contacteditormainwindow.cpp:110
 #, fuzzy, kde-format
-#| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Sett inn fil …"
 
 #: contacteditormainwindow.cpp:114
 #, fuzzy, kde-format
-#| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Håndter temaer …"
@@ -234,7 +229,6 @@ msgstr ""
 
 #: main.cpp:28
 #, fuzzy, kde-format
-#| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
