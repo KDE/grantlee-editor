@@ -63,7 +63,6 @@ msgstr ""
 
 #: main.cpp:29
 #, fuzzy, kde-format
-#| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -75,7 +74,6 @@ msgstr "Vedlikeholder"
 
 #: previewwidget.cpp:34
 #, fuzzy, kde-format
-#| msgid "Update view"
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Oppdater visning"
@@ -88,7 +86,6 @@ msgstr ""
 
 #: themeconfiguredialog.cpp:37
 #, fuzzy, kde-format
-#| msgid "Default email:"
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Standard e-post:"
@@ -130,7 +127,6 @@ msgstr "Last inn nylig brukt tema …"
 
 #: themeeditormainwindow.cpp:86
 #, fuzzy, kde-format
-#| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Legg til ekstra side …"
@@ -162,14 +158,12 @@ msgstr "Lagre tema som …"
 
 #: themeeditormainwindow.cpp:111
 #, fuzzy, kde-format
-#| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Installer tema"
 
 #: themeeditormainwindow.cpp:115
 #, fuzzy, kde-format
-#| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Sett inn fil …"
@@ -186,7 +180,6 @@ msgstr "Normalmodus"
 
 #: themeeditormainwindow.cpp:132
 #, fuzzy, kde-format
-#| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Håndter temaer …"

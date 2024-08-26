@@ -21,49 +21,42 @@ msgstr ""
 
 #: desktopfilepage.cpp:29
 #, fuzzy, kde-format
-#| msgid "Name:"
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Navn:"
 
 #: desktopfilepage.cpp:37
 #, fuzzy, kde-format
-#| msgid "Author:"
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Forfatter:"
 
 #: desktopfilepage.cpp:44
 #, fuzzy, kde-format
-#| msgid "Email:"
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-post:"
 
 #: desktopfilepage.cpp:51
 #, fuzzy, kde-format
-#| msgid "Description:"
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Beskrivelse:"
 
 #: desktopfilepage.cpp:59
 #, fuzzy, kde-format
-#| msgid "Filename:"
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Filnavn:"
 
 #: desktopfilepage.cpp:68
 #, fuzzy, kde-format
-#| msgid "Version:"
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Versjon:"
 
 #: desktopfilepage.cpp:77
 #, fuzzy, kde-format
-#| msgid "Extract Headers:"
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Trekk ut hodelinjer:"
@@ -103,14 +96,12 @@ msgstr ""
 
 #: managethemes.cpp:44
 #, fuzzy, kde-format
-#| msgid "Local themes:"
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Lokale temaer:"
 
 #: managethemes.cpp:52
 #, fuzzy, kde-format
-#| msgid "Delete theme"
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Slett tema"
@@ -148,14 +139,12 @@ msgstr ""
 
 #: newthemedialog.cpp:39
 #, fuzzy, kde-format
-#| msgid "Theme name:"
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "Temanavn:"
 
 #: newthemedialog.cpp:48
 #, fuzzy, kde-format
-#| msgid "Theme directory:"
 msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Temamappe:"

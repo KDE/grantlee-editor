@@ -37,7 +37,6 @@ msgstr ""
 
 #: contactprintthemeconfiguredialog.cpp:43
 #, fuzzy, kde-format
-#| msgid "Default contact:"
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Standardkontakt:"
@@ -81,7 +80,6 @@ msgstr ""
 
 #: main.cpp:27
 #, fuzzy, kde-format
-#| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -98,7 +96,6 @@ msgstr "Last inn nylig brukt tema …"
 
 #: themeeditormainwindow.cpp:83
 #, fuzzy, kde-format
-#| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Legg til ekstra side …"
@@ -130,21 +127,18 @@ msgstr "Lagre tema som …"
 
 #: themeeditormainwindow.cpp:107
 #, fuzzy, kde-format
-#| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Installer tema"
 
 #: themeeditormainwindow.cpp:111
 #, fuzzy, kde-format
-#| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Sett inn fil …"
 
 #: themeeditormainwindow.cpp:115
 #, fuzzy, kde-format
-#| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Håndter temaer …"
