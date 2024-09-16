@@ -62,8 +62,7 @@ msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013 οι συγγραφείς του headerthemeeditor"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -74,8 +73,7 @@ msgid "Maintainer"
 msgstr "Συντηρητής"
 
 #: previewwidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "Update view"
+#, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Ενημέρωση προβολής"
@@ -131,11 +129,10 @@ msgid "Load Recent Theme..."
 msgstr "Αποστολή θέματος..."
 
 #: themeeditormainwindow.cpp:86
-#, fuzzy, kde-format
-#| msgid "Add Extra Page"
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "Προσθήκη επιπρόσθετης σελίδας"
+msgstr "Προσθήκη επιπρόσθετης σελίδας..."
 
 #: themeeditormainwindow.cpp:91
 #, kde-format
