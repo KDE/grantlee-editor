@@ -30,6 +30,20 @@ include(ECMQtDeclareLoggingCategory)
 include(ECMDeprecationSettings)
 include(ECMFeatureSummary)
 
+include(ECMCheckOutboundLicense)
+file(GLOB_RECURSE ALL_SOURCE_FILES
+headerthemeeditor/*.cpp
+headerthemeeditor/*.h
+contactthemeeditor/*.cpp
+contactthemeeditor/*.h
+grantleethemeeditor/*.cpp
+grantleethemeeditor/*.h
+contactprintthemeeditor/*.cpp
+contactprintthemeeditor/*.h
+)
+ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
+
+
 # Do NOT add quote
 set(KDEPIM_DEV_VERSION alpha)
 
