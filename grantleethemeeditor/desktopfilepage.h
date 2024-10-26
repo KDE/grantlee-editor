@@ -20,7 +20,11 @@ class GRANTLEETHEMEEDITOR_EXPORT DesktopFilePage : public QWidget
 {
     Q_OBJECT
 public:
-    enum DesktopFileOption { None = 1, ExtraDisplayVariables = 2, SpecifyFileName = 4 };
+    enum DesktopFileOption {
+        None = 1,
+        ExtraDisplayVariables = 2,
+        SpecifyFileName = 4
+    };
     Q_DECLARE_FLAGS(DesktopFileOptions, DesktopFileOption)
 
     explicit DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent = nullptr);
