@@ -1,14 +1,14 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2015, 2016.
-# Tommi Nieminen <translator@legisign.org>, 2017, 2018, 2019, 2020, 2021, 2022.
+# SPDX-FileCopyrightText: 2017, 2018, 2019, 2020, 2021, 2022, 2024 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-16 00:39+0000\n"
-"PO-Revision-Date: 2022-07-29 13:24+0300\n"
+"PO-Revision-Date: 2024-10-20 21:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -35,8 +35,7 @@ msgid "Configure"
 msgstr "Asetukset"
 
 #: contactprintthemeconfiguredialog.cpp:43
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Oletusyhteystieto:"
@@ -79,8 +78,7 @@ msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr "Tekijänoikeudet © 2015–%1 contactprintthemeeditorin tekijät"
 
 #: main.cpp:27
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -96,8 +94,7 @@ msgid "Load Recent Theme..."
 msgstr "Lataa viimeaikainen teema…"
 
 #: themeeditormainwindow.cpp:83
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Lisää lisäsivu…"
@@ -128,22 +125,19 @@ msgid "Save theme as..."
 msgstr "Tallenna teema nimellä…"
 
 #: themeeditormainwindow.cpp:107
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Asenna teema"
 
 #: themeeditormainwindow.cpp:111
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Lisää tiedosto…"
 
 #: themeeditormainwindow.cpp:115
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Hallitse teemoja…"
