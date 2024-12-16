@@ -1,45 +1,42 @@
-# Sanskrit translations for grantlee-editor package.
+# Hindi translations for grantlee-editor package.
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the grantlee-editor package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
-# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-16 00:39+0000\n"
-"PO-Revision-Date: 2024-12-13 20:20+0530\n"
-"Last-Translator: kali <skkalwar999@gmail.com>\n"
-"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
-"Language: sa\n"
+"PO-Revision-Date: 2024-12-15 17:37+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr "तुम्हारे नाम"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr "आपके ईमेल"
 
 #: contactprintthemeconfiguredialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
-msgstr "विन्यस्तं कुर्वन्तु"
+msgstr "कॉन्फ़िगर"
 
 #: contactprintthemeconfiguredialog.cpp:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "पूर्वनिर्धारित सम्पर्कः : १."
+msgstr "डिफ़ॉल्ट संपर्क:"
 
 #: contactprintthemeconfiguredialog.cpp:49
 #, kde-format
@@ -49,13 +46,13 @@ msgstr "सामान्य"
 #: contactprintthemeconfiguredialog.cpp:52
 #, kde-format
 msgid "Default Template"
-msgstr "पूर्वनिर्धारित टेम्पलेट"
+msgstr "डिफ़ॉल्ट टेम्पलेट"
 
 #. i18n: ectx: Menu (edit)
 #: contactprintthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "&सम्पादन"
+msgstr "&संपादन करना"
 
 #. i18n: ectx: Menu (Display)
 #: contactprintthemeeditorui.rc:22
@@ -66,164 +63,164 @@ msgstr "&प्रदर्शन"
 #: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
-msgstr "विषय टेम्पलेट्स:"
+msgstr "थीम टेम्पलेट्स:"
 
 #: main.cpp:22 main.cpp:24
 #, kde-format
 msgid "Contact Print Theme Editor"
-msgstr "मुद्रण विषय सम्पादक से संपर्क करें"
+msgstr "प्रिंट थीम संपादक से संपर्क करें"
 
 #: main.cpp:26
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
-msgstr "प्रतिलिपि अधिकार © 2015-%1 contactprintthemeeditor authors"
+msgstr "कॉपीराइट © 2015-%1 contactprintthemeeditor लेखक"
 
 #: main.cpp:27
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "लॉरेण्ट् मोंटेल्"
+msgstr "लॉरेंट मोंटेल"
 
 #: main.cpp:27
 #, kde-format
 msgid "Maintainer"
-msgstr "परिपालकः"
+msgstr "मेंटेनर"
 
 #: themeeditormainwindow.cpp:76
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "हाले विषयः लोड् कुर्वन्तु..."
+msgstr "हाल ही का थीम लोड करें..."
 
 #: themeeditormainwindow.cpp:83
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "अतिरिक्त पृष्ठं योजयतु..."
+msgstr "अतिरिक्त पृष्ठ जोड़ें..."
 
 #: themeeditormainwindow.cpp:87
 #, kde-format
 msgid "Upload theme..."
-msgstr "अपलोड् विषयः..."
+msgstr "थीम अपलोड करें..."
 
 #: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "New theme..."
-msgstr "नवीन विषयः..."
+msgstr "नया विषय..."
 
 #: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "Open theme..."
-msgstr "खुला विषय..."
+msgstr "विषय खोलें..."
 
 #: themeeditormainwindow.cpp:98
 #, kde-format
 msgid "Save theme"
-msgstr "विषयं रक्षतु"
+msgstr "थीम सहेजें"
 
 #: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme as..."
-msgstr "विषयं रक्षन्तु यथा..."
+msgstr "थीम को इस रूप में सहेजें..."
 
 #: themeeditormainwindow.cpp:107
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
-msgstr "विषयं संस्थापयन्तु"
+msgstr "थीम इंस्टॉल करें"
 
 #: themeeditormainwindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "सञ्चिका सम्मिलितं कुर्वन्तु..."
+msgstr "फ़ाइल डालें..."
 
 #: themeeditormainwindow.cpp:115
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "विषयवस्तु प्रबन्धयन्तु..."
+msgstr "थीम प्रबंधित करें..."
 
 #: themeeditormainwindow.cpp:119
 #, kde-format
 msgid "Update view"
-msgstr "दृश्यं अद्यतनं कुर्वन्तु"
+msgstr "दृश्य अपडेट करें"
 
 #: themeeditormainwindow.cpp:190 themeeditormainwindow.cpp:323
 #, kde-format
 msgid "Select theme directory"
-msgstr "विषयनिर्देशिकां चिनोतु"
+msgstr "थीम निर्देशिका चुनें"
 
 #: themeeditormainwindow.cpp:206
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "निर्देशिकायां विषयसञ्चिका नास्ति । वयं विषयं लोड् कर्तुं न शक्नुमः।"
+msgstr "निर्देशिका में थीम फ़ाइल नहीं है। हम थीम लोड नहीं कर सकते।"
 
 #: themeeditorpage.cpp:40
 #, kde-format
 msgid "Editor (%1)"
-msgstr "सम्पादकः (%1) २."
+msgstr "संपादक (%1)"
 
 #: themeeditorpage.cpp:46
 #, kde-format
 msgid "Desktop File"
-msgstr "डेस्कटॉप सञ्चिका"
+msgstr "डेस्कटॉप फ़ाइल"
 
 #: themeeditorpage.cpp:134
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "विषयः पूर्वमेव अस्ति। किं भवन्तः तस्य अधिलेखनं कर्तुम् इच्छन्ति ?"
+msgstr "थीम पहले से मौजूद है। क्या आप इसे ओवरराइट करना चाहते हैं?"
 
 #: themeeditorpage.cpp:135
 #, kde-format
 msgid "Theme already exists"
-msgstr "विषयः पूर्वमेव अस्ति"
+msgstr "थीम पहले से मौजूद है"
 
 #: themeeditorpage.cpp:143
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "विषयपुटं निर्मातुं न शक्यते।"
+msgstr "थीम फ़ोल्डर नहीं बनाया जा सकता."
 
 #: themeeditorpage.cpp:153
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr "\"%1\" इत्यस्मिन् विषयः संस्थापितः ।"
+msgstr "थीम \"%1\" में स्थापित"
 
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "वयं zip file मध्ये preview file योजयितुं न शक्नुमः"
+msgstr "हम ज़िप फ़ाइल में पूर्वावलोकन फ़ाइल नहीं जोड़ सकते"
 
 #: themeeditorpage.cpp:174
 #, kde-format
 msgid "Failed to add file."
-msgstr "सञ्चिकां योजयितुं असफलम्।"
+msgstr "फ़ाइल जोड़ने में विफल."
 
 #: themeeditorpage.cpp:188
 #, kde-format
 msgid "My favorite KMail header"
-msgstr "मम प्रियं KMail शीर्षकम्"
+msgstr "मेरा पसंदीदा KMail हेडर"
 
 #: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename of extra page"
-msgstr "अतिरिक्तपृष्ठस्य सञ्चिकानाम"
+msgstr "अतिरिक्त पृष्ठ का फ़ाइल नाम"
 
 #: themeeditorpage.cpp:211
 #, kde-format
 msgid "Filename:"
-msgstr "सञ्चिकानाम : १."
+msgstr "फ़ाइल नाम:"
 
 #: themeeditorpage.cpp:257
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "वर्तमानप्रकल्पं रक्षितुम् इच्छति वा?"
+msgstr "क्या आप वर्तमान प्रोजेक्ट को सहेजना चाहते हैं?"
 
 #: themeeditorpage.cpp:258
 #, kde-format
 msgid "Save current project"
-msgstr "वर्तमान परियोजना रक्षतु"
+msgstr "वर्तमान प्रोजेक्ट सहेजें"
 
 #: themetemplatewidget.cpp:35
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr "टेम्पलेट् आयातयितुं एडिटर् इत्यत्र एलिमेण्ट् कर्षितुं पातयितुं च शक्नुवन्ति"
+msgstr "आप टेम्पलेट आयात करने के लिए संपादक पर तत्व को खींच और छोड़ सकते हैं"
