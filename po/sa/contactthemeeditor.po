@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the grantlee-editor package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-05-28 00:38+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -37,7 +39,7 @@ msgstr "विन्यस्तं कुर्वन्तु"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "पूर्वनिर्धारित सम्पर्कः : १."
+msgstr "पूर्वनिर्धारित सम्पर्कः :"
 
 #: contactconfigurationdialog.cpp:47
 #, kde-format
@@ -171,7 +173,7 @@ msgstr "अतिरिक्तपृष्ठस्य सञ्चिका�
 #: contacteditorpage.cpp:214
 #, kde-format
 msgid "Filename:"
-msgstr "सञ्चिकानाम : १."
+msgstr "सञ्चिकानाम :"
 
 #: contacteditorpage.cpp:273
 #, kde-format

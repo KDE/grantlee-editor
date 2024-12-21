@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-12-13 20:20+0530\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -88,7 +88,7 @@ msgstr "विन्यस्तं कुर्वन्तु"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
-msgstr "पूर्वनिर्धारित ईमेल : १."
+msgstr "पूर्वनिर्धारित ईमेल :"
 
 #: themeconfiguredialog.cpp:42
 #, kde-format
@@ -202,7 +202,7 @@ msgstr "निर्देशिकायां विषयसञ्चिक�
 #: themeeditorpage.cpp:37
 #, kde-format
 msgid "Editor (%1)"
-msgstr "सम्पादकः (%1) २."
+msgstr "सम्पादकः (%1)"
 
 #: themeeditorpage.cpp:46
 #, kde-format
@@ -252,7 +252,7 @@ msgstr "अतिरिक्तपृष्ठस्य सञ्चिका�
 #: themeeditorpage.cpp:235
 #, kde-format
 msgid "Filename:"
-msgstr "सञ्चिकानाम : १."
+msgstr "सञ्चिकानाम :"
 
 #: themeeditorpage.cpp:283
 #, kde-format

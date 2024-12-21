@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-18 00:39+0000\n"
-"PO-Revision-Date: 2024-12-13 20:20+0530\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -35,7 +35,7 @@ msgstr "लेखकः:"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
-msgstr "ईमेल : १."
+msgstr "ईमेल :"
 
 #: desktopfilepage.cpp:51
 #, kde-format
@@ -47,7 +47,7 @@ msgstr "वर्णनम्‌:"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
-msgstr "सञ्चिकानाम : १."
+msgstr "सञ्चिकानाम :"
 
 #: desktopfilepage.cpp:68
 #, kde-format
@@ -59,7 +59,7 @@ msgstr "संस्करण:"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
-msgstr "शीर्षकं निष्कासयन्तु : १."
+msgstr "शीर्षकं निष्कासयन्तु :"
 
 #: desktopfilepage.cpp:82
 #, kde-format
@@ -99,7 +99,7 @@ msgstr "विषयं प्रबन्धयतु"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
-msgstr "स्थानीय विषयाः : १."
+msgstr "स्थानीय विषयाः :"
 
 #: managethemes.cpp:52
 #, kde-format
@@ -142,18 +142,18 @@ msgstr "नवीन विषय"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
-msgstr "विषयनाम : १."
+msgstr "विषयनाम :"
 
 #: newthemedialog.cpp:48
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
-msgstr "विषयनिर्देशिका : १."
+msgstr "विषयनिर्देशिका :"
 
 #: themeeditortabwidget.cpp:34
 #, kde-format
 msgid "Editor (%1)"
-msgstr "सम्पादकः (%1) २."
+msgstr "सम्पादकः (%1)"
 
 #: themeeditortabwidget.cpp:53
 #, kde-format
@@ -175,16 +175,16 @@ msgstr "भवान् एकं विषयं लोड् कर्तु�
 #: ui/configurewidget.ui:20
 #, kde-format
 msgid "Default theme path:"
-msgstr "पूर्वनिर्धारितः विषयमार्गः : १."
+msgstr "पूर्वनिर्धारितः विषयमार्गः :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/configurewidget.ui:44
 #, kde-format
 msgid "Author email:"
-msgstr "लेखकस्य ईमेलः : १."
+msgstr "लेखकस्य ईमेलः :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/configurewidget.ui:61
 #, kde-format
 msgid "Author name:"
-msgstr "लेखकस्य नाम : १."
+msgstr "लेखकस्य नाम :"
