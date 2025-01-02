@@ -1,5 +1,5 @@
 /*
-   SPDX-FileCopyrightText: 2013-2024 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2013-2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: GPL-2.0-or-later
 */
@@ -25,7 +25,7 @@ int main(int argc, char **argv)
                          QStringLiteral(GRANTLEEEDITOR_VERSION),
                          i18n("Messageviewer Header Theme Editor"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2013-%1 headerthemeeditor authors", QStringLiteral("2023")));
+                         i18n("Copyright © 2013-%1 headerthemeeditor authors", QStringLiteral("2025")));
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
     QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kmail")));
     aboutData.setProductName(QByteArray("headerthemeeditor"));
