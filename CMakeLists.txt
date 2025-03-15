@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
-set(PIM_VERSION "6.3.80")
+set(PIM_VERSION "6.3.90")
 project(grantlee-editor VERSION ${PIM_VERSION})
-set(RELEASE_SERVICE_VERSION "25.03.80")
+set(RELEASE_SERVICE_VERSION "25.03.90")
 set(KF_MIN_VERSION "6.9.0")
 set(QT_REQUIRED_VERSION "6.7.0")
 find_package(ECM ${KF_MIN_VERSION} CONFIG REQUIRED)
@@ -44,7 +44,7 @@ ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
 
 
 # Do NOT add quote
-set(KDEPIM_DEV_VERSION beta)
+set(KDEPIM_DEV_VERSION rc)
 
 # add an extra space
 if(DEFINED KDEPIM_DEV_VERSION)
