@@ -69,7 +69,6 @@ find_package(Qt6 ${QT_REQUIRED_VERSION} CONFIG REQUIRED Widgets WebEngineWidgets
 # Find KF6 package
 find_package(KF6Crash ${KF_MIN_VERSION} REQUIRED)
 find_package(KF6DBusAddons ${KF_MIN_VERSION} CONFIG REQUIRED)
-find_package(KF6DocTools ${KF_MIN_VERSION} REQUIRED)
 find_package(KF6XmlGui ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Archive ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KPim6PimCommon ${PIMCOMMON_LIB_VERSION} CONFIG REQUIRED)
@@ -77,6 +76,12 @@ find_package(KPim6MessageViewer ${MESSAGELIB_LIB_VERSION} CONFIG REQUIRED)
 find_package(KPim6GrantleeTheme ${LIBGRANTLEETHEME_LIB_VERSION} CONFIG REQUIRED)
 find_package(KPim6AkonadiContactWidgets ${AKONADI_CONTACT_VERSION} CONFIG REQUIRED)
 find_package(KPim6IMAP ${KIMAP_LIB_VERSION} CONFIG REQUIRED)
+
+find_package(KF6DocTools ${KF_MIN_VERSION})
+set_package_properties(KF6DocTools PROPERTIES DESCRIPTION
+    "Tools to generate documentation"
+    TYPE OPTIONAL
+)
 
 # Find KdepimLibs Package
 find_package(KPim6Mime ${KPIM_MIME_VERSION} CONFIG REQUIRED)
@@ -110,8 +115,11 @@ ecm_qt_install_logging_categories(
         DESTINATION ${KDE_INSTALL_LOGGINGCATEGORIESDIR}
 )
 
-add_subdirectory(doc)
 kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
+
+if(KF6DocTools_FOUND)
+    kdoctools_install(po)
+    add_subdirectory(doc)
+endif()
 ki18n_install(po)
-kdoctools_install(po)
 ecm_feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
