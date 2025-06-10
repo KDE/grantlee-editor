@@ -5,7 +5,7 @@
        CVS -->
   <!ENTITY i18n-kapplication "<application>Contact Theme Editor</application>">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % English "INCLUDE"> 
+  <!ENTITY % English "INCLUDE">
 ]>
 
 <article id="contactthemeeditor" lang="&language;">
