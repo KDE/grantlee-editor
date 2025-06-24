@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeconfiguredialog.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "themeeditorutil.h"
 #include <TextCustomEditor/PlainTextEditorWidget>
 
@@ -64,7 +66,7 @@ ThemeConfigureDialog::~ThemeConfigureDialog()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
-    KConfigGroup group = config->group(QStringLiteral("ThemeConfigureDialog"));
+    KConfigGroup group = config->group(u"ThemeConfigureDialog"_s);
     group.writeEntry("Size", size());
 }
 
@@ -86,8 +88,8 @@ void ThemeConfigureDialog::readConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
     ThemeEditorUtil themeutil;
-    if (config->hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup group = config->group(QStringLiteral("Global"));
+    if (config->hasGroup(u"Global"_s)) {
+        KConfigGroup group = config->group(u"Global"_s);
         mConfigureWidget->readConfig();
         mDefaultEmail->setPlainText(group.readEntry("defaultEmail", themeutil.defaultMail()));
         mDefaultTemplate->setPlainText(group.readEntry("defaultTemplate", QString()));
@@ -95,7 +97,7 @@ void ThemeConfigureDialog::readConfig()
         mDefaultEmail->setPlainText(themeutil.defaultMail());
     }
 
-    KConfigGroup group = KConfigGroup(config, QStringLiteral("ThemeConfigureDialog"));
+    KConfigGroup group = KConfigGroup(config, u"ThemeConfigureDialog"_s);
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
@@ -105,7 +107,7 @@ void ThemeConfigureDialog::readConfig()
 void ThemeConfigureDialog::writeConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup group = config->group(QStringLiteral("Global"));
+    KConfigGroup group = config->group(u"Global"_s);
     group.writeEntry("defaultEmail", mDefaultEmail->toPlainText());
     group.writeEntry("defaultTemplate", mDefaultTemplate->toPlainText());
     mConfigureWidget->writeConfig();

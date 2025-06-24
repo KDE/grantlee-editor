@@ -4,6 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeeditormainwindow.h"
+using namespace Qt::Literals::StringLiterals;
 
 #include "grantleeeditor-version.h"
 
@@ -17,17 +18,17 @@
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
-    app.setDesktopFileName(QStringLiteral("org.kde.headerthemeeditor"));
+    app.setDesktopFileName(u"org.kde.headerthemeeditor"_s);
     KCrash::initialize();
     KLocalizedString::setApplicationDomain(QByteArrayLiteral("headerthemeeditor"));
-    KAboutData aboutData(QStringLiteral("headerthemeeditor"),
+    KAboutData aboutData(u"headerthemeeditor"_s,
                          i18n("Header Theme Editor"),
                          QStringLiteral(GRANTLEEEDITOR_VERSION),
                          i18n("Messageviewer Header Theme Editor"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2013-%1 headerthemeeditor authors", QStringLiteral("2025")));
-    aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
-    QApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("kmail")));
+                         i18n("Copyright © 2013-%1 headerthemeeditor authors", u"2025"_s));
+    aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
+    QApplication::setWindowIcon(QIcon::fromTheme(u"kmail"_s));
     aboutData.setProductName(QByteArray("headerthemeeditor"));
 
     KAboutData::setApplicationData(aboutData);

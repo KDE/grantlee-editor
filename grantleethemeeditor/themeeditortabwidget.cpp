@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeeditortabwidget.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "editorpage.h"
 
 #include <KLocalizedString>
@@ -51,7 +53,7 @@ void ThemeEditorTabWidget::slotTabContextMenuRequest(const QPoint &pos)
     if (page->pageType() == EditorPage::ExtraPage) {
         QMenu menu(this);
         QAction *closeTab = menu.addAction(i18nc("@action:inmenu", "Close Tab"));
-        closeTab->setIcon(QIcon::fromTheme(QStringLiteral("tab-close")));
+        closeTab->setIcon(QIcon::fromTheme(u"tab-close"_s));
 
         QAction *action = menu.exec(mapToGlobal(pos));
 

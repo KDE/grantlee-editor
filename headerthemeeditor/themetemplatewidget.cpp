@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themetemplatewidget.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "themedefaulttemplate.h"
 
 #include <KLocalizedString>
@@ -30,7 +32,7 @@ ThemeTemplateWidget::ThemeTemplateWidget(const QString &title, QWidget *parent)
     auto lay = new QVBoxLayout(this);
     auto lab = new QLabel(title);
     lay->addWidget(lab);
-    mListTemplate = new ThemeTemplateListWidget(QStringLiteral("headerthemeeditorrc"));
+    mListTemplate = new ThemeTemplateListWidget(u"headerthemeeditorrc"_s);
     mListTemplate->setWhatsThis(i18n("You can drag and drop element on editor to import template"));
     connect(mListTemplate, &ThemeTemplateListWidget::insertTemplate, this, &ThemeTemplateWidget::insertTemplate);
     lay->addWidget(mListTemplate);

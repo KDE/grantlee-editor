@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "desktopfilepage.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "globalsettings_base.h"
 
 #include <KDesktopFile>
@@ -68,7 +70,7 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
     lab = new QLabel(i18nc("@label:textbox", "Version:"));
     mVersion = new QLineEdit(this);
     mVersion->setClearButtonEnabled(true);
-    mVersion->setText(QStringLiteral("0.1"));
+    mVersion->setText(u"0.1"_s);
     gridLayout->addWidget(lab, row, 0);
     gridLayout->addWidget(mVersion, row, 1);
 
@@ -78,10 +80,10 @@ DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage
         gridLayout->addWidget(lab, row, 0);
 
         ++row;
-        lab = new QLabel(QStringLiteral("<qt><b>")
+        lab = new QLabel(u"<qt><b>"_s
                              + i18n("Be careful, Grantlee does not support '-' in variable name. So when you want to add extra header as \"X-Original-To\" add "
                                     "\"X-Original-To\" in list, but use \"XOriginalTo\" as variable in Grantlee (remove '-' in name).")
-                             + QStringLiteral("</b></qt>"),
+                             + u"</b></qt>"_s,
                          this);
         lab->setWordWrap(true);
         gridLayout->addWidget(lab, row, 0, 1, 2);
@@ -122,7 +124,7 @@ void DesktopFilePage::createZip(const QString &themeName, KZip *zip)
     QTemporaryFile tmp;
     tmp.open();
     saveAsFilename(tmp.fileName());
-    const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mDefaultDesktopName);
+    const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + u'/' + mDefaultDesktopName);
     if (!fileAdded) {
         KMessageBox::error(this, i18n("Failed to add file into ZIP archive."), i18nc("@title:window", "Failed to add file"));
     }
@@ -148,52 +150,52 @@ QString DesktopFilePage::themeName() const
 
 void DesktopFilePage::loadTheme(const QString &path)
 {
-    const QString filename = path + QLatin1Char('/') + mDefaultDesktopName;
+    const QString filename = path + u'/' + mDefaultDesktopName;
     KDesktopFile desktopFile(filename);
-    mName->setText(desktopFile.desktopGroup().readEntry(QStringLiteral("Name")));
-    mDescription->setPlainText(desktopFile.desktopGroup().readEntry(QStringLiteral("Description")));
+    mName->setText(desktopFile.desktopGroup().readEntry(u"Name"_s));
+    mDescription->setPlainText(desktopFile.desktopGroup().readEntry(u"Description"_s));
     if (mFilename) {
-        mFilename->setText(desktopFile.desktopGroup().readEntry(QStringLiteral("FileName")));
+        mFilename->setText(desktopFile.desktopGroup().readEntry(u"FileName"_s));
     }
-    mAuthor->setText(desktopFile.desktopGroup().readEntry(QStringLiteral("Author")));
-    mEmail->setText(desktopFile.desktopGroup().readEntry(QStringLiteral("AuthorEmail")));
-    mVersion->setText(desktopFile.desktopGroup().readEntry(QStringLiteral("ThemeVersion")));
+    mAuthor->setText(desktopFile.desktopGroup().readEntry(u"Author"_s));
+    mEmail->setText(desktopFile.desktopGroup().readEntry(u"AuthorEmail"_s));
+    mVersion->setText(desktopFile.desktopGroup().readEntry(u"ThemeVersion"_s));
     if (mExtraDisplayHeaders) {
-        const QStringList displayExtraHeaders = desktopFile.desktopGroup().readEntry(QStringLiteral("DisplayExtraVariables"), QStringList());
+        const QStringList displayExtraHeaders = desktopFile.desktopGroup().readEntry(u"DisplayExtraVariables"_s, QStringList());
         mExtraDisplayHeaders->setItems(displayExtraHeaders);
     }
 }
 
 void DesktopFilePage::saveTheme(const QString &path)
 {
-    const QString filename = path + QLatin1Char('/') + mDefaultDesktopName;
+    const QString filename = path + u'/' + mDefaultDesktopName;
     saveAsFilename(filename);
 }
 
 void DesktopFilePage::saveAsFilename(const QString &filename)
 {
     KDesktopFile desktopFile(filename);
-    desktopFile.desktopGroup().writeEntry(QStringLiteral("Name"), mName->text());
-    desktopFile.desktopGroup().writeEntry(QStringLiteral("Description"), mDescription->toPlainText());
+    desktopFile.desktopGroup().writeEntry(u"Name"_s, mName->text());
+    desktopFile.desktopGroup().writeEntry(u"Description"_s, mDescription->toPlainText());
     if (mFilename) {
-        desktopFile.desktopGroup().writeEntry(QStringLiteral("FileName"), mFilename->text());
+        desktopFile.desktopGroup().writeEntry(u"FileName"_s, mFilename->text());
     }
     if (mExtraDisplayHeaders) {
         const QStringList displayExtraHeaders = mExtraDisplayHeaders->items();
         if (!displayExtraHeaders.isEmpty()) {
-            desktopFile.desktopGroup().writeEntry(QStringLiteral("DisplayExtraVariables"), displayExtraHeaders);
+            desktopFile.desktopGroup().writeEntry(u"DisplayExtraVariables"_s, displayExtraHeaders);
         }
     }
 
-    desktopFile.desktopGroup().writeEntry(QStringLiteral("Author"), mAuthor->text());
-    desktopFile.desktopGroup().writeEntry(QStringLiteral("AuthorEmail"), mEmail->text());
-    desktopFile.desktopGroup().writeEntry(QStringLiteral("ThemeVersion"), mVersion->text());
+    desktopFile.desktopGroup().writeEntry(u"Author"_s, mAuthor->text());
+    desktopFile.desktopGroup().writeEntry(u"AuthorEmail"_s, mEmail->text());
+    desktopFile.desktopGroup().writeEntry(u"ThemeVersion"_s, mVersion->text());
     desktopFile.desktopGroup().sync();
 }
 
 void DesktopFilePage::installTheme(const QString &themePath)
 {
-    const QString filename = themePath + QLatin1Char('/') + mDefaultDesktopName;
+    const QString filename = themePath + u'/' + mDefaultDesktopName;
     saveAsFilename(filename);
 }
 

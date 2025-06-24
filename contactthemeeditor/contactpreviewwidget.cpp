@@ -5,6 +5,8 @@
 */
 
 #include "contactpreviewwidget.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "contacteditorutil.h"
 
 #include <KContacts/VCardConverter>
@@ -100,8 +102,8 @@ void ContactPreviewWidget::loadConfig()
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
     ContactEditorUtil contactUtil;
-    if (config->hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup group = config->group(QStringLiteral("Global"));
+    if (config->hasGroup(u"Global"_s)) {
+        KConfigGroup group = config->group(u"Global"_s);
         const QString defaultContact = group.readEntry("defaultContact", contactUtil.defaultContact());
         if (!defaultContact.isEmpty()) {
             KContacts::VCardConverter converter;

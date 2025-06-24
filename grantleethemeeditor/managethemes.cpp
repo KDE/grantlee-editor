@@ -4,6 +4,7 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "managethemes.h"
+using namespace Qt::Literals::StringLiterals;
 
 #include <KLocalizedString>
 #include <KMessageBox>
@@ -34,7 +35,7 @@ ManageThemes::ManageThemes(const QString &relativeThemePath, QWidget *parent)
     : QDialog(parent)
     , d(new GrantleeThemeEditor::ManageThemesPrivate)
 {
-    d->mLocalDirectory = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + QLatin1Char('/') + relativeThemePath;
+    d->mLocalDirectory = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + u'/' + relativeThemePath;
     setWindowTitle(i18nc("@title:window", "Manage Theme"));
     auto w = new QWidget;
 
@@ -73,7 +74,7 @@ ManageThemes::~ManageThemes()
 
 void ManageThemes::readConfig()
 {
-    KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("ManageThemesDialog"));
+    KConfigGroup group(KSharedConfig::openConfig(), u"ManageThemesDialog"_s);
     const QSize sizeDialog = group.readEntry("Size", QSize(300, 150));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
@@ -82,7 +83,7 @@ void ManageThemes::readConfig()
 
 void ManageThemes::writeConfig()
 {
-    KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("ManageThemesDialog"));
+    KConfigGroup group(KSharedConfig::openConfig(), u"ManageThemesDialog"_s);
     group.writeEntry("Size", size());
 }
 
@@ -100,7 +101,7 @@ void ManageThemes::slotDeleteTheme()
         const int answer = KMessageBox::questionTwoActions(this, msg, i18n("Remove theme"), KStandardGuiItem::remove(), KStandardGuiItem::cancel());
         if (answer == KMessageBox::ButtonCode::PrimaryAction) {
             for (QListWidgetItem *item : selectItems) {
-                if (QDir((d->mLocalDirectory + QLatin1Char('/') + item->text())).removeRecursively()) {
+                if (QDir((d->mLocalDirectory + u'/' + item->text())).removeRecursively()) {
                     delete item;
                 } else {
                     KMessageBox::error(this,

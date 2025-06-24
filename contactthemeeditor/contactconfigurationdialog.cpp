@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "contactconfigurationdialog.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "contacteditorutil.h"
 #include <TextCustomEditor/PlainTextEditorWidget>
 
@@ -68,7 +70,7 @@ ContactConfigureDialog::~ContactConfigureDialog()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
-    KConfigGroup group = config->group(QStringLiteral("ContactConfigureDialog"));
+    KConfigGroup group = config->group(u"ContactConfigureDialog"_s);
     group.writeEntry("Size", size());
 }
 
@@ -98,8 +100,8 @@ void ContactConfigureDialog::readConfig()
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
     ContactEditorUtil contactUtil;
-    if (config->hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup group = config->group(QStringLiteral("Global"));
+    if (config->hasGroup(u"Global"_s)) {
+        KConfigGroup group = config->group(u"Global"_s);
         const QString defaultContact = group.readEntry("defaultContact", contactUtil.defaultContact());
         if (!defaultContact.isEmpty()) {
             KContacts::VCardConverter converter;
@@ -122,7 +124,7 @@ void ContactConfigureDialog::readConfig()
 
     mConfigureWidget->readConfig();
 
-    KConfigGroup group = KConfigGroup(config, QStringLiteral("ContactConfigureDialog"));
+    KConfigGroup group = KConfigGroup(config, u"ContactConfigureDialog"_s);
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
@@ -132,7 +134,7 @@ void ContactConfigureDialog::readConfig()
 void ContactConfigureDialog::writeConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup group = config->group(QStringLiteral("Global"));
+    KConfigGroup group = config->group(u"Global"_s);
     const KContacts::Addressee addr = mDefaultContact->contact();
     KContacts::VCardConverter converter;
     const QByteArray data = converter.exportVCard(addr, KContacts::VCardConverter::v3_0);

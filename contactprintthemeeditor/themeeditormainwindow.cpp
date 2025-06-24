@@ -5,6 +5,8 @@
 */
 
 #include "themeeditormainwindow.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "contactprintthemeconfiguredialog.h"
 #include "managethemes.h"
 #include "newthemedialog.h"
@@ -41,7 +43,7 @@ void ThemeEditorMainWindow::writeConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
-    KConfigGroup group = config->group(QStringLiteral("ThemeEditorMainWindow"));
+    KConfigGroup group = config->group(u"ThemeEditorMainWindow"_s);
     group.writeEntry("Size", size());
     mRecentFileAction->saveEntries(group);
 }
@@ -49,7 +51,7 @@ void ThemeEditorMainWindow::writeConfig()
 void ThemeEditorMainWindow::readConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup group = KConfigGroup(config, QStringLiteral("ThemeEditorMainWindow"));
+    KConfigGroup group = KConfigGroup(config, u"ThemeEditorMainWindow"_s);
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
@@ -75,18 +77,18 @@ void ThemeEditorMainWindow::setupActions()
 {
     mRecentFileAction = new KRecentFilesAction(i18n("Load Recent Theme..."), this);
     connect(mRecentFileAction, &KRecentFilesAction::urlSelected, this, &ThemeEditorMainWindow::slotThemeSelected);
-    actionCollection()->addAction(QStringLiteral("load_recent_theme"), mRecentFileAction);
+    actionCollection()->addAction(u"load_recent_theme"_s, mRecentFileAction);
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup groupConfig = config->group(QStringLiteral("ThemeEditorMainWindow"));
+    KConfigGroup groupConfig = config->group(u"ThemeEditorMainWindow"_s);
     mRecentFileAction->loadEntries(groupConfig);
 
     mAddExtraPage = new QAction(i18nc("@action", "Add Extra Page..."), this);
     connect(mAddExtraPage, &QAction::triggered, this, &ThemeEditorMainWindow::slotAddExtraPage);
-    actionCollection()->addAction(QStringLiteral("add_extra_page"), mAddExtraPage);
-    if (KAuthorized::authorize(QStringLiteral("ghns"))) {
-        mUploadTheme = new QAction(QIcon::fromTheme(QStringLiteral("get-hot-new-stuff")), i18n("Upload theme..."), this);
+    actionCollection()->addAction(u"add_extra_page"_s, mAddExtraPage);
+    if (KAuthorized::authorize(u"ghns"_s)) {
+        mUploadTheme = new QAction(QIcon::fromTheme(u"get-hot-new-stuff"_s), i18n("Upload theme..."), this);
         connect(mUploadTheme, &QAction::triggered, this, &ThemeEditorMainWindow::slotUploadTheme);
-        actionCollection()->addAction(QStringLiteral("upload_theme"), mUploadTheme);
+        actionCollection()->addAction(u"upload_theme"_s, mUploadTheme);
     }
 
     mNewThemeAction = KStandardActions::openNew(this, &ThemeEditorMainWindow::slotNewTheme, actionCollection());
@@ -105,26 +107,26 @@ void ThemeEditorMainWindow::setupActions()
     KStandardActions::preferences(this, &ThemeEditorMainWindow::slotConfigure, actionCollection());
 
     mInstallTheme = new QAction(i18nc("@action", "Install theme"), this);
-    actionCollection()->addAction(QStringLiteral("install_theme"), mInstallTheme);
+    actionCollection()->addAction(u"install_theme"_s, mInstallTheme);
     connect(mInstallTheme, &QAction::triggered, this, &ThemeEditorMainWindow::slotInstallTheme);
 
     mInsertFile = new QAction(i18nc("@action", "Insert File..."), this);
-    actionCollection()->addAction(QStringLiteral("insert_file"), mInsertFile);
+    actionCollection()->addAction(u"insert_file"_s, mInsertFile);
     connect(mInsertFile, &QAction::triggered, this, &ThemeEditorMainWindow::slotInsertFile);
 
     mManageTheme = new QAction(i18nc("@action", "Manage themes..."), this);
     connect(mManageTheme, &QAction::triggered, this, &ThemeEditorMainWindow::slotManageTheme);
-    actionCollection()->addAction(QStringLiteral("manage_themes"), mManageTheme);
+    actionCollection()->addAction(u"manage_themes"_s, mManageTheme);
 
-    mUpdateView = new QAction(QIcon::fromTheme(QStringLiteral("view-refresh")), i18n("Update view"), this);
+    mUpdateView = new QAction(QIcon::fromTheme(u"view-refresh"_s), i18n("Update view"), this);
     actionCollection()->setDefaultShortcut(mUpdateView, QKeySequence(Qt::Key_F5));
     connect(mUpdateView, &QAction::triggered, this, &ThemeEditorMainWindow::slotUpdateView);
-    actionCollection()->addAction(QStringLiteral("update_view"), mUpdateView);
+    actionCollection()->addAction(u"update_view"_s, mUpdateView);
 }
 
 void ThemeEditorMainWindow::slotManageTheme()
 {
-    QPointer<GrantleeThemeEditor::ManageThemes> dialog = new GrantleeThemeEditor::ManageThemes(QStringLiteral("kaddressbook/printing/themes/"), this);
+    QPointer<GrantleeThemeEditor::ManageThemes> dialog = new GrantleeThemeEditor::ManageThemes(u"kaddressbook/printing/themes/"_s, this);
     dialog->exec();
     delete dialog;
 }

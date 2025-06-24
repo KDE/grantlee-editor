@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "previewwidget.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "themeeditorutil.h"
 #include <MessageViewer/GrantleeHeaderTestStyle>
 #include <MessageViewer/HeaderStrategy>
@@ -25,7 +27,7 @@ PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     mGrantleeHeaderStyle = new MessageViewer::GrantleeHeaderTestStyle;
     mGrantleeHeaderStyle->setAbsolutePath(projectDirectory);
     // Default
-    mGrantleeHeaderStyle->setMainFilename(QStringLiteral("header.html"));
+    mGrantleeHeaderStyle->setMainFilename(u"header.html"_s);
 #if 0 // TODO_PORT_PLUGIN
     mViewer->setHeaderStyleAndStrategy(mGrantleeHeaderStyle,
                                        MessageViewer::HeaderStrategy::create(QString()));
@@ -57,8 +59,8 @@ void PreviewWidget::loadConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
     ThemeEditorUtil themeutil;
-    if (config->hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup group = config->group(QStringLiteral("Global"));
+    if (config->hasGroup(u"Global"_s)) {
+        KConfigGroup group = config->group(u"Global"_s);
         mDefaultEmail = group.readEntry("defaultEmail", themeutil.defaultMail()).toLatin1();
     } else {
         mDefaultEmail = themeutil.defaultMail().toLatin1();

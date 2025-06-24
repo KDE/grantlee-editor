@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "grantleeplaintexteditor.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "grantleethemeeditor_debug.h"
 
 #include <KSyntaxHighlighting/Definition>
@@ -20,7 +22,7 @@ using namespace GrantleeThemeEditor;
 GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)
     : TextCustomEditor::PlainTextEditor(parent)
 {
-    const KSyntaxHighlighting::Definition def = mRepo.definitionForName(QStringLiteral("HTML"));
+    const KSyntaxHighlighting::Definition def = mRepo.definitionForName(u"HTML"_s);
     if (!def.isValid()) {
         qCWarning(GRANTLEETHEMEEDITOR_LOG) << "Invalid definition name";
     }

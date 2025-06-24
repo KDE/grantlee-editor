@@ -4,32 +4,29 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "defaultcompletion.h"
+using namespace Qt::Literals::StringLiterals;
 
 QStringList DefaultCompletion::defaultCompetion()
 {
     // TODO add to highlighter
     QStringList lst;
 
-    lst << QStringLiteral("<div>") << QStringLiteral("contact.birthday") << QStringLiteral("contact.birthdayi18n") << QStringLiteral("contact.phoneNumbers")
-        << QStringLiteral("phoneNumber.smsLink") << QStringLiteral("phoneNumber.type") << QStringLiteral("contact.emailsi18n")
-        << QStringLiteral("contact.websitei18n") << QStringLiteral("contact.website") << QStringLiteral("contact.blogUrl")
-        << QStringLiteral("contact.addresses") << QStringLiteral("contact.imAddressi18n") << QStringLiteral("contact.imAddress")
-        << QStringLiteral("contact.Professioni18n") << QStringLiteral("contact.profession") << QStringLiteral("contact.hasqrcode")
-        << QStringLiteral("contact.note") << QStringLiteral("contact.notei18n") << QStringLiteral("contact.addressBookName")
-        << QStringLiteral("contact.addressBookNamei18n") << QStringLiteral("customField.title") << QStringLiteral("contact.customFields")
-        << QStringLiteral("customField.value") << QStringLiteral("contact.customFieldsUrl") << QStringLiteral("contact.anniversaryi18n")
-        << QStringLiteral("contact.anniversary") << QStringLiteral("contact.spousei18n") << QStringLiteral("contact.spouse")
-        << QStringLiteral("contact.assistant") << QStringLiteral("contact.assistanti18n") << QStringLiteral("contact.manager")
-        << QStringLiteral("contact.manageri18n") << QStringLiteral("contact.officei18n") << QStringLiteral("contact.office")
-        << QStringLiteral("contact.department") << QStringLiteral("contact.departmenti18n") << QStringLiteral("contact.imAddresses")
-        << QStringLiteral("phoneNumber.numberLink") << QStringLiteral("contact.imAddresses") << QStringLiteral("imAddress.type")
-        << QStringLiteral("address.formattedAddressLink") << QStringLiteral("address.formattedAddressIcon") << QStringLiteral("member.emailLink")
-        << QStringLiteral("member.name") << QStringLiteral("field.title") << QStringLiteral("field.value") << QStringLiteral("imAddress.imIcon");
+    lst << u"<div>"_s << u"contact.birthday"_s << QStringLiteral("contact.birthdayi18n") << QStringLiteral("contact.phoneNumbers") << u"phoneNumber.smsLink"_s
+        << u"phoneNumber.type"_s << QStringLiteral("contact.emailsi18n") << u"contact.websitei18n"_s << u"contact.website"_s
+        << QStringLiteral("contact.blogUrl") << u"contact.addresses"_s << u"contact.imAddressi18n"_s << QStringLiteral("contact.imAddress")
+        << u"contact.Professioni18n"_s << u"contact.profession"_s << QStringLiteral("contact.hasqrcode") << u"contact.note"_s << u"contact.notei18n"_s
+        << QStringLiteral("contact.addressBookName") << u"contact.addressBookNamei18n"_s << u"customField.title"_s << QStringLiteral("contact.customFields")
+        << u"customField.value"_s << u"contact.customFieldsUrl"_s << QStringLiteral("contact.anniversaryi18n") << u"contact.anniversary"_s
+        << u"contact.spousei18n"_s << QStringLiteral("contact.spouse") << u"contact.assistant"_s << u"contact.assistanti18n"_s
+        << QStringLiteral("contact.manager") << u"contact.manageri18n"_s << u"contact.officei18n"_s << QStringLiteral("contact.office")
+        << u"contact.department"_s << u"contact.departmenti18n"_s << QStringLiteral("contact.imAddresses") << u"phoneNumber.numberLink"_s
+        << u"contact.imAddresses"_s << QStringLiteral("imAddress.type") << u"address.formattedAddressLink"_s << u"address.formattedAddressIcon"_s
+        << QStringLiteral("member.emailLink") << u"member.name"_s << u"field.title"_s << QStringLiteral("field.value") << QStringLiteral("imAddress.imIcon");
     return lst;
 }
 
 QStringList DefaultCompletion::defaultOptions()
 {
-    const QStringList lst{QStringLiteral("Safe")};
+    const QStringList lst{u"Safe"_s};
     return lst;
 }

@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themesession.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "grantleethemeeditor_debug.h"
 #include <KConfig>
 #include <KConfigGroup>
@@ -48,11 +50,11 @@ QString ThemeSession::mainPageFileName() const
 bool ThemeSession::loadSession(const QString &session)
 {
     KConfig config(session);
-    if (config.hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup global = config.group(QStringLiteral("Global"));
-        const int version = global.readEntry(QStringLiteral("version"), 0);
+    if (config.hasGroup(u"Global"_s)) {
+        KConfigGroup global = config.group(u"Global"_s);
+        const int version = global.readEntry(u"version"_s, 0);
         if (version >= mVersion) {
-            if (global.readEntry(QStringLiteral("themeTypeName")) != mThemeTypeName) {
+            if (global.readEntry(u"themeTypeName"_s) != mThemeTypeName) {
                 KMessageBox::error(nullptr,
                                    i18n("Error during theme loading"),
                                    i18n("You are trying to load a theme which cannot be read by this application"));
@@ -60,11 +62,11 @@ bool ThemeSession::loadSession(const QString &session)
             }
         }
         mProjectDirectory = global.readEntry("path", QString());
-        mMainPageFileName = global.readEntry(QStringLiteral("mainPageName"), QString());
-        mExtraPage = global.readEntry(QStringLiteral("extraPagesName"), QStringList());
+        mMainPageFileName = global.readEntry(u"mainPageName"_s, QString());
+        mExtraPage = global.readEntry(u"extraPagesName"_s, QStringList());
         return true;
     } else {
-        qCDebug(GRANTLEETHEMEEDITOR_LOG) << QStringLiteral("\"%1\" is not a session file").arg(session);
+        qCDebug(GRANTLEETHEMEEDITOR_LOG) << u"\"%1\" is not a session file"_s.arg(session);
         return false;
     }
 }
@@ -73,11 +75,11 @@ void ThemeSession::writeSession(const QString &directory)
 {
     QString themeDirectory = (directory.isEmpty() ? mProjectDirectory : directory);
     KConfig config(themeDirectory + QLatin1StringView("/theme.themerc"));
-    KConfigGroup global = config.group(QStringLiteral("Global"));
-    global.writeEntry(QStringLiteral("path"), themeDirectory);
-    global.writeEntry(QStringLiteral("mainPageName"), mMainPageFileName);
-    global.writeEntry(QStringLiteral("extraPagesName"), mExtraPage);
-    global.writeEntry(QStringLiteral("themeTypeName"), mThemeTypeName);
-    global.writeEntry(QStringLiteral("version"), mVersion);
+    KConfigGroup global = config.group(u"Global"_s);
+    global.writeEntry(u"path"_s, themeDirectory);
+    global.writeEntry(u"mainPageName"_s, mMainPageFileName);
+    global.writeEntry(u"extraPagesName"_s, mExtraPage);
+    global.writeEntry(u"themeTypeName"_s, mThemeTypeName);
+    global.writeEntry(u"version"_s, mVersion);
     config.sync();
 }

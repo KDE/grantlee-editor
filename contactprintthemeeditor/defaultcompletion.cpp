@@ -5,27 +5,25 @@
 */
 
 #include "defaultcompletion.h"
+using namespace Qt::Literals::StringLiterals;
 
 QStringList DefaultCompletion::defaultCompetion()
 {
     // TODO add to highlighter
     QStringList lst;
-    lst << QStringLiteral("<div>") << QStringLiteral("contact.birthdayi18n") << QStringLiteral("contact.anniversaryi18n")
-        << QStringLiteral("contact.emailsi18n") << QStringLiteral("contact.websitei18n") << QStringLiteral("contact.blogUrli18n")
-        << QStringLiteral("contact.addressBookNamei18n") << QStringLiteral("contact.notei18n") << QStringLiteral("contact.departmenti18n")
-        << QStringLiteral("contact.Professioni18n") << QStringLiteral("contact.officei18n") << QStringLiteral("contact.manageri18n")
-        << QStringLiteral("contact.assistanti18n") << QStringLiteral("contact.spousei18n") << QStringLiteral("contact.imAddressi18n")
-        << QStringLiteral("contact.latitudei18n") << QStringLiteral("contact.longitudei18n") << QStringLiteral("contact.organizationi18n")
-        << QStringLiteral("contact.titlei18n") << QStringLiteral("contact.nextcontacti18n") << QStringLiteral("contact.name")
-        << QStringLiteral("contact.realName") << QStringLiteral("contact.formattedName") << QStringLiteral("contact.prefix")
-        << QStringLiteral("contact.givenName") << QStringLiteral("contact.additionalName") << QStringLiteral("contact.familyName")
-        << QStringLiteral("contact.suffix") << QStringLiteral("contact.nickName") << QStringLiteral("contact.emails") << QStringLiteral("contact.organization")
-        << QStringLiteral("contact.note") << QStringLiteral("contact.webSite") << QStringLiteral("contact.title") << QStringLiteral("contact.preferredEmail")
-        << QStringLiteral("contact.role") << QStringLiteral("contact.birthday") << QStringLiteral("contact.department") << QStringLiteral("contact.addresses")
-        << QStringLiteral("contact.phones") << QStringLiteral("contact.addressBookName") << QStringLiteral("contact.instantManging")
-        << QStringLiteral("contact.geo") << QStringLiteral("contact.photo") << QStringLiteral("contact.logo") << QStringLiteral("contact.crypto")
-        << QStringLiteral("contact.anniversary") << QStringLiteral("contact.profession") << QStringLiteral("contact.office")
-        << QStringLiteral("contact.manager") << QStringLiteral("contact.assistant") << QStringLiteral("contact.spouse") << QStringLiteral("contact.languages");
+    lst << u"<div>"_s << u"contact.birthdayi18n"_s << QStringLiteral("contact.anniversaryi18n") << u"contact.emailsi18n"_s << u"contact.websitei18n"_s
+        << QStringLiteral("contact.blogUrli18n") << u"contact.addressBookNamei18n"_s << u"contact.notei18n"_s << QStringLiteral("contact.departmenti18n")
+        << u"contact.Professioni18n"_s << u"contact.officei18n"_s << QStringLiteral("contact.manageri18n") << u"contact.assistanti18n"_s
+        << u"contact.spousei18n"_s << QStringLiteral("contact.imAddressi18n") << u"contact.latitudei18n"_s << u"contact.longitudei18n"_s
+        << QStringLiteral("contact.organizationi18n") << u"contact.titlei18n"_s << u"contact.nextcontacti18n"_s << QStringLiteral("contact.name")
+        << u"contact.realName"_s << u"contact.formattedName"_s << QStringLiteral("contact.prefix") << u"contact.givenName"_s << u"contact.additionalName"_s
+        << QStringLiteral("contact.familyName") << u"contact.suffix"_s << u"contact.nickName"_s << QStringLiteral("contact.emails")
+        << QStringLiteral("contact.organization") << u"contact.note"_s << u"contact.webSite"_s << QStringLiteral("contact.title")
+        << QStringLiteral("contact.preferredEmail") << u"contact.role"_s << u"contact.birthday"_s << QStringLiteral("contact.department")
+        << QStringLiteral("contact.addresses") << u"contact.phones"_s << u"contact.addressBookName"_s << QStringLiteral("contact.instantManging")
+        << u"contact.geo"_s << u"contact.photo"_s << QStringLiteral("contact.logo") << QStringLiteral("contact.crypto") << u"contact.anniversary"_s
+        << u"contact.profession"_s << QStringLiteral("contact.office") << u"contact.manager"_s << u"contact.assistant"_s << QStringLiteral("contact.spouse")
+        << QStringLiteral("contact.languages");
 
     return lst;
 }
@@ -33,6 +31,6 @@ QStringList DefaultCompletion::defaultCompetion()
 QStringList DefaultCompletion::defaultOptions()
 {
     QStringList lst;
-    lst << QStringLiteral("Safe");
+    lst << u"Safe"_s;
     return lst;
 }

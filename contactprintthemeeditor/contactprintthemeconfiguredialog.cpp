@@ -5,6 +5,8 @@
 */
 
 #include "contactprintthemeconfiguredialog.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "contactprintthemeeditorutil.h"
 #include <TextCustomEditor/PlainTextEditorWidget>
 
@@ -70,7 +72,7 @@ ContactPrintThemeConfigureDialog::~ContactPrintThemeConfigureDialog()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
-    KConfigGroup group = config->group(QStringLiteral("ContactPrintThemeConfigureDialog"));
+    KConfigGroup group = config->group(u"ContactPrintThemeConfigureDialog"_s);
     group.writeEntry("Size", size());
 }
 
@@ -100,8 +102,8 @@ void ContactPrintThemeConfigureDialog::readConfig()
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
     ContactPrintThemeEditorutil contactUtil;
-    if (config->hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup group = config->group(QStringLiteral("Global"));
+    if (config->hasGroup(u"Global"_s)) {
+        KConfigGroup group = config->group(u"Global"_s);
 
         const QString defaultContact = group.readEntry("defaultContact", contactUtil.defaultContact());
         if (!defaultContact.isEmpty()) {
@@ -125,7 +127,7 @@ void ContactPrintThemeConfigureDialog::readConfig()
 
     mConfigureWidget->readConfig();
 
-    KConfigGroup group = KConfigGroup(config, QStringLiteral("ContactPrintThemeConfigureDialog"));
+    KConfigGroup group = KConfigGroup(config, u"ContactPrintThemeConfigureDialog"_s);
     const QSize sizeDialog = group.readEntry("Size", QSize(600, 400));
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
@@ -135,7 +137,7 @@ void ContactPrintThemeConfigureDialog::readConfig()
 void ContactPrintThemeConfigureDialog::writeConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
-    KConfigGroup group = config->group(QStringLiteral("Global"));
+    KConfigGroup group = config->group(u"Global"_s);
     const KContacts::Addressee addr = mDefaultContact->contact();
     KContacts::VCardConverter converter;
     const QByteArray data = converter.exportVCard(addr, KContacts::VCardConverter::v3_0);

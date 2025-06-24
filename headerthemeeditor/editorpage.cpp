@@ -5,6 +5,8 @@
 */
 
 #include "editorpage.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "KSplitterCollapserButton"
 #include "editorwidget.h"
 #include "previewwidget.h"
@@ -45,7 +47,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
     mEditor = new ThemeEditorWidget;
 
     if (mType == MainPage) {
-        KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("Global"));
+        KConfigGroup group(KSharedConfig::openConfig(), u"Global"_s);
         mEditor->setPlainText(group.readEntry("defaultTemplate", QString()));
     }
     mMainSplitter->addWidget(mEditor);
@@ -58,7 +60,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
     connect(mEditor->editor(), &QPlainTextEdit::textChanged, this, &GrantleeThemeEditor::EditorPage::changed);
 
     if (mType == MainPage) {
-        KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("EditorPage"));
+        KConfigGroup group(KSharedConfig::openConfig(), u"EditorPage"_s);
         const QList<int> size{400, 100};
         mMainSplitter->setSizes(group.readEntry("mainSplitter", size));
         mWidgetSplitter->setSizes(group.readEntry("widgetSplitter", size));
@@ -68,7 +70,7 @@ EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QSt
 EditorPage::~EditorPage()
 {
     if (mType == MainPage) {
-        KConfigGroup group(KSharedConfig::openConfig(), QStringLiteral("EditorPage"));
+        KConfigGroup group(KSharedConfig::openConfig(), u"EditorPage"_s);
         group.writeEntry("mainSplitter", mMainSplitter->sizes());
         group.writeEntry("widgetSplitter", mWidgetSplitter->sizes());
     }

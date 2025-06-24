@@ -5,6 +5,8 @@
 */
 
 #include "contactprintthemepreview.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "contactprintthemeeditor_debug.h"
 #include "contactprintthemeeditorutil.h"
 #include <Akonadi/GrantleePrint>
@@ -54,8 +56,8 @@ void ContactPrintThemePreview::loadConfig()
 {
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
 
-    if (config->hasGroup(QStringLiteral("Global"))) {
-        KConfigGroup group = config->group(QStringLiteral("Global"));
+    if (config->hasGroup(u"Global"_s)) {
+        KConfigGroup group = config->group(u"Global"_s);
         ContactPrintThemeEditorutil contactEditorUtil;
         const QString defaultContact = group.readEntry("defaultContact", contactEditorUtil.defaultContact());
         if (!defaultContact.isEmpty()) {

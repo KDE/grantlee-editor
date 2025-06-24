@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeeditorpage.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "desktopfilepage.h"
 #include "editorpage.h"
 #include "previewwidget.h"
@@ -25,7 +27,7 @@
 
 ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)
-    , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, QStringLiteral("headerthemeeditor")))
+    , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, u"headerthemeeditor"_s))
 {
     auto lay = new QHBoxLayout(this);
     mTabWidget = new GrantleeThemeEditor::ThemeEditorTabWidget;
@@ -34,14 +36,14 @@ ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &theme
     mEditorPage = new EditorPage(EditorPage::MainPage, projectDir);
     connect(mEditorPage, &EditorPage::needUpdateViewer, this, &ThemeEditorPage::slotUpdateViewer);
     connect(mEditorPage, &EditorPage::changed, this, &ThemeEditorPage::slotChanged);
-    mTabWidget->addTab(mEditorPage, i18n("Editor (%1)", QStringLiteral("header.html")));
+    mTabWidget->addTab(mEditorPage, i18n("Editor (%1)", u"header.html"_s));
 
     GrantleeThemeEditor::DesktopFilePage::DesktopFileOptions opt;
     opt |= GrantleeThemeEditor::DesktopFilePage::ExtraDisplayVariables;
     opt |= GrantleeThemeEditor::DesktopFilePage::SpecifyFileName;
 
-    mDesktopPage = new GrantleeThemeEditor::DesktopFilePage(QStringLiteral("header.html"), opt, this);
-    mDesktopPage->setDefaultDesktopName(QStringLiteral("header.desktop"));
+    mDesktopPage = new GrantleeThemeEditor::DesktopFilePage(u"header.html"_s, opt, this);
+    mDesktopPage->setDefaultDesktopName(u"header.desktop"_s);
     mDesktopPage->setThemeName(themeName);
     mTabWidget->addTab(mDesktopPage, i18n("Desktop File"));
 
@@ -91,7 +93,7 @@ void ThemeEditorPage::slotExtraHeaderDisplayChanged(const QStringList &extraHead
     QStringList result;
     result.reserve(extraHeaders.count());
     for (QString var : extraHeaders) {
-        var = QLatin1StringView("header.") + var.remove(QLatin1Char('-'));
+        var = QLatin1StringView("header.") + var.remove(u'-');
         result << var;
     }
 
@@ -151,7 +153,7 @@ bool ThemeEditorPage::themeWasChanged() const
 void ThemeEditorPage::installTheme(const QString &themePath)
 {
     QDir dir(themePath);
-    QDir themeDir(themePath + QLatin1Char('/') + mDesktopPage->themeName());
+    QDir themeDir(themePath + u'/' + mDesktopPage->themeName());
     if (themeDir.exists()) {
         const int answer = KMessageBox::questionTwoActions(this,
                                                            i18n("Theme already exists. Do you want to overwrite it?"),
@@ -167,7 +169,7 @@ void ThemeEditorPage::installTheme(const QString &themePath)
             return;
         }
     }
-    const QString newPath = themePath + QLatin1Char('/') + mDesktopPage->themeName();
+    const QString newPath = themePath + u'/' + mDesktopPage->themeName();
     mEditorPage->setPageFileName(mDesktopPage->filename());
     mEditorPage->installTheme(newPath);
     for (EditorPage *page : std::as_const(mExtraPage)) {
@@ -184,16 +186,16 @@ void ThemeEditorPage::uploadTheme()
     mEditorPage->preview()->updateViewer();
     QTemporaryDir tmp;
     const QString themename = mDesktopPage->themeName();
-    const QString zipFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView(".zip");
+    const QString zipFileName = tmp.path() + u'/' + themename + QLatin1StringView(".zip");
     KZip *zip = new KZip(zipFileName);
     if (zip->open(QIODevice::WriteOnly)) {
-        const QString previewFileName = tmp.path() + QLatin1Char('/') + themename + QLatin1StringView("_preview.png");
+        const QString previewFileName = tmp.path() + u'/' + themename + QLatin1StringView("_preview.png");
         // qCDebug(HEADERTHEMEEDITOR_LOG)<<" previewFileName"<<previewFileName;
         QStringList lst;
         lst << previewFileName;
         mEditorPage->preview()->createScreenShot(lst);
 
-        const bool fileAdded = zip->addLocalFile(previewFileName, themename + QLatin1Char('/') + QLatin1StringView("theme_preview.png"));
+        const bool fileAdded = zip->addLocalFile(previewFileName, themename + u'/' + QLatin1StringView("theme_preview.png"));
         if (!fileAdded) {
             KMessageBox::error(this, i18n("We cannot add preview file in zip file"), i18n("Failed to add file."));
             delete zip;
@@ -204,7 +206,7 @@ void ThemeEditorPage::uploadTheme()
         zip->close();
         // qCDebug(HEADERTHEMEEDITOR_LOG)<< "zipFilename"<<zipFileName;
 
-        QPointer<KNS3::UploadDialog> dialog = new KNS3::UploadDialog(QStringLiteral("messageviewer_header_themes.knsrc"), this);
+        QPointer<KNS3::UploadDialog> dialog = new KNS3::UploadDialog(u"messageviewer_header_themes.knsrc"_s, this);
         dialog->setUploadFile(QUrl::fromLocalFile(zipFileName));
         dialog->setUploadName(themename);
         dialog->setPreviewImageFile(0, QUrl::fromLocalFile(previewFileName));
@@ -301,13 +303,13 @@ void ThemeEditorPage::loadTheme(const QString &filename)
 {
     if (mThemeSession->loadSession(filename)) {
         mDesktopPage->loadTheme(mThemeSession->projectDirectory());
-        mEditorPage->loadTheme(mThemeSession->projectDirectory() + QLatin1Char('/') + mThemeSession->mainPageFileName());
+        mEditorPage->loadTheme(mThemeSession->projectDirectory() + u'/' + mThemeSession->mainPageFileName());
         mEditorPage->preview()->setThemePath(mThemeSession->projectDirectory(), mThemeSession->mainPageFileName());
 
         const QStringList lstExtraPages = mThemeSession->extraPages();
         for (const QString &page : lstExtraPages) {
             EditorPage *extraPage = createExtraPage(page);
-            extraPage->loadTheme(mThemeSession->projectDirectory() + QLatin1Char('/') + page);
+            extraPage->loadTheme(mThemeSession->projectDirectory() + u'/' + page);
         }
         mTabWidget->setCurrentIndex(0);
         setChanged(false);

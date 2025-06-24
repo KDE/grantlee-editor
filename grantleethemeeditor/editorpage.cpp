@@ -4,6 +4,8 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "editorpage.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "editorwidget.h"
 
 #include <KLocalizedString>
@@ -73,7 +75,7 @@ void EditorPage::saveTheme(const QString &path)
         return;
     }
 
-    const QString filename = path + QLatin1Char('/') + mPageFileName;
+    const QString filename = path + u'/' + mPageFileName;
     saveAsFilename(filename);
 }
 
@@ -94,7 +96,7 @@ void EditorPage::createZip(const QString &themeName, KZip *zip)
     QTemporaryFile tmp;
     tmp.open();
     saveAsFilename(tmp.fileName());
-    const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + QLatin1Char('/') + mPageFileName);
+    const bool fileAdded = zip->addLocalFile(tmp.fileName(), themeName + u'/' + mPageFileName);
     if (!fileAdded) {
         KMessageBox::error(this, i18n("Failed to add file into ZIP archive."), i18nc("@title:window", "Failed to add file"));
     }
@@ -102,7 +104,7 @@ void EditorPage::createZip(const QString &themeName, KZip *zip)
 
 void EditorPage::installTheme(const QString &themePath)
 {
-    const QString filename = themePath + QLatin1Char('/') + mPageFileName;
+    const QString filename = themePath + u'/' + mPageFileName;
     saveAsFilename(filename);
 }
 
