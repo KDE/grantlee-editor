@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-06-30 11:47+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -30,7 +30,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "franklin@goodhorse.idv.tw, s8321414@gmail.com"
 
-#: editorpage.cpp:52
+#: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
 msgstr "主題樣本："
@@ -47,56 +47,56 @@ msgstr "編輯(&E)"
 msgid "&Display"
 msgstr "顯示(&D)"
 
-#: main.cpp:24
+#: main.cpp:25
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "標頭主題編輯器"
 
-#: main.cpp:26
+#: main.cpp:27
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "訊息檢視器標頭主題編輯器"
 
-#: main.cpp:28
+#: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013-%1 headerthemeeditor 作者群"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: previewwidget.cpp:34
+#: previewwidget.cpp:36
 #, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "更新檢視"
 
-#: themeconfiguredialog.cpp:27
+#: themeconfiguredialog.cpp:29
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "設定"
 
-#: themeconfiguredialog.cpp:37
+#: themeconfiguredialog.cpp:39
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "預設郵件："
 
-#: themeconfiguredialog.cpp:42
+#: themeconfiguredialog.cpp:44
 #, kde-format
 msgid "General"
 msgstr "一般"
 
-#: themeconfiguredialog.cpp:45
+#: themeconfiguredialog.cpp:47
 #, kde-format
 msgid "Default Template"
 msgstr "預設樣本"
@@ -121,151 +121,151 @@ msgstr "收件者"
 msgid "Cc"
 msgstr "副本"
 
-#: themeeditormainwindow.cpp:79
+#: themeeditormainwindow.cpp:81
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "載入最近的主題..."
 
-#: themeeditormainwindow.cpp:86
+#: themeeditormainwindow.cpp:88
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "新增額外頁面..."
 
-#: themeeditormainwindow.cpp:91
+#: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "Upload theme..."
 msgstr "上傳主題..."
 
-#: themeeditormainwindow.cpp:97
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "New theme..."
 msgstr "新增主題..."
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:102
 #, kde-format
 msgid "Open theme..."
 msgstr "開啟主題..."
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:104
 #, kde-format
 msgid "Save theme"
 msgstr "儲存主題"
 
-#: themeeditormainwindow.cpp:105
+#: themeeditormainwindow.cpp:107
 #, kde-format
 msgid "Save theme as..."
 msgstr "另存主題..."
 
-#: themeeditormainwindow.cpp:111
+#: themeeditormainwindow.cpp:113
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "安裝主題"
 
-#: themeeditormainwindow.cpp:115
+#: themeeditormainwindow.cpp:117
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "插入檔案..."
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:123
 #, kde-format
 msgid "Printing mode"
 msgstr "列印模式"
 
-#: themeeditormainwindow.cpp:126
+#: themeeditormainwindow.cpp:128
 #, kde-format
 msgid "Normal mode"
 msgstr "正常模式"
 
-#: themeeditormainwindow.cpp:132
+#: themeeditormainwindow.cpp:134
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "管理佈景主題..."
 
-#: themeeditormainwindow.cpp:136
+#: themeeditormainwindow.cpp:138
 #, kde-format
 msgid "Update view"
 msgstr "更新檢視"
 
-#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
 #, kde-format
 msgid "Select theme directory"
 msgstr "選擇主題目錄"
 
-#: themeeditormainwindow.cpp:230
+#: themeeditormainwindow.cpp:232
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "目錄裡沒有主題檔。無法載入主題。"
 
-#: themeeditorpage.cpp:37
+#: themeeditorpage.cpp:39
 #, kde-format
 msgid "Editor (%1)"
 msgstr "編輯器 (%1)"
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr "桌面檔案"
 
-#: themeeditorpage.cpp:157
+#: themeeditorpage.cpp:159
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "主題已存在。您要覆寫它嗎？"
 
-#: themeeditorpage.cpp:158
+#: themeeditorpage.cpp:160
 #, kde-format
 msgid "Theme already exists"
 msgstr "主題已存在"
 
-#: themeeditorpage.cpp:166
+#: themeeditorpage.cpp:168
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "無法建立主題資料夾。"
 
-#: themeeditorpage.cpp:177
+#: themeeditorpage.cpp:179
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "主題已安裝於 \"%1\""
 
-#: themeeditorpage.cpp:198
+#: themeeditorpage.cpp:200
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "無法在 zip 檔中新增預覽檔"
 
-#: themeeditorpage.cpp:198
+#: themeeditorpage.cpp:200
 #, kde-format
 msgid "Failed to add file."
 msgstr "新增檔案失敗。"
 
-#: themeeditorpage.cpp:212
+#: themeeditorpage.cpp:214
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "我的最愛 KMail 標頭"
 
-#: themeeditorpage.cpp:235
+#: themeeditorpage.cpp:237
 #, kde-format
 msgid "Filename of extra page"
 msgstr "額外頁面的檔名"
 
-#: themeeditorpage.cpp:235
+#: themeeditorpage.cpp:237
 #, kde-format
 msgid "Filename:"
 msgstr "檔案名稱："
 
-#: themeeditorpage.cpp:283
+#: themeeditorpage.cpp:285
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "您要儲存目前的專案嗎？"
 
-#: themeeditorpage.cpp:284
+#: themeeditorpage.cpp:286
 #, kde-format
 msgid "Save current project"
 msgstr "儲存目前的專案"
 
-#: themetemplatewidget.cpp:34
+#: themetemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr "您可以拖放元素到編輯器來匯入樣本"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-07-20 15:21+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -28,173 +28,173 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ulysses@fsf.hu,urbalazs@fsf.hu"
 
-#: contactconfigurationdialog.cpp:31
+#: contactconfigurationdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Beállítás"
 
-#: contactconfigurationdialog.cpp:41
+#: contactconfigurationdialog.cpp:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Alapértelmezett névjegy:"
 
-#: contactconfigurationdialog.cpp:47
+#: contactconfigurationdialog.cpp:49
 #, kde-format
 msgid "General"
 msgstr "Általános"
 
-#: contactconfigurationdialog.cpp:50
+#: contactconfigurationdialog.cpp:52
 #, kde-format
 msgid "Default Template"
 msgstr "Alapértelmezett sablon"
 
-#: contacteditormainwindow.cpp:75
+#: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Legutóbbi téma betöltése…"
 
-#: contacteditormainwindow.cpp:82
+#: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Extra oldal hozzáadása…"
 
-#: contacteditormainwindow.cpp:87
+#: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
 msgstr "Téma feltöltése…"
 
-#: contacteditormainwindow.cpp:93
+#: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
 msgstr "Új téma…"
 
-#: contacteditormainwindow.cpp:96
+#: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
 msgstr "Téma megnyitása…"
 
-#: contacteditormainwindow.cpp:98
+#: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
 msgstr "Téma mentése"
 
-#: contacteditormainwindow.cpp:100
+#: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
 msgstr "Téma mentése másként…"
 
-#: contacteditormainwindow.cpp:106
+#: contacteditormainwindow.cpp:108
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Téma telepítése"
 
-#: contacteditormainwindow.cpp:110
+#: contacteditormainwindow.cpp:112
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Fájl beszúrása…"
 
-#: contacteditormainwindow.cpp:114
+#: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Témák kezelése…"
 
-#: contacteditormainwindow.cpp:118
+#: contacteditormainwindow.cpp:120
 #, kde-format
 msgid "Update view"
 msgstr "Nézet frissítése"
 
-#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
+#: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
 msgstr "Témakönyvtár kiválasztása"
 
-#: contacteditormainwindow.cpp:203
+#: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "A könyvtár nem tartalmaz témafájlt. Nem tudunk témát betölteni."
 
-#: contacteditorpage.cpp:40
+#: contacteditorpage.cpp:42
 #, kde-format
 msgid "Editor"
 msgstr "Szerkesztő"
 
-#: contacteditorpage.cpp:52
+#: contacteditorpage.cpp:54
 #, kde-format
 msgid "Desktop File"
 msgstr "Asztali fájl"
 
-#: contacteditorpage.cpp:123
+#: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "A téma már létezik. Szeretné felülírni?"
 
-#: contacteditorpage.cpp:124
+#: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
 msgstr "A téma már létezik"
 
-#: contacteditorpage.cpp:132
+#: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nem sikerült létrehozni a témamappát."
 
-#: contacteditorpage.cpp:146
+#: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "A téma telepítve ide: „%1”"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Nem tudunk előnézet fájlt hozzáadni a zip fájlhoz"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "Failed to add file."
 msgstr "Nem sikerült hozzáadni a fájlt."
 
-#: contacteditorpage.cpp:188
+#: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "A kedvenc Kaddressbook témám"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Az extra oldal fájlneve"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename:"
 msgstr "Fájlnév:"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "El szeretné menteni a jelenlegi projektet?"
 
-#: contacteditorpage.cpp:274
+#: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
 msgstr "Jelenlegi projekt mentése"
 
-#: contactpreviewwidget.cpp:34
+#: contactpreviewwidget.cpp:36
 #, kde-format
 msgid "Contact"
 msgstr "Névjegy"
 
-#: contactpreviewwidget.cpp:37
+#: contactpreviewwidget.cpp:39
 #, kde-format
 msgid "Group"
 msgstr "Csoport"
 
-#: contacttemplatewidget.cpp:34
+#: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""
@@ -213,28 +213,28 @@ msgstr "S&zerkesztés"
 msgid "&Display"
 msgstr "&Megjelenítés"
 
-#: editorpage.cpp:52
+#: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Téma sablonok:"
 
-#: main.cpp:23 main.cpp:25
+#: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Névjegy téma szerkesztő"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © A contactthemeeditor szerzői, 2013-%1."
 
-#: main.cpp:28
+#: main.cpp:30
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:28
+#: main.cpp:30
 #, kde-format
 msgid "Maintainer"
 msgstr "Karbantartó"

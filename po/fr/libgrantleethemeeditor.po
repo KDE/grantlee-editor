@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-06-20 18:35+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -23,49 +23,49 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: desktopfilepage.cpp:29
+#: desktopfilepage.cpp:31
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Nom :"
 
-#: desktopfilepage.cpp:37
+#: desktopfilepage.cpp:39
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Auteur :"
 
-#: desktopfilepage.cpp:44
+#: desktopfilepage.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "Courriel :"
 
-#: desktopfilepage.cpp:51
+#: desktopfilepage.cpp:53
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Description :"
 
-#: desktopfilepage.cpp:59
+#: desktopfilepage.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Nom du fichier :"
 
-#: desktopfilepage.cpp:68
+#: desktopfilepage.cpp:70
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Version :"
 
-#: desktopfilepage.cpp:77
+#: desktopfilepage.cpp:79
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Extraire les en-têtes :"
 
-#: desktopfilepage.cpp:82
+#: desktopfilepage.cpp:84
 #, kde-format
 msgid ""
 "Be careful, Grantlee does not support '-' in variable name. So when you want "
@@ -78,63 +78,63 @@ msgstr ""
 "liste mais utilisez « XOriginalTo » comme variable dans Grantlee "
 "(suppression du caractère « - » dans le nom)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Impossible d'ajouter le fichier à l'archive ZIP."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Impossible d'ajouter le fichier"
 
-#: editorpage.cpp:88
+#: editorpage.cpp:90
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Erreur lors de l'ouverture du fichier « %1 »."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Gérer un thème"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Thèmes locaux :"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Supprimer un thème"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Voulez-vous supprimer le thème sélectionné « %1 » ?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Voulez-vous supprimer les %1 thèmes sélectionnés ?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
 msgstr "Supprimer un thème"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "Le thème « %1 » ne peut être supprimé. Veuillez contacter votre "
 "administrateur."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Échec de la suppression du thème"
@@ -157,23 +157,23 @@ msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Dossier du thème :"
 
-#: themeeditortabwidget.cpp:34
+#: themeeditortabwidget.cpp:36
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Éditeur (%1)"
 
-#: themeeditortabwidget.cpp:53
+#: themeeditortabwidget.cpp:55
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Fermer un onglet"
 
-#: themesession.cpp:57
+#: themesession.cpp:59
 #, kde-format
 msgid "Error during theme loading"
 msgstr "Erreur durant le chargement du thème"
 
-#: themesession.cpp:58
+#: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
 msgstr ""

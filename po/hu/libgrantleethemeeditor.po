@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-07-31 21:59+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -18,49 +18,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 24.05.2\n"
 
-#: desktopfilepage.cpp:29
+#: desktopfilepage.cpp:31
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Név:"
 
-#: desktopfilepage.cpp:37
+#: desktopfilepage.cpp:39
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Szerző:"
 
-#: desktopfilepage.cpp:44
+#: desktopfilepage.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-mail:"
 
-#: desktopfilepage.cpp:51
+#: desktopfilepage.cpp:53
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Leírás:"
 
-#: desktopfilepage.cpp:59
+#: desktopfilepage.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Fájlnév:"
 
-#: desktopfilepage.cpp:68
+#: desktopfilepage.cpp:70
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Verzió:"
 
-#: desktopfilepage.cpp:77
+#: desktopfilepage.cpp:79
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Fejlécek kibontása:"
 
-#: desktopfilepage.cpp:82
+#: desktopfilepage.cpp:84
 #, kde-format
 msgid ""
 "Be careful, Grantlee does not support '-' in variable name. So when you want "
@@ -72,61 +72,61 @@ msgstr ""
 "listához „X-Original-To” formában, de változóként „XOriginalTo” néven "
 "használja a Grantlee programban (távolítsa el a „-” karaktert a névből)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Nem sikerült hozzáadni a fájlt a ZIP-archívumhoz."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Nem sikerült hozzáadni a fájlt"
 
-#: editorpage.cpp:88
+#: editorpage.cpp:90
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Nem sikerült megnyitni a(z) „%1” fájlt"
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Téma kezelése"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Helyi témák:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Téma törlése"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Szeretné eltávolítani a kijelölt „%1” témát?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Szeretné eltávolítani a kijelölt %1 témát?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
 msgstr "Téma eltávolítása"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr "A(z) „%1” téma nem törölhető. Forduljon a rendszergazdához."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
 msgstr "A téma törlése nem sikerült"
@@ -149,23 +149,23 @@ msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Téma könyvtára:"
 
-#: themeeditortabwidget.cpp:34
+#: themeeditortabwidget.cpp:36
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Szerkesztő (%1)"
 
-#: themeeditortabwidget.cpp:53
+#: themeeditortabwidget.cpp:55
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Lap bezárása"
 
-#: themesession.cpp:57
+#: themesession.cpp:59
 #, kde-format
 msgid "Error during theme loading"
 msgstr "Hiba a téma betöltése közben"
 
-#: themesession.cpp:58
+#: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
 msgstr ""

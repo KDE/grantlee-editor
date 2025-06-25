@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-11-09 20:04+0100\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -18,56 +18,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: desktopfilepage.cpp:29
+#: desktopfilepage.cpp:31
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Име:"
 
-#: desktopfilepage.cpp:37
+#: desktopfilepage.cpp:39
 #, fuzzy, kde-format
 #| msgid "Author:"
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Автор:"
 
-#: desktopfilepage.cpp:44
+#: desktopfilepage.cpp:46
 #, fuzzy, kde-format
 #| msgid "Email:"
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "Е-поща:"
 
-#: desktopfilepage.cpp:51
+#: desktopfilepage.cpp:53
 #, fuzzy, kde-format
 #| msgid "Description:"
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Описание:"
 
-#: desktopfilepage.cpp:59
+#: desktopfilepage.cpp:61
 #, fuzzy, kde-format
 #| msgid "Filename:"
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Име на файл:"
 
-#: desktopfilepage.cpp:68
+#: desktopfilepage.cpp:70
 #, fuzzy, kde-format
 #| msgid "Version:"
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Версия:"
 
-#: desktopfilepage.cpp:77
+#: desktopfilepage.cpp:79
 #, fuzzy, kde-format
 #| msgid "Extract Headers:"
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Извличане на заглавки:"
 
-#: desktopfilepage.cpp:82
+#: desktopfilepage.cpp:84
 #, kde-format
 msgid ""
 "Be careful, Grantlee does not support '-' in variable name. So when you want "
@@ -79,63 +79,63 @@ msgstr ""
 "\"X-Original-To\" в списъка, но използвайте \"XOriginalTo\" като променлива "
 "в Grantlee (махнете \"-\" в името)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, fuzzy, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Грешка при добавяне на файл."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Грешка при добавяне на файл."
 
-#: editorpage.cpp:88
+#: editorpage.cpp:90
 #, fuzzy, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Грешка при добавяне на файл."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Управление на темата"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, fuzzy, kde-format
 #| msgid "Local themes:"
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Локални теми:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, fuzzy, kde-format
 #| msgid "Delete theme"
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Изтриване на тема"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, fuzzy, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Наистина ли да се премахне избраната тема?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, fuzzy, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Наистина ли да се премахне избраната тема?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
 msgstr "Премахване на темата"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr "Темата „%1“ не може да се изтрие. Свържете се с администратора."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Грешка при изтриване на тема"
@@ -160,23 +160,23 @@ msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Папка на темата:"
 
-#: themeeditortabwidget.cpp:34
+#: themeeditortabwidget.cpp:36
 #, kde-format
 msgid "Editor (%1)"
 msgstr ""
 
-#: themeeditortabwidget.cpp:53
+#: themeeditortabwidget.cpp:55
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Затваряне на подпрозореца"
 
-#: themesession.cpp:57
+#: themesession.cpp:59
 #, kde-format
 msgid "Error during theme loading"
 msgstr ""
 
-#: themesession.cpp:58
+#: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
 msgstr ""

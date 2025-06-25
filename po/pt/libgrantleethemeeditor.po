@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2019-12-17 11:49+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -18,56 +18,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-POFile-SpellExtra: Grantlee XOriginalTo\n"
 
-#: desktopfilepage.cpp:29
+#: desktopfilepage.cpp:31
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Nome:"
 
-#: desktopfilepage.cpp:37
+#: desktopfilepage.cpp:39
 #, fuzzy, kde-format
 #| msgid "Author:"
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Autor:"
 
-#: desktopfilepage.cpp:44
+#: desktopfilepage.cpp:46
 #, fuzzy, kde-format
 #| msgid "Email:"
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-mail:"
 
-#: desktopfilepage.cpp:51
+#: desktopfilepage.cpp:53
 #, fuzzy, kde-format
 #| msgid "Description:"
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Descrição:"
 
-#: desktopfilepage.cpp:59
+#: desktopfilepage.cpp:61
 #, fuzzy, kde-format
 #| msgid "Filename:"
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Nome do ficheiro:"
 
-#: desktopfilepage.cpp:68
+#: desktopfilepage.cpp:70
 #, fuzzy, kde-format
 #| msgid "Version:"
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Versão:"
 
-#: desktopfilepage.cpp:77
+#: desktopfilepage.cpp:79
 #, fuzzy, kde-format
 #| msgid "Extract Headers:"
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Extrair os Cabeçalhos:"
 
-#: desktopfilepage.cpp:82
+#: desktopfilepage.cpp:84
 #, kde-format
 msgid ""
 "Be careful, Grantlee does not support '-' in variable name. So when you want "
@@ -79,64 +79,64 @@ msgstr ""
 "adicione \"X-Original-To\" à lista, mas use o \"XOriginalTo\" como variável "
 "no Grantlee (remova o '-' no nome)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Não foi possível adicionar o ficheiro ao pacote ZIP."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Não foi possível adicionar o ficheiro"
 
-#: editorpage.cpp:88
+#: editorpage.cpp:90
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Não é possível aceder ao ficheiro \"%1\"."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Gerir o Tema"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, fuzzy, kde-format
 #| msgid "Local themes:"
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Temas locais:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, fuzzy, kde-format
 #| msgid "Delete theme"
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Remover o tema"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Deseja remover o tema seleccionado \"%1\"?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Deseja remover os %1 temas seleccionados?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
 msgstr "Remover o tema"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
 "O tema \"%1\" não pode ser removido. Por favor, contacte o seu administrador."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Remoção do tema mal-sucedida"
@@ -161,23 +161,23 @@ msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Pasta de temas:"
 
-#: themeeditortabwidget.cpp:34
+#: themeeditortabwidget.cpp:36
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditortabwidget.cpp:53
+#: themeeditortabwidget.cpp:55
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Fechar a Página"
 
-#: themesession.cpp:57
+#: themesession.cpp:59
 #, kde-format
 msgid "Error during theme loading"
 msgstr "Erro ao carregar o tema"
 
-#: themesession.cpp:58
+#: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "Tentou carregar um tema que não pode ser lido por esta aplicação"

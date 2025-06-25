@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-16 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2022-01-02 00:47+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -27,24 +27,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: contactprintthemeconfiguredialog.cpp:32
+#: contactprintthemeconfiguredialog.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr ""
 
-#: contactprintthemeconfiguredialog.cpp:43
+#: contactprintthemeconfiguredialog.cpp:45
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr ""
 
-#: contactprintthemeconfiguredialog.cpp:49
+#: contactprintthemeconfiguredialog.cpp:51
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: contactprintthemeconfiguredialog.cpp:52
+#: contactprintthemeconfiguredialog.cpp:54
 #, kde-format
 msgid "Default Template"
 msgstr ""
@@ -61,167 +61,167 @@ msgstr ""
 msgid "&Display"
 msgstr ""
 
-#: editorpage.cpp:55
+#: editorpage.cpp:57
 #, kde-format
 msgid "Theme Templates:"
 msgstr ""
 
-#: main.cpp:22 main.cpp:24
+#: main.cpp:24 main.cpp:26
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr ""
 
-#: main.cpp:26
+#: main.cpp:28
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr ""
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr ""
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr ""
 
-#: themeeditormainwindow.cpp:76
+#: themeeditormainwindow.cpp:78
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:83
+#: themeeditormainwindow.cpp:85
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:87
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:96
+#: themeeditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:98
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
 msgstr ""
 
-#: themeeditormainwindow.cpp:101
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Save theme as..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:109
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr ""
 
-#: themeeditormainwindow.cpp:111
+#: themeeditormainwindow.cpp:113
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:115
+#: themeeditormainwindow.cpp:117
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr ""
 
-#: themeeditormainwindow.cpp:119
+#: themeeditormainwindow.cpp:121
 #, kde-format
 msgid "Update view"
 msgstr ""
 
-#: themeeditormainwindow.cpp:190 themeeditormainwindow.cpp:323
+#: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
 #, kde-format
 msgid "Select theme directory"
 msgstr ""
 
-#: themeeditormainwindow.cpp:206
+#: themeeditormainwindow.cpp:208
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
 
-#: themeeditorpage.cpp:40
+#: themeeditorpage.cpp:42
 #, kde-format
 msgid "Editor (%1)"
 msgstr ""
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr ""
 
-#: themeeditorpage.cpp:134
+#: themeeditorpage.cpp:136
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr ""
 
-#: themeeditorpage.cpp:135
+#: themeeditorpage.cpp:137
 #, kde-format
 msgid "Theme already exists"
 msgstr ""
 
-#: themeeditorpage.cpp:143
+#: themeeditorpage.cpp:145
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr ""
 
-#: themeeditorpage.cpp:153
+#: themeeditorpage.cpp:155
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr ""
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:176
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr ""
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:176
 #, kde-format
 msgid "Failed to add file."
 msgstr ""
 
-#: themeeditorpage.cpp:188
+#: themeeditorpage.cpp:190
 #, kde-format
 msgid "My favorite KMail header"
 msgstr ""
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:213
 #, kde-format
 msgid "Filename of extra page"
 msgstr ""
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:213
 #, kde-format
 msgid "Filename:"
 msgstr ""
 
-#: themeeditorpage.cpp:257
+#: themeeditorpage.cpp:259
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr ""
 
-#: themeeditorpage.cpp:258
+#: themeeditorpage.cpp:260
 #, kde-format
 msgid "Save current project"
 msgstr ""
 
-#: themetemplatewidget.cpp:35
+#: themetemplatewidget.cpp:37
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2022-08-08 17:36+0200\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -27,7 +27,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mschlander@opensuse.org"
 
-#: editorpage.cpp:52
+#: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Temaskabeloner:"
@@ -44,59 +44,59 @@ msgstr "&Redigér"
 msgid "&Display"
 msgstr "&Vis"
 
-#: main.cpp:24
+#: main.cpp:25
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Temaeditor til headers"
 
-#: main.cpp:26
+#: main.cpp:27
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Temaeditor til headers i brevlæseren"
 
-#: main.cpp:28
+#: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Ophavsret © 2013-%1 headerthemeeditor-udviklerne"
 
-#: main.cpp:29
+#: main.cpp:30
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Maintainer"
 msgstr "Vedligeholder"
 
-#: previewwidget.cpp:34
+#: previewwidget.cpp:36
 #, fuzzy, kde-format
 #| msgid "Update view"
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Opdatér visning"
 
-#: themeconfiguredialog.cpp:27
+#: themeconfiguredialog.cpp:29
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Indstil"
 
-#: themeconfiguredialog.cpp:37
+#: themeconfiguredialog.cpp:39
 #, fuzzy, kde-format
 #| msgid "Default email:"
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Standard-e-mail:"
 
-#: themeconfiguredialog.cpp:42
+#: themeconfiguredialog.cpp:44
 #, kde-format
 msgid "General"
 msgstr "Generelt"
 
-#: themeconfiguredialog.cpp:45
+#: themeconfiguredialog.cpp:47
 #, kde-format
 msgid "Default Template"
 msgstr "Standardskabelon"
@@ -121,155 +121,155 @@ msgstr "Til"
 msgid "Cc"
 msgstr "Cc"
 
-#: themeeditormainwindow.cpp:79
+#: themeeditormainwindow.cpp:81
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Indlæs nyligt tema..."
 
-#: themeeditormainwindow.cpp:86
+#: themeeditormainwindow.cpp:88
 #, fuzzy, kde-format
 #| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Tilføj ekstra side..."
 
-#: themeeditormainwindow.cpp:91
+#: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "Upload theme..."
 msgstr "Upload tema..."
 
-#: themeeditormainwindow.cpp:97
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "New theme..."
 msgstr "Nyt tema..."
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:102
 #, kde-format
 msgid "Open theme..."
 msgstr "Åbn tema..."
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:104
 #, kde-format
 msgid "Save theme"
 msgstr "Gem tema"
 
-#: themeeditormainwindow.cpp:105
+#: themeeditormainwindow.cpp:107
 #, kde-format
 msgid "Save theme as..."
 msgstr "Gem tema som..."
 
-#: themeeditormainwindow.cpp:111
+#: themeeditormainwindow.cpp:113
 #, fuzzy, kde-format
 #| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Installér tema"
 
-#: themeeditormainwindow.cpp:115
+#: themeeditormainwindow.cpp:117
 #, fuzzy, kde-format
 #| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Indsæt fil..."
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:123
 #, kde-format
 msgid "Printing mode"
 msgstr "Udskriftstilstand"
 
-#: themeeditormainwindow.cpp:126
+#: themeeditormainwindow.cpp:128
 #, kde-format
 msgid "Normal mode"
 msgstr "Normal tilstand"
 
-#: themeeditormainwindow.cpp:132
+#: themeeditormainwindow.cpp:134
 #, fuzzy, kde-format
 #| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Håndtér temaer..."
 
-#: themeeditormainwindow.cpp:136
+#: themeeditormainwindow.cpp:138
 #, kde-format
 msgid "Update view"
 msgstr "Opdatér visning"
 
-#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
 #, kde-format
 msgid "Select theme directory"
 msgstr "Vælg temamappe"
 
-#: themeeditormainwindow.cpp:230
+#: themeeditormainwindow.cpp:232
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Mappen indeholder ikke en temafil. Vi kan ikke indlæse temaet."
 
-#: themeeditorpage.cpp:37
+#: themeeditorpage.cpp:39
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr "Desktop-fil"
 
-#: themeeditorpage.cpp:157
+#: themeeditorpage.cpp:159
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Temaet findes allerede. Vil du overskrive det?"
 
-#: themeeditorpage.cpp:158
+#: themeeditorpage.cpp:160
 #, kde-format
 msgid "Theme already exists"
 msgstr "Temaet findes allerede"
 
-#: themeeditorpage.cpp:166
+#: themeeditorpage.cpp:168
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Kan ikke oprette temamappe."
 
-#: themeeditorpage.cpp:177
+#: themeeditorpage.cpp:179
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema installeret i \"%1\""
 
-#: themeeditorpage.cpp:198
+#: themeeditorpage.cpp:200
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Vi kan ikke tilføje forhåndsvisningsfil til en zip-fil"
 
-#: themeeditorpage.cpp:198
+#: themeeditorpage.cpp:200
 #, kde-format
 msgid "Failed to add file."
 msgstr "Kunne ikke tilføje filen."
 
-#: themeeditorpage.cpp:212
+#: themeeditorpage.cpp:214
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "Min yndlings KMail-header"
 
-#: themeeditorpage.cpp:235
+#: themeeditorpage.cpp:237
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Filnavn på ekstra side"
 
-#: themeeditorpage.cpp:235
+#: themeeditorpage.cpp:237
 #, kde-format
 msgid "Filename:"
 msgstr "Filnavn:"
 
-#: themeeditorpage.cpp:283
+#: themeeditorpage.cpp:285
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Vil du gemme det aktuelle projekt?"
 
-#: themeeditorpage.cpp:284
+#: themeeditorpage.cpp:286
 #, kde-format
 msgid "Save current project"
 msgstr "Gem aktuelt projekt"
 
-#: themetemplatewidget.cpp:34
+#: themetemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""

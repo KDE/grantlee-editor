@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-05-28 22:41+0200\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -27,174 +27,174 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "luigi.toscano@tiscali.it"
 
-#: contactconfigurationdialog.cpp:31
+#: contactconfigurationdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Configura"
 
-#: contactconfigurationdialog.cpp:41
+#: contactconfigurationdialog.cpp:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Contatto predefinito:"
 
-#: contactconfigurationdialog.cpp:47
+#: contactconfigurationdialog.cpp:49
 #, kde-format
 msgid "General"
 msgstr "Generale"
 
-#: contactconfigurationdialog.cpp:50
+#: contactconfigurationdialog.cpp:52
 #, kde-format
 msgid "Default Template"
 msgstr "Modello predefinito"
 
-#: contacteditormainwindow.cpp:75
+#: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Carica tema recente..."
 
-#: contacteditormainwindow.cpp:82
+#: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Aggiungi un'altra pagina..."
 
-#: contacteditormainwindow.cpp:87
+#: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
 msgstr "Invia tema..."
 
-#: contacteditormainwindow.cpp:93
+#: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
 msgstr "Nuovo tema..."
 
-#: contacteditormainwindow.cpp:96
+#: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
 msgstr "Apri tema..."
 
-#: contacteditormainwindow.cpp:98
+#: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
 msgstr "Salva tema"
 
-#: contacteditormainwindow.cpp:100
+#: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
 msgstr "Salva tema come..."
 
-#: contacteditormainwindow.cpp:106
+#: contacteditormainwindow.cpp:108
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Installa tema"
 
-#: contacteditormainwindow.cpp:110
+#: contacteditormainwindow.cpp:112
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Inserisci file..."
 
-#: contacteditormainwindow.cpp:114
+#: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Gestisci temi..."
 
-#: contacteditormainwindow.cpp:118
+#: contacteditormainwindow.cpp:120
 #, kde-format
 msgid "Update view"
 msgstr "Aggiorna vista"
 
-#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
+#: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
 msgstr "Seleziona la cartella del tema"
 
-#: contacteditormainwindow.cpp:203
+#: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""
 "La cartella non contiene un file di tema. Impossibile caricare il tema."
 
-#: contacteditorpage.cpp:40
+#: contacteditorpage.cpp:42
 #, kde-format
 msgid "Editor"
 msgstr "Editor"
 
-#: contacteditorpage.cpp:52
+#: contacteditorpage.cpp:54
 #, kde-format
 msgid "Desktop File"
 msgstr "File del desktop"
 
-#: contacteditorpage.cpp:123
+#: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Il tema esiste già. Vuoi sovrascriverlo?"
 
-#: contacteditorpage.cpp:124
+#: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
 msgstr "Il tema esiste già"
 
-#: contacteditorpage.cpp:132
+#: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Impossibile creare la cartella del tema."
 
-#: contacteditorpage.cpp:146
+#: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema installato in «%1»"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Impossibile aggiungere il file di anteprima al file zip"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "Failed to add file."
 msgstr "Impossibile aggiungere il file."
 
-#: contacteditorpage.cpp:188
+#: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "Il mio tema preferito di Kaddressbook"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Nome del file della pagina aggiuntiva"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename:"
 msgstr "Nome file:"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Vuoi salvare il progetto corrente?"
 
-#: contacteditorpage.cpp:274
+#: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
 msgstr "Salva il progetto corrente"
 
-#: contactpreviewwidget.cpp:34
+#: contactpreviewwidget.cpp:36
 #, kde-format
 msgid "Contact"
 msgstr "Contatto"
 
-#: contactpreviewwidget.cpp:37
+#: contactpreviewwidget.cpp:39
 #, kde-format
 msgid "Group"
 msgstr "Gruppo"
 
-#: contacttemplatewidget.cpp:34
+#: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr "Puoi trascinare degli elementi sull'editor per importare un modello"
@@ -211,28 +211,28 @@ msgstr "&Modifica"
 msgid "&Display"
 msgstr "&Visualizza"
 
-#: editorpage.cpp:52
+#: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Modelli dei temi:"
 
-#: main.cpp:23 main.cpp:25
+#: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "Editor dei temi dei contatti"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 gli autori di contactthemeeditor"
 
-#: main.cpp:28
+#: main.cpp:30
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:28
+#: main.cpp:30
 #, kde-format
 msgid "Maintainer"
 msgstr "Responsabile"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2014-01-31 18:56+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosanski <lokal@lugbih.org>\n"
@@ -30,7 +30,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "samir.ribic@etf.unsa.ba"
 
-#: editorpage.cpp:52
+#: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Predlošci tema"
@@ -47,61 +47,61 @@ msgstr "&Izmijeni"
 msgid "&Display"
 msgstr "&Prikaži"
 
-#: main.cpp:24
+#: main.cpp:25
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Uređivač tema zaglavlja"
 
-#: main.cpp:26
+#: main.cpp:27
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Uređivač tema zaglavlja za preglednik poruka"
 
-#: main.cpp:28
+#: main.cpp:29
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013 headerthemeeditor authors"
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Autorska prava © 2013 headerthemeeditor autori"
 
-#: main.cpp:29
+#: main.cpp:30
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Maintainer"
 msgstr "Održava"
 
-#: previewwidget.cpp:34
+#: previewwidget.cpp:36
 #, fuzzy, kde-format
 #| msgid "Update view"
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Ažuriraj pogled"
 
-#: themeconfiguredialog.cpp:27
+#: themeconfiguredialog.cpp:29
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Konfiguriši"
 
-#: themeconfiguredialog.cpp:37
+#: themeconfiguredialog.cpp:39
 #, fuzzy, kde-format
 #| msgid "Default email:"
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Podrazumijevana pošta:"
 
-#: themeconfiguredialog.cpp:42
+#: themeconfiguredialog.cpp:44
 #, kde-format
 msgid "General"
 msgstr "Opšte"
 
-#: themeconfiguredialog.cpp:45
+#: themeconfiguredialog.cpp:47
 #, kde-format
 msgid "Default Template"
 msgstr "Osnovni predložak."
@@ -126,157 +126,157 @@ msgstr "Za"
 msgid "Cc"
 msgstr "Cc"
 
-#: themeeditormainwindow.cpp:79
+#: themeeditormainwindow.cpp:81
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Ucitavam prijašnju temu"
 
-#: themeeditormainwindow.cpp:86
+#: themeeditormainwindow.cpp:88
 #, fuzzy, kde-format
 #| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Dodaj dodatnu stranicu..."
 
-#: themeeditormainwindow.cpp:91
+#: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "Upload theme..."
 msgstr "Pošalji temu..."
 
-#: themeeditormainwindow.cpp:97
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "New theme..."
 msgstr "Nova tema..."
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:102
 #, kde-format
 msgid "Open theme..."
 msgstr "Otvori temu..."
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:104
 #, fuzzy, kde-format
 #| msgid "Save theme..."
 msgid "Save theme"
 msgstr "Snimi temu..."
 
-#: themeeditormainwindow.cpp:105
+#: themeeditormainwindow.cpp:107
 #, kde-format
 msgid "Save theme as..."
 msgstr "Snimi temu kao..."
 
-#: themeeditormainwindow.cpp:111
+#: themeeditormainwindow.cpp:113
 #, fuzzy, kde-format
 #| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instaliraj temu"
 
-#: themeeditormainwindow.cpp:115
+#: themeeditormainwindow.cpp:117
 #, fuzzy, kde-format
 #| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Ubaci datoteku"
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:123
 #, kde-format
 msgid "Printing mode"
 msgstr "Režim štampe"
 
-#: themeeditormainwindow.cpp:126
+#: themeeditormainwindow.cpp:128
 #, kde-format
 msgid "Normal mode"
 msgstr "Normalni režim"
 
-#: themeeditormainwindow.cpp:132
+#: themeeditormainwindow.cpp:134
 #, fuzzy, kde-format
 #| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Upravljaj temama..."
 
-#: themeeditormainwindow.cpp:136
+#: themeeditormainwindow.cpp:138
 #, kde-format
 msgid "Update view"
 msgstr "Ažuriraj pogled"
 
-#: themeeditormainwindow.cpp:214 themeeditormainwindow.cpp:347
+#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
 #, kde-format
 msgid "Select theme directory"
 msgstr "Odaberi direktorij tema"
 
-#: themeeditormainwindow.cpp:230
+#: themeeditormainwindow.cpp:232
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"
 
-#: themeeditorpage.cpp:37
+#: themeeditorpage.cpp:39
 #, fuzzy, kde-format
 #| msgid "Editor"
 msgid "Editor (%1)"
 msgstr "Uređivač"
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr "Stona datoteka"
 
-#: themeeditorpage.cpp:157
+#: themeeditorpage.cpp:159
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Tema već postoji. Želite li preći preko nje?"
 
-#: themeeditorpage.cpp:158
+#: themeeditorpage.cpp:160
 #, kde-format
 msgid "Theme already exists"
 msgstr "Tema već postoji."
 
-#: themeeditorpage.cpp:166
+#: themeeditorpage.cpp:168
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nije moguće kreirati tematski direktorij"
 
-#: themeeditorpage.cpp:177
+#: themeeditorpage.cpp:179
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema instalirana u \"%1\""
 
-#: themeeditorpage.cpp:198
+#: themeeditorpage.cpp:200
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Ne možemo dodati pregled datoteka u zip datoteci"
 
-#: themeeditorpage.cpp:198
+#: themeeditorpage.cpp:200
 #, kde-format
 msgid "Failed to add file."
 msgstr "Neuspjelo dodavanje datoteke"
 
-#: themeeditorpage.cpp:212
+#: themeeditorpage.cpp:214
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "Moje omiljeno KMail zaglavlje"
 
-#: themeeditorpage.cpp:235
+#: themeeditorpage.cpp:237
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Ime dodatne stranice"
 
-#: themeeditorpage.cpp:235
+#: themeeditorpage.cpp:237
 #, kde-format
 msgid "Filename:"
 msgstr "Datoteka:"
 
-#: themeeditorpage.cpp:283
+#: themeeditorpage.cpp:285
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Želite li snimiti trenutni projekat?"
 
-#: themeeditorpage.cpp:284
+#: themeeditorpage.cpp:286
 #, kde-format
 msgid "Save current project"
 msgstr "Snimi trenutni projekat"
 
-#: themetemplatewidget.cpp:34
+#: themetemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr "Možete prevući i ispustiti element u uređivač za uvoz perdložaka."

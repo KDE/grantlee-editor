@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-18 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-06-18 17:04+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@bredband.net>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -17,49 +17,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 23.08.5\n"
 
-#: desktopfilepage.cpp:29
+#: desktopfilepage.cpp:31
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Namn:"
 
-#: desktopfilepage.cpp:37
+#: desktopfilepage.cpp:39
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Upphovsman:"
 
-#: desktopfilepage.cpp:44
+#: desktopfilepage.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-post:"
 
-#: desktopfilepage.cpp:51
+#: desktopfilepage.cpp:53
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Beskrivning:"
 
-#: desktopfilepage.cpp:59
+#: desktopfilepage.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Filnamn:"
 
-#: desktopfilepage.cpp:68
+#: desktopfilepage.cpp:70
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Version:"
 
-#: desktopfilepage.cpp:77
+#: desktopfilepage.cpp:79
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Packa upp huvuden:"
 
-#: desktopfilepage.cpp:82
+#: desktopfilepage.cpp:84
 #, kde-format
 msgid ""
 "Be careful, Grantlee does not support '-' in variable name. So when you want "
@@ -71,61 +71,61 @@ msgstr ""
 "listan, men använd \"XOriginalTo\" som variabel i Grantlee (ta bort '-' i "
 "namn)."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgid "Failed to add file into ZIP archive."
 msgstr "Misslyckades lägga till fil i ZIP-arkiv."
 
-#: desktopfilepage.cpp:127 editorpage.cpp:99
+#: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
 msgstr "Misslyckades lägga till fil"
 
-#: editorpage.cpp:88
+#: editorpage.cpp:90
 #, kde-format
 msgid "Failed to open file \"%1\"."
 msgstr "Misslyckades öppna filen \"%1\"."
 
-#: managethemes.cpp:38
+#: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Hantera tema"
 
-#: managethemes.cpp:44
+#: managethemes.cpp:45
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Lokala teman:"
 
-#: managethemes.cpp:52
+#: managethemes.cpp:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Ta bort tema"
 
-#: managethemes.cpp:96
+#: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
 msgstr "Vill du ta bort det markerade temat \"%1\"?"
 
-#: managethemes.cpp:98
+#: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
 msgstr "Vill du ta bort %1 markerade teman?"
 
-#: managethemes.cpp:100
+#: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
 msgstr "Ta bort tema"
 
-#: managethemes.cpp:107
+#: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr "Temat \"%1\" kan inte tas bort. Kontakta systemadministratören."
 
-#: managethemes.cpp:108
+#: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
 msgstr "Borttagning av tema misslyckades"
@@ -148,23 +148,23 @@ msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Temakatalog:"
 
-#: themeeditortabwidget.cpp:34
+#: themeeditortabwidget.cpp:36
 #, kde-format
 msgid "Editor (%1)"
 msgstr "Editor (%1)"
 
-#: themeeditortabwidget.cpp:53
+#: themeeditortabwidget.cpp:55
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "Stäng flik"
 
-#: themesession.cpp:57
+#: themesession.cpp:59
 #, kde-format
 msgid "Error during theme loading"
 msgstr "Fel vid inläsning av tema"
 
-#: themesession.cpp:58
+#: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "Du försöker läsa in ett tema som inte kan läsas av detta program"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-28 00:38+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -29,173 +29,173 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: contactconfigurationdialog.cpp:31
+#: contactconfigurationdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "विन्यस्तं कुर्वन्तु"
 
-#: contactconfigurationdialog.cpp:41
+#: contactconfigurationdialog.cpp:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "पूर्वनिर्धारित सम्पर्कः :"
 
-#: contactconfigurationdialog.cpp:47
+#: contactconfigurationdialog.cpp:49
 #, kde-format
 msgid "General"
 msgstr "सामान्य"
 
-#: contactconfigurationdialog.cpp:50
+#: contactconfigurationdialog.cpp:52
 #, kde-format
 msgid "Default Template"
 msgstr "पूर्वनिर्धारित टेम्पलेट"
 
-#: contacteditormainwindow.cpp:75
+#: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "हाले विषयः लोड् कुर्वन्तु..."
 
-#: contacteditormainwindow.cpp:82
+#: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "अतिरिक्त पृष्ठं योजयतु..."
 
-#: contacteditormainwindow.cpp:87
+#: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
 msgstr "अपलोड् विषयः..."
 
-#: contacteditormainwindow.cpp:93
+#: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
 msgstr "नवीन विषयः..."
 
-#: contacteditormainwindow.cpp:96
+#: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
 msgstr "खुला विषय..."
 
-#: contacteditormainwindow.cpp:98
+#: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
 msgstr "विषयं रक्षतु"
 
-#: contacteditormainwindow.cpp:100
+#: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
 msgstr "विषयं रक्षन्तु यथा..."
 
-#: contacteditormainwindow.cpp:106
+#: contacteditormainwindow.cpp:108
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "विषयवस्तु संस्थापयन्तु"
 
-#: contacteditormainwindow.cpp:110
+#: contacteditormainwindow.cpp:112
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "सञ्चिका सम्मिलितं कुर्वन्तु..."
 
-#: contacteditormainwindow.cpp:114
+#: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "विषयवस्तु प्रबन्धयन्तु..."
 
-#: contacteditormainwindow.cpp:118
+#: contacteditormainwindow.cpp:120
 #, kde-format
 msgid "Update view"
 msgstr "दृश्यं अद्यतनं कुर्वन्तु"
 
-#: contacteditormainwindow.cpp:187 contacteditormainwindow.cpp:319
+#: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
 msgstr "विषयनिर्देशिकां चिनोतु"
 
-#: contacteditormainwindow.cpp:203
+#: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "निर्देशिकायां विषयसञ्चिका नास्ति । वयं विषयं लोड् कर्तुं न शक्नुमः।"
 
-#: contacteditorpage.cpp:40
+#: contacteditorpage.cpp:42
 #, kde-format
 msgid "Editor"
 msgstr "सम्पादक"
 
-#: contacteditorpage.cpp:52
+#: contacteditorpage.cpp:54
 #, kde-format
 msgid "Desktop File"
 msgstr "डेस्कटॉप सञ्चिका"
 
-#: contacteditorpage.cpp:123
+#: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "विषयः पूर्वमेव अस्ति। किं भवन्तः तस्य अधिलेखनं कर्तुम् इच्छन्ति ?"
 
-#: contacteditorpage.cpp:124
+#: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
 msgstr "विषयः पूर्वमेव अस्ति"
 
-#: contacteditorpage.cpp:132
+#: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "विषयपुटं निर्मातुं न शक्यते।"
 
-#: contacteditorpage.cpp:146
+#: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "\"%1\" इत्यस्मिन् विषयः संस्थापितः ।"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "वयं zip file मध्ये preview file योजयितुं न शक्नुमः"
 
-#: contacteditorpage.cpp:169 contacteditorpage.cpp:175
+#: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "Failed to add file."
 msgstr "सञ्चिकां योजयितुं असफलम्।"
 
-#: contacteditorpage.cpp:188
+#: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
 msgstr "मम प्रियः Kaddressbook विषयः"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
 msgstr "अतिरिक्तपृष्ठस्य सञ्चिकानाम"
 
-#: contacteditorpage.cpp:214
+#: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename:"
 msgstr "सञ्चिकानाम :"
 
-#: contacteditorpage.cpp:273
+#: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "वर्तमानप्रकल्पं रक्षितुम् इच्छति वा?"
 
-#: contacteditorpage.cpp:274
+#: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
 msgstr "वर्तमान परियोजना रक्षतु"
 
-#: contactpreviewwidget.cpp:34
+#: contactpreviewwidget.cpp:36
 #, kde-format
 msgid "Contact"
 msgstr "संपर्कः"
 
-#: contactpreviewwidget.cpp:37
+#: contactpreviewwidget.cpp:39
 #, kde-format
 msgid "Group"
 msgstr "समूह"
 
-#: contacttemplatewidget.cpp:34
+#: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr "टेम्पलेट् आयातयितुं एडिटर् इत्यत्र एलिमेण्ट् कर्षितुं पातयितुं च शक्नुवन्ति"
@@ -212,28 +212,28 @@ msgstr "&सम्पादन"
 msgid "&Display"
 msgstr "&प्रदर्शन"
 
-#: editorpage.cpp:52
+#: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
 msgstr "विषय टेम्पलेट्स:"
 
-#: main.cpp:23 main.cpp:25
+#: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
 msgstr "विषय सम्पादक से संपर्क करें"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "प्रतिलिपि अधिकार © 2013-%1 contactthemeeditor authors"
 
-#: main.cpp:28
+#: main.cpp:30
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "लॉरेण्ट् मोंटेल्"
 
-#: main.cpp:28
+#: main.cpp:30
 #, kde-format
 msgid "Maintainer"
 msgstr "परिपालकः"

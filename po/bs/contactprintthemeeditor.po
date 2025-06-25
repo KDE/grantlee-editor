@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-06-16 00:39+0000\n"
+"POT-Creation-Date: 2025-06-25 00:43+0000\n"
 "PO-Revision-Date: 2015-02-24 19:24+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosnian\n"
@@ -29,26 +29,26 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "samir.ribic@etf.unsa.ba"
 
-#: contactprintthemeconfiguredialog.cpp:32
+#: contactprintthemeconfiguredialog.cpp:34
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Konfiguriši"
 
-#: contactprintthemeconfiguredialog.cpp:43
+#: contactprintthemeconfiguredialog.cpp:45
 #, fuzzy, kde-format
 #| msgid "Default contact:"
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Podrazumijevani kontakt:"
 
-#: contactprintthemeconfiguredialog.cpp:49
+#: contactprintthemeconfiguredialog.cpp:51
 #, kde-format
 msgid "General"
 msgstr "Općenito"
 
-#: contactprintthemeconfiguredialog.cpp:52
+#: contactprintthemeconfiguredialog.cpp:54
 #, kde-format
 msgid "Default Template"
 msgstr "Osnovni predložak."
@@ -65,174 +65,174 @@ msgstr "&Izmijeni"
 msgid "&Display"
 msgstr "&Prikaži"
 
-#: editorpage.cpp:55
+#: editorpage.cpp:57
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Predlošci tema"
 
-#: main.cpp:22 main.cpp:24
+#: main.cpp:24 main.cpp:26
 #, kde-format
 msgid "Contact Print Theme Editor"
 msgstr ""
 
-#: main.cpp:26
+#: main.cpp:28
 #, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
 msgstr ""
 
-#: main.cpp:27
+#: main.cpp:29
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:27
+#: main.cpp:29
 #, kde-format
 msgid "Maintainer"
 msgstr "Održava"
 
-#: themeeditormainwindow.cpp:76
+#: themeeditormainwindow.cpp:78
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Učitaj prijašnju temu..."
 
-#: themeeditormainwindow.cpp:83
+#: themeeditormainwindow.cpp:85
 #, fuzzy, kde-format
 #| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Dodaj dodatnu stranicu..."
 
-#: themeeditormainwindow.cpp:87
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
 msgstr "Pošalji temu..."
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
 msgstr "Nova tema..."
 
-#: themeeditormainwindow.cpp:96
+#: themeeditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
 msgstr "Otvori temu..."
 
-#: themeeditormainwindow.cpp:98
+#: themeeditormainwindow.cpp:100
 #, fuzzy, kde-format
 #| msgid "Save theme..."
 msgid "Save theme"
 msgstr "Snimi temu..."
 
-#: themeeditormainwindow.cpp:101
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Save theme as..."
 msgstr "Snimi temu kao ..."
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:109
 #, fuzzy, kde-format
 #| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instaliraj temu"
 
-#: themeeditormainwindow.cpp:111
+#: themeeditormainwindow.cpp:113
 #, fuzzy, kde-format
 #| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Ubaci datoteku"
 
-#: themeeditormainwindow.cpp:115
+#: themeeditormainwindow.cpp:117
 #, fuzzy, kde-format
 #| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Upravljaj temama..."
 
-#: themeeditormainwindow.cpp:119
+#: themeeditormainwindow.cpp:121
 #, kde-format
 msgid "Update view"
 msgstr "Ažuriraj pogled"
 
-#: themeeditormainwindow.cpp:190 themeeditormainwindow.cpp:323
+#: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
 #, kde-format
 msgid "Select theme directory"
 msgstr "Odaberi direktorij tema"
 
-#: themeeditormainwindow.cpp:206
+#: themeeditormainwindow.cpp:208
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"
 
-#: themeeditorpage.cpp:40
+#: themeeditorpage.cpp:42
 #, fuzzy, kde-format
 #| msgid "Editor"
 msgid "Editor (%1)"
 msgstr "Uređivač"
 
-#: themeeditorpage.cpp:46
+#: themeeditorpage.cpp:48
 #, kde-format
 msgid "Desktop File"
 msgstr "Stona datoteka"
 
-#: themeeditorpage.cpp:134
+#: themeeditorpage.cpp:136
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
 msgstr "Tema već postoji. Želite li preći preko nje?"
 
-#: themeeditorpage.cpp:135
+#: themeeditorpage.cpp:137
 #, kde-format
 msgid "Theme already exists"
 msgstr "Tema već postoji."
 
-#: themeeditorpage.cpp:143
+#: themeeditorpage.cpp:145
 #, kde-format
 msgid "Cannot create theme folder."
 msgstr "Nije moguće kreirati tematski direktorij"
 
-#: themeeditorpage.cpp:153
+#: themeeditorpage.cpp:155
 #, kde-format
 msgid "Theme installed in \"%1\""
 msgstr "Tema instalirana u \"%1\""
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:176
 #, kde-format
 msgid "We cannot add preview file in zip file"
 msgstr "Ne možemo dodati pregled datoteka u zip datoteci"
 
-#: themeeditorpage.cpp:174
+#: themeeditorpage.cpp:176
 #, kde-format
 msgid "Failed to add file."
 msgstr "Neuspjelo dodavanje datoteke"
 
-#: themeeditorpage.cpp:188
+#: themeeditorpage.cpp:190
 #, kde-format
 msgid "My favorite KMail header"
 msgstr "Moje omiljeno KMail zaglavlje"
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:213
 #, kde-format
 msgid "Filename of extra page"
 msgstr "Ime dodatne stranice"
 
-#: themeeditorpage.cpp:211
+#: themeeditorpage.cpp:213
 #, kde-format
 msgid "Filename:"
 msgstr "Datoteka:"
 
-#: themeeditorpage.cpp:257
+#: themeeditorpage.cpp:259
 #, kde-format
 msgid "Do you want to save current project?"
 msgstr "Želite li snimiti trenutni projekat?"
 
-#: themeeditorpage.cpp:258
+#: themeeditorpage.cpp:260
 #, kde-format
 msgid "Save current project"
 msgstr "Snimi trenutni projekat"
 
-#: themetemplatewidget.cpp:35
+#: themetemplatewidget.cpp:37
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr "Možete prevući i ispustiti element u uređivač za uvoz perdložaka."
