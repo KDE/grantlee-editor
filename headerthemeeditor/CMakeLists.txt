@@ -33,7 +33,12 @@ ecm_qt_declare_logging_category(headerthemeeditor HEADER headerthemeeditor_debug
 )
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
-    set_target_properties(headerthemeeditor PROPERTIES UNITY_BUILD ON)
+    set_target_properties(
+        headerthemeeditor
+        PROPERTIES
+            UNITY_BUILD
+                ON
+    )
 endif()
 
 target_link_libraries(
@@ -49,9 +54,10 @@ target_link_libraries(
     KF6::Crash
 )
 
-install(TARGETS headerthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-
 install(
-    PROGRAMS org.kde.headerthemeeditor.desktop
-    DESTINATION ${KDE_INSTALL_APPDIR}
+    TARGETS
+        headerthemeeditor
+        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
 )
+
+install(PROGRAMS org.kde.headerthemeeditor.desktop DESTINATION ${KDE_INSTALL_APPDIR})

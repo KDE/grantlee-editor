@@ -32,7 +32,12 @@ ecm_qt_declare_logging_category(contactprintthemeeditor HEADER contactprinttheme
         EXPORT GRANTLEEEDITOR
 )
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
-    set_target_properties(contactprintthemeeditor PROPERTIES UNITY_BUILD ON)
+    set_target_properties(
+        contactprintthemeeditor
+        PROPERTIES
+            UNITY_BUILD
+                ON
+    )
 endif()
 
 target_link_libraries(
@@ -47,9 +52,10 @@ target_link_libraries(
     KF6::Crash
 )
 
-install(TARGETS contactprintthemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
-
 install(
-    PROGRAMS org.kde.contactprintthemeeditor.desktop
-    DESTINATION ${KDE_INSTALL_APPDIR}
+    TARGETS
+        contactprintthemeeditor
+        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
 )
+
+install(PROGRAMS org.kde.contactprintthemeeditor.desktop DESTINATION ${KDE_INSTALL_APPDIR})

@@ -39,7 +39,12 @@ ecm_qt_declare_logging_category(libgrantleethemeeditor_SRCS HEADER grantleetheme
 
 add_library(grantleethemeeditor ${libgrantleethemeeditor_SRCS})
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
-    set_target_properties(grantleethemeeditor PROPERTIES UNITY_BUILD ON)
+    set_target_properties(
+        grantleethemeeditor
+        PROPERTIES
+            UNITY_BUILD
+                ON
+    )
 endif()
 
 generate_export_header(grantleethemeeditor BASE_NAME grantleethemeeditor)
@@ -52,7 +57,8 @@ target_include_directories(
 
 target_link_libraries(
     grantleethemeeditor
-    PUBLIC KF6::Archive
+    PUBLIC
+        KF6::Archive
     PRIVATE
         KF6::KIOWidgets
         KPim6::PimCommon
@@ -61,16 +67,20 @@ target_link_libraries(
         KF6::TextCustomEditor
 )
 
-install(
-    FILES settings/grantleethemeeditor.kcfg
-    DESTINATION ${KDE_INSTALL_KCFGDIR}
-)
+install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 
 set_target_properties(
     grantleethemeeditor
-    PROPERTIES VERSION ${KDEPIM_LIB_VERSION} SOVERSION ${KDEPIM_LIB_SOVERSION}
+    PROPERTIES
+        VERSION
+            ${KDEPIM_LIB_VERSION}
+        SOVERSION
+            ${KDEPIM_LIB_SOVERSION}
 )
 install(
-    TARGETS grantleethemeeditor ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
-    LIBRARY NAMELINK_SKIP
+    TARGETS
+        grantleethemeeditor
+        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+    LIBRARY
+        NAMELINK_SKIP
 )
