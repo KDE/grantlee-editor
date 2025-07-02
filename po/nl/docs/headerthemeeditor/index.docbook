@@ -7,8 +7,7 @@
 >Bewerker van header-thema's</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Dutch "INCLUDE"
-> 
+  <!ENTITY % Dutch "INCLUDE">
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
