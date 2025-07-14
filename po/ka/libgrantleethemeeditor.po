@@ -173,7 +173,7 @@ msgstr "თქვენ ცდილობთ ჩატვირთოთ თე
 #: ui/configurewidget.ui:20
 #, kde-format
 msgid "Default theme path:"
-msgstr "თემის ნაგულისხმები ბილიკი:"
+msgstr "თემის ნაგულისხმევი ბილიკი:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/configurewidget.ui:44
