@@ -70,7 +70,7 @@ msgstr "لوران مونتال"
 #: main.cpp:30
 #, kde-format
 msgid "Maintainer"
-msgstr "المصين"
+msgstr "الصائن"
 
 #: previewwidget.cpp:36
 #, kde-format

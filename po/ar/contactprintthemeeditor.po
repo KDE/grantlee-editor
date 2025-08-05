@@ -86,7 +86,7 @@ msgstr "لوران مونتال"
 #: main.cpp:29
 #, kde-format
 msgid "Maintainer"
-msgstr "المصين"
+msgstr "الصائن"
 
 #: themeeditormainwindow.cpp:78
 #, kde-format
