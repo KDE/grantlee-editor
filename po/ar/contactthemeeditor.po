@@ -132,12 +132,12 @@ msgstr "ملفّ سطح المكتب"
 #: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "السّمة موجودة بالفعل. أتريد الكتابة فوقها؟"
+msgstr "السّمة موجودة فعلًا. أتريد الكتابة فوقها؟"
 
 #: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
-msgstr "السّمة موجودة بالفعل"
+msgstr "السّمة موجودة فعلًا"
 
 #: contacteditorpage.cpp:134
 #, kde-format
