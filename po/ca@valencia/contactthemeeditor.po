@@ -115,7 +115,7 @@ msgstr "Actualitza la vista"
 #: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr "Selecciona el directori del tema"
+msgstr "Tria el directori del tema"
 
 #: contacteditormainwindow.cpp:205
 #, kde-format
