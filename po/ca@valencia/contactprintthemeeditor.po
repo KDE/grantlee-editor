@@ -153,7 +153,7 @@ msgstr "Actualitza la vista"
 #: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
 #, kde-format
 msgid "Select theme directory"
-msgstr "Selecciona el directori del tema"
+msgstr "Tria el directori del tema"
 
 #: themeeditormainwindow.cpp:208
 #, kde-format
