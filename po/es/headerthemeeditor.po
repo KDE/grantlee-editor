@@ -1,14 +1,15 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Spanish translations for headerthemeeditor.po package.
+# Copyright (C) 2013-2025 This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
 #
-# Javier Viñal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2018, 2019 Javier Viñal <fjvinal@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-25 00:43+0000\n"
-"PO-Revision-Date: 2024-06-18 03:34+0200\n"
+"PO-Revision-Date: 2025-09-23 01:06+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -122,28 +123,28 @@ msgstr "Cc"
 #: themeeditormainwindow.cpp:81
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Cargar tema reciente..."
+msgstr "Cargar tema reciente…"
 
 #: themeeditormainwindow.cpp:88
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "Añadir página extra..."
+msgstr "Añadir página extra…"
 
 #: themeeditormainwindow.cpp:93
 #, kde-format
 msgid "Upload theme..."
-msgstr "Cargar tema..."
+msgstr "Cargar tema…"
 
 #: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "New theme..."
-msgstr "Nuevo tema..."
+msgstr "Nuevo tema…"
 
 #: themeeditormainwindow.cpp:102
 #, kde-format
 msgid "Open theme..."
-msgstr "Abrir tema..."
+msgstr "Abrir tema…"
 
 #: themeeditormainwindow.cpp:104
 #, kde-format
@@ -153,7 +154,7 @@ msgstr "Guardar tema"
 #: themeeditormainwindow.cpp:107
 #, kde-format
 msgid "Save theme as..."
-msgstr "Guardar tema como..."
+msgstr "Guardar tema como…"
 
 #: themeeditormainwindow.cpp:113
 #, kde-format
@@ -165,7 +166,7 @@ msgstr "Instalar tema"
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "Insertar archivo..."
+msgstr "Insertar archivo…"
 
 #: themeeditormainwindow.cpp:123
 #, kde-format
@@ -181,7 +182,7 @@ msgstr "Modo normal"
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "Nuevo tema..."
+msgstr "Nuevo tema…"
 
 #: themeeditormainwindow.cpp:138
 #, kde-format

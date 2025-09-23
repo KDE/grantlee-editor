@@ -1,14 +1,15 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Spanish translations for contactthemeeditor.po package.
+# Copyright (C) 2013-2025 This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
 #
-# Javier Viñal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
-# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2018, 2019 Javier Viñal <fjvinal@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2020, 2021, 2022, 2024, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-25 00:43+0000\n"
-"PO-Revision-Date: 2024-05-28 17:09+0200\n"
+"PO-Revision-Date: 2025-09-23 01:06+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -53,28 +54,28 @@ msgstr "Plantilla predeterminada"
 #: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Cargar tema reciente..."
+msgstr "Cargar tema reciente…"
 
 #: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "Añadir página extra..."
+msgstr "Añadir página extra…"
 
 #: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
-msgstr "Enviar tema..."
+msgstr "Enviar tema…"
 
 #: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
-msgstr "Nuevo tema..."
+msgstr "Nuevo tema…"
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
-msgstr "Abrir tema..."
+msgstr "Abrir tema…"
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
@@ -84,7 +85,7 @@ msgstr "Guardar tema"
 #: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
-msgstr "Guardar tema como..."
+msgstr "Guardar tema como…"
 
 #: contacteditormainwindow.cpp:108
 #, kde-format
@@ -96,13 +97,13 @@ msgstr "Instalar tema"
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "Insertar archivo..."
+msgstr "Insertar archivo…"
 
 #: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "Gestionar temas..."
+msgstr "Gestionar temas…"
 
 #: contacteditormainwindow.cpp:120
 #, kde-format
