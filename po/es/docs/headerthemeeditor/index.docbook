@@ -7,8 +7,7 @@
 >Editor de temas de encabezado</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Spanish "INCLUDE"
-> 
+  <!ENTITY % Spanish "INCLUDE">
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
