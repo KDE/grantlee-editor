@@ -7,8 +7,7 @@
 >Редактор тем контактів</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Ukrainian "INCLUDE"
-> 
+  <!ENTITY % Ukrainian "INCLUDE">
 ]>
 
 <article id="contactthemeeditor" lang="&language;">
