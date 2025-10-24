@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Contact Theme Editor
 Name[ar]=محرّر سمات المتراسلين
+Name[bg]=Редактор на теми на контакти
 Name[bs]=Editor tema za kontakte
 Name[ca]=Editor de temes dels contactes
 Name[ca@valencia]=Editor de temes dels contactes
@@ -50,6 +51,7 @@ Icon=kaddressbook
 X-DocPath=contactthemeeditor/index.html
 GenericName=Contact Theme Editor
 GenericName[ar]=محرّر سمات المتراسلين
+GenericName[bg]=Редактор на теми на контакти
 GenericName[bs]=Editor tema za kontakte
 GenericName[ca]=Editor de temes dels contactes
 GenericName[ca@valencia]=Editor de temes dels contactes
