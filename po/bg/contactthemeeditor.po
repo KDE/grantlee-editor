@@ -3,235 +3,238 @@
 # This file is distributed under the same license as the grantlee-editor package.
 # Automatically generated, 2022.
 #
+# SPDX-FileCopyrightText: 2025 Mincho Kondarev <mkondarev@yahoo.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-25 00:43+0000\n"
-"PO-Revision-Date: 2022-01-14 00:44+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-23 17:51+0200\n"
+"Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
+"Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Минчо Кондарев"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "mkondarev@yahoo.de"
 
 #: contactconfigurationdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
-msgstr ""
+msgstr "Настройване"
 
 #: contactconfigurationdialog.cpp:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr ""
+msgstr "Контакт по подразбиране:"
 
 #: contactconfigurationdialog.cpp:49
 #, kde-format
 msgid "General"
-msgstr ""
+msgstr "Общи"
 
 #: contactconfigurationdialog.cpp:52
 #, kde-format
 msgid "Default Template"
-msgstr ""
+msgstr "Шаблон по подразбиране"
 
 #: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr ""
+msgstr "Зареждане на последно използвана тема ..."
 
 #: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr ""
+msgstr "Добавяне на допълнителна страница..."
 
 #: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
-msgstr ""
+msgstr "Качване на тема..."
 
 #: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
-msgstr ""
+msgstr "Нова тема..."
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
-msgstr ""
+msgstr "Отваряне на тема..."
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
-msgstr ""
+msgstr "Запазване на тема"
 
 #: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
-msgstr ""
+msgstr "Запазване на тема като..."
 
 #: contacteditormainwindow.cpp:108
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
-msgstr ""
+msgstr "Инсталиране на тема"
 
 #: contacteditormainwindow.cpp:112
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr ""
+msgstr "Вмъкване на файл..."
 
 #: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr ""
+msgstr "Управление на теми..."
 
 #: contacteditormainwindow.cpp:120
 #, kde-format
 msgid "Update view"
-msgstr ""
+msgstr "Обновяване на изгледа"
 
 #: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr ""
+msgstr "Избор на папка на тема"
 
 #: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr ""
+msgstr "Директорията не съдържа файл с тема. Не можем да заредим темата."
 
 #: contacteditorpage.cpp:42
 #, kde-format
 msgid "Editor"
-msgstr ""
+msgstr "Редактор"
 
 #: contacteditorpage.cpp:54
 #, kde-format
 msgid "Desktop File"
-msgstr ""
+msgstr "Файл desktop"
 
 #: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "Темата вече съществува. Искате ли да я презапишете?"
 
 #: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
-msgstr ""
+msgstr "Темата вече съществува"
 
 #: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr ""
+msgstr "Не може да се създаде папка на темата."
 
 #: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr ""
+msgstr "Темата е инсталирана в „%1“"
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr ""
+msgstr "Не може да се добави файл за преглед в zip файл"
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "Failed to add file."
-msgstr ""
+msgstr "Неуспех при добавяне на файл."
 
 #: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
-msgstr ""
+msgstr "Моята предпочитана тема за KAddressBook"
 
 #: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
-msgstr ""
+msgstr "Име на на файл на допълнителната страница"
 
 #: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename:"
-msgstr ""
+msgstr "Име на файл:"
 
 #: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr ""
+msgstr "Искате ли да запазите текущия проект?"
 
 #: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
-msgstr ""
+msgstr "Запазване на текущия проект"
 
 #: contactpreviewwidget.cpp:36
 #, kde-format
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #: contactpreviewwidget.cpp:39
 #, kde-format
 msgid "Group"
-msgstr ""
+msgstr "Група"
 
 #: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""
+"Можете да плъзнете и пуснете елемент в редактора, за да импортирате шаблон"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Редактиране"
 
 #. i18n: ectx: Menu (Display)
 #: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr ""
+msgstr "&Показване"
 
 #: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
-msgstr ""
+msgstr "Шаблони за теми:"
 
 #: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
-msgstr ""
+msgstr "Редактор на теми на контакти"
 
 #: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr ""
+msgstr "Copyright © 2013-%1 Авторите на contactthemeeditor"
 
 #: main.cpp:30
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: main.cpp:30
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Поддръжка"
