@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Contact Print Theme Editor
 Name[ar]=محرّر سمات طباعة المتراسلين
+Name[bg]=Редактор на теми за отпечатване на контакти
 Name[ca]=Editor de temes per a imprimir els contactes
 Name[ca@valencia]=Editor de temes per a imprimir els contactes
 Name[da]=Printtema-editor til kontakter
@@ -45,6 +46,7 @@ Icon=kaddressbook
 X-DocPath=contactprintthemeeditor/index.html
 GenericName=Contact Print Theme Editor
 GenericName[ar]=محرّر سمات طباعة المتراسلين
+GenericName[bg]=Редактор на теми за отпечатване на контакти
 GenericName[ca]=Editor de temes per a imprimir els contactes
 GenericName[ca@valencia]=Editor de temes per a imprimir els contactes
 GenericName[da]=Printtema-editor til kontakter
