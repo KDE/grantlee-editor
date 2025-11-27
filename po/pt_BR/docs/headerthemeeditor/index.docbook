@@ -7,8 +7,7 @@
 >Editor de Temas de Cabeçalho</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Brazilian-Portuguese "INCLUDE"
-> 
+  <!ENTITY % Brazilian-Portuguese "INCLUDE">
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
