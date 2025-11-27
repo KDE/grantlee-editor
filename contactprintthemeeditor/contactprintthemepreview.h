@@ -27,9 +27,6 @@ public:
     void setThemePath(const QString &projectDirectory, const QString &mainPageFileName) override;
     void loadConfig() override;
 
-Q_SIGNALS:
-    void needUpdateViewer();
-
 private:
     KContacts::Addressee mContact;
     QString mThemePath;
