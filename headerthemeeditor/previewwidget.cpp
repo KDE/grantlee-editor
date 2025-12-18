@@ -74,7 +74,7 @@ void PreviewWidget::updateViewer()
     msg->setContent(mDefaultEmail);
     msg->parse();
     mViewer->setPrinting(mPrinting);
-    mViewer->setMessage(KMime::Message::Ptr(msg));
+    mViewer->setMessage(std::shared_ptr<KMime::Message>(msg));
 }
 
 void PreviewWidget::createScreenShot(const QStringList &fileList)
