@@ -1,243 +1,237 @@
-# Translation of contactthemeeditor.po to Catalan (Valencian)
-# Copyright (C) 2013-2024 This_file_is_part_of_KDE
-# This file is distributed under the license LGPL version 2.1 or
-# version 3 or later versions approved by the membership of KDE e.V.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2019, 2020, 2021, 2022 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2018, 2021, 2022, 2024 Josep M. Ferrer <txemaq@gmail.com>
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2024-05-28 13:46+0200\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
-"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca@valencia\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 22.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Antoni Bella"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "antonibella5@yahoo.com"
+msgstr ""
 
 #: contactconfigurationdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
-msgstr "Configuració"
+msgstr ""
 
 #: contactconfigurationdialog.cpp:43
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "Contacte predeterminat:"
+msgstr ""
 
 #: contactconfigurationdialog.cpp:49
 #, kde-format
 msgid "General"
-msgstr "General"
+msgstr ""
 
 #: contactconfigurationdialog.cpp:52
 #, kde-format
 msgid "Default Template"
-msgstr "Plantilla predeterminada"
+msgstr ""
 
 #: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Carrega un tema recent…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr "Afig una pàgina addicional…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
-msgstr "Publica un tema…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
-msgstr "Tema nou…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
-msgstr "Obri un tema…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
-msgstr "Guarda el tema"
+msgstr ""
 
 #: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
-msgstr "Anomena i guarda el tema…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:108
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
-msgstr "Instal·la un tema"
+msgstr ""
 
 #: contacteditormainwindow.cpp:112
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "Inserix un fitxer…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr "Gestiona els temes…"
+msgstr ""
 
 #: contacteditormainwindow.cpp:120
 #, kde-format
 msgid "Update view"
-msgstr "Actualitza la vista"
+msgstr ""
 
 #: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr "Tria el directori del tema"
+msgstr ""
 
 #: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "El directori no conté un fitxer de tema. No podem carregar el tema."
+msgstr ""
 
 #: contacteditorpage.cpp:42
 #, kde-format
 msgid "Editor"
-msgstr "Editor"
+msgstr ""
 
 #: contacteditorpage.cpp:54
 #, kde-format
 msgid "Desktop File"
-msgstr "Fitxer d'escriptori"
+msgstr ""
 
 #: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "El tema ja existix. Voleu sobreescriure'l?"
+msgstr ""
 
 #: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
-msgstr "El tema ja existix"
+msgstr ""
 
 #: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "No s'ha pogut crear la carpeta del tema."
+msgstr ""
 
 #: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr "Tema instal·lat a «%1»"
+msgstr ""
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "No podem afegir un fitxer de vista prèvia en el fitxer zip"
+msgstr ""
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "Failed to add file."
-msgstr "Ha fallat mentre s'afegia el fitxer."
+msgstr ""
 
 #: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
-msgstr "El meu tema favorit de Kaddressbook"
+msgstr ""
 
 #: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
-msgstr "Nom de fitxer de la pàgina addicional"
+msgstr ""
 
 #: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename:"
-msgstr "Nom de fitxer:"
+msgstr ""
 
 #: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "Voleu guardar el projecte actual?"
+msgstr ""
 
 #: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
-msgstr "Guarda el projecte actual"
+msgstr ""
 
 #: contactpreviewwidget.cpp:36
 #, kde-format
 msgid "Contact"
-msgstr "Contacte"
+msgstr ""
 
 #: contactpreviewwidget.cpp:39
 #, kde-format
 msgid "Group"
-msgstr "Grup"
+msgstr ""
 
 #: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr ""
-"Podeu arrossegar i deixar anar elements sobre l'editor per a importar una "
-"plantilla"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "&Edita"
+msgstr ""
 
 #. i18n: ectx: Menu (Display)
 #: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
-msgstr "Vi&sualitza"
+msgstr ""
 
 #: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
-msgstr "Plantilles de temes:"
+msgstr ""
 
 #: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
-msgstr "Editor de temes dels contactes"
+msgstr ""
 
 #: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr "Copyright © 2013-%1, Els autors de contactthemeeditor"
+msgstr ""
 
 #: main.cpp:30
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr ""
 
 #: main.cpp:30
 #, kde-format
 msgid "Maintainer"
-msgstr "Mantenidor"
+msgstr ""

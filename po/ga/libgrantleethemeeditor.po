@@ -1,67 +1,63 @@
-# Translation of libgrantleethemeeditor.po to Catalan (Valencian)
-# Copyright (C) 2013-2024 This_file_is_part_of_KDE
-# This file is distributed under the license LGPL version 2.1 or
-# version 3 or later versions approved by the membership of KDE e.V.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2019 Antoni Bella Pérez <antonibella5@yahoo.com>
-# SPDX-FileCopyrightText: 2014, 2016, 2024 Josep M. Ferrer <txemaq@gmail.com>
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2024-07-31 11:47+0200\n"
-"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
-"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca@valencia\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 24.05.2\n"
 
 #: desktopfilepage.cpp:31
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
-msgstr "Nom:"
+msgstr ""
 
 #: desktopfilepage.cpp:39
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
-msgstr "Autoria:"
+msgstr ""
 
 #: desktopfilepage.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
-msgstr "Correu electrònic:"
+msgstr ""
 
 #: desktopfilepage.cpp:53
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
-msgstr "Descripció:"
+msgstr ""
 
 #: desktopfilepage.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
-msgstr "Nom de fitxer:"
+msgstr ""
 
 #: desktopfilepage.cpp:70
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr "Versió:"
+msgstr ""
 
 #: desktopfilepage.cpp:79
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
-msgstr "Extrau les capçaleres:"
+msgstr ""
 
 #: desktopfilepage.cpp:84
 #, kde-format
@@ -70,123 +66,119 @@ msgid ""
 "to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
 "use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
 msgstr ""
-"Aneu amb compte, Grantlee no admet «-» en el nom de la variable. De manera "
-"que quan vulgueu afegir una capçalera addicional com «X-Original-To» afegiu "
-"«X-Original-To» a la llista, però utilitzeu «XOriginalTo» com a variable en "
-"Grantlee (elimineu «-» del nom)."
 
 #: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgid "Failed to add file into ZIP archive."
-msgstr "Ha fallat mentre s'afegia el fitxer a l'arxiu ZIP."
+msgstr ""
 
 #: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
-msgstr "Ha fallat mentre s'afegia el fitxer"
+msgstr ""
 
 #: editorpage.cpp:90
 #, kde-format
 msgid "Failed to open file \"%1\"."
-msgstr "Ha fallat mentre s'obria el fitxer «%1»."
+msgstr ""
 
 #: managethemes.cpp:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
-msgstr "Gestioneu el tema"
+msgstr ""
 
 #: managethemes.cpp:45
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
-msgstr "Temes locals:"
+msgstr ""
 
 #: managethemes.cpp:53
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
-msgstr "Suprimix el tema"
+msgstr ""
 
 #: managethemes.cpp:97
 #, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
-msgstr "Voleu eliminar el tema seleccionat «%1»?"
+msgstr ""
 
 #: managethemes.cpp:99
 #, kde-format
 msgid "Do you want to remove %1 selected themes?"
-msgstr "Voleu eliminar els %1 temes seleccionats?"
+msgstr ""
 
 #: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
-msgstr "Elimina el tema"
+msgstr ""
 
 #: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
-msgstr "No s'ha pogut suprimir el tema «%1». Contacteu amb l'administrador."
+msgstr ""
 
 #: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
-msgstr "No s'ha pogut suprimir el tema"
+msgstr ""
 
 #: newthemedialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
 msgid "New Theme"
-msgstr "Tema nou"
+msgstr ""
 
 #: newthemedialog.cpp:39
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
-msgstr "Nom del tema:"
+msgstr ""
 
 #: newthemedialog.cpp:48
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
-msgstr "Directori del tema:"
+msgstr ""
 
 #: themeeditortabwidget.cpp:36
 #, kde-format
 msgid "Editor (%1)"
-msgstr "Editor (%1)"
+msgstr ""
 
 #: themeeditortabwidget.cpp:55
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close Tab"
-msgstr "Tanca la pestanya"
+msgstr ""
 
 #: themesession.cpp:59
 #, kde-format
 msgid "Error during theme loading"
-msgstr "S'ha produït un error mentre es carregava el tema"
+msgstr ""
 
 #: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
-msgstr "Esteu provant de carregar un tema que esta aplicació no pot llegir"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configurewidget.ui:20
 #, kde-format
 msgid "Default theme path:"
-msgstr "Camí del tema predeterminat:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/configurewidget.ui:44
 #, kde-format
 msgid "Author email:"
-msgstr "Correu de l'autor:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ui/configurewidget.ui:61
 #, kde-format
 msgid "Author name:"
-msgstr "Nom de l'autor:"
+msgstr ""
