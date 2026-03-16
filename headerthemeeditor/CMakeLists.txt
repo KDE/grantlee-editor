@@ -1,4 +1,4 @@
-add_executable(headerthemeeditor ${headerthemeeditor_SRCS})
+add_executable(headerthemeeditor)
 target_sources(
     headerthemeeditor
     PRIVATE
