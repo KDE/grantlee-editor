@@ -12,8 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,8 +32,7 @@ msgid "Configure"
 msgstr "Nastaviť"
 
 #: contactconfigurationdialog.cpp:43
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Predvolený kontakt:"
@@ -54,8 +53,7 @@ msgid "Load Recent Theme..."
 msgstr "Načítať nedávnu tému..."
 
 #: contacteditormainwindow.cpp:84
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Pridať stranu navyše..."
@@ -86,22 +84,19 @@ msgid "Save theme as..."
 msgstr "Uložiť tému ako..."
 
 #: contacteditormainwindow.cpp:108
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Nainštalovať tému"
 
 #: contacteditormainwindow.cpp:112
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Vložiť súbor..."
 
 #: contacteditormainwindow.cpp:116
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Spravovať témy..."
@@ -229,8 +224,7 @@ msgid "Copyright © 2013-%1 contactthemeeditor authors"
 msgstr "Copyright © 2013-%1 autori contactthemeeditor"
 
 #: main.cpp:30
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

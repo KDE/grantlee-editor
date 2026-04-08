@@ -12,54 +12,47 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 21.12.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: desktopfilepage.cpp:31
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Názov:"
 
 #: desktopfilepage.cpp:39
-#, fuzzy, kde-format
-#| msgid "Author:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Autor:"
 
 #: desktopfilepage.cpp:46
-#, fuzzy, kde-format
-#| msgid "Email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "E-mail:"
 
 #: desktopfilepage.cpp:53
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
 msgstr "Popis:"
 
 #: desktopfilepage.cpp:61
-#, fuzzy, kde-format
-#| msgid "Filename:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Názov súboru:"
 
 #: desktopfilepage.cpp:70
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Verzia:"
 
 #: desktopfilepage.cpp:79
-#, fuzzy, kde-format
-#| msgid "Extract Headers:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Extrahovať hlavičky:"
@@ -99,18 +92,16 @@ msgid "Manage Theme"
 msgstr "Spravovať tému"
 
 #: managethemes.cpp:45
-#, fuzzy, kde-format
-#| msgid "Local themes:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
 msgstr "Miestne témy:"
 
 #: managethemes.cpp:53
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
-msgstr "Vymazať tému"
+msgstr "Odstrániť tému"
 
 #: managethemes.cpp:97
 #, kde-format
@@ -144,15 +135,13 @@ msgid "New Theme"
 msgstr "Nová téma"
 
 #: newthemedialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Theme name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "Názov témy:"
 
 #: newthemedialog.cpp:48
-#, fuzzy, kde-format
-#| msgid "Theme directory:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Adresár tém:"
