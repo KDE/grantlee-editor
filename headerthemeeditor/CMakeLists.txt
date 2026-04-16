@@ -43,7 +43,7 @@ endif()
 
 target_link_libraries(
     headerthemeeditor
-    KPim6::Mime
+    KF6::Mime
     KPim6::PimCommon
     KPim6::MessageViewer
     grantleethemeeditor
