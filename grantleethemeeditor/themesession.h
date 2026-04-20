@@ -5,7 +5,7 @@
 */
 #pragma once
 #include "grantleethemeeditor_export.h"
-#include <QString>
+
 #include <QStringList>
 
 namespace GrantleeThemeEditor
