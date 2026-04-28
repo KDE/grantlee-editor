@@ -65,9 +65,9 @@ msgid ""
 "use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
 msgstr ""
 "Buďte opatrný, Grantlee nepodporuje '-' v názve premennej. Teda ak chcete "
-"pridať ďalšiu hlavičku ako \"X-Original-To\" pridajte \"X-Original-To\" v "
-"zozname, ale použite \"XOriginalTo\" ako premennú v Grantlee (odstráňte '-' "
-"v názve)."
+"pridať ďalšiu hlavičku ako \\\"X-Original-To\\\" pridajte \\\"X-Original-To\\"
+"\" v zozname, ale použite \\\"XOriginalTo\\\" ako premennú v Grantlee "
+"(odstráňte '-' v názve)."
 
 #: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
