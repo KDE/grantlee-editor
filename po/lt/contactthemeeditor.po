@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2015-12-29 21:41+0200\n"
+"PO-Revision-Date: 2026-05-08 13:01+0300\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -19,31 +19,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 3.8\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Liudas Ališauskas"
+msgstr "Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "liudas@aksioma.lt"
+msgstr "liudas@aksioma.lt, <>"
 
 #: contactconfigurationdialog.cpp:33
-#, fuzzy, kde-format
-#| msgid "Configure"
+#, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Konfigūruoti"
 
 #: contactconfigurationdialog.cpp:43
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "Numatytas kontaktas:"
+msgstr "Numatytasis adresatas:"
 
 #: contactconfigurationdialog.cpp:49
 #, kde-format
@@ -58,11 +56,10 @@ msgstr "Numatytasis šablonas"
 #: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Įkelti dabartinį apipavidalinimą..."
+msgstr "Įkelti paskiausią apipavidalinimą..."
 
 #: contacteditormainwindow.cpp:84
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Pridėti papildomą puslapį..."
@@ -75,7 +72,7 @@ msgstr "Išsiųsti apipavidalinimą..."
 #: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
-msgstr "Nauja tema..."
+msgstr "Naujas apipavidalinimas..."
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
@@ -83,33 +80,29 @@ msgid "Open theme..."
 msgstr "Atverti apipavidalinimą..."
 
 #: contacteditormainwindow.cpp:100
-#, fuzzy, kde-format
-#| msgid "Save theme..."
+#, kde-format
 msgid "Save theme"
-msgstr "Išsaugoti apipavidalinimą..."
+msgstr "Įrašyti apipavidalinimą"
 
 #: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
-msgstr "Išsaugoti apipavidalinimą kaip..."
+msgstr "Įrašyti apipavidalinimą kaip..."
 
 #: contacteditormainwindow.cpp:108
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Įdiegti apipavidalinimą"
 
 #: contacteditormainwindow.cpp:112
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Įterpti failą..."
 
 #: contacteditormainwindow.cpp:116
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Tvarkyti apipavidalinimus..."
@@ -117,17 +110,17 @@ msgstr "Tvarkyti apipavidalinimus..."
 #: contacteditormainwindow.cpp:120
 #, kde-format
 msgid "Update view"
-msgstr "Naujinti vaizdą"
+msgstr "Atnaujinti rodinį"
 
 #: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr "Pasirinkite temos katalogą"
+msgstr "Pasirinkite apipavidalinimo katalogą"
 
 #: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "Kataloge nėra temos failo. Negalime įkelti temos."
+msgstr "Kataloge nėra apipavidalinimo failo. Negalime įkelti apipavidalinimo."
 
 #: contacteditorpage.cpp:42
 #, kde-format
@@ -142,17 +135,17 @@ msgstr "*.desktop failas"
 #: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "Apipavidalinimas jau egzistuoja. Ar norite jį perrašyti?"
+msgstr "Apipavidalinimas jau yra. Ar norite jį perrašyti?"
 
 #: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
-msgstr "Apipavidalinimas jau egzistuoja"
+msgstr "Apipavidalinimas jau yra"
 
 #: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "Nepavyksta sukurti temos aplanko."
+msgstr "Nepavyksta sukurti apipavidalinimo aplanko."
 
 #: contacteditorpage.cpp:148
 #, kde-format
@@ -172,7 +165,7 @@ msgstr "Nepavyko pridėti failo."
 #: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
-msgstr "Mano mėgstama KAddressBook tema"
+msgstr "Mano mėgstamas KAddressBook apipavidalinimas"
 
 #: contacteditorpage.cpp:216
 #, kde-format
@@ -187,17 +180,17 @@ msgstr "Failo pavadinimas:"
 #: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "Ar norite išsaugoti dabartinį projektą?"
+msgstr "Ar norite įrašyti dabartinį projektą?"
 
 #: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
-msgstr "Išsaugoti dabartinį projektą"
+msgstr "Įrašyti dabartinį projektą"
 
 #: contactpreviewwidget.cpp:36
 #, kde-format
 msgid "Contact"
-msgstr "Kontaktas"
+msgstr "Adresatas"
 
 #: contactpreviewwidget.cpp:39
 #, kde-format
@@ -207,14 +200,13 @@ msgstr "Grupė"
 #: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr ""
-"Galite nuvilkti ir paleisti elementą ant redaktoriaus, kad importuoti šabloną"
+msgstr "Norėdami importuoti šabloną galite tempti elementą ant redaktoriaus"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "&Keisti"
+msgstr "&Taisyti"
 
 #. i18n: ectx: Menu (Display)
 #: contactthemeeditorui.rc:22
@@ -230,17 +222,15 @@ msgstr "Apipavidalinimų šablonai:"
 #: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
-msgstr "Contact apipavidalinimo redaktorius"
+msgstr "Adresatų apipavidalinimo redaktorius"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Copyright © 2013-2014 contactthemeeditor authors"
+#, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr "Autorinės teisės © 2013-2014 contactthemeeditor autoriai"
+msgstr "Autorių teisės © 2013–%1 contactthemeeditor autoriai"
 
 #: main.cpp:30
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"

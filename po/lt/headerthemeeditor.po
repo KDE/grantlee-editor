@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2015-12-29 21:41+0200\n"
+"PO-Revision-Date: 2026-05-08 13:15+0300\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 3.8\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Liudas Ališauskas"
+msgstr "Liudas Ališauskas, Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "liudas@akmc.lt"
+msgstr "liudas@akmc.lt, <>"
 
 #: editorpage.cpp:54
 #, kde-format
@@ -40,7 +40,7 @@ msgstr "Apipavidalinimų šablonai:"
 #: headerthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
-msgstr "&Keisti"
+msgstr "&Taisyti"
 
 #. i18n: ectx: Menu (Display)
 #: headerthemeeditorui.rc:22
@@ -56,17 +56,15 @@ msgstr "Antraštės apipavidalinimo redaktorius"
 #: main.cpp:27
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
-msgstr ""
+msgstr "Laiškų žiūryklės antraštės apipavidalinimo redaktorius"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Copyright © 2013-2015 headerthemeeditor authors"
+#, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
-msgstr "Autorinės teisės © 2013-2015 headerthemeeditor autoriai"
+msgstr "Autorių teisės © 2013–%1 headerthemeeditor autoriai"
 
 #: main.cpp:30
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -77,25 +75,22 @@ msgid "Maintainer"
 msgstr "Prižiūrėtojas"
 
 #: previewwidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "Update view"
+#, kde-format
 msgctxt "@action:button"
 msgid "Update view"
-msgstr "Naujinti vaizdą"
+msgstr "Atnaujinti rodinį"
 
 #: themeconfiguredialog.cpp:29
-#, fuzzy, kde-format
-#| msgid "Configure"
+#, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Konfigūruoti"
 
 #: themeconfiguredialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Default email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
-msgstr "Numatytas el. paštas:"
+msgstr "Numatytasis el. paštas:"
 
 #: themeconfiguredialog.cpp:44
 #, kde-format
@@ -125,16 +120,15 @@ msgstr "Kam"
 #: themedefaulttemplate.cpp:35
 #, kde-format
 msgid "Cc"
-msgstr "Kopija"
+msgstr "Kopija (Cc)"
 
 #: themeeditormainwindow.cpp:81
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr "Įkelti dabartinį apipavidalinimą..."
+msgstr "Įkelti paskiausią apipavidalinimą..."
 
 #: themeeditormainwindow.cpp:88
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Pridėti papildomą puslapį..."
@@ -147,7 +141,7 @@ msgstr "Išsiųsti apipavidalinimą..."
 #: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "New theme..."
-msgstr "Nauja tema..."
+msgstr "Naujas apipavidalinimas..."
 
 #: themeeditormainwindow.cpp:102
 #, kde-format
@@ -155,26 +149,23 @@ msgid "Open theme..."
 msgstr "Atverti apipavidalinimą..."
 
 #: themeeditormainwindow.cpp:104
-#, fuzzy, kde-format
-#| msgid "Save theme..."
+#, kde-format
 msgid "Save theme"
-msgstr "Išsaugoti apipavidalinimą..."
+msgstr "Įrašyti apipavidalinimą"
 
 #: themeeditormainwindow.cpp:107
 #, kde-format
 msgid "Save theme as..."
-msgstr "Išsaugoti apipavidalinimą kaip..."
+msgstr "Įrašyti apipavidalinimą kaip..."
 
 #: themeeditormainwindow.cpp:113
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Įdiegti apipavidalinimą"
 
 #: themeeditormainwindow.cpp:117
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Įterpti failą..."
@@ -182,16 +173,15 @@ msgstr "Įterpti failą..."
 #: themeeditormainwindow.cpp:123
 #, kde-format
 msgid "Printing mode"
-msgstr "Spausdinimo būdas"
+msgstr "Spausdinimo veiksena"
 
 #: themeeditormainwindow.cpp:128
 #, kde-format
 msgid "Normal mode"
-msgstr "Paprasta veiksena"
+msgstr "Įprasta veiksena"
 
 #: themeeditormainwindow.cpp:134
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Tvarkyti apipavidalinimus..."
@@ -199,23 +189,22 @@ msgstr "Tvarkyti apipavidalinimus..."
 #: themeeditormainwindow.cpp:138
 #, kde-format
 msgid "Update view"
-msgstr "Naujinti vaizdą"
+msgstr "Atnaujinti rodinį"
 
 #: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
 #, kde-format
 msgid "Select theme directory"
-msgstr "Pasirinkite temos katalogą"
+msgstr "Pasirinkite apipavidalinimo katalogą"
 
 #: themeeditormainwindow.cpp:232
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "Kataloge nėra temos failo. Negalime įkelti temos."
+msgstr "Kataloge nėra apipavidalinimo failo. Negalime įkelti apipavidalinimo."
 
 #: themeeditorpage.cpp:39
-#, fuzzy, kde-format
-#| msgid "Editor"
+#, kde-format
 msgid "Editor (%1)"
-msgstr "Redaktorius"
+msgstr "Redaktorius (%1)"
 
 #: themeeditorpage.cpp:48
 #, kde-format
@@ -225,17 +214,17 @@ msgstr "*.desktop failas"
 #: themeeditorpage.cpp:159
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "Apipavidalinimas jau egzistuoja. Ar norite jį perrašyti?"
+msgstr "Apipavidalinimas jau yra. Ar norite jį perrašyti?"
 
 #: themeeditorpage.cpp:160
 #, kde-format
 msgid "Theme already exists"
-msgstr "Apipavidalinimas jau egzistuoja"
+msgstr "Apipavidalinimas jau yra"
 
 #: themeeditorpage.cpp:168
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr "Nepavyksta sukurti temos aplanko."
+msgstr "Nepavyksta sukurti apipavidalinimo aplanko."
 
 #: themeeditorpage.cpp:179
 #, kde-format
@@ -245,7 +234,7 @@ msgstr "Apipavidalinimas įdiegtas čia: „%1“"
 #: themeeditorpage.cpp:200
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr ""
+msgstr "Negalime pridėti peržiūros failo zip faile"
 
 #: themeeditorpage.cpp:200
 #, kde-format
@@ -255,7 +244,7 @@ msgstr "Nepavyko pridėti failo."
 #: themeeditorpage.cpp:214
 #, kde-format
 msgid "My favorite KMail header"
-msgstr "Mano mėgstamiausia KMail antraštė"
+msgstr "Mano mėgstama KMail antraštė"
 
 #: themeeditorpage.cpp:237
 #, kde-format
@@ -270,15 +259,14 @@ msgstr "Failo pavadinimas:"
 #: themeeditorpage.cpp:285
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr "Ar norite išsaugoti dabartinį projektą?"
+msgstr "Ar norite įrašyti dabartinį projektą?"
 
 #: themeeditorpage.cpp:286
 #, kde-format
 msgid "Save current project"
-msgstr "Išsaugoti dabartinį projektą"
+msgstr "Įrašyti dabartinį projektą"
 
 #: themetemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr ""
-"Galite nuvilkti ir paleisti elementą ant redaktoriaus, kad importuoti šabloną"
+msgstr "Norėdami importuoti šabloną galite tempti elementą ant redaktoriaus"
