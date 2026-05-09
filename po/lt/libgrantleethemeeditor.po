@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2015-12-29 21:41+0200\n"
+"PO-Revision-Date: 2026-05-08 13:30+0300\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -19,53 +19,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 3.8\n"
 
 #: desktopfilepage.cpp:31
-#, fuzzy, kde-format
-#| msgid "Name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
 msgstr "Pavadinimas:"
 
 #: desktopfilepage.cpp:39
-#, fuzzy, kde-format
-#| msgid "Author:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Author:"
 msgstr "Autorius:"
 
 #: desktopfilepage.cpp:46
-#, fuzzy, kde-format
-#| msgid "Email:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Email:"
 msgstr "El. paštas:"
 
 #: desktopfilepage.cpp:53
-#, fuzzy, kde-format
-#| msgid "Description:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Description:"
-msgstr "Aprašymas:"
+msgstr "Aprašas:"
 
 #: desktopfilepage.cpp:61
-#, fuzzy, kde-format
-#| msgid "Filename:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Filename:"
 msgstr "Failo pavadinimas:"
 
 #: desktopfilepage.cpp:70
-#, fuzzy, kde-format
-#| msgid "Version:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
 msgstr "Versija:"
 
 #: desktopfilepage.cpp:79
-#, fuzzy, kde-format
-#| msgid "Extract Headers:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Extract Headers:"
 msgstr "Ištraukti antraštės:"
@@ -77,104 +70,94 @@ msgid ""
 "to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
 "use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
 msgstr ""
+"Būkite atsargūs, Grantlee nepalaiko „-“ kintamųjų pavadinimuose. Tad, kai "
+"norite pridėti papildomą antraštę, tokią kaip „X-Original-To“ pridėkite "
+"sąraše „X-Original-To“, bet Grantlee programoje kaip kintamąjį naudokite "
+"„XOriginalTo“ (pašalinkite pavadinime „-“)."
 
 #: desktopfilepage.cpp:129 editorpage.cpp:101
-#, fuzzy, kde-format
-#| msgid "Failed to add file."
+#, kde-format
 msgid "Failed to add file into ZIP archive."
-msgstr "Nepavyko pridėti failo."
+msgstr "Nepavyko pridėti failo į ZIP archyvą."
 
 #: desktopfilepage.cpp:129 editorpage.cpp:101
-#, fuzzy, kde-format
-#| msgid "Failed to add file."
+#, kde-format
 msgctxt "@title:window"
 msgid "Failed to add file"
-msgstr "Nepavyko pridėti failo."
+msgstr "Nepavyko pridėti failo"
 
 #: editorpage.cpp:90
-#, fuzzy, kde-format
-#| msgid "Impossible to open file \"%1\""
+#, kde-format
 msgid "Failed to open file \"%1\"."
-msgstr "Neįmanoma atverti failo „%1“"
+msgstr "Nepavyko atverti failo „%1“."
 
 #: managethemes.cpp:39
-#, fuzzy, kde-format
-#| msgid "Manage Theme"
+#, kde-format
 msgctxt "@title:window"
 msgid "Manage Theme"
 msgstr "Tvarkyti apipavidalinimą"
 
 #: managethemes.cpp:45
-#, fuzzy, kde-format
-#| msgid "Local themes:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Local themes:"
-msgstr "Vietinės temos:"
+msgstr "Vietiniai apipavidalinimai:"
 
 #: managethemes.cpp:53
-#, fuzzy, kde-format
-#| msgid "Delete theme"
+#, kde-format
 msgctxt "@action:button"
 msgid "Delete theme"
 msgstr "Ištrinti apipavidalinimą"
 
 #: managethemes.cpp:97
-#, fuzzy, kde-format
-#| msgid "Do you want to remove selected theme?"
-#| msgid_plural "Do you want to remove %1 selected themes?"
+#, kde-format
 msgid "Do you want to remove the selected theme \"%1\" ?"
-msgstr "Ar norite pašalinti pasirinktą apipavidalinimą?"
+msgstr "Ar norite pašalinti pasirinktą apipavidalinimą „%1“?"
 
 #: managethemes.cpp:99
-#, fuzzy, kde-format
-#| msgid "Do you want to remove selected theme?"
-#| msgid_plural "Do you want to remove %1 selected themes?"
+#, kde-format
 msgid "Do you want to remove %1 selected themes?"
-msgstr "Ar norite pašalinti pasirinktą apipavidalinimą?"
+msgstr "Ar norite pašalinti %1 pasirinktus apipavidalinimus?"
 
 #: managethemes.cpp:101
 #, kde-format
 msgid "Remove theme"
-msgstr "Pašalinti apipavidalinimą"
+msgstr "Šalinti apipavidalinimą"
 
 #: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
 msgstr ""
-"Negalima ištrinti apipavidalinimo „%1“. Prašome susisiekti su "
+"Apipavidalinimas „%1“ negali būti ištrintas. Susisiekite su "
 "administratoriumi."
 
 #: managethemes.cpp:109
 #, kde-format
 msgid "Delete theme failed"
-msgstr "Apipavidalinimo ištrynimas nepavyko"
+msgstr "Nepavyko ištrinti apipavidalinimo"
 
 #: newthemedialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "New Theme"
+#, kde-format
 msgctxt "@title:window"
 msgid "New Theme"
 msgstr "Naujas apipavidalinimas"
 
 #: newthemedialog.cpp:39
-#, fuzzy, kde-format
-#| msgid "Theme name:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme name:"
 msgstr "Apipavidalinimo pavadinimas:"
 
 #: newthemedialog.cpp:48
-#, fuzzy, kde-format
-#| msgid "Theme directory:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Theme directory:"
 msgstr "Apipavidalinimo katalogas:"
 
 #: themeeditortabwidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "Editor"
+#, kde-format
 msgid "Editor (%1)"
-msgstr "Redaktorius"
+msgstr "Redaktorius (%1)"
 
 #: themeeditortabwidget.cpp:55
 #, kde-format
@@ -190,13 +173,13 @@ msgstr "Klaida įkeliant apipavidalinimą"
 #: themesession.cpp:60
 #, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
-msgstr "Bandote įkelti apipavidalinimą, kurios negali nuskaityti šį programa"
+msgstr "Bandote įkelti apipavidalinimą, kurio ši programa negali perskaityti"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configurewidget.ui:20
 #, kde-format
 msgid "Default theme path:"
-msgstr "Numatytos temos kelias:"
+msgstr "Numatytasis apipavidalinimo kelias:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/configurewidget.ui:44

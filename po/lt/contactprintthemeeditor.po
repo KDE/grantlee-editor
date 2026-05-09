@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: trunk-kf 5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2020-04-01 23:18+0300\n"
+"PO-Revision-Date: 2026-05-08 12:49+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: lt\n"
 "Language: lt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 3.8\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -36,8 +36,7 @@ msgid "Configure"
 msgstr "Konfigūruoti"
 
 #: contactprintthemeconfiguredialog.cpp:45
-#, fuzzy, kde-format
-#| msgid "Default contact:"
+#, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Numatytasis adresatas:"
@@ -75,14 +74,12 @@ msgid "Contact Print Theme Editor"
 msgstr "Adresatų spausdinimo apipavidalinimo redaktorius"
 
 #: main.cpp:28
-#, fuzzy, kde-format
-#| msgid "Copyright © 2015-2020 contactprintthemeeditor authors"
+#, kde-format
 msgid "Copyright © 2015-%1 contactprintthemeeditor authors"
-msgstr "Autorių teisės © 2015-2020 contactprintthemeeditor autoriai"
+msgstr "Autorių teisės © 2015–%1 contactprintthemeeditor autoriai"
 
 #: main.cpp:29
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -98,8 +95,7 @@ msgid "Load Recent Theme..."
 msgstr "Įkelti paskiausią apipavidalinimą..."
 
 #: themeeditormainwindow.cpp:85
-#, fuzzy, kde-format
-#| msgid "Add Extra Page..."
+#, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Pridėti papildomą puslapį..."
@@ -130,22 +126,19 @@ msgid "Save theme as..."
 msgstr "Įrašyti apipavidalinimą kaip..."
 
 #: themeeditormainwindow.cpp:109
-#, fuzzy, kde-format
-#| msgid "Install theme"
+#, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Įdiegti apipavidalinimą"
 
 #: themeeditormainwindow.cpp:113
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Įterpti failą..."
 
 #: themeeditormainwindow.cpp:117
-#, fuzzy, kde-format
-#| msgid "Manage themes..."
+#, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Tvarkyti apipavidalinimus..."
@@ -193,7 +186,7 @@ msgstr "Nepavyksta sukurti apipavidalinimo aplanko."
 #: themeeditorpage.cpp:155
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr "Apipavidalinimas įdiegtas į \"%1\""
+msgstr "Apipavidalinimas įdiegtas į „%1“"
 
 #: themeeditorpage.cpp:176
 #, kde-format
