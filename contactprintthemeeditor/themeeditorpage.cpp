@@ -5,7 +5,6 @@
 */
 
 #include "themeeditorpage.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contactprintthemepreview.h"
 #include "desktopfilepage.h"
@@ -27,6 +26,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <QHBoxLayout>
 #include <QPointer>
 
+using namespace Qt::Literals::StringLiterals;
 ThemeEditorPage::ThemeEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)
     , mThemeSession(new GrantleeThemeEditor::ThemeSession(projectDir, u"headerthemeeditor"_s))
