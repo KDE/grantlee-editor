@@ -8,28 +8,28 @@ msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2013-09-08 07:05+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"PO-Revision-Date: 2026-05-20 10:17-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+msgstr "ئابدۇقادىر ئابلىز، غەيرەت كەنجى"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+msgstr "sahranbay@gmail.com, gheyret@gmail.com"
 
 #: contactconfigurationdialog.cpp:33
-#, fuzzy, kde-format
-#| msgid "Configure"
+#, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "سەپلە"
@@ -38,7 +38,7 @@ msgstr "سەپلە"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr ""
+msgstr "كۆڭۈلدىكى ئالاقەداش:"
 
 #: contactconfigurationdialog.cpp:49
 #, kde-format
@@ -48,62 +48,61 @@ msgstr "ئادەتتىكى"
 #: contactconfigurationdialog.cpp:52
 #, kde-format
 msgid "Default Template"
-msgstr ""
+msgstr "كۆڭۈلدىكى قېلىپ"
 
 #: contacteditormainwindow.cpp:77
 #, kde-format
 msgid "Load Recent Theme..."
-msgstr ""
+msgstr "يېقىنقى ئۆرنەكنى يۈكلە…"
 
 #: contacteditormainwindow.cpp:84
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
-msgstr ""
+msgstr "قوشۇمچە بەت قوش…"
 
 #: contacteditormainwindow.cpp:89
 #, kde-format
 msgid "Upload theme..."
-msgstr ""
+msgstr "ئۆرنەك يۈكلە…"
 
 #: contacteditormainwindow.cpp:95
 #, kde-format
 msgid "New theme..."
-msgstr ""
+msgstr "يېڭى ئۆرنەك…"
 
 #: contacteditormainwindow.cpp:98
 #, kde-format
 msgid "Open theme..."
-msgstr ""
+msgstr "ئۆرنەك ئاچ…"
 
 #: contacteditormainwindow.cpp:100
 #, kde-format
 msgid "Save theme"
-msgstr ""
+msgstr "ئۆرنەك ساقلا"
 
 #: contacteditormainwindow.cpp:102
 #, kde-format
 msgid "Save theme as..."
-msgstr ""
+msgstr "ئۆرنەكنى باشقا ئاتتا ساقلا…"
 
 #: contacteditormainwindow.cpp:108
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
-msgstr ""
+msgstr "ئۆرنەك ئورنات"
 
 #: contacteditormainwindow.cpp:112
-#, fuzzy, kde-format
-#| msgid "Insert File..."
+#, kde-format
 msgctxt "@action"
 msgid "Insert File..."
-msgstr "ھۆججەت قىستۇرۇش…"
+msgstr "ھۆججەت قىستۇر…"
 
 #: contacteditormainwindow.cpp:116
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
-msgstr ""
+msgstr "ئۆرنەك باشقۇر…"
 
 #: contacteditormainwindow.cpp:120
 #, kde-format
@@ -113,12 +112,12 @@ msgstr "كۆرۈنۈشنى يېڭىلا"
 #: contacteditormainwindow.cpp:189 contacteditormainwindow.cpp:321
 #, kde-format
 msgid "Select theme directory"
-msgstr ""
+msgstr "ئۆرنەك مۇندەرىجىسى تاللىنىدۇ"
 
 #: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr ""
+msgstr "مۇندەرىجىدە ئۆرنەك ھۆججىتى يوق. ئۆرنەكنى يۈكلىيەلمەيدۇ."
 
 #: contacteditorpage.cpp:42
 #, kde-format
@@ -133,42 +132,42 @@ msgstr "ئۈستەلئۈستى ھۆججىتى"
 #: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "ئۆرنەك مەۋجۇت. ئۇنى قاپلىۋېتەمسىز؟"
 
 #: contacteditorpage.cpp:126
 #, kde-format
 msgid "Theme already exists"
-msgstr ""
+msgstr "ئۆرنەك مەۋجۇت"
 
 #: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr ""
+msgstr "ئۆرنەك قىسقۇچنى قۇرالمايدۇ."
 
 #: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr ""
+msgstr "ئۆرنەك «%1» غا ئورنىتىلدى"
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr ""
+msgstr "zip ھۆججەتتە ئالدىن كۆزىتىش ھۆججىتى قوشالمايدۇ"
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "Failed to add file."
-msgstr "ھۆججەت قوشۇش مەغلۇپ بولدى."
+msgstr "ھۆججەت قوشالمىدى."
 
 #: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
-msgstr ""
+msgstr "ئامراق K ئادرېس دەپتەر ئۆرنىكىم"
 
 #: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
-msgstr ""
+msgstr "قوشۇمچە ھۆججەتنىڭ ھۆججەت ئاتى"
 
 #: contacteditorpage.cpp:216
 #, kde-format
@@ -178,12 +177,12 @@ msgstr "ھۆججەت ئاتى:"
 #: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr ""
+msgstr "ھازىرقى قۇرۇلۇشنى راستتىنلا ساقلامسىز؟"
 
 #: contacteditorpage.cpp:276
 #, kde-format
 msgid "Save current project"
-msgstr "ھازىرقى قۇرۇلۇشنى ساقلايدۇ"
+msgstr "ھازىرقى قۇرۇلۇشنى ساقلا"
 
 #: contactpreviewwidget.cpp:36
 #, kde-format
@@ -198,7 +197,7 @@ msgstr "گۇرۇپپا"
 #: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr ""
+msgstr "تەھرىرلىگۈچتە ئېلېمېنتنى سۆرەپ تاشلاپ قېلىپقا ئەكىرىشكە بولىدۇ"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
@@ -215,21 +214,20 @@ msgstr "كۆرسەتكۈچ(&D)"
 #: editorpage.cpp:54
 #, kde-format
 msgid "Theme Templates:"
-msgstr ""
+msgstr "ئۆرنەك قېلىپى:"
 
 #: main.cpp:25 main.cpp:27
 #, kde-format
 msgid "Contact Theme Editor"
-msgstr "ئۆرنەك تەھرىرى بىلەن ئالاقىلىشىش"
+msgstr "ئالاقەداش ئۆرنەك تەھرىرلىگۈچ"
 
 #: main.cpp:29
 #, kde-format
 msgid "Copyright © 2013-%1 contactthemeeditor authors"
-msgstr ""
+msgstr "نەشر ھوقۇقىغا ئىگە © 2013-%1 contactthemeeditor يازغۇچىلىرى"
 
 #: main.cpp:30
-#, fuzzy, kde-format
-#| msgid "Laurent Montel"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
@@ -237,4 +235,4 @@ msgstr "Laurent Montel"
 #: main.cpp:30
 #, kde-format
 msgid "Maintainer"
-msgstr "مەسئۇل كىشى"
+msgstr "ئاسرىغۇچى"
