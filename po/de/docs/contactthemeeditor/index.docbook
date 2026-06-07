@@ -7,8 +7,7 @@
 >Designeditor für Kontakte</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % German "INCLUDE"
-> 
+  <!ENTITY % German "INCLUDE">
 ]>
 
 <article id="contactthemeeditor" lang="&language;">
