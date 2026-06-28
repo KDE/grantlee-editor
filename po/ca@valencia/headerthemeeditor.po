@@ -234,7 +234,7 @@ msgstr "Tema instal·lat a «%1»"
 #: themeeditorpage.cpp:200
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "No hem pogut afegir un fitxer de vista prèvia en el fitxer ZIP"
+msgstr "No hem pogut afegir un fitxer de vista prèvia al fitxer ZIP"
 
 #: themeeditorpage.cpp:200
 #, kde-format

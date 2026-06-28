@@ -155,7 +155,7 @@ msgstr "Tema instal·lat a «%1»"
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr "No podem afegir un fitxer de vista prèvia en el fitxer zip"
+msgstr "No podem afegir un fitxer de vista prèvia al fitxer zip"
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
