@@ -7,8 +7,7 @@
 >Editor pels temes dels contactes</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Catalan  "INCLUDE"
-> 
+  <!ENTITY % Catalan  "INCLUDE">
 ]>
 
 <article id="contactthemeeditor" lang="&language;">

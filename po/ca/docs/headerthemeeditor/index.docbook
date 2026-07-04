@@ -7,8 +7,7 @@
 >Editor pels temes de les capçaleres</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Catalan  "INCLUDE"
-> 
+  <!ENTITY % Catalan  "INCLUDE">
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
