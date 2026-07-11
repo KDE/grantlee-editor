@@ -1,31 +1,32 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # SPDX-FileCopyrightText: 2013, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2024-05-30 10:39+0200\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-07-10 10:56+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Vít Pelčák,Libor Filípek"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vit@pelcak.org"
+msgstr "vit@pelcak.org,libor.filipek@gmail.com"
 
 #: contactconfigurationdialog.cpp:33
 #, kde-format
@@ -37,7 +38,7 @@ msgstr "Nastavit"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
-msgstr "Výchozí kontakt"
+msgstr "Výchozí kontakt:"
 
 #: contactconfigurationdialog.cpp:49
 #, kde-format
@@ -116,7 +117,7 @@ msgstr "Vyberte adresář motivu"
 #: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr ""
+msgstr "Adresář neobsahuje soubor motivu. Motiv nelze načíst."
 
 #: contacteditorpage.cpp:42
 #, kde-format
@@ -141,17 +142,17 @@ msgstr "Motiv již existuje"
 #: contacteditorpage.cpp:134
 #, kde-format
 msgid "Cannot create theme folder."
-msgstr ""
+msgstr "Nelze vytvořit složku motivu."
 
 #: contacteditorpage.cpp:148
 #, kde-format
 msgid "Theme installed in \"%1\""
-msgstr ""
+msgstr "Motiv nainstalován v \"%1\""
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
 msgid "We cannot add preview file in zip file"
-msgstr ""
+msgstr "Do souboru ZIP nelze přidat náhledový soubor"
 
 #: contacteditorpage.cpp:171 contacteditorpage.cpp:177
 #, kde-format
@@ -161,12 +162,12 @@ msgstr "Selhalo přidání souboru."
 #: contacteditorpage.cpp:190
 #, kde-format
 msgid "My favorite Kaddressbook theme"
-msgstr ""
+msgstr "Můj oblíbený motiv Kaddressbook"
 
 #: contacteditorpage.cpp:216
 #, kde-format
 msgid "Filename of extra page"
-msgstr ""
+msgstr "Název souboru doplňkové stránky"
 
 #: contacteditorpage.cpp:216
 #, kde-format
@@ -176,7 +177,7 @@ msgstr "Název souboru:"
 #: contacteditorpage.cpp:275
 #, kde-format
 msgid "Do you want to save current project?"
-msgstr ""
+msgstr "Chcete uložit aktuální projekt?"
 
 #: contacteditorpage.cpp:276
 #, kde-format
@@ -196,7 +197,7 @@ msgstr "Skupina"
 #: contacttemplatewidget.cpp:36
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
-msgstr ""
+msgstr "Chcete-li importovat šablonu, můžete prvek přetáhnout do editoru"
 
 #. i18n: ectx: Menu (edit)
 #: contactthemeeditorui.rc:16
