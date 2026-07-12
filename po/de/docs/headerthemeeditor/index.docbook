@@ -7,8 +7,7 @@
 >Designeditor für Vorspann</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % German "INCLUDE"
-> 
+  <!ENTITY % German "INCLUDE">
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
@@ -88,7 +87,7 @@
 <title
 >&i18n-kapplication; verwenden</title>
 <para
->Eine kurze Einführung zu diesem Programm finden Sie in diesem <ulink url="http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>Eine kurze Einführung zu diesem Programm finden Sie in diesem <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
 >Blog</ulink
 >.</para>
 <para
