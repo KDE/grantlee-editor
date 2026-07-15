@@ -116,7 +116,6 @@ set(KPIMTEXTEDIT_LIB_VERSION "6.7.40")
 set(LIBGRANTLEETHEME_LIB_VERSION "6.7.40")
 set(KIMAP_LIB_VERSION "6.7.40")
 set(PIMCOMMON_LIB_VERSION "6.7.40")
-set(KPIM_MIME_VERSION "6.7.40")
 set(KTEXTADDONS_MIN_VERSION "2.1.0")
 find_package(
     Qt6
@@ -151,10 +150,6 @@ set_package_properties(
 
 # Find KdepimLibs Package
 find_package(KF6Mime ${KF_MIN_VERSION} CONFIG)
-if(NOT TARGET KF6::Mime)
-    find_package(KPim6Mime ${KPIM_MIME_VERSION} CONFIG REQUIRED)
-    add_library(KF6::Mime ALIAS KPim6::Mime)
-endif()
 
 find_package(KF6SyntaxHighlighting ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6TextCustomEditor ${KTEXTADDONS_MIN_VERSION} CONFIG REQUIRED)
