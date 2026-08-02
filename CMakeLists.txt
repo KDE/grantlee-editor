@@ -149,7 +149,7 @@ set_package_properties(
 )
 
 # Find KdepimLibs Package
-find_package(KF6Mime ${KF_MIN_VERSION} CONFIG)
+find_package(KF6Mime ${KF_MIN_VERSION} CONFIG REQUIRED)
 
 find_package(KF6SyntaxHighlighting ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6TextCustomEditor ${KTEXTADDONS_MIN_VERSION} CONFIG REQUIRED)
