@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.29)
-set(PIM_VERSION "6.8.0")
+set(PIM_VERSION "6.8.1")
 project(grantlee-editor VERSION ${PIM_VERSION})
 set(RELEASE_SERVICE_VERSION "26.08.1")
 set(KF_MIN_VERSION "6.25.0")
