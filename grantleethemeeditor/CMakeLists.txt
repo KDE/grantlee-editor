@@ -59,6 +59,7 @@ target_link_libraries(
         KF6::I18n
         KF6::SyntaxHighlighting
         KF6::TextCustomEditor
+        KF6::ConfigGui
 )
 
 install(FILES settings/grantleethemeeditor.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
