@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: contactthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2026-05-30 16:30-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -117,7 +117,7 @@ msgstr "ئۆرنەك مۇندەرىجىسى تاللىنىدۇ"
 #: contacteditormainwindow.cpp:205
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "مۇندەرىجىدە ئۆرنەك ھۆججىتى يوق. ئۆرنەكنى يۈكلىيەلمەيدۇ."
+msgstr ""
 
 #: contacteditorpage.cpp:42
 #, kde-format
@@ -132,7 +132,7 @@ msgstr "ئۈستەلئۈستى ھۆججىتى"
 #: contacteditorpage.cpp:125
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "ئۆرنەك مەۋجۇت. ئۇنى قاپلىۋېتەمسىز؟"
+msgstr ""
 
 #: contacteditorpage.cpp:126
 #, kde-format
@@ -230,7 +230,7 @@ msgstr "نەشر ھوقۇقىغا ئىگە © 2013-%1 contactthemeeditor ياز�
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr ""
 
 #: main.cpp:30
 #, kde-format

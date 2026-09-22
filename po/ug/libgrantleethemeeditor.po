@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2026-05-30 16:30-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -67,10 +67,6 @@ msgid ""
 "to add extra header as \"X-Original-To\" add \"X-Original-To\" in list, but "
 "use \"XOriginalTo\" as variable in Grantlee (remove '-' in name)."
 msgstr ""
-"دىققەت، Grantlee «-»  دەك ئۆزگەرگۈچىنى قوللىمايدۇ. ئەگەر «X-Original-To» غا "
-"ئوخشاش قوشۇمچە خەت ماۋزۇسى قوشماقچى بولسىڭىز «X-Original-To» نى تىزىمغا "
-"قوشىدۇ ئەمما «XOriginalTo» نى Grantlee نىڭ ئۆزگەرگۈچىسى قىلىپ "
-"ئىشلىتىدۇ(ئىسىمدىكى «-» نى چىقىرىۋېتىدۇ)."
 
 #: desktopfilepage.cpp:129 editorpage.cpp:101
 #, kde-format
@@ -124,7 +120,7 @@ msgstr "ئۆرنەكنى چىقىرىۋەت"
 #: managethemes.cpp:108
 #, kde-format
 msgid "Theme \"%1\" cannot be deleted. Please contact your administrator."
-msgstr "«%1» ئۆرنەكنى چىقىرىۋېتەلمەيدۇ. باشقۇرغۇچى بىلەن ئالاقىلىشىڭ."
+msgstr ""
 
 #: managethemes.cpp:109
 #, kde-format

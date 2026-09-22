@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:52+0000\n"
-"PO-Revision-Date: 2026-05-30 16:30-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -64,7 +64,7 @@ msgstr "نەشر ھوقۇقىغا ئىگە © 2013-%1 headerthemeeditor يازغ
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr ""
 
 #: main.cpp:30
 #, kde-format
@@ -196,7 +196,7 @@ msgstr "ئۆرنەك مۇندەرىجىسى تاللىنىدۇ"
 #: themeeditormainwindow.cpp:232
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
-msgstr "مۇندەرىجىدە ئۆرنەك ھۆججىتى يوق. ئۆرنەكنى يۈكلىيەلمەيدۇ."
+msgstr ""
 
 #: themeeditorpage.cpp:39
 #, kde-format
@@ -211,7 +211,7 @@ msgstr "ئۈستەلئۈستى ھۆججىتى"
 #: themeeditorpage.cpp:159
 #, kde-format
 msgid "Theme already exists. Do you want to overwrite it?"
-msgstr "ئۆرنەك مەۋجۇت. ئۇنى قاپلىۋېتەمسىز؟"
+msgstr ""
 
 #: themeeditorpage.cpp:160
 #, kde-format
