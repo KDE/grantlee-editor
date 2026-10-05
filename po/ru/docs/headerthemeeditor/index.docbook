@@ -5,10 +5,9 @@
        CVS -->
   <!ENTITY i18n-kapplication "<application
 >Редактор оформлений заголовков</application
-> ">
+>">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Russian "INCLUDE"
-> 
+  <!ENTITY % Russian "INCLUDE">
 ]>
 
 <article id="headerthemeeditor" lang="&language;">
@@ -102,8 +101,8 @@
 <title
 >Работа с редактором оформлений заголовков</title>
 <para
->Краткое описание работы с данным приложением содержится в этом <ulink url="http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
->блоге</ulink
+>Краткое введение в это приложение можно найти в <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>этой записи блога</ulink
 >.</para>
 <para
 >Чтобы получить более подробные сведения, ознакомьтесь с документацией <ulink url="http://www.grantlee.org/apidox/"
@@ -128,11 +127,11 @@
 >Авторские права на документацию: &copy; &Laurent.Montel; &Laurent.Montel.mail;, 2013</para>
 
 <para
->Мария Шикунова<email
+>Мария Шикунова <email
 >translation-team@basealt.ru</email
 ></para
 ><para
->Олеся Герасименко<email
+>Олеся Герасименко <email
 >translation-team@basealt.ru</email
 ></para
 > &underFDL; &underGPL; </sect2>
