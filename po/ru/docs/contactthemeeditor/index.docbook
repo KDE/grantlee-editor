@@ -7,8 +7,7 @@
 >Редактор оформлений контактов</application
 >">
   <!ENTITY % addindex "IGNORE">
-  <!ENTITY % Russian "INCLUDE"
-> 
+  <!ENTITY % Russian "INCLUDE">
 ]>
 
 <article id="contactthemeeditor" lang="&language;">
@@ -107,7 +106,7 @@
 >Авторские права на документацию: &copy; &Laurent.Montel; &Laurent.Montel.mail;, 2013 </para>
 
 <para
->Олеся Герасименко<email
+>Олеся Герасименко <email
 >translation-team@basealt.ru</email
 ></para
 > &underFDL; &underGPL; </sect2>
