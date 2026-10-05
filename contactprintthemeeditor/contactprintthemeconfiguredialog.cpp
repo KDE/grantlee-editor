@@ -5,7 +5,6 @@
 */
 
 #include "contactprintthemeconfiguredialog.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contactprintthemeeditorutil.h"
 #include <TextCustomEditor/PlainTextEditorWidget>
@@ -27,6 +26,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QPushButton>
 #include <QTabWidget>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactPrintThemeConfigureDialog::ContactPrintThemeConfigureDialog(QWidget *parent)
     : QDialog(parent)

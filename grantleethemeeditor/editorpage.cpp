@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "editorpage.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "editorwidget.h"
 
@@ -16,6 +15,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <QFile>
 #include <QTextStream>
 
+using namespace Qt::Literals::StringLiterals;
 using namespace GrantleeThemeEditor;
 
 EditorPage::EditorPage(PageType type, QWidget *parent)

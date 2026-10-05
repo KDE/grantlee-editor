@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "previewwidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "themeeditorutil.h"
 #include <MessageViewer/GrantleeHeaderTestStyle>
@@ -17,6 +16,8 @@ using namespace Qt::Literals::StringLiterals;
 
 #include <KSharedConfig>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 PreviewWidget::PreviewWidget(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)

@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "contacteditormainwindow.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contactconfigurationdialog.h"
 #include "contacteditorpage.h"
@@ -26,6 +25,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QCloseEvent>
 #include <QPointer>
 #include <QStandardPaths>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactEditorMainWindow::ContactEditorMainWindow()
     : KXmlGuiWindow()

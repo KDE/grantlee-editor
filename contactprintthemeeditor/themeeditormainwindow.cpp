@@ -5,7 +5,6 @@
 */
 
 #include "themeeditormainwindow.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contactprintthemeconfiguredialog.h"
 #include "managethemes.h"
@@ -27,6 +26,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QCloseEvent>
 #include <QPointer>
 #include <QStandardPaths>
+
+using namespace Qt::Literals::StringLiterals;
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
     : KXmlGuiWindow()

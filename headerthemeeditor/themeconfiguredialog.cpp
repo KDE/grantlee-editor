@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeconfiguredialog.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "themeeditorutil.h"
 #include <TextCustomEditor/PlainTextEditorWidget>
@@ -22,6 +21,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QPushButton>
 #include <QTabWidget>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 ThemeConfigureDialog::ThemeConfigureDialog(QWidget *parent)
     : QDialog(parent)

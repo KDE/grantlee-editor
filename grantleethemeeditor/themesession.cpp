@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themesession.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "grantleethemeeditor_debug.h"
 #include <KConfig>
@@ -12,6 +11,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <KLocalizedString>
 #include <KMessageBox>
 
+using namespace Qt::Literals::StringLiterals;
 using namespace GrantleeThemeEditor;
 
 ThemeSession::ThemeSession(const QString &projectDirectory, const QString &themeTypeName)

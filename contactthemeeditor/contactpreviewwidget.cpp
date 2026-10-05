@@ -5,7 +5,6 @@
 */
 
 #include "contactpreviewwidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contacteditorutil.h"
 
@@ -24,6 +23,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QHBoxLayout>
 #include <QPainter>
 #include <QTabWidget>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactPreviewWidget::ContactPreviewWidget(const QString &projectDirectory, QWidget *parent)
     : QWidget(parent)

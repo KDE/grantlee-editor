@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "editorpage.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contacteditorwidget.h"
 #include "contacttemplatewidget.h"
@@ -21,6 +20,8 @@ using namespace Qt::Literals::StringLiterals;
 
 #include <QSplitter>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::EditorPage(type, parent)

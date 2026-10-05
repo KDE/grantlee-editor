@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "desktopfilepage.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "globalsettings_base.h"
 
@@ -22,6 +21,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <TextCustomEditor/PlainTextEditor>
 #include <TextCustomEditor/PlainTextEditorWidget>
 
+using namespace Qt::Literals::StringLiterals;
 using namespace GrantleeThemeEditor;
 
 DesktopFilePage::DesktopFilePage(const QString &defaultFileName, DesktopFilePage::DesktopFileOptions options, QWidget *parent)

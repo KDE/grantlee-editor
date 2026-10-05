@@ -5,7 +5,6 @@
 */
 
 #include "contacteditorpage.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contacteditorwidget.h"
 #include "desktopfilepage.h"
@@ -26,6 +25,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QFileDialog>
 #include <QHBoxLayout>
 #include <QPointer>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactEditorPage::ContactEditorPage(const QString &projectDir, const QString &themeName, QWidget *parent)
     : QWidget(parent)

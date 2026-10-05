@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "contactconfigurationdialog.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contacteditorutil.h"
 #include <TextCustomEditor/PlainTextEditorWidget>
@@ -26,6 +25,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QPushButton>
 #include <QTabWidget>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactConfigureDialog::ContactConfigureDialog(QWidget *parent)
     : QDialog(parent)

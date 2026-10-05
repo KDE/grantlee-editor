@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeeditortabwidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "editorpage.h"
 
@@ -13,6 +12,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <QMenu>
 
 #include <QTabBar>
+using namespace Qt::Literals::StringLiterals;
 using namespace GrantleeThemeEditor;
 
 ThemeEditorTabWidget::ThemeEditorTabWidget(QWidget *parent)

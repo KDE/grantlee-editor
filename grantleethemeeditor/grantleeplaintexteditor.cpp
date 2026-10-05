@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "grantleeplaintexteditor.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "grantleethemeeditor_debug.h"
 
@@ -17,6 +16,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <QKeyEvent>
 #include <TextCustomEditor/TextEditorCompleter>
 
+using namespace Qt::Literals::StringLiterals;
 using namespace GrantleeThemeEditor;
 
 GrantleePlainTextEditor::GrantleePlainTextEditor(QWidget *parent)

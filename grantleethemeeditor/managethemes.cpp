@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "managethemes.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include <KLocalizedString>
 #include <KMessageBox>
@@ -20,6 +19,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <QStandardPaths>
 #include <QVBoxLayout>
 
+using namespace Qt::Literals::StringLiterals;
 using namespace GrantleeThemeEditor;
 class GrantleeThemeEditor::ManageThemesPrivate
 {

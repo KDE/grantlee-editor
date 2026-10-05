@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "contacteditormainwindow.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "grantleeeditor-version.h"
 #include <KAboutData>
@@ -13,6 +12,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <KLocalizedString>
 #include <QApplication>
 #include <QCommandLineParser>
+
+using namespace Qt::Literals::StringLiterals;
 
 int main(int argc, char **argv)
 {

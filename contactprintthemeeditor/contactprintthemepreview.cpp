@@ -5,7 +5,6 @@
 */
 
 #include "contactprintthemepreview.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contactprintthemeeditor_debug.h"
 #include "contactprintthemeeditorutil.h"
@@ -15,6 +14,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <KSharedConfig>
 #include <QHBoxLayout>
 #include <QWebEngineView>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactPrintThemePreview::ContactPrintThemePreview(const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::PreviewWidget(parent)

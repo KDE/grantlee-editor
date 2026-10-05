@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "themeeditormainwindow.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "managethemes.h"
 #include "newthemedialog.h"
@@ -28,6 +27,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <QCloseEvent>
 #include <QPointer>
 #include <QStandardPaths>
+
+using namespace Qt::Literals::StringLiterals;
 
 ThemeEditorMainWindow::ThemeEditorMainWindow()
     : KXmlGuiWindow()

@@ -5,7 +5,6 @@
 */
 
 #include "editorpage.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "KSplitterCollapserButton"
 #include "contactprintthemeeditorutil.h"
@@ -23,6 +22,8 @@ using namespace Qt::Literals::StringLiterals;
 #include <KSharedConfig>
 #include <QSplitter>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 EditorPage::EditorPage(GrantleeThemeEditor::EditorPage::PageType type, const QString &projectDirectory, QWidget *parent)
     : GrantleeThemeEditor::EditorPage(type, parent)

@@ -4,7 +4,6 @@
    SPDX-License-Identifier: GPL-2.0-or-later
 */
 #include "contacttemplatewidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "contactdefaulttemplate.h"
 
@@ -12,6 +11,8 @@ using namespace Qt::Literals::StringLiterals;
 
 #include <QLabel>
 #include <QVBoxLayout>
+
+using namespace Qt::Literals::StringLiterals;
 
 ContactTemplateListWidget::ContactTemplateListWidget(const QString &configName, QWidget *parent)
     : PimCommon::TemplateListWidget(configName, parent)
