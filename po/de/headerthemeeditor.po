@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2025-05-26 18:55+0200\n"
 "Last-Translator: Alois Spitzbart <spitz234@hotmail.com>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -26,7 +26,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-i18n-de@kde.org"
 
-#: editorpage.cpp:54
+#: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Design-Vorlagen:"
@@ -43,56 +43,56 @@ msgstr "&Bearbeiten"
 msgid "&Display"
 msgstr "&Anzeigen"
 
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Designeditor für Vorspann"
 
-#: main.cpp:27
+#: main.cpp:28
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Designeditor für den Vorspann der Nachrichtenanzeige"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013-%1 Die Headerthemeeditor-Autoren"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Betreuer"
 
-#: previewwidget.cpp:36
+#: previewwidget.cpp:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Ansicht aktualisieren"
 
-#: themeconfiguredialog.cpp:29
+#: themeconfiguredialog.cpp:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Einrichten"
 
-#: themeconfiguredialog.cpp:39
+#: themeconfiguredialog.cpp:40
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Standard-E-Mail:"
 
-#: themeconfiguredialog.cpp:44
+#: themeconfiguredialog.cpp:45
 #, kde-format
 msgid "General"
 msgstr "Allgemein"
 
-#: themeconfiguredialog.cpp:47
+#: themeconfiguredialog.cpp:48
 #, kde-format
 msgid "Default Template"
 msgstr "Standardvorlage"
@@ -117,81 +117,81 @@ msgstr "An"
 msgid "Cc"
 msgstr "Kopie"
 
-#: themeeditormainwindow.cpp:81
+#: themeeditormainwindow.cpp:82
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Zuletzt geöffnetes Design laden …"
 
-#: themeeditormainwindow.cpp:88
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Extraseite hinzufügen …"
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:94
 #, kde-format
 msgid "Upload theme..."
 msgstr "Design hochladen …"
 
-#: themeeditormainwindow.cpp:99
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "New theme..."
 msgstr "Neues Design …"
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Open theme..."
 msgstr "Design öffnen …"
 
-#: themeeditormainwindow.cpp:104
+#: themeeditormainwindow.cpp:105
 #, kde-format
 msgid "Save theme"
 msgstr "Design speichern"
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:108
 #, kde-format
 msgid "Save theme as..."
 msgstr "Design speichern unter …"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Design installieren"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Datei einfügen …"
 
-#: themeeditormainwindow.cpp:123
+#: themeeditormainwindow.cpp:124
 #, kde-format
 msgid "Printing mode"
 msgstr "Druckmodus"
 
-#: themeeditormainwindow.cpp:128
+#: themeeditormainwindow.cpp:129
 #, kde-format
 msgid "Normal mode"
 msgstr "Normaler Modus"
 
-#: themeeditormainwindow.cpp:134
+#: themeeditormainwindow.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Designs verwalten …"
 
-#: themeeditormainwindow.cpp:138
+#: themeeditormainwindow.cpp:139
 #, kde-format
 msgid "Update view"
 msgstr "Ansicht aktualisieren"
 
-#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
+#: themeeditormainwindow.cpp:217 themeeditormainwindow.cpp:350
 #, kde-format
 msgid "Select theme directory"
 msgstr "Designordner auswählen"
 
-#: themeeditormainwindow.cpp:232
+#: themeeditormainwindow.cpp:233
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""

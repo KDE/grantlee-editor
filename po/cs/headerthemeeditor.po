@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2026-07-10 10:56+0200\n"
 "Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "vit@pelcak.org,libor.filipek@gmail.com"
 
-#: editorpage.cpp:54
+#: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Šablony motivů:"
@@ -45,56 +45,56 @@ msgstr "&Upravit"
 msgid "&Display"
 msgstr "&Zobrazení"
 
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Editor motivů hlaviček"
 
-#: main.cpp:27
+#: main.cpp:28
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Editor motivů hlaviček v prohlížeči zpráv"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Autorská práva © 2013-%1 Vývojáři headerthemeeditor"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Správce"
 
-#: previewwidget.cpp:36
+#: previewwidget.cpp:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Aktualizovat pohled"
 
-#: themeconfiguredialog.cpp:29
+#: themeconfiguredialog.cpp:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Nastavit"
 
-#: themeconfiguredialog.cpp:39
+#: themeconfiguredialog.cpp:40
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Výchozí e-mail:"
 
-#: themeconfiguredialog.cpp:44
+#: themeconfiguredialog.cpp:45
 #, kde-format
 msgid "General"
 msgstr "Obecné"
 
-#: themeconfiguredialog.cpp:47
+#: themeconfiguredialog.cpp:48
 #, kde-format
 msgid "Default Template"
 msgstr "Výchozí šablona"
@@ -119,81 +119,81 @@ msgstr "Komu"
 msgid "Cc"
 msgstr "Kopie"
 
-#: themeeditormainwindow.cpp:81
+#: themeeditormainwindow.cpp:82
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Načíst nedávný motiv..."
 
-#: themeeditormainwindow.cpp:88
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Přidat extra stránku..."
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:94
 #, kde-format
 msgid "Upload theme..."
 msgstr "Odeslat motiv..."
 
-#: themeeditormainwindow.cpp:99
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "New theme..."
 msgstr "Nový motiv..."
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Open theme..."
 msgstr "Otevřít motiv..."
 
-#: themeeditormainwindow.cpp:104
+#: themeeditormainwindow.cpp:105
 #, kde-format
 msgid "Save theme"
 msgstr "Uložit téma"
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:108
 #, kde-format
 msgid "Save theme as..."
 msgstr "Uložit motiv jako..."
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instalovat motiv"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Vložit soubor..."
 
-#: themeeditormainwindow.cpp:123
+#: themeeditormainwindow.cpp:124
 #, kde-format
 msgid "Printing mode"
 msgstr "Režim tisku"
 
-#: themeeditormainwindow.cpp:128
+#: themeeditormainwindow.cpp:129
 #, kde-format
 msgid "Normal mode"
 msgstr "Normální režim"
 
-#: themeeditormainwindow.cpp:134
+#: themeeditormainwindow.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Spravovat motivy..."
 
-#: themeeditormainwindow.cpp:138
+#: themeeditormainwindow.cpp:139
 #, kde-format
 msgid "Update view"
 msgstr "Aktualizovat pohled"
 
-#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
+#: themeeditormainwindow.cpp:217 themeeditormainwindow.cpp:350
 #, kde-format
 msgid "Select theme directory"
 msgstr "Vyberte adresář motivu"
 
-#: themeeditormainwindow.cpp:232
+#: themeeditormainwindow.cpp:233
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Adresář neobsahuje soubor motivu. Motiv nelze načíst."

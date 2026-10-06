@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2024-10-20 21:00+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org,lasse.liehu@gmail.com"
 
-#: editorpage.cpp:54
+#: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Teemamallipohjat:"
@@ -45,58 +45,58 @@ msgstr "&Muokkaa"
 msgid "&Display"
 msgstr "&Näytä"
 
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Otsaketeemamuokkain"
 
 # pmap: =:gen=Viestikatselimen otsaketeemamuokkaimen:
 # pmap: =:elat=Viestikatselimen otsaketeemamuokkaimesta:
-#: main.cpp:27
+#: main.cpp:28
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Viestikatselimen otsaketeemamuokkain"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Tekijänoikeudet © 2013–%1 headerthemeeditorin tekijät"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Ylläpitäjä"
 
-#: previewwidget.cpp:36
+#: previewwidget.cpp:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Päivitä näkymä"
 
-#: themeconfiguredialog.cpp:29
+#: themeconfiguredialog.cpp:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Asetukset"
 
-#: themeconfiguredialog.cpp:39
+#: themeconfiguredialog.cpp:40
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Oletussähköposti:"
 
-#: themeconfiguredialog.cpp:44
+#: themeconfiguredialog.cpp:45
 #, kde-format
 msgid "General"
 msgstr "Perusasetukset"
 
-#: themeconfiguredialog.cpp:47
+#: themeconfiguredialog.cpp:48
 #, kde-format
 msgid "Default Template"
 msgstr "Oletusmallipohja"
@@ -121,81 +121,81 @@ msgstr "Vastaanottaja"
 msgid "Cc"
 msgstr "Kopionsaaja"
 
-#: themeeditormainwindow.cpp:81
+#: themeeditormainwindow.cpp:82
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Lataa viimeaikainen teema…"
 
-#: themeeditormainwindow.cpp:88
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Lisää lisäsivu…"
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:94
 #, kde-format
 msgid "Upload theme..."
 msgstr "Lähetä teema…"
 
-#: themeeditormainwindow.cpp:99
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "New theme..."
 msgstr "Uusi teema…"
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Open theme..."
 msgstr "Avaa teema…"
 
-#: themeeditormainwindow.cpp:104
+#: themeeditormainwindow.cpp:105
 #, kde-format
 msgid "Save theme"
 msgstr "Tallenna teema"
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:108
 #, kde-format
 msgid "Save theme as..."
 msgstr "Tallenna teema nimellä…"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Asenna teema"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Lisää tiedosto…"
 
-#: themeeditormainwindow.cpp:123
+#: themeeditormainwindow.cpp:124
 #, kde-format
 msgid "Printing mode"
 msgstr "Tulostusmuoto"
 
-#: themeeditormainwindow.cpp:128
+#: themeeditormainwindow.cpp:129
 #, kde-format
 msgid "Normal mode"
 msgstr "Tavallinen muoto"
 
-#: themeeditormainwindow.cpp:134
+#: themeeditormainwindow.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Hallitse teemoja…"
 
-#: themeeditormainwindow.cpp:138
+#: themeeditormainwindow.cpp:139
 #, kde-format
 msgid "Update view"
 msgstr "Päivitä näkymä"
 
-#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
+#: themeeditormainwindow.cpp:217 themeeditormainwindow.cpp:350
 #, kde-format
 msgid "Select theme directory"
 msgstr "Valitse teeman kansio"
 
-#: themeeditormainwindow.cpp:232
+#: themeeditormainwindow.cpp:233
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Kansiossa ei ole teematiedostoa. Teemaa ei voi ladata."

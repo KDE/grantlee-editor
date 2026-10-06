@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2025-10-23 17:48+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
@@ -29,24 +29,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mkondarev@yahoo.de"
 
-#: contactprintthemeconfiguredialog.cpp:34
+#: contactprintthemeconfiguredialog.cpp:35
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Настройване"
 
-#: contactprintthemeconfiguredialog.cpp:45
+#: contactprintthemeconfiguredialog.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Контакт по подразбиране:"
 
-#: contactprintthemeconfiguredialog.cpp:51
+#: contactprintthemeconfiguredialog.cpp:52
 #, kde-format
 msgid "General"
 msgstr "Общи"
 
-#: contactprintthemeconfiguredialog.cpp:54
+#: contactprintthemeconfiguredialog.cpp:55
 #, kde-format
 msgid "Default Template"
 msgstr "Шаблон по подразбиране"
@@ -63,7 +63,7 @@ msgstr "&Редактиране"
 msgid "&Display"
 msgstr "&Показване"
 
-#: editorpage.cpp:57
+#: editorpage.cpp:58
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Шаблони за теми:"
@@ -89,71 +89,71 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Поддръжка"
 
-#: themeeditormainwindow.cpp:78
+#: themeeditormainwindow.cpp:79
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Зареждане на последно използвана тема ..."
 
-#: themeeditormainwindow.cpp:85
+#: themeeditormainwindow.cpp:86
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Добавяне на допълнителна страница..."
 
-#: themeeditormainwindow.cpp:89
+#: themeeditormainwindow.cpp:90
 #, kde-format
 msgid "Upload theme..."
 msgstr "Качване на тема..."
 
-#: themeeditormainwindow.cpp:95
+#: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "New theme..."
 msgstr "Нова тема..."
 
-#: themeeditormainwindow.cpp:98
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "Open theme..."
 msgstr "Отваряне на тема..."
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme"
 msgstr "Запазване на тема"
 
-#: themeeditormainwindow.cpp:103
+#: themeeditormainwindow.cpp:104
 #, kde-format
 msgid "Save theme as..."
 msgstr "Запазване на тема като..."
 
-#: themeeditormainwindow.cpp:109
+#: themeeditormainwindow.cpp:110
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Инсталиране на тема"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Вмъкване на файл..."
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Управление на теми..."
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:122
 #, kde-format
 msgid "Update view"
 msgstr "Обновяване на изгледа"
 
-#: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
+#: themeeditormainwindow.cpp:193 themeeditormainwindow.cpp:326
 #, kde-format
 msgid "Select theme directory"
 msgstr "Избор на папка на тема"
 
-#: themeeditormainwindow.cpp:208
+#: themeeditormainwindow.cpp:209
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Директорията не съдържа файл с тема. Не можем да заредим темата."

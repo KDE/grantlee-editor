@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2024-06-18 08:43+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian\n"
@@ -30,7 +30,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: editorpage.cpp:54
+#: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Шаблони тем:"
@@ -47,56 +47,56 @@ msgstr "З&міни"
 msgid "&Display"
 msgstr "По&каз"
 
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Редактор тем заголовків повідомлень"
 
-#: main.cpp:27
+#: main.cpp:28
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Редактор тем заголовків повідомлень"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "© Автори headerthemeeditor, 2013–%1"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Супровідник"
 
-#: previewwidget.cpp:36
+#: previewwidget.cpp:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Оновити перегляд"
 
-#: themeconfiguredialog.cpp:29
+#: themeconfiguredialog.cpp:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Налаштовування"
 
-#: themeconfiguredialog.cpp:39
+#: themeconfiguredialog.cpp:40
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Типова адреса ел. пошти:"
 
-#: themeconfiguredialog.cpp:44
+#: themeconfiguredialog.cpp:45
 #, kde-format
 msgid "General"
 msgstr "Загальне"
 
-#: themeconfiguredialog.cpp:47
+#: themeconfiguredialog.cpp:48
 #, kde-format
 msgid "Default Template"
 msgstr "Типовий шаблон"
@@ -121,81 +121,81 @@ msgstr "Кому"
 msgid "Cc"
 msgstr "Копія"
 
-#: themeeditormainwindow.cpp:81
+#: themeeditormainwindow.cpp:82
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Завантажити нещодавню тему…"
 
-#: themeeditormainwindow.cpp:88
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Додати ще сторінку…"
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:94
 #, kde-format
 msgid "Upload theme..."
 msgstr "Вивантажити тему…"
 
-#: themeeditormainwindow.cpp:99
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "New theme..."
 msgstr "Створити тему…"
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Open theme..."
 msgstr "Відкрити тему…"
 
-#: themeeditormainwindow.cpp:104
+#: themeeditormainwindow.cpp:105
 #, kde-format
 msgid "Save theme"
 msgstr "Зберегти тему"
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:108
 #, kde-format
 msgid "Save theme as..."
 msgstr "Зберегти тему як…"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Встановити тему"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Вставити файл…"
 
-#: themeeditormainwindow.cpp:123
+#: themeeditormainwindow.cpp:124
 #, kde-format
 msgid "Printing mode"
 msgstr "Режим друку"
 
-#: themeeditormainwindow.cpp:128
+#: themeeditormainwindow.cpp:129
 #, kde-format
 msgid "Normal mode"
 msgstr "Звичайний режим"
 
-#: themeeditormainwindow.cpp:134
+#: themeeditormainwindow.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Керування темами…"
 
-#: themeeditormainwindow.cpp:138
+#: themeeditormainwindow.cpp:139
 #, kde-format
 msgid "Update view"
 msgstr "Оновлювати перегляд"
 
-#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
+#: themeeditormainwindow.cpp:217 themeeditormainwindow.cpp:350
 #, kde-format
 msgid "Select theme directory"
 msgstr "Виберіть каталог теми"
 
-#: themeeditormainwindow.cpp:232
+#: themeeditormainwindow.cpp:233
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "У каталозі не зберігається файла теми. Завантаження теми неможливе."

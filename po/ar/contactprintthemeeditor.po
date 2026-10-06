@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2024-05-30 07:15+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -28,24 +28,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "safa1996alfulaij@gmail.com"
 
-#: contactprintthemeconfiguredialog.cpp:34
+#: contactprintthemeconfiguredialog.cpp:35
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "اضبط"
 
-#: contactprintthemeconfiguredialog.cpp:45
+#: contactprintthemeconfiguredialog.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "المتراسل المبدئيّ:"
 
-#: contactprintthemeconfiguredialog.cpp:51
+#: contactprintthemeconfiguredialog.cpp:52
 #, kde-format
 msgid "General"
 msgstr "عامّ"
 
-#: contactprintthemeconfiguredialog.cpp:54
+#: contactprintthemeconfiguredialog.cpp:55
 #, kde-format
 msgid "Default Template"
 msgstr "القالب المبدئيّ"
@@ -62,7 +62,7 @@ msgstr "ت&حرير"
 msgid "&Display"
 msgstr "&عرض"
 
-#: editorpage.cpp:57
+#: editorpage.cpp:58
 #, kde-format
 msgid "Theme Templates:"
 msgstr "قوالب السّمات:"
@@ -88,71 +88,71 @@ msgstr "لوران مونتال"
 msgid "Maintainer"
 msgstr "الصائن"
 
-#: themeeditormainwindow.cpp:78
+#: themeeditormainwindow.cpp:79
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "حمّل سمة حديثة..."
 
-#: themeeditormainwindow.cpp:85
+#: themeeditormainwindow.cpp:86
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "أضف صفحة إضافيّة…"
 
-#: themeeditormainwindow.cpp:89
+#: themeeditormainwindow.cpp:90
 #, kde-format
 msgid "Upload theme..."
 msgstr "ارفع سمة..."
 
-#: themeeditormainwindow.cpp:95
+#: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "New theme..."
 msgstr "سمة جديدة..."
 
-#: themeeditormainwindow.cpp:98
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "Open theme..."
 msgstr "افتح سمة..."
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme"
 msgstr "احفظ السّمة"
 
-#: themeeditormainwindow.cpp:103
+#: themeeditormainwindow.cpp:104
 #, kde-format
 msgid "Save theme as..."
 msgstr "احفظ السّمة كَ‍..."
 
-#: themeeditormainwindow.cpp:109
+#: themeeditormainwindow.cpp:110
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "ثبّت سمة"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "أدرج ملفًّا…"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "أدِر السّمات…"
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:122
 #, kde-format
 msgid "Update view"
 msgstr "حدّث المنظور"
 
-#: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
+#: themeeditormainwindow.cpp:193 themeeditormainwindow.cpp:326
 #, kde-format
 msgid "Select theme directory"
 msgstr "اختر دليل السّمات"
 
-#: themeeditormainwindow.cpp:208
+#: themeeditormainwindow.cpp:209
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "لا يحتوي الدّليل أيّ ملفّ سمات. تعذّر تحميل السّمة."

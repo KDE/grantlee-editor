@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: headerthemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2026-09-23 06:56+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sahranbay@gmail.com, gheyret@gmail.com"
 
-#: editorpage.cpp:54
+#: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
 msgstr "ئۆرنەك قېلىپى:"
@@ -45,56 +45,56 @@ msgstr "تەھرىر(&E)"
 msgid "&Display"
 msgstr "كۆرسەتكۈچ(&D)"
 
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "ماۋزۇ ئۆرنەك تەھرىرلىگۈچ"
 
-#: main.cpp:27
+#: main.cpp:28
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "ئۇچۇر كۆرگۈچ ماۋزۇ ئۆرنەك تەھرىرلىگۈچ"
 
-#: main.cpp:29
+#: main.cpp:30
 #, kde-format
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "نەشر ھوقۇقىغا ئىگە © 2013-%1 headerthemeeditor يازغۇچىلار"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr ""
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "ئاسرىغۇچى"
 
-#: previewwidget.cpp:36
+#: previewwidget.cpp:37
 #, kde-format
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "كۆرۈنۈشنى يېڭىلا"
 
-#: themeconfiguredialog.cpp:29
+#: themeconfiguredialog.cpp:30
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "سەپلە"
 
-#: themeconfiguredialog.cpp:39
+#: themeconfiguredialog.cpp:40
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "كۆڭۈلدىكى ئېلخەت:"
 
-#: themeconfiguredialog.cpp:44
+#: themeconfiguredialog.cpp:45
 #, kde-format
 msgid "General"
 msgstr "ئادەتتىكى"
 
-#: themeconfiguredialog.cpp:47
+#: themeconfiguredialog.cpp:48
 #, kde-format
 msgid "Default Template"
 msgstr "كۆڭۈلدىكى قېلىپ"
@@ -119,81 +119,81 @@ msgstr "تاپشۇرۇپ ئالغۇچى"
 msgid "Cc"
 msgstr "كۆچۈرۈپ يوللا"
 
-#: themeeditormainwindow.cpp:81
+#: themeeditormainwindow.cpp:82
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "يېقىنقى ئۆرنەكنى يۈكلە…"
 
-#: themeeditormainwindow.cpp:88
+#: themeeditormainwindow.cpp:89
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "قوشۇمچە بەت قوش…"
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:94
 #, kde-format
 msgid "Upload theme..."
 msgstr "ئۆرنەك يۈكلە…"
 
-#: themeeditormainwindow.cpp:99
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "New theme..."
 msgstr "يېڭى ئۆرنەك…"
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Open theme..."
 msgstr "ئۆرنەك ئاچ…"
 
-#: themeeditormainwindow.cpp:104
+#: themeeditormainwindow.cpp:105
 #, kde-format
 msgid "Save theme"
 msgstr "ئۆرنەك ساقلا"
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:108
 #, kde-format
 msgid "Save theme as..."
 msgstr "ئۆرنەكنى باشقا ئاتتا ساقلا…"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "ئۆرنەك ئورنات"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "ھۆججەت قىستۇر…"
 
-#: themeeditormainwindow.cpp:123
+#: themeeditormainwindow.cpp:124
 #, kde-format
 msgid "Printing mode"
 msgstr "بېسىش ھالىتى"
 
-#: themeeditormainwindow.cpp:128
+#: themeeditormainwindow.cpp:129
 #, kde-format
 msgid "Normal mode"
 msgstr "ئادەتتىكى ھالەت"
 
-#: themeeditormainwindow.cpp:134
+#: themeeditormainwindow.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "ئۆرنەك باشقۇر…"
 
-#: themeeditormainwindow.cpp:138
+#: themeeditormainwindow.cpp:139
 #, kde-format
 msgid "Update view"
 msgstr "كۆرۈنۈشنى يېڭىلا"
 
-#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
+#: themeeditormainwindow.cpp:217 themeeditormainwindow.cpp:350
 #, kde-format
 msgid "Select theme directory"
 msgstr "ئۆرنەك مۇندەرىجىسى تاللىنىدۇ"
 
-#: themeeditormainwindow.cpp:232
+#: themeeditormainwindow.cpp:233
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr ""

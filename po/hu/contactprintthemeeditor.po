@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2024-07-20 15:21+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -27,24 +27,24 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ulysses@fsf.hu"
 
-#: contactprintthemeconfiguredialog.cpp:34
+#: contactprintthemeconfiguredialog.cpp:35
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Beállítás"
 
-#: contactprintthemeconfiguredialog.cpp:45
+#: contactprintthemeconfiguredialog.cpp:46
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Alapértelmezett névjegy:"
 
-#: contactprintthemeconfiguredialog.cpp:51
+#: contactprintthemeconfiguredialog.cpp:52
 #, kde-format
 msgid "General"
 msgstr "Általános"
 
-#: contactprintthemeconfiguredialog.cpp:54
+#: contactprintthemeconfiguredialog.cpp:55
 #, kde-format
 msgid "Default Template"
 msgstr "Alapértelmezett sablon"
@@ -61,7 +61,7 @@ msgstr "Sz&erkesztés"
 msgid "&Display"
 msgstr "&Megjelenítés"
 
-#: editorpage.cpp:57
+#: editorpage.cpp:58
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Téma sablonok:"
@@ -87,71 +87,71 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Karbantartó"
 
-#: themeeditormainwindow.cpp:78
+#: themeeditormainwindow.cpp:79
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Legutóbbi téma betöltése…"
 
-#: themeeditormainwindow.cpp:85
+#: themeeditormainwindow.cpp:86
 #, kde-format
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Extra oldal hozzáadása…"
 
-#: themeeditormainwindow.cpp:89
+#: themeeditormainwindow.cpp:90
 #, kde-format
 msgid "Upload theme..."
 msgstr "Téma feltöltése…"
 
-#: themeeditormainwindow.cpp:95
+#: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "New theme..."
 msgstr "Új téma…"
 
-#: themeeditormainwindow.cpp:98
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "Open theme..."
 msgstr "Téma megnyitása…"
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:101
 #, kde-format
 msgid "Save theme"
 msgstr "Téma mentése"
 
-#: themeeditormainwindow.cpp:103
+#: themeeditormainwindow.cpp:104
 #, kde-format
 msgid "Save theme as..."
 msgstr "Téma mentése másként…"
 
-#: themeeditormainwindow.cpp:109
+#: themeeditormainwindow.cpp:110
 #, kde-format
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Téma telepítése"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Fájl beszúrása…"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Témák kezelése…"
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:122
 #, kde-format
 msgid "Update view"
 msgstr "Nézet frissítése"
 
-#: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
+#: themeeditormainwindow.cpp:193 themeeditormainwindow.cpp:326
 #, kde-format
 msgid "Select theme directory"
 msgstr "Témakönyvtár kiválasztása"
 
-#: themeeditormainwindow.cpp:208
+#: themeeditormainwindow.cpp:209
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "A könyvtár nem tartalmaz témafájlt. Nem tudunk témát betölteni."

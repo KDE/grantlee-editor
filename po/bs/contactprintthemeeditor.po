@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2015-02-24 19:24+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: Bosnian\n"
@@ -29,26 +29,26 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "samir.ribic@etf.unsa.ba"
 
-#: contactprintthemeconfiguredialog.cpp:34
+#: contactprintthemeconfiguredialog.cpp:35
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Konfiguriši"
 
-#: contactprintthemeconfiguredialog.cpp:45
+#: contactprintthemeconfiguredialog.cpp:46
 #, fuzzy, kde-format
 #| msgid "Default contact:"
 msgctxt "@label:textbox"
 msgid "Default contact:"
 msgstr "Podrazumijevani kontakt:"
 
-#: contactprintthemeconfiguredialog.cpp:51
+#: contactprintthemeconfiguredialog.cpp:52
 #, kde-format
 msgid "General"
 msgstr "Općenito"
 
-#: contactprintthemeconfiguredialog.cpp:54
+#: contactprintthemeconfiguredialog.cpp:55
 #, kde-format
 msgid "Default Template"
 msgstr "Osnovni predložak."
@@ -65,7 +65,7 @@ msgstr "&Izmijeni"
 msgid "&Display"
 msgstr "&Prikaži"
 
-#: editorpage.cpp:57
+#: editorpage.cpp:58
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Predlošci tema"
@@ -92,76 +92,76 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Održava"
 
-#: themeeditormainwindow.cpp:78
+#: themeeditormainwindow.cpp:79
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Učitaj prijašnju temu..."
 
-#: themeeditormainwindow.cpp:85
+#: themeeditormainwindow.cpp:86
 #, fuzzy, kde-format
 #| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Dodaj dodatnu stranicu..."
 
-#: themeeditormainwindow.cpp:89
+#: themeeditormainwindow.cpp:90
 #, kde-format
 msgid "Upload theme..."
 msgstr "Pošalji temu..."
 
-#: themeeditormainwindow.cpp:95
+#: themeeditormainwindow.cpp:96
 #, kde-format
 msgid "New theme..."
 msgstr "Nova tema..."
 
-#: themeeditormainwindow.cpp:98
+#: themeeditormainwindow.cpp:99
 #, kde-format
 msgid "Open theme..."
 msgstr "Otvori temu..."
 
-#: themeeditormainwindow.cpp:100
+#: themeeditormainwindow.cpp:101
 #, fuzzy, kde-format
 #| msgid "Save theme..."
 msgid "Save theme"
 msgstr "Snimi temu..."
 
-#: themeeditormainwindow.cpp:103
+#: themeeditormainwindow.cpp:104
 #, kde-format
 msgid "Save theme as..."
 msgstr "Snimi temu kao ..."
 
-#: themeeditormainwindow.cpp:109
+#: themeeditormainwindow.cpp:110
 #, fuzzy, kde-format
 #| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Instaliraj temu"
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, fuzzy, kde-format
 #| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Ubaci datoteku"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, fuzzy, kde-format
 #| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Upravljaj temama..."
 
-#: themeeditormainwindow.cpp:121
+#: themeeditormainwindow.cpp:122
 #, kde-format
 msgid "Update view"
 msgstr "Ažuriraj pogled"
 
-#: themeeditormainwindow.cpp:192 themeeditormainwindow.cpp:325
+#: themeeditormainwindow.cpp:193 themeeditormainwindow.cpp:326
 #, kde-format
 msgid "Select theme directory"
 msgstr "Odaberi direktorij tema"
 
-#: themeeditormainwindow.cpp:208
+#: themeeditormainwindow.cpp:209
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Direktorij ne sadrzi datoteku s temom. Ne možemo učitati temu"

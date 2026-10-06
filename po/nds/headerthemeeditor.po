@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-06 00:47+0000\n"
 "PO-Revision-Date: 2014-03-16 22:27+0100\n"
 "Last-Translator: Sönke Dibbern <s_dibbern@web.de>\n"
 "Language-Team: Low Saxon <kde-i18n-nds@kde.org>\n"
@@ -27,7 +27,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "s_dibbern@web.de"
 
-#: editorpage.cpp:54
+#: editorpage.cpp:55
 #, kde-format
 msgid "Theme Templates:"
 msgstr "Mustervörlagen:"
@@ -44,61 +44,61 @@ msgstr "&Bewerken"
 msgid "&Display"
 msgstr "&Wiesen"
 
-#: main.cpp:25
+#: main.cpp:26
 #, kde-format
 msgid "Header Theme Editor"
 msgstr "Koppreeg-Mustereditor"
 
-#: main.cpp:27
+#: main.cpp:28
 #, kde-format
 msgid "Messageviewer Header Theme Editor"
 msgstr "Narichtenkieker-Koppreegmustereditor"
 
-#: main.cpp:29
+#: main.cpp:30
 #, fuzzy, kde-format
 #| msgid "Copyright © 2013, 2014 headerthemeeditor authors"
 msgid "Copyright © 2013-%1 headerthemeeditor authors"
 msgstr "Copyright © 2013, 2014 de Schrievers vun Headerthemeeditor"
 
-#: main.cpp:30
+#: main.cpp:31
 #, fuzzy, kde-format
 #| msgid "Laurent Montel"
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: main.cpp:30
+#: main.cpp:31
 #, kde-format
 msgid "Maintainer"
 msgstr "Pleger"
 
-#: previewwidget.cpp:36
+#: previewwidget.cpp:37
 #, fuzzy, kde-format
 #| msgid "Update view"
 msgctxt "@action:button"
 msgid "Update view"
 msgstr "Ansicht opfrischen"
 
-#: themeconfiguredialog.cpp:29
+#: themeconfiguredialog.cpp:30
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgctxt "@title:window"
 msgid "Configure"
 msgstr "Instellen"
 
-#: themeconfiguredialog.cpp:39
+#: themeconfiguredialog.cpp:40
 #, fuzzy, kde-format
 #| msgid "Default email:"
 msgctxt "@label:textbox"
 msgid "Default email:"
 msgstr "Standard-Nettpostadress:"
 
-#: themeconfiguredialog.cpp:44
+#: themeconfiguredialog.cpp:45
 #, kde-format
 msgid "General"
 msgstr "Allmeen"
 
-#: themeconfiguredialog.cpp:47
+#: themeconfiguredialog.cpp:48
 #, kde-format
 msgid "Default Template"
 msgstr "Standardvörlaag"
@@ -123,86 +123,86 @@ msgstr "Na"
 msgid "Cc"
 msgstr "Kopie"
 
-#: themeeditormainwindow.cpp:81
+#: themeeditormainwindow.cpp:82
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "Lest Muster laden..."
 
-#: themeeditormainwindow.cpp:88
+#: themeeditormainwindow.cpp:89
 #, fuzzy, kde-format
 #| msgid "Add Extra Page..."
 msgctxt "@action"
 msgid "Add Extra Page..."
 msgstr "Siet bito tofögen..."
 
-#: themeeditormainwindow.cpp:93
+#: themeeditormainwindow.cpp:94
 #, kde-format
 msgid "Upload theme..."
 msgstr "Muster hoochladen..."
 
-#: themeeditormainwindow.cpp:99
+#: themeeditormainwindow.cpp:100
 #, kde-format
 msgid "New theme..."
 msgstr "Nieg Muster..."
 
-#: themeeditormainwindow.cpp:102
+#: themeeditormainwindow.cpp:103
 #, kde-format
 msgid "Open theme..."
 msgstr "Muster opmaken..."
 
-#: themeeditormainwindow.cpp:104
+#: themeeditormainwindow.cpp:105
 #, fuzzy, kde-format
 #| msgid "Save theme..."
 msgid "Save theme"
 msgstr "Muster sekern..."
 
-#: themeeditormainwindow.cpp:107
+#: themeeditormainwindow.cpp:108
 #, kde-format
 msgid "Save theme as..."
 msgstr "Muster sekern as..."
 
-#: themeeditormainwindow.cpp:113
+#: themeeditormainwindow.cpp:114
 #, fuzzy, kde-format
 #| msgid "Install theme"
 msgctxt "@action"
 msgid "Install theme"
 msgstr "Muster installeren"
 
-#: themeeditormainwindow.cpp:117
+#: themeeditormainwindow.cpp:118
 #, fuzzy, kde-format
 #| msgid "Insert File..."
 msgctxt "@action"
 msgid "Insert File..."
 msgstr "Datei infögen..."
 
-#: themeeditormainwindow.cpp:123
+#: themeeditormainwindow.cpp:124
 #, kde-format
 msgid "Printing mode"
 msgstr "Drucktyp"
 
-#: themeeditormainwindow.cpp:128
+#: themeeditormainwindow.cpp:129
 #, kde-format
 msgid "Normal mode"
 msgstr "Normaalbedrief"
 
-#: themeeditormainwindow.cpp:134
+#: themeeditormainwindow.cpp:135
 #, fuzzy, kde-format
 #| msgid "Manage themes..."
 msgctxt "@action"
 msgid "Manage themes..."
 msgstr "Mustern plegen..."
 
-#: themeeditormainwindow.cpp:138
+#: themeeditormainwindow.cpp:139
 #, kde-format
 msgid "Update view"
 msgstr "Ansicht opfrischen"
 
-#: themeeditormainwindow.cpp:216 themeeditormainwindow.cpp:349
+#: themeeditormainwindow.cpp:217 themeeditormainwindow.cpp:350
 #, kde-format
 msgid "Select theme directory"
 msgstr "Muster-Orner utsöken"
 
-#: themeeditormainwindow.cpp:232
+#: themeeditormainwindow.cpp:233
 #, kde-format
 msgid "Directory does not contain a theme file. We cannot load theme."
 msgstr "Orner bargt keen Musterdatei. Muster lett sik nich laden."
