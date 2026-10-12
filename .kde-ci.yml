@@ -11,7 +11,7 @@ Dependencies:
     'pim/messagelib': '@same'
     'pim/pimcommon': '@same'
     'frameworks/ktexttemplate': 'Frameworks/6.24'
-    'libraries/ktextaddons': '@latest-kf6'
+    'libraries/ktextaddons': '1.9'
 
 Options:
  require-passing-tests-on: ['@all']
