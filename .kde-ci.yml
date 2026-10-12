@@ -7,7 +7,7 @@ Dependencies:
     'frameworks/extra-cmake-modules': 'Frameworks/6.24'
     'pim/akonadi-contacts': '@same'
     'pim/grantleetheme': '@same'
-    'frameworks/kimap': '@same'
+    'pim/kimap': '@same'
     'pim/messagelib': '@same'
     'pim/pimcommon': '@same'
     'frameworks/ktexttemplate': 'Frameworks/6.24'
