@@ -56,8 +56,8 @@ bool ThemeSession::loadSession(const QString &session)
         if (version >= mVersion) {
             if (global.readEntry(u"themeTypeName"_s) != mThemeTypeName) {
                 KMessageBox::error(nullptr,
-                                   i18n("Error during theme loading"),
-                                   i18n("You are trying to load a theme which cannot be read by this application"));
+                                   i18n("You are trying to load a theme which cannot be read by this application"),
+                                   i18nc("@title:window", "Error During Theme Loading"));
                 return false;
             }
         }
