@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grantle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 11:52+0000\n"
+"POT-Creation-Date: 2026-10-15 00:46+0000\n"
 "PO-Revision-Date: 2015-02-04 15:56+0000\n"
 "Last-Translator: Emrah Dautbegovic <edautbegov1@etf.unsa.ba>\n"
 "Language-Team: bosanski <bs@li.org>\n"
@@ -185,14 +185,16 @@ msgstr "Zatvori karticu"
 
 #: themesession.cpp:59
 #, kde-format
-msgid "Error during theme loading"
-msgstr "Greška tokom otvaranja teme"
-
-#: themesession.cpp:60
-#, kde-format
 msgid "You are trying to load a theme which cannot be read by this application"
 msgstr ""
 "Pokušavate otvoriti temu koja ne može biti učitana pomoću ove aplikacije"
+
+#: themesession.cpp:60
+#, fuzzy, kde-format
+#| msgid "Error during theme loading"
+msgctxt "@title:window"
+msgid "Error During Theme Loading"
+msgstr "Greška tokom otvaranja teme"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configurewidget.ui:20
