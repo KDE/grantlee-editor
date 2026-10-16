@@ -1,14 +1,15 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
+# Spanish translations for libgrantleethemeeditor.po package.
+# Copyright (C) 2013-2026 This file is copyright:
+# This file is distributed under the same license as the grantlee-editor package.
 #
-# Javier Viñal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016.
-# SPDX-FileCopyrightText: 2019, 2024 Eloy Cuadra <ecuadra@eloihr.net>
+# SPDX-FileCopyrightText: 2013-2016 Javier Viñal <fjvinal@gmail.com>
+# SPDX-FileCopyrightText: 2019, 2024, 2026 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: libgrantleethemeeditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-15 00:46+0000\n"
-"PO-Revision-Date: 2024-06-18 03:34+0200\n"
+"PO-Revision-Date: 2026-10-15 20:37+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.05.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #: desktopfilepage.cpp:31
 #, kde-format
@@ -167,8 +168,7 @@ msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "Usted intenta cargar un tema que no se puede leer por esta aplicación"
 
 #: themesession.cpp:60
-#, fuzzy, kde-format
-#| msgid "Error during theme loading"
+#, kde-format
 msgctxt "@title:window"
 msgid "Error During Theme Loading"
 msgstr "Error durante la carga del tema"
