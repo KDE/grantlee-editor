@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the grantlee-editor package.
 #
-# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2024, 2026 Yaron Shahrabani <sh.yaron@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-15 00:46+0000\n"
-"PO-Revision-Date: 2024-06-18 08:09+0300\n"
+"PO-Revision-Date: 2026-10-15 17:21+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 26.08.1\n"
 
 #: desktopfilepage.cpp:31
 #, kde-format
@@ -165,11 +165,10 @@ msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "זה ניסיון לטעינת ערכת עיצוב שהיישום הזה לא תומך בה"
 
 #: themesession.cpp:60
-#, fuzzy, kde-format
-#| msgid "Error during theme loading"
+#, kde-format
 msgctxt "@title:window"
 msgid "Error During Theme Loading"
-msgstr "שגיאה במהלך טעינת ערכת עיצוב"
+msgstr "שגיאה בטעינת ערכת עיצוב"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configurewidget.ui:20

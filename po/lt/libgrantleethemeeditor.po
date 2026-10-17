@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-15 00:46+0000\n"
-"PO-Revision-Date: 2026-05-08 13:30+0300\n"
+"PO-Revision-Date: 2026-10-16 14:51+0300\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: lt <kde-i18n-lt@kde.org>\n"
 "Language: lt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: desktopfilepage.cpp:31
 #, kde-format
@@ -171,8 +171,7 @@ msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "Bandote įkelti apipavidalinimą, kurio ši programa negali perskaityti"
 
 #: themesession.cpp:60
-#, fuzzy, kde-format
-#| msgid "Error during theme loading"
+#, kde-format
 msgctxt "@title:window"
 msgid "Error During Theme Loading"
 msgstr "Klaida įkeliant apipavidalinimą"
