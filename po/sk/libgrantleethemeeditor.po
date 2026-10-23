@@ -163,8 +163,7 @@ msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "Snažíte sa načítať tému, ktorú nie je možné načítať v tejto aplikácii"
 
 #: themesession.cpp:60
-#, fuzzy, kde-format
-#| msgid "Error during theme loading"
+#, kde-format
 msgctxt "@title:window"
 msgid "Error During Theme Loading"
 msgstr "Chyba počas načítavania témy"
