@@ -45,7 +45,6 @@ Name[zh_TW]=聯絡人列印主題編輯器
 Type=Application
 Exec=contactprintthemeeditor
 Icon=kaddressbook
-X-DocPath=contactprintthemeeditor/index.html
 GenericName=Contact Print Theme Editor
 GenericName[ar]=محرّر سمات طباعة المتراسلين
 GenericName[bg]=Редактор на теми за отпечатване на контакти
