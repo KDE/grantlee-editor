@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<!DOCTYPE article PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>محرّر سمات التّرويسات</application
+>">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Arabic "INCLUDE">
+]>
+
+<article id="headerthemeeditor" lang="&language;">
+
+<articleinfo id="headerthemeeditorinfo">
+
+<title
+>دليل &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> &Laurent.Montel.mail; </author>
+<othercredit role="translator"
+><firstname
+>زايد</firstname
+><surname
+>السعيدي</surname
+><affiliation
+><address
+><email
+>zayed.alsaidi@gmail.com</email
+></address
+></affiliation
+><contrib
+>التّرجمة العربيّة</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2013</year>
+<holder
+>&Laurent.Montel;</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2016-04-06</date>
+<releaseinfo
+>تطبيقات 16.04</releaseinfo>
+
+<abstract>
+<para
+>&i18n-kapplication; هو محرر لترويسات &kmail;. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>كيدي</keyword>
+<keyword
+>بريدك</keyword>
+<keyword
+>ترويسة</keyword>
+<keyword
+>التصميم</keyword>
+</keywordset>
+
+</articleinfo>
+<sect1 id="introduction">
+<title
+>مقدمة</title>
+<para
+>&i18n-kapplication; هو محرر لترويسات &kmail; مبني على <ulink url="https://github.com/steveire/grantlee"
+>Grantlee</ulink
+>.</para>
+
+<sect2 id="using-kapp">
+<title
+>استخدام &i18n-kapplication;</title>
+<para
+>يمكنك العثور على مقدمة مختصرة لهذا التطبيق في <ulink url="https://web.archive.org/web/20170418182202/http://www.aegiap.eu/kdeblog/2013/05/news-in-kdepim-4-11-header-theme-33-grantlee-theme-generator-headerthemeeditor/"
+>هذه التدوينة</ulink
+>.</para>
+<para
+>معلومات إضافية تجدها في وثائق <ulink url="http://www.grantlee.org/apidox/"
+>Grantlee</ulink
+>.</para>
+<para
+>لأمثلة على تصاميم الترويسات، انظر إلى المستودع <ulink url="http://websvn.kde.org/branches/work/soc-pim/kdepim/examples/mail_grantlee/themes/"
+>Grantlee-designs</ulink
+>.</para>
+</sect2>
+
+<sect2 id="credits">
+
+<title
+>الحقوق والترخيص</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>حقوق البرنامج 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+<para
+>حقوق تأليف التوثيق &copy; 2013 &Laurent.Montel; &Laurent.Montel.mail;</para>
+
+<para
+>الترجمة: زايد السعيدي <email
+>zayed.alsaidi@gmail.com</email
+></para
+> &underFDL; &underGPL; </sect2>
+
+</sect1>
+
+</article>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->
