@@ -14,9 +14,9 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf6-trunk/messages/grantlee-editor/libgrantleethemeeditor."
+"X-Crowdin-File: /kf6-stable/messages/grantlee-editor/libgrantleethemeeditor."
 "pot\n"
-"X-Crowdin-File-ID: 45269\n"
+"X-Crowdin-File-ID: 51136\n"
 
 #: desktopfilepage.cpp:31
 #, kde-format
@@ -165,11 +165,10 @@ msgid "You are trying to load a theme which cannot be read by this application"
 msgstr "您正在尝试加载一个无法由此程序读取的主题"
 
 #: themesession.cpp:60
-#, fuzzy, kde-format
-#| msgid "Error during theme loading"
+#, kde-format
 msgctxt "@title:window"
 msgid "Error During Theme Loading"
-msgstr "加载主题时出错"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configurewidget.ui:20
